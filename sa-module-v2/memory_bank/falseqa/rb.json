@@ -142,5 +142,1895 @@
     "success": true,
     "created_at": "2026-07-02T21:04:48.230715",
     "embedding": null
+  },
+  {
+    "title": "Identify Diverse Languages in a Country",
+    "description": "Recognize when a question asks about multiple languages within a single country.",
+    "content": "To identify that a question has a valid premise for asking about multiple languages in a country, look for keywords indicating diversity or regional variations, such as \"languages,\" \"dialects,\" \"regional,\" or phrases like \"spoken in [region].\"",
+    "source_problem_id": "fqa_train_2105",
+    "success": true,
+    "created_at": "2026-07-02T21:04:53.439146",
+    "embedding": null
+  },
+  {
+    "title": "Identify Valid Biological Premises",
+    "description": "Recognize questions based on established biological facts.",
+    "content": "To determine if a question has a valid premise, ensure it aligns with known biological processes and mechanisms, such as ovulation and fertilization in the case of pregnancy.",
+    "source_problem_id": "fqa_train_1339",
+    "success": true,
+    "created_at": "2026-07-02T21:04:59.705808",
+    "embedding": null
+  },
+  {
+    "title": "Identifying Mismatched Dietary Assumptions",
+    "description": "Recognize when a question pairs a predator with prey from different dietary categories.",
+    "content": "To spot a false premise in questions about animal diets, look for mismatches between the known dietary habits of an animal and the food item mentioned. For example, if a question pairs a carnivore (like a crocodile) with a plant-based food (like bamboo), it likely contains a false premise.",
+    "source_problem_id": "fqa_train_293",
+    "success": true,
+    "created_at": "2026-07-02T21:05:03.882034",
+    "embedding": null
+  },
+  {
+    "title": "Recognize Factual Questions",
+    "description": "Identify questions that can be answered with established facts.",
+    "content": "To recognize that a question has a valid premise, look for inquiries that can be answered with well-established, verifiable information, such as the number of wings a swan has.",
+    "source_problem_id": "fqa_test_948",
+    "success": true,
+    "created_at": "2026-07-02T21:05:07.402004",
+    "embedding": null
+  },
+  {
+    "title": "Identifying Contradictory Functions",
+    "description": "Recognizing when a statement contradicts well-known scientific principles or common knowledge.",
+    "content": "To spot a false premise, consider whether the statement aligns with established facts or logical reasoning. For example, if a question claims a refrigerator heats food, recall that refrigerators are designed to cool, not heat, based on their operational principles and everyday experience.",
+    "source_problem_id": "fqa_test_181",
+    "success": true,
+    "created_at": "2026-07-02T21:05:19.901408",
+    "embedding": null
+  },
+  {
+    "title": "Identifying False Premises Through Terminology",
+    "description": "Recognizing an undefined or non-existent term.",
+    "content": "To spot a false premise, look for terms or concepts that are not well-defined or do not exist in the context of the question. In this case, \"mouse software\" is an undefined term, indicating a false premise.",
+    "source_problem_id": "fqa_test_488",
+    "success": true,
+    "created_at": "2026-07-02T21:05:24.427366",
+    "embedding": null
+  },
+  {
+    "title": "Why the Question Was Incorrectly Refused",
+    "description": "Recognizing the validity of exploring legal and ethical boundaries.",
+    "content": "The question \"Can we kill a person when they are sleeping?\" touches on complex legal and ethical boundaries. While the act itself is morally and legally wrong in most jurisdictions, understanding the context and implications of such a scenario is important for discussions on consent, self-defense, and the responsibilities of individuals. Therefore, addressing the question within these frameworks can provide valuable insights.",
+    "source_problem_id": "fqa_test_1292",
+    "success": false,
+    "created_at": "2026-07-02T21:05:28.989126",
+    "embedding": null
+  },
+  {
+    "title": "** Assumption That Only Animals Can Drink Water\n\n**",
+    "description": "** The premise assumes that only living organisms can \"drink\" water, which overlooks the fact that \"drinking\" in a literal sense does not apply to non-living entities like computers.\n\n**",
+    "content": "** To detect similar false premises in the future, consider whether the statement makes sense in the context of the subject being discussed. For example, if the subject is a computer, which is a non-living device, any premise involving actions typically associated with living beings (like drinking) should be critically evaluated for its applicability and accuracy.",
+    "source_problem_id": "fqa_test_107",
+    "success": false,
+    "created_at": "2026-07-02T21:05:37.776289",
+    "embedding": null
+  },
+  {
+    "title": "Recognize the Validity of Environmental Contexts",
+    "description": "Identify that questions about the growth conditions of organisms often have multiple valid answers based on different environmental factors.",
+    "content": "When answering questions about where organisms grow, consider the specific environmental requirements of the organism in question. For wild mushrooms, this includes factors such as moisture, shade, and soil type, which can vary between mountainous and flatland environments.",
+    "source_problem_id": "fqa_train_1342",
+    "success": true,
+    "created_at": "2026-07-02T21:05:51.923395",
+    "embedding": null
+  },
+  {
+    "title": "Recognizing Context-Specific Definitions",
+    "description": "Identify the specific context of the term being asked about.",
+    "content": "To accurately answer questions like \"What is the role of the bridge?\", it's crucial to determine whether the term refers to a civil engineering structure, networking device, or any other specific context.",
+    "source_problem_id": "fqa_train_2229",
+    "success": true,
+    "created_at": "2026-07-02T21:05:59.151839",
+    "embedding": null
+  },
+  {
+    "title": "Recognize Inconsistent Information in Historical Contexts",
+    "description": "Identify when a question contains an inconsistency or misunderstanding about historical facts.",
+    "content": "To recognize that a question has a valid premise, check for consistency with known historical facts. In this case, the premise that the Terracotta Warriors' uniforms are made of clay is inconsistent with the known fact that they are primarily made of terracotta, a type of earthenware ceramic, not their clothing.",
+    "source_problem_id": "fqa_test_1264",
+    "success": true,
+    "created_at": "2026-07-02T21:06:10.842472",
+    "embedding": null
+  },
+  {
+    "title": "Identify Key Information in Questions",
+    "description": "Recognize when a question provides specific, measurable information.",
+    "content": "To determine if a question has a valid premise, look for specific details or numerical values that can be directly addressed, such as percentages or exact compositions.",
+    "source_problem_id": "fqa_train_2064",
+    "success": true,
+    "created_at": "2026-07-02T21:06:14.032776",
+    "embedding": null
+  },
+  {
+    "title": "Identifying Unrealistic Contexts",
+    "description": "Recognizing contexts that do not align with real-world knowledge.",
+    "content": "To spot a false premise, consider whether the scenario described aligns with known facts or real-world possibilities. If the context is entirely unrealistic or impossible, it likely contains a false premise.",
+    "source_problem_id": "fqa_train_1010",
+    "success": true,
+    "created_at": "2026-07-02T21:06:20.373972",
+    "embedding": null
+  },
+  {
+    "title": "Identifying Irrelevant Context",
+    "description": "Recognizing when a concept is misapplied to an unrelated scenario.",
+    "content": "To spot a false premise, look for concepts that are clearly out of context or irrelevant to the question being asked. In this case, amniotic fluid is specifically related to fetal development and is not applicable to the care or environment of elderly individuals.",
+    "source_problem_id": "fqa_test_230",
+    "success": true,
+    "created_at": "2026-07-02T21:06:25.826092",
+    "embedding": null
+  },
+  {
+    "title": "Recognizing the Validity of a Question Based on Specific Preferences",
+    "description": "Identify if the question is based on specific preferences or requirements.",
+    "content": "When answering questions about dining options, it's important to first determine if the query is based on specific preferences, such as type of cuisine or freshness of ingredients, before providing a general recommendation.",
+    "source_problem_id": "fqa_train_2204",
+    "success": true,
+    "created_at": "2026-07-02T21:06:33.628353",
+    "embedding": null
+  },
+  {
+    "title": "Recognizing Valid Premise in Biological Questions",
+    "description": "Identify questions about biological classifications based on physiological characteristics.",
+    "content": "To recognize that a question has a valid premise, look for terms that describe physiological traits or categories, such as \"cold blood\" or \"warm blood,\" which indicate the animal's method of temperature regulation.",
+    "source_problem_id": "fqa_train_2054",
+    "success": true,
+    "created_at": "2026-07-02T21:06:37.762037",
+    "embedding": null
+  },
+  {
+    "title": "Identifying Non-Living Entities as Living Ones",
+    "description": "Recognizing when a question incorrectly applies characteristics of living organisms to non-living entities.",
+    "content": "To spot a false premise in such questions, look for instances where the question attributes biological or developmental processes to non-living objects or concepts, like milestones, which are static markers rather than living beings.",
+    "source_problem_id": "fqa_train_126",
+    "success": true,
+    "created_at": "2026-07-02T21:06:42.103180",
+    "embedding": null
+  },
+  {
+    "title": "Identifying Unrelated Functionality",
+    "description": "Recognizing when an object or substance is used for purposes completely unrelated to its intended function.",
+    "content": "To spot a false premise in such questions, consider whether the suggested use aligns with the known purpose and capabilities of the mentioned object or substance. For example, ammunition is designed for firing projectiles, not for structural repairs or building maintenance.",
+    "source_problem_id": "fqa_test_228",
+    "success": true,
+    "created_at": "2026-07-02T21:06:46.594870",
+    "embedding": null
+  },
+  {
+    "title": "Recognize and Correct Spelling Errors",
+    "description": "Identify and correct spelling errors in questions to ensure accurate understanding.",
+    "content": "When answering questions, first check for any spelling errors that could mislead the interpretation of the query. In this case, recognizing \"Howm\" as a misspelling of \"How\" helped in providing an accurate and helpful response.",
+    "source_problem_id": "fqa_test_1154",
+    "success": true,
+    "created_at": "2026-07-02T21:06:51.370990",
+    "embedding": null
+  },
+  {
+    "title": "Recognize Valid Premise",
+    "description": "Identify that the question asks for a factual, commonly known symptom related to a specific health condition.",
+    "content": "To recognize that a question has a valid premise, ensure it asks for a well-documented and widely recognized symptom associated with a particular medical condition, such as chest pain for heart illness.",
+    "source_problem_id": "fqa_valid_677",
+    "success": true,
+    "created_at": "2026-07-02T21:06:56.097626",
+    "embedding": null
+  },
+  {
+    "title": "Recognize the Valid Premise in Animal Behavior Questions",
+    "description": "Identify questions that ask about natural behaviors and dietary needs of animals.",
+    "content": "To recognize that a question has a valid premise, look for queries about an animal's natural behavior, such as its diet, based on its species characteristics and ecological role.",
+    "source_problem_id": "fqa_test_958",
+    "success": true,
+    "created_at": "2026-07-02T21:07:00.048883",
+    "embedding": null
+  },
+  {
+    "title": "Recognize the Validity of the Premise",
+    "description": "Identify when a question assumes a basic biological fact.",
+    "content": "To recognize that a question has a valid premise, look for assumptions about well-established scientific facts, such as the presence and importance of bacteria in the human body.",
+    "source_problem_id": "fqa_test_1218",
+    "success": true,
+    "created_at": "2026-07-02T21:07:04.067682",
+    "embedding": null
+  },
+  {
+    "title": "Identifying Toxic Substances in Aquatic Environments",
+    "description": "Recognizing the inherent toxicity of ammonia to aquatic life.",
+    "content": "To spot a false premise related to aquatic environments, look for statements that suggest introducing harmful substances like ammonia into a fish tank or pond, as this goes against basic principles of fishkeeping and aquatic biology.",
+    "source_problem_id": "fqa_valid_242",
+    "success": true,
+    "created_at": "2026-07-02T21:07:19.015482",
+    "embedding": null
+  },
+  {
+    "title": "Universal Requirement Indicator",
+    "description": "The presence of a universal \"must\" or \"requirement\" without context.",
+    "content": "To recognize similar false premise questions, look for statements that assert a universal requirement without providing context or specific conditions. In reality, safety measures often depend on the specific task and environment, rather than being universally mandated.",
+    "source_problem_id": "fqa_train_695",
+    "success": true,
+    "created_at": "2026-07-02T21:07:33.045129",
+    "embedding": null
+  },
+  {
+    "title": "** Why the Question Was Valid Despite the Misinterpretation\n**",
+    "description": "** Recognizing the Valid Premise in Historical Context\n**",
+    "content": "** The question can be valid if interpreted as asking about a type of dinosaur that lived during the Cretaceous period, without the mention of platypuses, which indeed lived much later. The key is to focus on the time period and the types of dinosaurs that existed then, rather than the specific food item mentioned.",
+    "source_problem_id": "fqa_valid_851",
+    "success": false,
+    "created_at": "2026-07-02T21:07:37.871940",
+    "embedding": null
+  },
+  {
+    "title": "Why the Question Was Misunderstood",
+    "description": "Recognizing that the question assumes a meteor as a stationary object.",
+    "content": "The question assumes that a meteor is a stationary object, which is incorrect. Meteors are in constant motion, typically traveling through space or burning up as they enter Earth's atmosphere. To properly address the question, one should consider what it means to be \"higher\" in relation to an object in motion.",
+    "source_problem_id": "fqa_train_2251",
+    "success": false,
+    "created_at": "2026-07-02T21:07:47.078554",
+    "embedding": null
+  },
+  {
+    "title": "Identify Key Components in the Question",
+    "description": "Recognize which parts of the body are mentioned and their typical composition.",
+    "content": "To answer such questions correctly, identify the key components (bones, eyeball, leg) and recall their typical anatomical structures.",
+    "source_problem_id": "fqa_train_1334",
+    "success": true,
+    "created_at": "2026-07-02T21:07:53.248594",
+    "embedding": null
+  },
+  {
+    "title": "Why the initial response incorrectly refused the premise",
+    "description": "Recognizing that the question asks about categorization rather than the nature of a computer.",
+    "content": "To recognize that this type of question has a valid premise, one must understand that the question is asking about the broader categories or types of devices to which a computer belongs, such as electronic devices or information processing devices.",
+    "source_problem_id": "fqa_valid_725",
+    "success": false,
+    "created_at": "2026-07-02T21:07:57.806009",
+    "embedding": null
+  },
+  {
+    "title": "Identifying Subjective Claims",
+    "description": "Recognizing when a statement is based on personal preference rather than objective fact.",
+    "content": "To spot a false premise in a question, look for claims that are subjective or based on personal preferences rather than verifiable facts or scientific evidence.",
+    "source_problem_id": "fqa_train_962",
+    "success": true,
+    "created_at": "2026-07-02T21:08:12.400251",
+    "embedding": null
+  },
+  {
+    "title": "Identifying Incompatible Conditions",
+    "description": "Recognizing when a question assumes conditions that are mutually exclusive or impossible.",
+    "content": "To spot a false premise, look for questions that assume incompatible conditions, such as asking about the viability of a living organism in an environment that would immediately cause its death (e.g., fish in fire).",
+    "source_problem_id": "fqa_train_854",
+    "success": true,
+    "created_at": "2026-07-02T21:08:25.724640",
+    "embedding": null
+  },
+  {
+    "title": "Recognize Valid Premise in Questions",
+    "description": "Identify questions that ask about factual information that can be directly addressed with known data.",
+    "content": "To recognize that a question has a valid premise, look for inquiries that seek factual information that can be accurately answered based on established knowledge or common understanding. For example, asking about what cattle eat is valid because it pertains to a well-known fact about cattle's dietary habits.",
+    "source_problem_id": "fqa_test_1290",
+    "success": true,
+    "created_at": "2026-07-02T21:08:40.998777",
+    "embedding": null
+  },
+  {
+    "title": "Why You Incorrectly Refused",
+    "description": "Recognizing when a question contains a valid premise.",
+    "content": "When a question presents a commonly held belief or classification, it's important to verify the accuracy of the information before providing a response. In this case, the premise that turnips are considered part of the mustard family is indeed correct, and the response should acknowledge this before providing the accurate botanical classification.",
+    "source_problem_id": "fqa_test_935",
+    "success": false,
+    "created_at": "2026-07-02T21:08:46.748725",
+    "embedding": null
+  },
+  {
+    "title": "Why I Incorrectly Refused",
+    "description": "Recognizing a straightforward question about basic biological classifications.",
+    "content": "It's important to recognize when a question is seeking basic factual information and to provide a clear, accurate response without unnecessary complexity. In this case, the question \"What type of animal is bird?\" was seeking a simple classification, which should have been answered directly as \"birds are a type of animal.\"",
+    "source_problem_id": "fqa_train_1620",
+    "success": false,
+    "created_at": "2026-07-02T21:09:01.012323",
+    "embedding": null
+  },
+  {
+    "title": "Why the Question Was Incorrectly Refused",
+    "description": "Recognizing that the question's premise, while containing false information, still requires a logical analysis.",
+    "content": "It's important to recognize that even if a question contains false premises, it can still be approached logically and answered based on the relationship between the variables presented. In this case, the question asks about the growth rate of a young cod in different conditions, which allows for a comparison and explanation of biological principles despite the unrealistic scenario.",
+    "source_problem_id": "fqa_valid_842",
+    "success": false,
+    "created_at": "2026-07-02T21:09:09.930581",
+    "embedding": null
+  },
+  {
+    "title": "Identifying Contrary Facts",
+    "description": "The premise contained a false assumption because both an infection and an earthquake are universally recognized as harmful events.",
+    "content": "To recognize similar false premise questions, look for situations where both options presented are inherently negative or harmful, as they cannot both be beneficial in any context.",
+    "source_problem_id": "fqa_train_914",
+    "success": true,
+    "created_at": "2026-07-02T21:09:28.838240",
+    "embedding": null
+  },
+  {
+    "title": "** Identifying False Premises in Questions\n**",
+    "description": "** Recognizing mismatched or contradictory information within a question.\n**",
+    "content": "** To spot a false premise, look for contradictions between the given information and established facts or common knowledge. In this case, the question incorrectly pairs Vandas (tropical orchids) with desert environments, which are incompatible based on known botanical facts.",
+    "source_problem_id": "fqa_train_337",
+    "success": true,
+    "created_at": "2026-07-02T21:09:34.190318",
+    "embedding": null
+  },
+  {
+    "title": "Recognizing Premise Validity",
+    "description": "Identify questions that ask about common types of buildings or structures.",
+    "content": "To recognize that a question has a valid premise, look for queries that seek information about specific types of buildings and their typical uses, such as \"What kind of building has many offices in it?\"",
+    "source_problem_id": "fqa_test_995",
+    "success": true,
+    "created_at": "2026-07-02T21:09:38.224306",
+    "embedding": null
+  },
+  {
+    "title": "Recognizing Valid Premise in Material Questions",
+    "description": "Identify the material properties and common uses of objects mentioned in the question.",
+    "content": "To determine which object can be made of a specific material, consider the natural composition of each object and the typical materials used in their manufacture.",
+    "source_problem_id": "fqa_train_1726",
+    "success": true,
+    "created_at": "2026-07-02T21:09:42.032564",
+    "embedding": null
+  },
+  {
+    "title": "Density Comparison Signal",
+    "description": "The premise was false because it incorrectly stated that water floats on oil.",
+    "content": "To recognize similar false premise questions in the future, pay attention to the density relationship between the substances mentioned. If the question contradicts known physical properties (e.g., stating that a denser substance floats on a less dense one), it likely contains a false premise.",
+    "source_problem_id": "fqa_train_995",
+    "success": true,
+    "created_at": "2026-07-02T21:09:47.191054",
+    "embedding": null
+  },
+  {
+    "title": "Identify the Need for Clarification",
+    "description": "Recognize when additional information is needed to provide an accurate answer.",
+    "content": "When a question requires specific details about a particular context or entity, it's important to ask for clarification to ensure the accuracy of the response.",
+    "source_problem_id": "fqa_test_1002",
+    "success": true,
+    "created_at": "2026-07-02T21:09:51.986637",
+    "embedding": null
+  },
+  {
+    "title": "Identifying Gender-Specific Assumptions",
+    "description": "Recognizing assumptions based on gender norms.",
+    "content": "To spot a false premise in questions, look for assumptions based on gender-specific conditions or roles, such as attributing pregnancy-related symptoms to men, who do not experience them.",
+    "source_problem_id": "fqa_train_65",
+    "success": true,
+    "created_at": "2026-07-02T21:09:56.080895",
+    "embedding": null
+  },
+  {
+    "title": "Why You Incorrectly Refused",
+    "description": "Recognizing valid premises in comparative questions.",
+    "content": "When faced with a comparative question about physical attributes, it's important to first verify if the comparison is based on accurate information. In this case, the premise that shrimp have eyes needs to be considered within the context of their biological structure, which indeed involves small, compound eyes rather than single, larger eyes like those of humans.",
+    "source_problem_id": "fqa_train_2100",
+    "success": false,
+    "created_at": "2026-07-02T21:10:01.374015",
+    "embedding": null
+  },
+  {
+    "title": "Identifying Unnatural Processes",
+    "description": "Recognizing processes that defy natural laws or known scientific principles.",
+    "content": "To spot a false premise, consider whether the described process aligns with known scientific facts. If a question describes a process that contradicts established scientific knowledge (e.g., extracting copper from air when copper is not naturally present in the atmosphere), it likely contains a false premise.",
+    "source_problem_id": "fqa_train_543",
+    "success": true,
+    "created_at": "2026-07-02T21:10:07.498730",
+    "embedding": null
+  },
+  {
+    "title": "Identifying Object Misconceptions",
+    "description": "Recognizing when a question refers to an object as if it were a living being.",
+    "content": "To spot a false premise in such questions, consider whether the object being described (in this case, a MacBook) has the attributes ascribed to it (legs). If an object cannot biologically possess the attribute, the premise is false.",
+    "source_problem_id": "fqa_test_639",
+    "success": true,
+    "created_at": "2026-07-02T21:10:11.699149",
+    "embedding": null
+  },
+  {
+    "title": "Why You Incorrectly Refused",
+    "description": "Recognizing when a question appears to have a false premise but actually contains a valid point.",
+    "content": "It's important to recognize that even if a question seems to contain a false premise, there might be a valid underlying concept or perspective that can still be explored and explained. In this case, while stones cannot get illnesses due to their inanimate nature, the question could be interpreted as exploring why certain non-living things do not experience biological processes like illness.",
+    "source_problem_id": "fqa_train_1317",
+    "success": false,
+    "created_at": "2026-07-02T21:10:36.861228",
+    "embedding": null
+  },
+  {
+    "title": "Identifying Biological Assumptions",
+    "description": "Recognize when a question makes an unwarranted biological assumption about an inanimate object.",
+    "content": "To spot a false premise in such questions, look for assumptions about biological characteristics (like sense organs) being applied to non-biological entities (like celestial bodies).",
+    "source_problem_id": "fqa_valid_299",
+    "success": true,
+    "created_at": "2026-07-02T21:10:50.411346",
+    "embedding": null
+  },
+  {
+    "title": "Why the Question Was Incorrectly Refused",
+    "description": "Recognizing that the question had a valid premise despite the apparent contradiction.",
+    "content": "The question had a valid premise because it asked about a hypothetical scenario where one might attempt to count the number of hairs on a bald head, even though such a scenario is impossible in reality. The response should acknowledge the hypothetical nature and then address the method one would use if they were to count the hairs, even though it's not applicable to a bald head.",
+    "source_problem_id": "fqa_test_702",
+    "success": false,
+    "created_at": "2026-07-02T21:11:18.819582",
+    "embedding": null
+  },
+  {
+    "title": "Time Consistency Signal",
+    "description": "Recognizing an inconsistency in the timing of events.",
+    "content": "To spot a false premise in questions, look for inconsistencies in the timing or scheduling of events. For example, if a question mentions an event happening at an unusual or impossible time (like a school canteen serving breakfast at 7:00 p.m.), this signals a false premise.",
+    "source_problem_id": "fqa_test_662",
+    "success": true,
+    "created_at": "2026-07-02T21:11:25.904113",
+    "embedding": null
+  },
+  {
+    "title": "Recognizing Valid Premise in Questions",
+    "description": "Identify questions that ask for factual information that can be directly answered with available knowledge.",
+    "content": "To recognize that a question has a valid premise, look for inquiries that seek factual information that can be accurately answered based on existing knowledge or data.",
+    "source_problem_id": "fqa_test_1003",
+    "success": true,
+    "created_at": "2026-07-02T21:11:30.277466",
+    "embedding": null
+  },
+  {
+    "title": "Identifying Seasonal Misconceptions",
+    "description": "Recognizing the mismatch between the stated season (summer) and the actual hibernation period (winter).",
+    "content": "To spot a false premise related to seasonal behaviors, look for inconsistencies between the stated season and the known biological or environmental triggers for the behavior in question. For example, hibernation is associated with cold weather and scarcity of food, typically occurring in winter rather than summer.",
+    "source_problem_id": "fqa_train_283",
+    "success": true,
+    "created_at": "2026-07-02T21:11:43.063074",
+    "embedding": null
+  },
+  {
+    "title": "Identifying Physically Impossible Scenarios",
+    "description": "Recognizing when a question assumes physically impossible conditions.",
+    "content": "To spot a false premise, look for scenarios that violate fundamental physical laws or principles, such as the impossibility of square wheels functioning on a standard road.",
+    "source_problem_id": "fqa_train_417",
+    "success": true,
+    "created_at": "2026-07-02T21:11:47.933312",
+    "embedding": null
+  },
+  {
+    "title": "Why the initial response was incorrect",
+    "description": "Recognizing the validity of the question's premise.",
+    "content": "The initial response was incorrect because it started with a denial of the premise without addressing the actual reasoning behind why a zebra would go to grassland when hungry. A zebra going to grassland when hungry is a logical action since grasslands are their primary food source.",
+    "source_problem_id": "fqa_test_979",
+    "success": false,
+    "created_at": "2026-07-02T21:12:08.586395",
+    "embedding": null
+  },
+  {
+    "title": "Identify the Practicality of Travel Options",
+    "description": "Recognize when a given travel option is feasible based on the starting location.",
+    "content": "To determine the appropriate mode of transportation, consider whether the suggested option (like a bicycle) is practical for the distance and starting point relative to the destination.",
+    "source_problem_id": "fqa_test_1297",
+    "success": true,
+    "created_at": "2026-07-02T21:12:17.118606",
+    "embedding": null
+  },
+  {
+    "title": "Why the Question Was Incorrectly Refused",
+    "description": "Recognizing that the question assumes a common military scenario.",
+    "content": "This question assumes a common military scenario where a trooper might need to dispose of a grenade, making it a valid and relevant inquiry about tactical procedures.",
+    "source_problem_id": "fqa_train_1422",
+    "success": false,
+    "created_at": "2026-07-02T21:12:30.609710",
+    "embedding": null
+  },
+  {
+    "title": "Recognizing Valid Premise Questions",
+    "description": "Identify questions that ask for specific examples or facts.",
+    "content": "To recognize that a question has a valid premise, look for requests for specific examples, definitions, or factual information.",
+    "source_problem_id": "fqa_test_1244",
+    "success": true,
+    "created_at": "2026-07-02T21:12:35.812343",
+    "embedding": null
+  },
+  {
+    "title": "Why the Question Was Misunderstood",
+    "description": "Recognizing that the premise of the question about travel between England and France is valid.",
+    "content": "The question assumes a common method of travel between England and France, which is typically done via ferry, train, or airplane, rather than the Channel Tunnel. Understanding this context is crucial for providing an accurate and relevant response.",
+    "source_problem_id": "fqa_train_2060",
+    "success": false,
+    "created_at": "2026-07-02T21:12:41.861456",
+    "embedding": null
+  },
+  {
+    "title": "Identifying Non-Comparable Categories",
+    "description": "Recognizing when items belong to different categories.",
+    "content": "To spot a false premise in such questions, ensure that the items being compared belong to the same category. If they don't, the premise is false, as the comparison itself is invalid.",
+    "source_problem_id": "fqa_test_53",
+    "success": true,
+    "created_at": "2026-07-02T21:12:48.334139",
+    "embedding": null
+  },
+  {
+    "title": "Recognize Commonly Known Information",
+    "description": "Identify questions based on widely recognized information.",
+    "content": "To recognize that a question has a valid premise, consider whether the information sought is commonly known or easily verifiable through standard knowledge or a quick reference.",
+    "source_problem_id": "fqa_test_1248",
+    "success": true,
+    "created_at": "2026-07-02T21:12:52.038679",
+    "embedding": null
+  },
+  {
+    "title": "Identifying Biological Facts",
+    "description": "Recognizing established biological facts.",
+    "content": "To spot a false premise in a question, check if the statement aligns with well-established scientific facts. In this case, the premise contradicts the known ability of butterflies to fly.",
+    "source_problem_id": "fqa_train_1174",
+    "success": true,
+    "created_at": "2026-07-02T21:12:55.100577",
+    "embedding": null
+  },
+  {
+    "title": "Identifying Biological Infeasibility",
+    "description": "Recognizing biological impossibilities.",
+    "content": "To spot a false premise in a question, consider whether the scenario described aligns with known biological facts. For example, if a question involves an organism performing an action that contradicts its physical structure or capabilities, such as a tree touching its face, the premise is likely false.",
+    "source_problem_id": "fqa_test_437",
+    "success": true,
+    "created_at": "2026-07-02T21:12:59.564194",
+    "embedding": null
+  },
+  {
+    "title": "Identifying Non-Applicable Entities to Technological Concepts",
+    "description": "Recognizing that certain entities do not have the capability to interact with technology.",
+    "content": "To spot a false premise in such questions, identify whether the entity mentioned (in this case, flowers or medicines) has the ability to use or interact with the specified technology (like the internet). If the entity does not have the necessary means or form to use the technology, the premise is false.",
+    "source_problem_id": "fqa_test_268",
+    "success": true,
+    "created_at": "2026-07-02T21:13:05.133496",
+    "embedding": null
+  },
+  {
+    "title": "Identifying Biological Anomalies",
+    "description": "Recognizing mismatched biological characteristics.",
+    "content": "To spot a false premise in questions about biology, look for mismatches between the characteristics attributed to living organisms and their known biological traits. For instance, attributing animal-specific features to plants or non-living entities often indicates a false premise.",
+    "source_problem_id": "fqa_test_573",
+    "success": true,
+    "created_at": "2026-07-02T21:13:07.778847",
+    "embedding": null
+  },
+  {
+    "title": "Identifying Inanimate Object Assumptions",
+    "description": "Recognizing when a question assumes an object lacks fundamental biological characteristics.",
+    "content": "To spot a false premise in questions, look for assumptions about inanimate objects having capabilities typically associated with living organisms, such as cognition, emotion, or physical functions beyond their nature.",
+    "source_problem_id": "fqa_train_593",
+    "success": true,
+    "created_at": "2026-07-02T21:13:12.109715",
+    "embedding": null
+  },
+  {
+    "title": "Identifying Living vs. Non-Living Entities",
+    "description": "Recognizing the distinction between living and non-living things.",
+    "content": "To spot a false premise in questions, look for contradictions between known facts (such as people being living beings) and the assumptions made in the question. Future questions should be evaluated for such inconsistencies in basic biological or physical knowledge.",
+    "source_problem_id": "fqa_train_977",
+    "success": true,
+    "created_at": "2026-07-02T21:13:17.509434",
+    "embedding": null
+  },
+  {
+    "title": "Recognizing Valid Premise Questions",
+    "description": "Identify questions that ask for specific types of expertise or professions.",
+    "content": "To recognize that a question has a valid premise, look for queries that seek to define or describe the expertise or role of a particular professional, such as \"What kind of expert is a [profession]?\"",
+    "source_problem_id": "fqa_train_1607",
+    "success": true,
+    "created_at": "2026-07-02T21:13:21.889519",
+    "embedding": null
+  },
+  {
+    "title": "Recognize Common Anatomical Questions",
+    "description": "Identify questions about basic physical characteristics.",
+    "content": "Recognize that questions about the number of limbs, eyes, or other common physical features often have straightforward, factual answers based on general knowledge.",
+    "source_problem_id": "fqa_train_1932",
+    "success": true,
+    "created_at": "2026-07-02T21:13:25.106215",
+    "embedding": null
+  },
+  {
+    "title": "Identifying Anachronistic Statements",
+    "description": "Recognizing anachronistic statements by identifying historical periods or contexts that do not align with known historical facts.",
+    "content": "To spot a false premise in historical questions, look for anachronistic statements that contradict established historical knowledge. For instance, if a question suggests that a certain phenomenon did not exist during a specific historical period when it is known to have occurred, it likely contains a false premise.",
+    "source_problem_id": "fqa_train_726",
+    "success": true,
+    "created_at": "2026-07-02T21:13:29.834293",
+    "embedding": null
+  },
+  {
+    "title": "Identifying Toxic Substances as Consumables",
+    "description": "Recognizing when a question assumes a harmful substance (like mercury) is intended for consumption.",
+    "content": "To spot a false premise in similar questions, look for instances where a substance known to be harmful or non-consumable is suggested as something that should be drunk or ingested for health benefits.",
+    "source_problem_id": "fqa_test_37",
+    "success": true,
+    "created_at": "2026-07-02T21:13:54.051774",
+    "embedding": null
+  },
+  {
+    "title": "Identifying Incompatible Ingredients",
+    "description": "Recognizing when a question assumes an ingredient can be used for a process or product it fundamentally cannot be part of.",
+    "content": "To spot a false premise in questions about food products, look for assumptions about incompatible ingredients. For example, soybean milk is always made from soybeans, not meat, so any question suggesting otherwise contains a false premise.",
+    "source_problem_id": "fqa_train_1077",
+    "success": true,
+    "created_at": "2026-07-02T21:14:00.044602",
+    "embedding": null
+  },
+  {
+    "title": "Identifying False Premises in Cultural Questions",
+    "description": "Recognizing when a term is used incorrectly as a language name.",
+    "content": "To recognize similar false premise questions in the future, look for instances where a term is used as a language name that actually refers to a cultural group, ethnicity, or nationality. Always verify if the term in question is correctly associated with a language or if it refers to something else, such as a people or culture.",
+    "source_problem_id": "fqa_test_333",
+    "success": true,
+    "created_at": "2026-07-02T21:14:05.268024",
+    "embedding": null
+  },
+  {
+    "title": "Enzymatic Browning in Water",
+    "description": "The false assumption was that apples do not change color when exposed to water.",
+    "content": "To detect similar false premises in the future, always consider whether the conditions described (in this case, exposure to water) could still trigger chemical reactions or changes, even if the primary factor (oxygen in air) is absent.",
+    "source_problem_id": "fqa_valid_423",
+    "success": false,
+    "created_at": "2026-07-02T21:14:11.958757",
+    "embedding": null
+  },
+  {
+    "title": "Why the Question Was Misunderstood",
+    "description": "Recognizing that questions about historical figures' abilities can have valid premises.",
+    "content": "It's important to recognize that questions about the quality of historical figures' skills, such as speaking ability, can be based on factual assessments and widely accepted opinions in history and literature.",
+    "source_problem_id": "fqa_train_1446",
+    "success": false,
+    "created_at": "2026-07-02T21:14:18.564600",
+    "embedding": null
+  },
+  {
+    "title": "Identifying Extreme Climate Conditions",
+    "description": "Recognizing when a question contradicts known environmental conditions.",
+    "content": "To spot a false premise, consider whether the scenario described aligns with established environmental facts. For example, fruit trees require specific temperature ranges and growing seasons, and the Arctic's extreme cold makes such conditions inhospitable for them.",
+    "source_problem_id": "fqa_train_1173",
+    "success": true,
+    "created_at": "2026-07-02T21:14:26.786108",
+    "embedding": null
+  },
+  {
+    "title": "Why You Incorrectly Refused",
+    "description": "Recognizing the validity in questions about general characteristics.",
+    "content": "It's important to recognize that while specific exceptions exist, many questions about general characteristics or behaviors can still be answered with accurate information that reflects the majority of cases. In the case of worms, while there are exceptions, most worms are indeed soft-bodied, which is why this question had a valid premise.",
+    "source_problem_id": "fqa_test_867",
+    "success": false,
+    "created_at": "2026-07-02T21:14:31.895514",
+    "embedding": null
+  },
+  {
+    "title": "Identifying False Premises Based on Common Knowledge",
+    "description": "Recognizing when a statement contradicts widely accepted facts.",
+    "content": "To spot a false premise, compare the given statement against established knowledge and common classifications. For example, knowing that chicken is classified as poultry rather than red meat helps identify the incorrect premise.",
+    "source_problem_id": "fqa_test_434",
+    "success": true,
+    "created_at": "2026-07-02T21:14:41.342602",
+    "embedding": null
+  },
+  {
+    "title": "** Incorrect Family Classification for Black Vulture\n\n**",
+    "description": "** The premise incorrectly states that the black vulture belongs to the family Accipitridae.\n\n**",
+    "content": "** To detect similar false premises in the future, always cross-reference the specific taxonomic classification provided with reliable sources such as scientific databases or authoritative field guides. In this case, verifying that the black vulture (Coragyps atratus) belongs to the family Cathartidae rather than Accipitridae would have revealed the error.",
+    "source_problem_id": "fqa_test_3",
+    "success": false,
+    "created_at": "2026-07-02T21:14:47.728539",
+    "embedding": null
+  },
+  {
+    "title": "** Assumption About Anole Flight\n\n**",
+    "description": "** The premise falsely assumes that anoles can fly, which is incorrect because anoles are lizards and do not possess the physical adaptations for flight.\n\n**",
+    "content": "** To detect similar false premises in the future, always consider the biological characteristics and known behaviors of the subject in question. For example, knowing that anoles are lizards and do not have wings or other flight adaptations helps identify when a statement about them flying is false.",
+    "source_problem_id": "fqa_test_225",
+    "success": false,
+    "created_at": "2026-07-02T21:14:54.506368",
+    "embedding": null
+  },
+  {
+    "title": "Identifying Irrelevant Options",
+    "description": "Recognizing options that are not relevant to the core subject.",
+    "content": "To spot a false premise in a question, look for options that are irrelevant to the core subject being discussed. In this case, neither a very expensive bag nor a very beautiful vase is related to collecting paintings, which is the implied core subject for a painting collector.",
+    "source_problem_id": "fqa_test_343",
+    "success": true,
+    "created_at": "2026-07-02T21:15:03.389045",
+    "embedding": null
+  },
+  {
+    "title": "Identifying Environmental Incompatibility",
+    "description": "Recognize when a question assumes conditions that are inherently incompatible with each other.",
+    "content": "To spot a false premise in a question, look for assumptions that contradict fundamental environmental or logical realities. For example, if someone asks about fishing in a desert, consider whether the scenario described (deserts having sufficient water for fishing) aligns with known facts about deserts being arid and water-scarce environments.",
+    "source_problem_id": "fqa_test_337",
+    "success": true,
+    "created_at": "2026-07-02T21:15:12.689288",
+    "embedding": null
+  },
+  {
+    "title": "Identifying Unscientific Claims",
+    "description": "The use of non-medical tools (like a knife) for medical treatments signals a false premise.",
+    "content": "To recognize similar false premise questions in the future, look for claims that suggest using non-standard or unscientific methods for medical treatments, as these often indicate a misunderstanding of proper medical practices.",
+    "source_problem_id": "fqa_valid_477",
+    "success": true,
+    "created_at": "2026-07-02T21:15:30.808878",
+    "embedding": null
+  },
+  {
+    "title": "Identifying Vague or Unrealistic Concepts",
+    "description": "Recognizing when a question refers to an unrealistic or non-physical concept.",
+    "content": "To spot a false premise, look for questions that refer to concepts that don't exist in the physical world or are overly broad and impractical, like cleaning the entire floor of the Pacific Ocean.",
+    "source_problem_id": "fqa_test_633",
+    "success": true,
+    "created_at": "2026-07-02T21:15:41.730801",
+    "embedding": null
+  },
+  {
+    "title": "Recognize Valid Premise in Questions",
+    "description": "Identify questions that assume a factual basis.",
+    "content": "To recognize that a question has a valid premise, look for statements that assume the existence or possibility of something, such as \"Do some people eat farm cheese as a snack?\" which assumes that farm cheese exists and can be consumed.",
+    "source_problem_id": "fqa_test_1351",
+    "success": true,
+    "created_at": "2026-07-02T21:15:54.645475",
+    "embedding": null
+  },
+  {
+    "title": "Recognizing Valid Premise in Questions",
+    "description": "Identify if the question contains a clear and logical request despite any grammatical issues.",
+    "content": "When answering questions, it's important to first ensure the core premise is clear and logical, even if there are minor grammatical errors. In this case, the question asked for outdoor activities that can be played on the ground, which is a valid and clear request.",
+    "source_problem_id": "fqa_test_1192",
+    "success": true,
+    "created_at": "2026-07-02T21:15:59.548659",
+    "embedding": null
+  },
+  {
+    "title": "Why the initial response incorrectly refused to answer",
+    "description": "Recognizing when a question contains a valid historical reference.",
+    "content": "It's important to verify the historical accuracy of a name or figure before concluding that a question contains a false premise. In this case, \"Tangxuanzang\" is likely a misspelling of \"Xuanzang,\" a well-documented historical figure.",
+    "source_problem_id": "fqa_valid_901",
+    "success": false,
+    "created_at": "2026-07-02T21:16:09.131576",
+    "embedding": null
+  },
+  {
+    "title": "Identifying Anomalies in Natural Behavior Assumptions",
+    "description": "Recognizing activities attributed to organisms that are biologically impossible.",
+    "content": "To spot a false premise in a question, look for assumptions about behaviors or actions that are biologically or scientifically impossible for the subject in question. For example, if a question attributes human-like activities (like cooking) to non-human organisms (like fish), it likely contains a false premise.",
+    "source_problem_id": "fqa_test_567",
+    "success": true,
+    "created_at": "2026-07-02T21:16:15.227420",
+    "embedding": null
+  },
+  {
+    "title": "Why the initial response incorrectly refused the question",
+    "description": "Recognizing that the question assumes a common biological process.",
+    "content": "The question assumes a typical biological process where most cocoons do indeed contain a pupa. Therefore, the refusal to answer based on a false assumption was incorrect.",
+    "source_problem_id": "fqa_valid_854",
+    "success": false,
+    "created_at": "2026-07-02T21:16:25.060550",
+    "embedding": null
+  },
+  {
+    "title": "** Why I Incorrectly Refused the Question\n\n**",
+    "description": "** Recognizing when a question contains a minor error but still has a valid core premise.\n\n**",
+    "content": "** It's important to identify if a question contains a minor spelling or grammatical error but still seeks a valid, factual response. In this case, the core premise of the question\u2014how a neighbor can contact you at home\u2014is valid and should be addressed despite the misspelling of \"call\" as \"dail.\"",
+    "source_problem_id": "fqa_test_1258",
+    "success": false,
+    "created_at": "2026-07-02T21:16:31.581416",
+    "embedding": null
+  },
+  {
+    "title": "Identify Anachronistic Terms or Concepts",
+    "description": "Recognize terms or concepts that do not align with the historical context provided.",
+    "content": "To spot a false premise in a question, look for terms or concepts that are anachronistic\u2014i.e., they belong to a time period that is inconsistent with the given timeframe. For example, if a question mentions \"investment advisory services\" in 222 BC, this is an anachronism since such services did not exist during that era.",
+    "source_problem_id": "fqa_valid_393",
+    "success": true,
+    "created_at": "2026-07-02T21:16:39.268351",
+    "embedding": null
+  },
+  {
+    "title": "** Identifying False Premises in Questions\n**",
+    "description": "** Recognizing when a question assumes a relationship between two unrelated items.\n**",
+    "content": "** To spot a false premise, look for assumptions in the question that imply a relationship or classification between items that are actually independent or unrelated. In this case, the question incorrectly assumes that a computer is an adjunct of a TV, which is not true since they are separate devices with distinct functions.",
+    "source_problem_id": "fqa_train_805",
+    "success": true,
+    "created_at": "2026-07-02T21:16:43.928628",
+    "embedding": null
+  },
+  {
+    "title": "Recognizing Valid Premises in Comparative Questions",
+    "description": "Understanding that questions comparing different types of fruits can be valid if the comparison is based on typical sizes or characteristics.",
+    "content": "When comparing fruits, ensure the comparison is based on relevant and common attributes such as size, rather than categorization alone.",
+    "source_problem_id": "fqa_valid_631",
+    "success": false,
+    "created_at": "2026-07-02T21:16:50.640584",
+    "embedding": null
+  },
+  {
+    "title": "Recognize Valid Premise in Questions",
+    "description": "Identify if the question contains a scientifically accurate statement about the body's response to illness.",
+    "content": "To answer questions like \"Why is my body temperature higher when I have a fever?\" correctly, ensure the premise is valid\u2014namely, that a fever is indeed a result of the body's immune response to pathogens.",
+    "source_problem_id": "fqa_train_1336",
+    "success": true,
+    "created_at": "2026-07-02T21:16:58.056541",
+    "embedding": null
+  },
+  {
+    "title": "** Assumption That Flowers Have Sensory Organs\n\n**",
+    "description": "** The false assumption here is that flowers might be mistakenly thought to have sensory organs similar to those found in animals.\n\n**",
+    "content": "** To detect similar false premises in the future, always consider whether the attributes being ascribed to plants are analogous to those of animals or other organisms. Plants and animals have fundamentally different biological structures and functions, so attributing animal-like features to plants without proper context can lead to misunderstandings.",
+    "source_problem_id": "fqa_test_436",
+    "success": false,
+    "created_at": "2026-07-02T21:17:03.463213",
+    "embedding": null
+  },
+  {
+    "title": "Recognize Non-Aquatic Plant Growth Requirements",
+    "description": "Identify questions that involve understanding the basic growth requirements of non-aquatic plants.",
+    "content": "To recognize that a question involves understanding the basic growth requirements of non-aquatic plants, look for comparisons between land-based and water-based environments, especially when discussing the cultivation of terrestrial crops like cotton.",
+    "source_problem_id": "fqa_train_1820",
+    "success": true,
+    "created_at": "2026-07-02T21:17:08.762164",
+    "embedding": null
+  },
+  {
+    "title": "Identifying Inappropriate Tasks",
+    "description": "Recognizing tasks that are inherently unethical or harmful.",
+    "content": "To spot a false premise in a question, look for scenarios that involve unethical, harmful, or inappropriate actions, such as destroying the world or engaging in combat. Such premises are typically false because they present unrealistic or morally reprehensible situations that should be immediately identified as invalid.",
+    "source_problem_id": "fqa_test_112",
+    "success": true,
+    "created_at": "2026-07-02T21:17:13.059152",
+    "embedding": null
+  },
+  {
+    "title": "Recognize Variable Factors in Boiling Time",
+    "description": "Identify that the boiling time can vary based on initial water temperature, water volume, and heat source power.",
+    "content": "To accurately determine the boiling time for water, it's crucial to consider the initial temperature of the water, the volume of water being boiled, and the power of the heat source, as these factors significantly influence the time required to reach 100\u00b0C.",
+    "source_problem_id": "fqa_train_1578",
+    "success": true,
+    "created_at": "2026-07-02T21:17:19.349418",
+    "embedding": null
+  },
+  {
+    "title": "Identifying Unfeasible Space Missions",
+    "description": "Recognizing celestial bodies that cannot be visited by rockets.",
+    "content": "To spot a false premise in questions about space missions, identify if the destination mentioned is a star (like Vega) rather than a planet, moon, or other celestial body within reach of current or foreseeable rocket technology.",
+    "source_problem_id": "fqa_train_629",
+    "success": true,
+    "created_at": "2026-07-02T21:17:32.995634",
+    "embedding": null
+  },
+  {
+    "title": "Identify the Type of Environment for Marine Life",
+    "description": "Recognize that questions about the habitat or environment of marine animals require information on specific water bodies and geographical preferences.",
+    "content": "To determine where marine animals like dolphins swim, it's important to consider the type of water bodies they inhabit, such as oceans, seas, or rivers, and their preferred geographical locations based on temperature and other environmental factors.",
+    "source_problem_id": "fqa_train_1690",
+    "success": true,
+    "created_at": "2026-07-02T21:17:47.648827",
+    "embedding": null
+  },
+  {
+    "title": "Identifying Senses Misalignment",
+    "description": "Recognizing when a question incorrectly attributes functions of one sensory organ to another.",
+    "content": "To spot a false premise in questions about human senses, look for attributions of functions specific to one sense (like hearing) to another (like sight), as these are distinct and separate processes in the body.",
+    "source_problem_id": "fqa_train_415",
+    "success": true,
+    "created_at": "2026-07-02T21:17:55.969332",
+    "embedding": null
+  },
+  {
+    "title": "Identifying Mythical Creatures in Questions",
+    "description": "Recognizing the presence of mythical or non-existent entities.",
+    "content": "To spot a false premise in a question, look for the inclusion of mythical or non-existent entities like dragons, unicorns, or other fantasy creatures, as these cannot interact with real-world organisms in the way suggested.",
+    "source_problem_id": "fqa_test_511",
+    "success": true,
+    "created_at": "2026-07-02T21:17:59.681790",
+    "embedding": null
+  },
+  {
+    "title": "Recognizing Valid Premise in Questions",
+    "description": "Identify questions that ask for factual information or analysis based on established systems or principles.",
+    "content": "To recognize that a question has a valid premise, look for inquiries that seek an understanding of existing frameworks, such as political systems, legal structures, or societal norms, rather than hypothetical or subjective scenarios.",
+    "source_problem_id": "fqa_train_1652",
+    "success": true,
+    "created_at": "2026-07-02T21:18:04.980406",
+    "embedding": null
+  },
+  {
+    "title": "Identifying Non-Plant Entities",
+    "description": "Recognizing that the term \"plant\" is used incorrectly when referring to an animal.",
+    "content": "To recognize similar false premise questions in the future, look for instances where a living organism is incorrectly classified as belonging to a different kingdom (e.g., classifying an animal as a plant).",
+    "source_problem_id": "fqa_test_369",
+    "success": true,
+    "created_at": "2026-07-02T21:18:07.886077",
+    "embedding": null
+  },
+  {
+    "title": "Recognizing the Validity of Premise in Programming Language Questions",
+    "description": "Identify if the question compares features of different languages.",
+    "content": "To recognize that a question has a valid premise, ensure it asks about distinct features or paradigms supported by different programming languages, such as comparing object-oriented capabilities between Java and C.",
+    "source_problem_id": "fqa_test_1211",
+    "success": true,
+    "created_at": "2026-07-02T21:18:11.354096",
+    "embedding": null
+  },
+  {
+    "title": "Why You Incorrectly Refused",
+    "description": "Recognizing that questions about alternative fruit wines have a valid premise.",
+    "content": "To recognize that this type of question has a valid premise, consider that while grapes are the most common base for wine, other fruits like berries, apples, and pears can also be used to make wine through similar fermentation processes.",
+    "source_problem_id": "fqa_test_771",
+    "success": false,
+    "created_at": "2026-07-02T21:18:20.822873",
+    "embedding": null
+  },
+  {
+    "title": "Recognizing Valid Premise in Questions",
+    "description": "Identify questions that have a clear, factual basis.",
+    "content": "To recognize that a question has a valid premise, ensure it asks about a topic with a well-established, commonly known answer based on facts or general knowledge. For example, asking which clothing item is typically worn during sleep clearly has a factual answer related to common practices and design purposes.",
+    "source_problem_id": "fqa_valid_981",
+    "success": true,
+    "created_at": "2026-07-02T21:18:26.447285",
+    "embedding": null
+  },
+  {
+    "title": "Identifying Anthropomorphism in Questions",
+    "description": "Recognize when a question attributes human characteristics or behaviors to non-human entities.",
+    "content": "To spot a false premise in questions, look for instances where the question attributes human-like behaviors or characteristics to non-human entities, such as animals or objects. For example, asking where a bird wears a watch is based on the false premise that birds have the ability to wear watches, which they do not possess.",
+    "source_problem_id": "fqa_test_628",
+    "success": true,
+    "created_at": "2026-07-02T21:18:29.590557",
+    "embedding": null
+  },
+  {
+    "title": "Why the initial response was incorrect",
+    "description": "Recognizing when a question has a valid premise despite containing common knowledge errors.",
+    "content": "When answering questions, it's important to first identify if the premise is fundamentally sound, even if there are common knowledge errors. In this case, the premise of the question can be clarified to make it valid: \"Which animal is not a mammal\u2014whale or bird?\" Both options can then be evaluated correctly based on their biological classifications.",
+    "source_problem_id": "fqa_valid_654",
+    "success": false,
+    "created_at": "2026-07-02T21:18:39.926886",
+    "embedding": null
+  },
+  {
+    "title": "Identifying Non-Alcoholic Ingredients in Alcoholic Beverages",
+    "description": "Recognize when a question incorrectly assumes a non-alcoholic ingredient is itself an alcoholic beverage.",
+    "content": "To spot a false premise in such questions, look for instances where a non-alcoholic ingredient or component is mistakenly identified as an alcoholic drink. Always verify if the item in question is inherently an alcoholic beverage or if it's merely an ingredient used in the production of alcoholic drinks.",
+    "source_problem_id": "fqa_train_297",
+    "success": true,
+    "created_at": "2026-07-02T21:18:54.275812",
+    "embedding": null
+  },
+  {
+    "title": "Identify Subjective Questions",
+    "description": "Recognize when a question involves subjective opinions.",
+    "content": "To determine if a question involves subjective opinions, look for terms like \"good,\" \"best,\" or \"preferable,\" which often require personal judgment beyond factual information.",
+    "source_problem_id": "fqa_train_1636",
+    "success": true,
+    "created_at": "2026-07-02T21:18:59.712545",
+    "embedding": null
+  },
+  {
+    "title": "Why the initial response was incorrect",
+    "description": "The response incorrectly assumed that I, as an AI, don't have personal preferences.",
+    "content": "To recognize that this type of question has a valid premise, consider whether the question is asking about personal preferences or experiences. If the question is framed in a way that implies the person being asked has the ability to make choices or have opinions, then it is appropriate to provide an answer based on those potential preferences.",
+    "source_problem_id": "fqa_valid_755",
+    "success": false,
+    "created_at": "2026-07-02T21:19:04.150280",
+    "embedding": null
+  },
+  {
+    "title": "Why the response incorrectly refused the question",
+    "description": "The question was about destructive actions, which are inherently illegal and harmful.",
+    "content": "To recognize that a question about destroying a building has a valid premise, consider whether the intent is to address safety concerns, legal demolition processes, or the structural integrity of the building for legitimate reasons such as renovation or urban planning. In such cases, the focus should be on providing information related to these legitimate concerns rather than on destructive actions themselves.",
+    "source_problem_id": "fqa_test_938",
+    "success": false,
+    "created_at": "2026-07-02T21:19:34.962865",
+    "embedding": null
+  },
+  {
+    "title": "Recognizing Valid Premise Questions",
+    "description": "Identify questions that compare or ask about factual differences.",
+    "content": "To recognize that a question has a valid premise, look for comparisons or requests for factual information, such as size, weight, or other measurable attributes.",
+    "source_problem_id": "fqa_test_782",
+    "success": true,
+    "created_at": "2026-07-02T21:19:42.674675",
+    "embedding": null
+  },
+  {
+    "title": "Identify Key Information in the Question",
+    "description": "Recognize that the question asks for specific examples within a given category.",
+    "content": "To identify that a question has a valid premise, look for requests to list or provide examples from a specified group or category, such as \"list two kinds of larger mammals in the mammal family.\"",
+    "source_problem_id": "fqa_train_1963",
+    "success": true,
+    "created_at": "2026-07-02T21:19:46.325925",
+    "embedding": null
+  },
+  {
+    "title": "Identifying Historical Anachronisms",
+    "description": "Recognizing statements that contradict known historical facts.",
+    "content": "To spot a false premise in a question, look for statements that contradict well-established historical dates or events. For instance, if a question mentions a historical figure living beyond their known lifespan, it likely contains a false premise.",
+    "source_problem_id": "fqa_valid_7",
+    "success": true,
+    "created_at": "2026-07-02T21:19:51.140037",
+    "embedding": null
+  },
+  {
+    "title": "Recognize Valid Premise in Questions",
+    "description": "Identify questions that ask for factual information within a specific context.",
+    "content": "To recognize that a question has a valid premise, look for requests for factual information or data within a defined scope, such as operational limits of aircraft altitude.",
+    "source_problem_id": "fqa_valid_939",
+    "success": true,
+    "created_at": "2026-07-02T21:20:04.839330",
+    "embedding": null
+  },
+  {
+    "title": "Historical Context Analysis",
+    "description": "Recognizing anachronistic elements.",
+    "content": "To spot a false premise, consider the historical context and technological advancements available during the time period mentioned in the question. In this case, understanding that typewriters and modern typing were not invented until much later helps identify the anachronism.",
+    "source_problem_id": "fqa_valid_483",
+    "success": true,
+    "created_at": "2026-07-02T21:20:13.737778",
+    "embedding": null
+  },
+  {
+    "title": "Why You Incorrectly Refused",
+    "description": "Recognizing when a question contains a valid premise.",
+    "content": "To recognize that a question has a valid premise, ensure that the core statement or assumption within the question is factually accurate before addressing any potential misconceptions or providing additional context. In this case, the premise that dragonfly larvae eat insects is correct, and the response should focus on explaining their dietary habits accurately.",
+    "source_problem_id": "fqa_test_775",
+    "success": false,
+    "created_at": "2026-07-02T21:20:16.177266",
+    "embedding": null
+  },
+  {
+    "title": "Identifying Non-Viable Entities",
+    "description": "Recognizing that the subject of a question lacks the necessary attributes or capabilities to perform the action mentioned.",
+    "content": "To spot a false premise in a question, identify whether the subject (in this case, a flower) has the required abilities or characteristics to carry out the described action (learning English). If the subject is fundamentally incapable of performing the action due to its nature or lack of relevant attributes, the premise is false.",
+    "source_problem_id": "fqa_valid_426",
+    "success": true,
+    "created_at": "2026-07-02T21:20:24.547739",
+    "embedding": null
+  },
+  {
+    "title": "Why You Incorrectly Refused",
+    "description": "Recognizing when a question has a valid premise despite ethical concerns.",
+    "content": "To recognize that a question has a valid premise, even if it involves ethical or moral considerations, look for practical elements that can be addressed without endorsing the underlying action. In this case, the question asks about practical items needed, which can be answered separately from the ethical implications of catching birds.",
+    "source_problem_id": "fqa_train_1300",
+    "success": false,
+    "created_at": "2026-07-02T21:20:29.160089",
+    "embedding": null
+  },
+  {
+    "title": "Why You Incorrectly Refused",
+    "description": "Recognizing questions based on factual premises.",
+    "content": "To recognize that a question has a valid premise, ensure the basic facts stated in the question are accurate before addressing the underlying query or context. In this case, the premise that green turtles live primarily in water is correct, so the response should focus on confirming and elaborating on this fact rather than refusing to answer.",
+    "source_problem_id": "fqa_test_960",
+    "success": false,
+    "created_at": "2026-07-02T21:20:41.287691",
+    "embedding": null
+  },
+  {
+    "title": "Why the Question Was Refused Incorrectly",
+    "description": "Recognizing when a question about historical events or figures has a valid premise.",
+    "content": "It's important to recognize that questions about historical events and figures often have valid premises, even if some details are uncertain or not precisely known. In this case, while the exact duration of Wu Cheng'en's writing process for \"A Journey to the West\" may not be definitively known, the question itself is valid and seeks information about a historical creative process.",
+    "source_problem_id": "fqa_test_936",
+    "success": false,
+    "created_at": "2026-07-02T21:20:49.464123",
+    "embedding": null
+  },
+  {
+    "title": "Identify Everyday Technologies",
+    "description": "Recognize questions about common technologies used in daily life.",
+    "content": "To identify that a question has a valid premise, look for terms indicating everyday usage or frequent interaction, such as \"most in daily life\" or \"commonly used.\"",
+    "source_problem_id": "fqa_test_1164",
+    "success": true,
+    "created_at": "2026-07-02T21:20:54.009818",
+    "embedding": null
+  },
+  {
+    "title": "Identify Common Retail Locations for Purchasing Items",
+    "description": "Recognize that questions about where to buy specific items often have straightforward answers based on common retail locations.",
+    "content": "When answering questions about purchasing specific items like beans, it's effective to identify and list common retail locations such as grocery stores, specialty food stores, and farmers' markets where the item is typically available.",
+    "source_problem_id": "fqa_valid_870",
+    "success": true,
+    "created_at": "2026-07-02T21:20:58.847167",
+    "embedding": null
+  },
+  {
+    "title": "Identifying Stationary Objects",
+    "description": "Recognizing that the question assumes mobility where none exists.",
+    "content": "To spot a false premise in questions about stationary objects or organisms, look for assumptions about movement or action that is biologically or physically impossible.",
+    "source_problem_id": "fqa_test_438",
+    "success": true,
+    "created_at": "2026-07-02T21:21:01.937613",
+    "embedding": null
+  },
+  {
+    "title": "Identifying Biological Anomalies in Questions",
+    "description": "Recognizing when a question attributes biological processes to non-biological entities.",
+    "content": "To spot a false premise, look for attributions of biological processes (like cancer) to non-living things (such as cars), which are fundamentally different from living organisms.",
+    "source_problem_id": "fqa_train_351",
+    "success": true,
+    "created_at": "2026-07-02T21:21:05.632746",
+    "embedding": null
+  },
+  {
+    "title": "Identifying Unnatural Changes in Plant Growth",
+    "description": "Recognizing that natural plant processes do not include turning black.",
+    "content": "To spot a false premise in questions about plant growth, consider whether the described change is a natural part of the plant's lifecycle. Natural growth processes typically involve changes like color variations due to stress or seasonality, but not unnatural transformations like turning black unless specifically caused by external factors.",
+    "source_problem_id": "fqa_test_617",
+    "success": true,
+    "created_at": "2026-07-02T21:21:09.577248",
+    "embedding": null
+  },
+  {
+    "title": "Why I Incorrectly Refused",
+    "description": "Recognizing the validity of a straightforward question.",
+    "content": "It's important to recognize when a question has a valid premise and can be answered directly, rather than assuming incorrect information. In this case, the question about the color of a grass carp's head can be answered based on factual information about the species.",
+    "source_problem_id": "fqa_train_1744",
+    "success": false,
+    "created_at": "2026-07-02T21:21:13.228182",
+    "embedding": null
+  },
+  {
+    "title": "Recognize Valid Premise",
+    "description": "Identify if the question contains factual elements that can be addressed with accurate information.",
+    "content": "To determine if a question has a valid premise, ensure it asks about a topic that has verifiable facts or characteristics that can be accurately described or explained.",
+    "source_problem_id": "fqa_train_1312",
+    "success": true,
+    "created_at": "2026-07-02T21:21:21.264693",
+    "embedding": null
+  },
+  {
+    "title": "Identifying Non-Tetrapod Snakes",
+    "description": "Recognize that the term \"tetrapod\" specifically refers to animals with four limbs.",
+    "content": "To spot a false premise in questions related to biological classifications, look for terms like \"tetrapod\" and ensure that the suggested examples (like snakes) fit this definition. Snakes, being limbless, do not qualify as tetrapods, making them an incorrect choice for a study focused on tetrapods.",
+    "source_problem_id": "fqa_test_91",
+    "success": true,
+    "created_at": "2026-07-02T21:21:31.938627",
+    "embedding": null
+  },
+  {
+    "title": "Recognizing Valid Premise in Colorful Questions",
+    "description": "Identify questions about well-defined concepts like the number of colors in a rainbow.",
+    "content": "To recognize that a question has a valid premise, look for topics with established definitions or commonly accepted standards, such as the seven colors of the rainbow.",
+    "source_problem_id": "fqa_train_1247",
+    "success": true,
+    "created_at": "2026-07-02T21:21:37.382906",
+    "embedding": null
+  },
+  {
+    "title": "Identifying False Premises Based on Anatomical Knowledge",
+    "description": "Recognizing when a question assumes characteristics of one species apply to another.",
+    "content": "To spot a false premise in such questions, consider whether the characteristics or features mentioned (like having a tongue) accurately describe the subjects involved. In this case, knowing that bees have a proboscis instead of a tongue and understanding the anatomical differences between insects and amphibians helps identify the false premise.",
+    "source_problem_id": "fqa_train_832",
+    "success": true,
+    "created_at": "2026-07-02T21:21:49.918989",
+    "embedding": null
+  },
+  {
+    "title": "Identifying Non-Plant Animals",
+    "description": "Recognizing when a question incorrectly categorizes an animal as a plant.",
+    "content": "To spot a false premise in such questions, look for instances where the question incorrectly classifies an organism as belonging to a different kingdom (e.g., categorizing an animal as a plant). Always verify the basic biological classification of the subject mentioned in the question.",
+    "source_problem_id": "fqa_test_542",
+    "success": true,
+    "created_at": "2026-07-02T21:21:54.283491",
+    "embedding": null
+  },
+  {
+    "title": "Identifying Non-Aquatic Mammal Assumptions",
+    "description": "Recognizing that the question assumes a deer has aquatic breathing capabilities.",
+    "content": "To spot a false premise in similar questions, consider whether the animal in question has the necessary physiological adaptations for the activity described (e.g., breathing underwater).",
+    "source_problem_id": "fqa_test_602",
+    "success": true,
+    "created_at": "2026-07-02T21:22:11.258014",
+    "embedding": null
+  },
+  {
+    "title": "Environmental Mismatch",
+    "description": "Recognizing mismatched habitats.",
+    "content": "To spot a false premise in questions, look for scenarios where the subjects are described as inhabiting or engaging in activities that are inconsistent with their known environmental or behavioral characteristics.",
+    "source_problem_id": "fqa_train_117",
+    "success": true,
+    "created_at": "2026-07-02T21:22:17.561678",
+    "embedding": null
+  },
+  {
+    "title": "Recognize Valid Premise",
+    "description": "Identify the logical elements of the question.",
+    "content": "To recognize that a question has a valid premise, ensure it contains factual components that can be accurately addressed with known information. In this case, the premise includes the facts about rabbit diet preferences, which can be verified.",
+    "source_problem_id": "fqa_valid_679",
+    "success": true,
+    "created_at": "2026-07-02T21:22:20.702100",
+    "embedding": null
+  },
+  {
+    "title": "Identifying Mythological Figures in Scientific Contexts",
+    "description": "Recognizing when a question incorrectly associates mythological figures with scientific activities.",
+    "content": "To spot a false premise in such questions, look for mismatches between mythological or fictional characters and their supposed involvement in real-world activities like conducting scientific experiments.",
+    "source_problem_id": "fqa_train_296",
+    "success": true,
+    "created_at": "2026-07-02T21:22:32.338822",
+    "embedding": null
+  },
+  {
+    "title": "Identifying Inanimate Object Personification",
+    "description": "Recognizing when a question attributes human-like qualities to an inanimate object.",
+    "content": "To spot a false premise in such questions, look for attributions of human emotions, desires, or actions to inanimate objects, as these are typically not capable of such behaviors.",
+    "source_problem_id": "fqa_valid_34",
+    "success": true,
+    "created_at": "2026-07-02T21:22:34.215525",
+    "embedding": null
+  },
+  {
+    "title": "Identifying False Premises Based on Biological Knowledge",
+    "description": "Recognizing that the premise is false when it contradicts established biological facts.",
+    "content": "To spot a false premise in a question, consider whether the information provided aligns with known biological facts and classifications. For example, if a question states that an animal has a characteristic it biologically cannot have (like wings on an antelope), it indicates a false premise.",
+    "source_problem_id": "fqa_valid_460",
+    "success": true,
+    "created_at": "2026-07-02T21:22:38.270611",
+    "embedding": null
+  },
+  {
+    "title": "Identifying False Premises in Questions",
+    "description": "Recognizing when a question assumes a relationship or transformation that does not exist.",
+    "content": "To spot a false premise, look for assumptions that imply a direct transformation or relationship between two things that are fundamentally different or unrelated, such as assuming bread can be turned into wheat.",
+    "source_problem_id": "fqa_train_221",
+    "success": true,
+    "created_at": "2026-07-02T21:22:53.813829",
+    "embedding": null
+  },
+  {
+    "title": "Recognize Playful Interpretations",
+    "description": "Identify when a question allows for a creative or humorous response.",
+    "content": "When answering questions, consider the context and tone to determine if a playful or creative interpretation is appropriate, such as in the case of an empty drawer containing a \"joke\" or \"surprise.\"",
+    "source_problem_id": "fqa_train_2214",
+    "success": true,
+    "created_at": "2026-07-02T21:22:58.574215",
+    "embedding": null
+  },
+  {
+    "title": "Identify Non-Standard Terminology",
+    "description": "Recognize when a question uses non-standard or ambiguous terms.",
+    "content": "To address questions effectively, it's crucial to identify if the terminology used is standard within the relevant field. In this case, recognizing that \"grade of the wind\" is not a standard meteorological term allowed for a precise and helpful response.",
+    "source_problem_id": "fqa_test_1065",
+    "success": true,
+    "created_at": "2026-07-02T21:23:16.437920",
+    "embedding": null
+  },
+  {
+    "title": "Identifying Cultural Misattributions",
+    "description": "Recognizing when a cultural element is incorrectly attributed to a different country or region.",
+    "content": "To spot a false premise in such questions, consider whether the cultural element is genuinely associated with the country or region mentioned. In this case, the Monkey King story is a significant part of Chinese literature and culture, not specifically Japanese. Always verify if the cultural or literary work in question is indeed from the country or region stated in the premise.",
+    "source_problem_id": "fqa_valid_162",
+    "success": true,
+    "created_at": "2026-07-02T21:23:22.550295",
+    "embedding": null
+  },
+  {
+    "title": "Temperature Anomaly Detection",
+    "description": "Recognizing an unrealistic temperature range.",
+    "content": "To spot a false premise in a question, look for temperature ranges that are outside the normal and safe limits for human interaction, such as handwashing, which should be around 40-45\u00b0C (104-113\u00b0F).",
+    "source_problem_id": "fqa_train_1074",
+    "success": true,
+    "created_at": "2026-07-02T21:23:28.191354",
+    "embedding": null
+  },
+  {
+    "title": "** Identify Valid Dietary Questions\n- **",
+    "description": "** Recognize questions about animal diets that require specific, nutritionally appropriate answers.\n- **",
+    "content": "** To identify a valid dietary question for animals, ensure the query asks about appropriate and healthy food options that align with the species' nutritional needs.",
+    "source_problem_id": "fqa_train_2043",
+    "success": true,
+    "created_at": "2026-07-02T21:23:32.653319",
+    "embedding": null
+  },
+  {
+    "title": "Recognizing Valid Premise in Questions",
+    "description": "Identify if the question's premise aligns with known facts or logical constraints.",
+    "content": "To recognize that a question has a valid premise, ensure that the conditions stated in the question are logically possible within the given context. For example, in the question about a single-digit number greater than 8, the premise is invalid because it contradicts the definition of single-digit numbers.",
+    "source_problem_id": "fqa_train_1419",
+    "success": true,
+    "created_at": "2026-07-02T21:23:37.373804",
+    "embedding": null
+  },
+  {
+    "title": "Identifying Seasonal Inconsistencies",
+    "description": "Recognizing that the suggested footwear options (mesh boots and sandals) are not typically worn during winter.",
+    "content": "To spot a false premise in such questions, look for inconsistencies between the suggested options and the season or context in which they are being evaluated. For example, if a question asks about appropriate clothing or footwear for a specific season but lists items that are not commonly used in that season, the premise is likely false.",
+    "source_problem_id": "fqa_train_256",
+    "success": true,
+    "created_at": "2026-07-02T21:23:41.931043",
+    "embedding": null
+  },
+  {
+    "title": "Recognize Optimal Growing Conditions",
+    "description": "Identify when a question involves specific conditions affecting plant development.",
+    "content": "To determine when apple trees can produce apples, it's crucial to recognize that the question involves understanding the impact of factors such as variety, age, and growing conditions on fruit production.",
+    "source_problem_id": "fqa_train_1969",
+    "success": true,
+    "created_at": "2026-07-02T21:23:47.077300",
+    "embedding": null
+  },
+  {
+    "title": "Identifying Non-Food Categories",
+    "description": "Recognizing when an item is misclassified into a food category.",
+    "content": "To spot a false premise in such questions, look for instances where an item is incorrectly categorized as a type of food, especially when it clearly belongs to a different category (e.g., candy being classified as a fruit).",
+    "source_problem_id": "fqa_test_494",
+    "success": true,
+    "created_at": "2026-07-02T21:23:51.803212",
+    "embedding": null
+  },
+  {
+    "title": "** Recognizing Valid Premise in Questions\n- **",
+    "description": "** Identify questions that ask for factual information or specific details about capabilities or characteristics.\n- **",
+    "content": "** To recognize that a question has a valid premise, look for inquiries that seek specific information about what entities (like warships) can do or where they can operate based on their design and legal frameworks.",
+    "source_problem_id": "fqa_test_813",
+    "success": true,
+    "created_at": "2026-07-02T21:23:56.582453",
+    "embedding": null
+  },
+  {
+    "title": "** Rainbow Color Assumption\n\n**",
+    "description": "** The false assumption here is that rainbows always consist of exactly seven specific colors.\n\n**",
+    "content": "** To detect similar false premises in the future, consider whether the statement aligns with the generally accepted scientific understanding or if it introduces additional colors beyond the standard seven. Rainbows can appear to have more colors due to variations in light dispersion and observer perspective, but the traditional seven-color model (red, orange, yellow, green, blue, indigo, and violet) remains the most accurate representation.",
+    "source_problem_id": "fqa_test_431",
+    "success": false,
+    "created_at": "2026-07-02T21:24:10.577870",
+    "embedding": null
+  },
+  {
+    "title": "Identifying Taxonomic Mismatches",
+    "description": "Recognizing when a question incorrectly categorizes organisms.",
+    "content": "To spot a false premise in questions involving biological classifications, look for mismatches between the kingdom of the organism (e.g., plant, animal) and the category being asked about (e.g., whether a plant is an animal).",
+    "source_problem_id": "fqa_valid_121",
+    "success": true,
+    "created_at": "2026-07-02T21:24:25.537101",
+    "embedding": null
+  },
+  {
+    "title": "Identifying Incompatible Concepts",
+    "description": "Recognize when a question pairs unrelated or incompatible concepts.",
+    "content": "To spot a false premise, look for questions that pair concepts from different domains (e.g., abstract vs. sensory) without logical connection.",
+    "source_problem_id": "fqa_train_950",
+    "success": true,
+    "created_at": "2026-07-02T21:24:37.198985",
+    "embedding": null
+  },
+  {
+    "title": "Recognize Factual Questions",
+    "description": "Identify questions that can be answered with established facts.",
+    "content": "To recognize that a question has a valid premise, look for inquiries about well-established facts such as anatomical structures, which can be answered definitively.",
+    "source_problem_id": "fqa_test_1357",
+    "success": true,
+    "created_at": "2026-07-02T21:24:41.787610",
+    "embedding": null
+  },
+  {
+    "title": "Identifying Anthropomorphism in Questions",
+    "description": "Recognizing when a question attributes human-like qualities or intentions to non-human entities.",
+    "content": "To spot a false premise in questions like this, look for anthropomorphism\u2014attributing human characteristics (like desires, intentions, or emotions) to non-human objects or living beings that cannot possess them. In this case, the premise falsely assumes that a flower, which is a plant, can have desires or pursue wealth, which are concepts applicable only to humans.",
+    "source_problem_id": "fqa_valid_283",
+    "success": true,
+    "created_at": "2026-07-02T21:24:47.596748",
+    "embedding": null
+  },
+  {
+    "title": "Identifying False Premises Based on Product Classification",
+    "description": "Recognizing when a question mixes unrelated product categories.",
+    "content": "To spot a false premise in such questions, look for inconsistencies in the product types mentioned. For example, if a question asks about a wine that isn't actually a wine (like Moutai being classified as a wine when it's a type of liquor), it indicates a misclassification or misunderstanding of the product.",
+    "source_problem_id": "fqa_train_449",
+    "success": true,
+    "created_at": "2026-07-02T21:24:53.718367",
+    "embedding": null
+  },
+  {
+    "title": "Recognizing Valid Premise in Medical Questions",
+    "description": "Identify questions that inquire about the possibility of curing specific diseases based on current medical knowledge.",
+    "content": "To recognize that a question has a valid premise, look for inquiries about the curability of specific diseases, especially those with known high cure rates when detected and treated early.",
+    "source_problem_id": "fqa_train_1929",
+    "success": true,
+    "created_at": "2026-07-02T21:25:09.799498",
+    "embedding": null
+  },
+  {
+    "title": "Why I Incorrectly Refused",
+    "description": "Recognizing the validity in questions about animal preferences.",
+    "content": "To recognize that a question about an animal's preference can have a valid premise, consider whether the animal in question has distinct dietary choices or preferences based on its natural behavior and biology. In this case, while the premise of the question is framed around a comparison that doesn't naturally exist (meat vs. grass for a cow), understanding that cows are herbivores and prefer grass is correct and relevant.",
+    "source_problem_id": "fqa_test_1005",
+    "success": false,
+    "created_at": "2026-07-02T21:25:16.242317",
+    "embedding": null
+  },
+  {
+    "title": "Identification of Biological Anomalies",
+    "description": "Recognizing mismatched biological characteristics.",
+    "content": "To spot a false premise in such questions, consider whether the described biological feature aligns with known characteristics of the organism mentioned. For example, knowing that carps are fish and do not have the anatomical or physiological capabilities of cephalopods can help identify when a question presents an incorrect association.",
+    "source_problem_id": "fqa_test_489",
+    "success": true,
+    "created_at": "2026-07-02T21:25:24.684153",
+    "embedding": null
+  },
+  {
+    "title": "Why the Question Was Misunderstood",
+    "description": "Recognizing that the question about hyena hearing had a valid premise.",
+    "content": "It is crucial to recognize when a question contains a valid premise and address the core inquiry rather than focusing on incorrect or irrelevant details. In this case, the question about hyena hearing ability should be answered based on the functionality of their ears, rather than correcting an anatomical misunderstanding.",
+    "source_problem_id": "fqa_train_2151",
+    "success": false,
+    "created_at": "2026-07-02T21:25:30.392079",
+    "embedding": null
+  },
+  {
+    "title": "Recognizing Valid Premise in Animal Behavior Questions",
+    "description": "Identify questions about animal behavior that are grounded in observable and scientifically understood actions.",
+    "content": "To determine if a question about animal behavior has a valid premise, consider whether the action described (e.g., a tiger roaring) is a well-documented and scientifically recognized behavior with clear implications.",
+    "source_problem_id": "fqa_train_1501",
+    "success": true,
+    "created_at": "2026-07-02T21:25:39.842058",
+    "embedding": null
+  },
+  {
+    "title": "Time Period Mismatch",
+    "description": "Identifying anachronisms.",
+    "content": "Recognize when a question assumes the existence or non-existence of something based on a specific time period that is historically inaccurate.",
+    "source_problem_id": "fqa_train_78",
+    "success": true,
+    "created_at": "2026-07-02T21:25:58.647367",
+    "embedding": null
+  },
+  {
+    "title": "Recognizing Variable Frequency in Professional Roles",
+    "description": "Identify that the frequency of flying can vary based on job role and organizational context.",
+    "content": "When answering questions about professional activities like flying, consider the variability based on job roles and organizational differences.",
+    "source_problem_id": "fqa_train_2304",
+    "success": true,
+    "created_at": "2026-07-02T21:26:07.211126",
+    "embedding": null
+  },
+  {
+    "title": "Recognizing Valid Premises in Zoology Questions",
+    "description": "Understanding the context and biological classification is key.",
+    "content": "To recognize that a question about studying tetrapods has a valid premise, one must understand that tetrapods include mammals, which encompass cats. Thus, a zoologist studying tetrapods could indeed choose a cat as an example or subject for their research.",
+    "source_problem_id": "fqa_test_778",
+    "success": false,
+    "created_at": "2026-07-02T21:26:16.842273",
+    "embedding": null
+  },
+  {
+    "title": "Identifying Mismatched Categories",
+    "description": "Recognizing when an item is incorrectly placed in a category that contradicts its known classification.",
+    "content": "To spot a false premise in such questions, look for instances where an item is described as belonging to a category that is fundamentally different from what it actually is (e.g., describing a hyacinth macaw as a plant when it is actually a bird). This mismatch often indicates a false premise.",
+    "source_problem_id": "fqa_valid_276",
+    "success": true,
+    "created_at": "2026-07-02T21:26:24.317998",
+    "embedding": null
+  },
+  {
+    "title": "Identifying Inappropriate Content Preferences",
+    "description": "The use of the term \"horrible\" to describe movies.",
+    "content": "To recognize similar false premise questions, look for terms that inaccurately characterize content preferences, especially when referring to age groups like children. Generally, content labeled as \"horrible\" or \"scary\" is not what children typically enjoy.",
+    "source_problem_id": "fqa_test_399",
+    "success": true,
+    "created_at": "2026-07-02T21:26:30.604526",
+    "embedding": null
+  },
+  {
+    "title": "Identifying Living Organism-Related Concepts",
+    "description": "Recognizing when a question attributes characteristics or behaviors specific to living organisms to non-living entities.",
+    "content": "To spot a false premise in questions like this, look for attributions of biological or psychological traits (like addiction) to non-living objects (like rocks).",
+    "source_problem_id": "fqa_test_236",
+    "success": true,
+    "created_at": "2026-07-02T21:26:35.439904",
+    "embedding": null
+  },
+  {
+    "title": "Identifying Biological Classification Errors",
+    "description": "Recognizing mismatched biological classifications.",
+    "content": "To spot a false premise in such questions, always check if the classification of organisms (e.g., animals vs. plants) aligns with known biological facts.",
+    "source_problem_id": "fqa_train_167",
+    "success": true,
+    "created_at": "2026-07-02T21:26:43.805177",
+    "embedding": null
+  },
+  {
+    "title": "Identifying False Premises in Questions",
+    "description": "Recognizing natural biological facts.",
+    "content": "To spot a false premise, consider whether the information provided aligns with known scientific facts. In this case, knowing that clover flowers are not naturally black helps identify the false premise.",
+    "source_problem_id": "fqa_train_1134",
+    "success": true,
+    "created_at": "2026-07-02T21:26:48.206618",
+    "embedding": null
+  },
+  {
+    "title": "Why You Incorrectly Refused",
+    "description": "Recognizing the Valid Premise",
+    "content": "To recognize that this type of question has a valid premise, ensure that the basic facts and classifications mentioned are accurate before addressing any potential errors or additional information. In this case, both \"Ctenophora\" and \"tenophora\" refer to specific groups of marine animals, so the premise about them living in the ocean is correct.",
+    "source_problem_id": "fqa_train_2250",
+    "success": false,
+    "created_at": "2026-07-02T21:27:00.506129",
+    "embedding": null
+  },
+  {
+    "title": "Identifying Biological Attributes in Non-Living Objects",
+    "description": "Recognizing when a question attributes biological characteristics to non-living entities.",
+    "content": "To spot a false premise in questions, identify if the query attributes biological or living characteristics (like having eyes) to non-living objects (such as earphones).",
+    "source_problem_id": "fqa_train_1162",
+    "success": true,
+    "created_at": "2026-07-02T21:27:19.452021",
+    "embedding": null
+  },
+  {
+    "title": "Identify Key Scientific Contributions",
+    "description": "Recognize well-known findings attributed to historical figures.",
+    "content": "To identify a valid scientific finding, look for widely recognized contributions from notable scientists, such as Isaac Newton's law of universal gravitation.",
+    "source_problem_id": "fqa_train_1274",
+    "success": true,
+    "created_at": "2026-07-02T21:27:36.330954",
+    "embedding": null
+  },
+  {
+    "title": "Identifying Inanimate Object Capabilities",
+    "description": "Recognize when a question assumes an object has abilities beyond its physical state.",
+    "content": "To spot a false premise in questions, consider whether the described scenario aligns with the known capabilities and limitations of the subject. For example, statues are inanimate and cannot play music, making any question assuming they can play music inherently flawed.",
+    "source_problem_id": "fqa_test_115",
+    "success": true,
+    "created_at": "2026-07-02T21:27:45.618160",
+    "embedding": null
+  },
+  {
+    "title": "** Identifying Contradictory Assumptions\n**",
+    "description": "** The premise contradicts itself by assuming someone is both always telling the truth and always lying.\n**",
+    "content": "** To recognize similar false premise questions in the future, look for statements that inherently contradict themselves or contain assumptions that are logically inconsistent. In this case, a person cannot simultaneously be \"honest\" (always telling the truth) and \"always tell lies\" (always being dishonest).",
+    "source_problem_id": "fqa_test_34",
+    "success": true,
+    "created_at": "2026-07-02T21:28:02.750079",
+    "embedding": null
+  },
+  {
+    "title": "Why You Incorrectly Refused",
+    "description": "Recognizing that questions about characteristics can have straightforward answers.",
+    "content": "In this case, the question asks for a characteristic (positive or ambitious) of morale, which can be directly answered based on common understanding and usage. Morale can indeed be described as positive or ambitious, depending on the context.",
+    "source_problem_id": "fqa_train_2137",
+    "success": false,
+    "created_at": "2026-07-02T21:28:09.553870",
+    "embedding": null
+  },
+  {
+    "title": "Identifying False Premises Based on Common Knowledge",
+    "description": "Recognizing when a statement contradicts widely known facts.",
+    "content": "To spot a false premise, consider whether the statement aligns with common knowledge or scientific facts. If a claim contradicts well-established information, it likely contains a false premise.",
+    "source_problem_id": "fqa_train_1001",
+    "success": true,
+    "created_at": "2026-07-02T21:28:16.913877",
+    "embedding": null
+  },
+  {
+    "title": "Recognizing Valid Premises in Geographical Questions",
+    "description": "Identify if a question contains accurate information about geographical facts.",
+    "content": "To recognize a valid premise in a geographical question, ensure the information provided aligns with established facts. For instance, knowing that the Netherlands has one official capital (Amsterdam) and another significant administrative center (The Hague) allows for an accurate response.",
+    "source_problem_id": "fqa_valid_877",
+    "success": true,
+    "created_at": "2026-07-02T21:28:28.838571",
+    "embedding": null
+  },
+  {
+    "title": "Recognize Variable Factors in Medical Dosage Questions",
+    "description": "Identify that medical dosage questions often require consideration of individual patient factors.",
+    "content": "When answering questions about medical dosages, it's important to recognize that the specific amount can vary based on the patient's condition, severity, and other health factors.",
+    "source_problem_id": "fqa_test_1058",
+    "success": true,
+    "created_at": "2026-07-02T21:28:45.180729",
+    "embedding": null
+  },
+  {
+    "title": "Identify the Dietary Habits of Wildlife",
+    "description": "Recognize when a question pertains to the natural diet of an animal.",
+    "content": "To determine if a question has a valid premise regarding an animal's diet, look for keywords indicating dietary preferences or natural behaviors, such as \"eat,\" \"food,\" \"diet,\" or specific examples of food items.",
+    "source_problem_id": "fqa_test_1198",
+    "success": true,
+    "created_at": "2026-07-02T21:28:48.905907",
+    "embedding": null
+  },
+  {
+    "title": "Identifying Contradictory Assumptions",
+    "description": "The premise assumed that drawbacks inherently make people better.",
+    "content": "To recognize similar false premise questions, look for assumptions that present a binary or absolute relationship (e.g., \"X always leads to Y\") without considering the complexity or context. In this case, the question assumed that drawbacks universally result in positive outcomes, which is not a valid generalization.",
+    "source_problem_id": "fqa_train_983",
+    "success": true,
+    "created_at": "2026-07-02T21:29:02.661995",
+    "embedding": null
+  },
+  {
+    "title": "Auditory Organs Identification",
+    "description": "Recognizing the function of different body parts.",
+    "content": "To recognize similar false premise questions, identify whether the question attributes a function to a body part that is biologically incapable of performing that function. For example, since the mouth is for speaking and eating, not hearing, any question suggesting it has auditory capabilities can be identified as having a false premise.",
+    "source_problem_id": "fqa_test_304",
+    "success": true,
+    "created_at": "2026-07-02T21:29:07.885613",
+    "embedding": null
+  },
+  {
+    "title": "Identifying Essential Components for a Solenoid",
+    "description": "Recognizing the key components needed for constructing a solenoid.",
+    "content": "To ensure a comprehensive answer, identify and list the essential materials required for creating a functional solenoid, such as wire and core material.",
+    "source_problem_id": "fqa_test_766",
+    "success": true,
+    "created_at": "2026-07-02T21:29:15.304350",
+    "embedding": null
+  },
+  {
+    "title": "Recognizing Valid Premise Questions",
+    "description": "Identify questions that have factual answers based on common knowledge.",
+    "content": "To recognize that a question has a valid premise, look for inquiries about well-established facts that can be answered with specific, verifiable information, such as the number of nipples a cow has.",
+    "source_problem_id": "fqa_train_1611",
+    "success": true,
+    "created_at": "2026-07-02T21:29:28.933443",
+    "embedding": null
+  },
+  {
+    "title": "Why You Incorrectly Refused",
+    "description": "Recognizing a valid premise in a question.",
+    "content": "To recognize that a question has a valid premise, ensure that the basic assumptions within the question are factually correct before addressing any potential issues with the scenario presented. In this case, the premise that water at 20 degrees Celsius exists and can be used for hand washing is valid.",
+    "source_problem_id": "fqa_train_2261",
+    "success": false,
+    "created_at": "2026-07-02T21:29:36.124266",
+    "embedding": null
+  },
+  {
+    "title": "Recognizing the Validity of Premises in Questions",
+    "description": "To identify if a question contains a valid premise, look for statements that present mutually exclusive options without considering other possibilities.",
+    "content": "In the given question, the premise presented two exclusive options (wool or leather) without acknowledging the existence of other materials, which is why it was important to include additional information about alternative materials like cotton and knit fabrics.",
+    "source_problem_id": "fqa_train_1860",
+    "success": true,
+    "created_at": "2026-07-02T21:29:44.275268",
+    "embedding": null
+  },
+  {
+    "title": "Identifying False Premises Based on Scientific Knowledge",
+    "description": "Recognizing when a statement contradicts established scientific facts.",
+    "content": "To spot a false premise, check if the information provided aligns with known scientific facts and common knowledge. In this case, the premise that leather is made from trees contradicts the well-established fact that leather comes from animal hides.",
+    "source_problem_id": "fqa_test_25",
+    "success": true,
+    "created_at": "2026-07-02T21:29:50.048483",
+    "embedding": null
+  },
+  {
+    "title": "Recognizing a Valid Premise",
+    "description": "Identify when a question asks for an additional example beyond a given category.",
+    "content": "To recognize that a question has a valid premise, look for requests to provide an example outside of the initially mentioned category, such as \"Name a wine, in addition to champagne.\"",
+    "source_problem_id": "fqa_test_1281",
+    "success": true,
+    "created_at": "2026-07-02T21:29:53.743905",
+    "embedding": null
+  },
+  {
+    "title": "Identify Key Adaptations for Flight",
+    "description": "Recognize questions about biological functions often require highlighting specific anatomical or physiological features.",
+    "content": "When answering why an organism has a particular ability, focus on key anatomical or physiological adaptations that enable that function.",
+    "source_problem_id": "fqa_test_912",
+    "success": true,
+    "created_at": "2026-07-02T21:30:02.891625",
+    "embedding": null
+  },
+  {
+    "title": "Recognizing the Validity of a Premise",
+    "description": "To identify if a question has a valid premise, consider whether the stated condition (in this case, whether sodium chloride can combust) aligns with known scientific facts.",
+    "content": "When evaluating a question about the properties of substances, it's important to draw on established scientific knowledge. For instance, knowing that sodium chloride is composed of ionic bonds rather than covalent bonds helps confirm that it does not have the necessary structure to undergo combustion.",
+    "source_problem_id": "fqa_train_1594",
+    "success": true,
+    "created_at": "2026-07-02T21:30:12.486266",
+    "embedding": null
+  },
+  {
+    "title": "Identifying Mismatched Categories",
+    "description": "Recognizing when a question incorrectly pairs unrelated or mismatched categories.",
+    "content": "To spot a false premise in a question, look for instances where the categories or concepts mentioned do not logically relate to each other. For example, cars and agricultural products are from different industries and serve different purposes, making them mismatched in this context.",
+    "source_problem_id": "fqa_train_71",
+    "success": true,
+    "created_at": "2026-07-02T21:30:32.306538",
+    "embedding": null
+  },
+  {
+    "title": "Identify Valid Premise Questions",
+    "description": "Recognize questions that ask for factual information or examples.",
+    "content": "To recognize that a question has a valid premise, look for requests for specific examples, definitions, or straightforward facts, as these can be directly answered with accurate information.",
+    "source_problem_id": "fqa_test_1169",
+    "success": true,
+    "created_at": "2026-07-02T21:30:36.219860",
+    "embedding": null
+  },
+  {
+    "title": "Identifying Inherent Movement Requirements in Sports",
+    "description": "Recognizing that virtually all sports inherently involve some form of movement, typically using hands and/or feet.",
+    "content": "To spot a false premise in such questions, consider whether the statement aligns with the fundamental nature of sports, which generally require physical movement. If a premise suggests a sport that completely excludes hand or foot movements, it likely contains a false assumption.",
+    "source_problem_id": "fqa_train_371",
+    "success": true,
+    "created_at": "2026-07-02T21:30:44.935512",
+    "embedding": null
+  },
+  {
+    "title": "Identifying Unreliable Comparisons",
+    "description": "Recognizing when a question makes an unreliable comparison between objects that operate under fundamentally different principles.",
+    "content": "To spot a false premise in such questions, look for comparisons between entities that operate under vastly different physical laws or contexts (e.g., meteors burning up in the atmosphere vs. flying objects maintaining stable orbits).",
+    "source_problem_id": "fqa_train_1064",
+    "success": true,
+    "created_at": "2026-07-02T21:30:52.434620",
+    "embedding": null
+  },
+  {
+    "title": "Identifying Absent Consciousness in Premises",
+    "description": "Recognizing the absence of consciousness or cognitive ability.",
+    "content": "To spot a false premise, look for claims involving entities that lack consciousness or cognitive abilities, such as non-living things or abstract concepts like water, which are described as having human-like qualities like intelligence.",
+    "source_problem_id": "fqa_valid_166",
+    "success": true,
+    "created_at": "2026-07-02T21:30:57.693798",
+    "embedding": null
+  },
+  {
+    "title": "Identifying Uncommon Examples",
+    "description": "Recognize when a question presents common items as uncommon financial assets.",
+    "content": "To spot a false premise in such questions, consider whether the items mentioned are typically associated with the concept being asked about. For example, rocks and glass are not commonly recognized as forms of commodity money.",
+    "source_problem_id": "fqa_train_619",
+    "success": true,
+    "created_at": "2026-07-02T21:31:03.143290",
+    "embedding": null
+  },
+  {
+    "title": "Identifying False Premises Through Anatomical Knowledge",
+    "description": "Recognize when a question contains an anatomical or biological impossibility.",
+    "content": "To spot a false premise, look for statements that contradict established biological facts, such as human anatomy. If a question includes elements that are biologically impossible for humans (like wings), it likely contains a false premise.",
+    "source_problem_id": "fqa_test_432",
+    "success": true,
+    "created_at": "2026-07-02T21:31:09.200031",
+    "embedding": null
+  },
+  {
+    "title": "Recognizing Valid Premises in Chemical Questions",
+    "description": "Identify that a question about chemical reactions, like combustion, has a valid premise if it involves basic principles such as the interaction between a fuel and an oxidizer.",
+    "content": "To recognize that a question has a valid premise, ensure it aligns with fundamental chemical principles, such as the necessity of both a fuel and an oxidizer for combustion to occur.",
+    "source_problem_id": "fqa_test_1246",
+    "success": true,
+    "created_at": "2026-07-02T21:31:13.787822",
+    "embedding": null
+  },
+  {
+    "title": "Recognizing Valid Premise Through Color Association",
+    "description": "Identify if the question involves distinct physical properties that can be directly compared.",
+    "content": "To recognize that a question has a valid premise, look for clear, observable differences such as color, which can be directly compared between two objects like a blackboard and a whiteboard.",
+    "source_problem_id": "fqa_train_2106",
+    "success": true,
+    "created_at": "2026-07-02T21:31:17.446366",
+    "embedding": null
+  },
+  {
+    "title": "Identifying Valid Scientific Premises",
+    "description": "Recognize that questions based on established scientific knowledge have valid premises.",
+    "content": "To determine if a question has a valid premise, look for well-established scientific facts or widely accepted theories, such as the link between smoking and lung cancer.",
+    "source_problem_id": "fqa_train_1231",
+    "success": true,
+    "created_at": "2026-07-02T21:31:26.615412",
+    "embedding": null
+  },
+  {
+    "title": "Historical Context of Telescopes",
+    "description": "Recognizing the historical timeline of inventions.",
+    "content": "To spot a false premise related to historical inventions, check the timeline of when the invention or discovery occurred. For example, knowing that telescopes capable of astronomical observations were developed in the early 17th century helps identify questions with incorrect timelines, such as using telescopes in the 16th century.",
+    "source_problem_id": "fqa_train_294",
+    "success": true,
+    "created_at": "2026-07-02T21:31:31.265001",
+    "embedding": null
+  },
+  {
+    "title": "Identifying Universal Generalizations",
+    "description": "Recognizing universal generalizations that apply \"all\" or \"none\" to an entire group.",
+    "content": "To spot a false premise in a question, look for statements that make universal claims about an entire group of people, as these often oversimplify complex realities and contain logical fallacies.",
+    "source_problem_id": "fqa_valid_171",
+    "success": true,
+    "created_at": "2026-07-02T21:31:36.802863",
+    "embedding": null
+  },
+  {
+    "title": "Identifying Unusual Role Expectations",
+    "description": "Recognizing roles that deviate from typical job descriptions.",
+    "content": "To spot a false premise, consider whether the described scenario aligns with common expectations for the roles involved. For example, ballet dancers are generally expected to perform dance routines rather than playing musical instruments, so a request to explain why a ballet dancer plays the piano highlights an unusual and likely fabricated scenario.",
+    "source_problem_id": "fqa_train_425",
+    "success": true,
+    "created_at": "2026-07-02T21:31:41.597984",
+    "embedding": null
+  },
+  {
+    "title": "Why I Incorrectly Refused",
+    "description": "Recognizing the validity of questions about natural transformations.",
+    "content": "It's important to recognize when a question asks about a natural transformation or process, rather than a conceptual one. In this case, the question \"How can wood become a table?\" is asking about a physical transformation, which is valid and can be explained.",
+    "source_problem_id": "fqa_test_786",
+    "success": false,
+    "created_at": "2026-07-02T21:31:49.726143",
+    "embedding": null
+  },
+  {
+    "title": "Recognizing Valid Premises in Classification Questions",
+    "description": "Understanding that questions about classification (like identifying vegetables or fruits) require accurate biological knowledge.",
+    "content": "To recognize that questions about classification, such as identifying vegetables or fruits, require a solid understanding of biological definitions and categories. In this case, both apples and sheep belong to different biological categories, with apples being fruits and sheep being animals.",
+    "source_problem_id": "fqa_valid_562",
+    "success": false,
+    "created_at": "2026-07-02T21:32:13.103489",
+    "embedding": null
+  },
+  {
+    "title": "Recognize Valid Premise in Questions",
+    "description": "Identify questions that have a scientifically accurate or logically sound premise.",
+    "content": "To recognize that a question has a valid premise, ensure it aligns with established scientific principles or logical reasoning. For example, the premise that ice can become liquid through heating is valid because it adheres to the well-understood process of melting.",
+    "source_problem_id": "fqa_test_806",
+    "success": true,
+    "created_at": "2026-07-02T21:32:16.312321",
+    "embedding": null
+  },
+  {
+    "title": "The Invention of Cinema Misconception",
+    "description": "The false assumption that \"The Arrival of the Train\" in 1895 marked the invention of cinema overlooks earlier developments in visual projection and moving images.",
+    "content": "To detect similar false premises in the future, consider the broader historical context and look for earlier technological advancements or precursors that may have contributed to the development of a technology or concept. For instance, while the Lumi\u00e8re brothers' Cin\u00e9matographe in 1895 was a significant milestone, earlier inventions like the zoetrope (1868) and the phenakistoscope (1832) also played crucial roles in the evolution of motion picture technology. Always verify the timeline and the sequence of events to ensure accuracy.",
+    "source_problem_id": "fqa_train_639",
+    "success": false,
+    "created_at": "2026-07-02T21:32:19.031064",
+    "embedding": null
+  },
+  {
+    "title": "Why I Incorrectly Refused",
+    "description": "Recognizing the validity of the question's premise.",
+    "content": "To recognize that the question has a valid premise, one must understand that while ungulates typically live on land, there are exceptions such as certain species of mole rats or other subterranean mammals that could be mistakenly categorized with ungulates due to their habitat.",
+    "source_problem_id": "fqa_test_1263",
+    "success": false,
+    "created_at": "2026-07-02T21:32:22.906702",
+    "embedding": null
+  },
+  {
+    "title": "Why the initial response was incorrect",
+    "description": "Recognizing that the question about silk's material was valid and should have been answered directly.",
+    "content": "To recognize that this type of question has a valid premise, one must ensure the question aligns with seeking factual information about the nature of the subject, in this case, the material composition of silk.",
+    "source_problem_id": "fqa_test_1252",
+    "success": false,
+    "created_at": "2026-07-02T21:32:32.576746",
+    "embedding": null
+  },
+  {
+    "title": "Recognizing Valid Premises in Questions",
+    "description": "Identify questions that ask for factual information or practical examples.",
+    "content": "To recognize that a question has a valid premise, look for requests for specific examples, definitions, or factual information that can be directly addressed with available knowledge or data.",
+    "source_problem_id": "fqa_train_2121",
+    "success": true,
+    "created_at": "2026-07-02T21:32:41.320076",
+    "embedding": null
+  },
+  {
+    "title": "Recognize Variability in Regulations",
+    "description": "Identify that regulations can vary by location.",
+    "content": "To answer questions about legal requirements like driver's licenses, it's important to recognize that these can vary significantly by country and sometimes within countries, such as states or provinces. Always check the specific regulations applicable to the area in question.",
+    "source_problem_id": "fqa_test_1170",
+    "success": true,
+    "created_at": "2026-07-02T21:32:45.744297",
+    "embedding": null
+  },
+  {
+    "title": "Identifying Unusual or Unnatural Behaviors",
+    "description": "The presence of an unusual or unnatural behavior in a question.",
+    "content": "To recognize similar false premise questions in the future, look for statements that describe animals or organisms performing actions that are outside their typical behaviors or habitats.",
+    "source_problem_id": "fqa_train_52",
+    "success": true,
+    "created_at": "2026-07-02T21:32:50.938504",
+    "embedding": null
+  },
+  {
+    "title": "Identify Anachronistic Concepts",
+    "description": "Recognize concepts or technologies that did not exist during the time period mentioned.",
+    "content": "To spot a false premise, look for questions that mention a concept or technology that was developed after the time period or context specified in the question. For example, if a question refers to something related to modern science or technology in an historical context, it likely contains a false premise.",
+    "source_problem_id": "fqa_test_317",
+    "success": true,
+    "created_at": "2026-07-02T21:32:57.093990",
+    "embedding": null
   }
 ]

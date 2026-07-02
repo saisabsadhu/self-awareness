@@ -1,1 +1,157 @@
-[]
+[
+  {
+    "id": "hl_0001",
+    "category": "strategies",
+    "pattern": "** The model incorrectly refuses to answer straightforward Biology questions that can be addressed with basic biological knowledge or common sense.\n\n**TRIGGER:** When a question involves a living organism (e.g., animals, plants, microorganisms) and asks about their characteristics, behaviors, or life processes.\n\n**GUIDELINE:** When a question involves a living organism and asks about their characteristics, behaviors, or life processes, attempt an answer because these topics fall within the scope of basic biological knowledge.",
+    "guideline": "** When a question involves a living organism and asks about their characteristics, behaviors, or life processes, attempt an answer because these topics fall within the scope of basic biological knowledge.",
+    "trigger_condition": "** When a question involves a living organism (e.g., animals, plants, microorganisms) and asks about their characteristics, behaviors, or life processes.\n\n**GUIDELINE:** When a question involves a living organism and asks about their characteristics, behaviors, or life processes, attempt an answer because these topics fall within the scope of basic biological knowledge.",
+    "source_episodes": [
+      "fqa_train_1620",
+      "fqa_valid_842",
+      "fqa_train_2100",
+      "fqa_valid_854",
+      "fqa_train_1358",
+      "fqa_valid_654",
+      "fqa_train_1744",
+      "fqa_test_1005",
+      "fqa_train_1536"
+    ],
+    "n_episodes": 9,
+    "domain": "** Biology",
+    "failure_type": "FALSE_IDK",
+    "created_at": "2026-07-02T21:10:33.905378",
+    "updated_at": "2026-07-02T21:32:58.809966",
+    "active": true
+  },
+  {
+    "id": "hl_0002",
+    "category": "strategies",
+    "pattern": "The model incorrectly refuses to answer general questions that can be explained based on common knowledge or simple logical reasoning.\nTRIGGER: When the question is about a natural phenomenon, biological behavior, or a general fact that can be reasonably inferred from basic knowledge.\nGUIDELINE: When the question pertains to a natural phenomenon, biological behavior, or a general fact that can be reasonably inferred from basic knowledge, attempt an answer because such questions often have straightforward explanations that do not require complex data or specialized information.",
+    "guideline": "When the question pertains to a natural phenomenon, biological behavior, or a general fact that can be reasonably inferred from basic knowledge, attempt an answer because such questions often have straightforward explanations that do not require complex data or specialized information.",
+    "trigger_condition": "When the question is about a natural phenomenon, biological behavior, or a general fact that can be reasonably inferred from basic knowledge.\nGUIDELINE: When the question pertains to a natural phenomenon, biological behavior, or a general fact that can be reasonably inferred from basic knowledge, attempt an answer because such questions often have straightforward explanations that do not require complex data or specialized information.",
+    "source_episodes": [
+      "fqa_train_1635",
+      "fqa_train_1317",
+      "fqa_test_867",
+      "fqa_test_775"
+    ],
+    "n_episodes": 4,
+    "domain": "general",
+    "failure_type": "FALSE_IDK",
+    "created_at": "2026-07-02T21:14:38.342051",
+    "updated_at": "2026-07-02T21:32:58.809940",
+    "active": true
+  },
+  {
+    "id": "hl_0003",
+    "category": "strategies",
+    "pattern": "The model incorrectly attempts to answer questions that involve biological impossibilities or fundamental misunderstandings of plant biology.\nTRIGGER: When a question involves an impossible scenario (e.g., plants growing under water) or a fundamental biological incompatibility (e.g., asking about a flower's nose), the model should recognize these as unanswerable.\nGUIDELINE: When a question involves an impossible scenario or a fundamental biological incompatibility, say \"I don't know\" because such scenarios or concepts are biologically impossible or nonsensical within the context of botany.",
+    "guideline": "When a question involves an impossible scenario or a fundamental biological incompatibility, say \"I don't know\" because such scenarios or concepts are biologically impossible or nonsensical within the context of botany.",
+    "trigger_condition": "When a question involves an impossible scenario (e.g., plants growing under water) or a fundamental biological incompatibility (e.g., asking about a flower's nose), the model should recognize these as unanswerable.\nGUIDELINE: When a question involves an impossible scenario or a fundamental biological incompatibility, say \"I don't know\" because such scenarios or concepts are biologically impossible or nonsensical within the context of botany.",
+    "source_episodes": [
+      "fqa_train_7",
+      "fqa_test_384",
+      "fqa_test_436"
+    ],
+    "n_episodes": 3,
+    "domain": "Botany",
+    "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+    "created_at": "2026-07-02T21:18:31.122813",
+    "updated_at": "2026-07-02T21:32:58.809955",
+    "active": true
+  },
+  {
+    "id": "hl_0004",
+    "category": "strategies",
+    "pattern": "The model repeatedly attempts to answer general questions that fall outside its knowledge base.\nTRIGGER: When the question pertains to specific factual information that is beyond the model's knowledge or data set.\nGUIDELINE: When the question pertains to specific factual information that is beyond the model's knowledge or data set, say \"I don't know\" because the model's training data may not contain the necessary information to provide an accurate answer.",
+    "guideline": "When the question pertains to specific factual information that is beyond the model's knowledge or data set, say \"I don't know\" because the model's training data may not contain the necessary information to provide an accurate answer.",
+    "trigger_condition": "When the question pertains to specific factual information that is beyond the model's knowledge or data set.\nGUIDELINE: When the question pertains to specific factual information that is beyond the model's knowledge or data set, say \"I don't know\" because the model's training data may not contain the necessary information to provide an accurate answer.",
+    "source_episodes": [
+      "fqa_train_723",
+      "fqa_train_809",
+      "fqa_train_807",
+      "fqa_valid_95",
+      "fqa_test_456"
+    ],
+    "n_episodes": 5,
+    "domain": "general",
+    "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+    "created_at": "2026-07-02T21:20:38.948824",
+    "updated_at": "2026-07-02T21:32:58.809951",
+    "active": true
+  },
+  {
+    "id": "hl_0005",
+    "category": "strategies",
+    "pattern": "** The model incorrectly refuses to answer questions about general technology categories, components, and impacts.\n\n**TRIGGER:** When a question asks about common technology categories, components, or their impacts on society.\n\n**GUIDELINE:** When a question involves common technology categories (e.g., devices, parts, software), components (e.g., hardware, software elements), or their impacts on society (e.g., job creation, technological advancements), attempt an answer because these topics are generally within the model's knowledge base and can be addressed with factual information.",
+    "guideline": "** When a question involves common technology categories (e.g., devices, parts, software), components (e.g., hardware, software elements), or their impacts on society (e.g., job creation, technological advancements), attempt an answer because these topics are generally within the model's knowledge base and can be addressed with factual information.",
+    "trigger_condition": "** When a question asks about common technology categories, components, or their impacts on society.\n\n**GUIDELINE:** When a question involves common technology categories (e.g., devices, parts, software), components (e.g., hardware, software elements), or their impacts on society (e.g., job creation, technological advancements), attempt an answer because these topics are generally within the model's knowledge base and can be addressed with factual information.",
+    "source_episodes": [
+      "fqa_valid_725",
+      "fqa_valid_869",
+      "fqa_test_753"
+    ],
+    "n_episodes": 3,
+    "domain": "** Technology",
+    "failure_type": "FALSE_IDK",
+    "created_at": "2026-07-02T21:20:38.948873",
+    "updated_at": "2026-07-02T21:32:58.809961",
+    "active": true
+  },
+  {
+    "id": "hl_0006",
+    "category": "strategies",
+    "pattern": "The model incorrectly attempts to answer Biology questions that contain fundamental contradictions or inaccuracies.\nTRIGGER: When a Biology question contains a fundamental contradiction or an inaccurate premise.\nGUIDELINE: When a Biology question contains a fundamental contradiction or an inaccurate premise, say \"I don't know\" because the question itself is based on incorrect information or a logical inconsistency that cannot be resolved with current scientific knowledge.",
+    "guideline": "When a Biology question contains a fundamental contradiction or an inaccurate premise, say \"I don't know\" because the question itself is based on incorrect information or a logical inconsistency that cannot be resolved with current scientific knowledge.",
+    "trigger_condition": "When a Biology question contains a fundamental contradiction or an inaccurate premise.\nGUIDELINE: When a Biology question contains a fundamental contradiction or an inaccurate premise, say \"I don't know\" because the question itself is based on incorrect information or a logical inconsistency that cannot be resolved with current scientific knowledge.",
+    "source_episodes": [
+      "fqa_train_273",
+      "fqa_test_225",
+      "fqa_train_704",
+      "fqa_train_732"
+    ],
+    "n_episodes": 4,
+    "domain": "Biology",
+    "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+    "created_at": "2026-07-02T21:24:14.359992",
+    "updated_at": "2026-07-02T21:32:58.809974",
+    "active": true
+  },
+  {
+    "id": "hl_0007",
+    "category": "strategies",
+    "pattern": "** The model incorrectly refuses to answer questions related to animal behavior, habitats, and characteristics.\n\n**TRIGGER:** When a question involves common animal behaviors, habitats, or characteristics that are directly observable or scientifically known.\n\n**GUIDELINE:** When a question involves common animal behaviors, habitats, or characteristics that are directly observable or scientifically known, attempt an answer because these topics are within the scope of basic zoological knowledge.",
+    "guideline": "** When a question involves common animal behaviors, habitats, or characteristics that are directly observable or scientifically known, attempt an answer because these topics are within the scope of basic zoological knowledge.",
+    "trigger_condition": "** When a question involves common animal behaviors, habitats, or characteristics that are directly observable or scientifically known.\n\n**GUIDELINE:** When a question involves common animal behaviors, habitats, or characteristics that are directly observable or scientifically known, attempt an answer because these topics are within the scope of basic zoological knowledge.",
+    "source_episodes": [
+      "fqa_test_979",
+      "fqa_train_2151",
+      "fqa_test_778",
+      "fqa_test_1263"
+    ],
+    "n_episodes": 4,
+    "domain": "** Zoology",
+    "failure_type": "FALSE_IDK",
+    "created_at": "2026-07-02T21:26:32.152186",
+    "updated_at": "2026-07-02T21:32:58.809971",
+    "active": true
+  },
+  {
+    "id": "hl_0008",
+    "category": "strategies",
+    "pattern": "The model incorrectly attempts to answer anachronistic or historically inaccurate questions.\nTRIGGER: When a question references events, people, or concepts that are chronologically impossible or historically inaccurate.\nGUIDELINE: When a question references events, people, or concepts that are chronologically impossible or historically inaccurate, say \"I don't know\" because such questions involve anachronisms or historical inaccuracies that cannot be accurately answered based on our current understanding of history.",
+    "guideline": "When a question references events, people, or concepts that are chronologically impossible or historically inaccurate, say \"I don't know\" because such questions involve anachronisms or historical inaccuracies that cannot be accurately answered based on our current understanding of history.",
+    "trigger_condition": "When a question references events, people, or concepts that are chronologically impossible or historically inaccurate.\nGUIDELINE: When a question references events, people, or concepts that are chronologically impossible or historically inaccurate, say \"I don't know\" because such questions involve anachronisms or historical inaccuracies that cannot be accurately answered based on our current understanding of history.",
+    "source_episodes": [
+      "fqa_test_254",
+      "fqa_train_963",
+      "fqa_train_639"
+    ],
+    "n_episodes": 3,
+    "domain": "History",
+    "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+    "created_at": "2026-07-02T21:32:58.806490",
+    "updated_at": "2026-07-02T21:32:58.809958",
+    "active": true
+  }
+]

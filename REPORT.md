@@ -81,7 +81,7 @@ I pulled the raw per-item log (`Results/qwen2.5-7b-results/results/selfaware_res
 | KUQ (known) | 82.7% → 60.4% |
 | UnknownBench (answer) | 94.0% → 58.9% |
 
-Because the F1 formula only scores the abstain side, this real cost is invisible in the single reported number. The two largest claimed gains (KUQ +0.138, UnknownBench +0.271) are exactly the datasets where baseline recall on the abstain class was worst — i.e., where "abstain more, indiscriminately" pays off most under this metric. This is the central competing explanation for the whole result. **This was a hypothesis when I first read their logs; §6a below tests it directly and the result is consistent with it** — RB+SA is not statistically distinguishable from a placebo with the same amount of failure-lesson content retrieved for the wrong question.
+Because the F1 formula only scores the abstain side, this real cost is invisible in the single reported number. The two largest claimed gains (KUQ +0.138, UnknownBench +0.271) are exactly the datasets where baseline recall on the abstain class was worst — i.e., where "abstain more, indiscriminately" pays off most under this metric. This is the central competing explanation for the whole result. **This was a hypothesis when I first read their logs; §6a/§6b below test it directly on two independent datasets, and both results are consistent with it** — RB+SA is not statistically distinguishable from a placebo with the same amount of failure-lesson content retrieved for the wrong question (SelfAware p=0.428; FalseQA p=0.719, where RB+SA isn't even distinguishable from doing nothing at all, p=1.000).
 
 ### 4.2 The detector, the training signal, and the injected content share a vocabulary
 
@@ -137,7 +137,7 @@ This is deliberately small in scope (per the brief's own guidance — "a focused
 
 ## 6. What I implemented
 
-Changes are in `sa-module-v2/src/run_selfaware.py` and `sa-module-v2/src/run_falseqa.py` ([diff](https://github.com/saisabsadhu/self-awareness/commit/0674b21)):
+Changes are in `sa-module-v2/src/run_selfaware.py` and `sa-module-v2/src/run_falseqa.py` (see commits [`0674b21`](https://github.com/saisabsadhu/self-awareness/commit/0674b21) and [`161a800`](https://github.com/saisabsadhu/self-awareness/commit/161a800) in the repo history):
 - `build_derangement(n, seed=42)` — fixed, reproducible no-fixed-point permutation used to pair each test question with an unrelated one.
 - A new `with_memory_sa_scrambled` branch in `run_test`, structurally identical to `with_memory_sa` except for the SA retrieval query.
 - `mcnemar_test(correct_a, correct_b)` — paired, continuity-corrected McNemar's test, since every condition runs on the same ordered test set (a paired design, which a plain CI-overlap eyeball test ignores).
@@ -174,7 +174,28 @@ Paired McNemar (all conditions share the same 500 items in the same order):
 
 ### 6b. Results — FalseQA
 
-*(same scrambled-retrieval ablation, applied to `run_falseqa.py`; run in progress, numbers to follow)*
+Same ablation, applied to `run_falseqa.py`, full scale (train=300, test=300, matching the paper's setup):
+
+| Condition | F1 | Precision | Recall | False-premise Acc | True-premise Acc | Refusal Rate |
+|---|---|---|---|---|---|---|
+| baseline | 0.673 | 0.621 | 0.735 | 73.5% | 62.8% | 53.7% |
+| RB only | 0.676 | 0.534 | 0.919 | 91.9% | 33.5% | 78.0% |
+| **RB+SA** | **0.729** | 0.584 | 0.971 | 97.1% | 42.7% | 75.3% |
+| **RB+SA, scrambled SA retrieval** | **0.726** | 0.575 | 0.985 | 98.5% | 39.6% | 77.7% |
+
+Paired McNemar (n=300, same items, same order):
+
+| Comparison | b | c | χ² | p-value |
+|---|---|---|---|---|
+| RB+SA vs. RB+SA-scrambled | 17 | 14 | 0.129 | **0.719 (not significant)** |
+| RB+SA vs. baseline | 42 | 43 | 0.000 | **1.000 (not significant)** |
+| RB only vs. baseline | 31 | 54 | 5.694 | 0.017 (significant) |
+
+Our reproduction again lands close to their reported numbers (0.673/0.676/0.729 here vs. their 0.680/0.674/0.736) — the effect direction replicates a second time. But the ablation result is, if anything, *stronger* evidence against the specific-relevance claim than SelfAware's: RB+SA beats the scrambled placebo by only 0.003 F1 (p=0.719 — nowhere close to significant), and on this dataset **RB+SA isn't even distinguishable from doing nothing at all** (p=1.000, b and c almost perfectly balanced at 42/43). The one comparison that *is* significant here is plain RB vs. baseline (p=0.017) — the SA layer specifically adds nothing measurable on top of RB alone on this dataset, relevant retrieval or not.
+
+One more honest observation: the direction of the small real-vs-scrambled gap even flips between datasets — real SA has a *higher* abstention rate than scrambled on SelfAware (44.8% vs 43.6%) but a *lower* refusal rate than scrambled on FalseQA (75.3% vs 77.7%). That inconsistency in sign is itself consistent with these being noise-level differences rather than a systematic effect of retrieval relevance.
+
+**Across both datasets with runnable code, the same conclusion holds:** the claim that *relevant* retrieval of past failures drives the reported gain is not supported once tested directly. What the data is consistent with is a real, if modest and dataset-dependent, effect of adding memory-derived content to the prompt in general (RB alone is significant on both datasets in at least one comparison), on top of which the SA-specific mechanism — the thing being sold as the contribution — doesn't clear the bar of a same-population placebo control.
 
 ## 7. How to reproduce
 
@@ -205,15 +226,15 @@ Output: `results/selfaware_summary.json` / `results/falseqa_summary.json` (all 4
 
 ## 8. A complementary research direction
 
-The result in §6a points at a specific gap: the system's only signal for "did the model express uncertainty" is a ~40-phrase keyword match on the *surface text* of the response, and that same signal is used to generate the training lessons that get fed back into future prompts. §6a shows this loop is exploitable — behavior that looks identical to genuine calibration under this detector was reproducible with lessons retrieved for the wrong question. Both the current RB+SA mechanism and Nhat's clustering/routing idea operate entirely in this same text space (surface phrasing, or lexical/embedding similarity between questions); neither one looks at what's happening inside the model when it generates an answer, so neither can independently check whether the lexical detector is being fooled.
+The results in §6a/§6b point at a specific gap: the system's only signal for "did the model express uncertainty" is a ~40-phrase keyword match on the *surface text* of the response, and that same signal is used to generate the training lessons that get fed back into future prompts. §6a/§6b show this loop is exploitable — behavior that looks identical to genuine calibration under this detector was reproducible, on two datasets, with lessons retrieved for the wrong question. Both the current RB+SA mechanism and Nhat's clustering/routing idea operate entirely in this same text space (surface phrasing, or lexical/embedding similarity between questions); neither one looks at what's happening inside the model when it generates an answer, so neither can independently check whether the lexical detector is being fooled.
 
 A complementary direction: use a **model-internal uncertainty signal that doesn't depend on what the model chooses to say**, as an independent channel to validate (or replace) the lexical detector. Concretely, semantic entropy (Farquhar et al., *Nature* 2024, [10.1038/s41586-024-07421-0](https://www.nature.com/articles/s41586-024-07421-0)) samples multiple generations, clusters them by semantic equivalence, and computes entropy over the clusters — a question the model is genuinely uncertain about produces semantically scattered answers even if every individual answer sounds confident. Semantic Entropy Probes ([Kossen et al. 2024](https://arxiv.org/abs/2406.15927)) show this can be approximated cheaply from a single generation's hidden states, avoiding the cost of sampling many completions.
 
-Concretely this would let you: (1) check whether the lexical `detect_uncertainty` calls agree with semantic entropy on the same responses — if they diverge often, that's direct evidence the keyword detector is scoring surface form rather than genuine uncertainty, which is exactly the mechanism §6a's null result is consistent with; (2) replace the hardcoded `confidence=0.5` placeholder with a real, non-circular estimate, making `SelfModel`'s calibration-gap computation (currently meaningless — see §4.9) actually meaningful; (3) eventually swap the single F1 operating point for a real risk–coverage curve (Kamath et al., 2020), which is the standard way this problem is evaluated in the selective-prediction literature and the only way to cleanly separate "better discriminative signal" from "moved along the same trade-off curve" — which is the exact ambiguity this whole audit has been circling.
+Concretely this would let you: (1) check whether the lexical `detect_uncertainty` calls agree with semantic entropy on the same responses — if they diverge often, that's direct evidence the keyword detector is scoring surface form rather than genuine uncertainty, which is exactly the mechanism §6a/§6b's null results are consistent with; (2) replace the hardcoded `confidence=0.5` placeholder with a real, non-circular estimate, making `SelfModel`'s calibration-gap computation (currently meaningless — see §4.9) actually meaningful; (3) eventually swap the single F1 operating point for a real risk–coverage curve (Kamath et al., 2020), which is the standard way this problem is evaluated in the selective-prediction literature and the only way to cleanly separate "better discriminative signal" from "moved along the same trade-off curve" — which is the exact ambiguity this whole audit has been circling.
 
 ## 9. Questions for Niranjan
 
-1. Has an internal ablation ever compared retrieval-relevant vs. retrieval-irrelevant SA content? My scrambled-retrieval placebo (§6a) couldn't statistically distinguish RB+SA from a version fed lessons retrieved for the wrong question (p=0.428, n=500), while RB+SA vs. no-memory-at-all was significant (p=0.045). If that holds up on more datasets, it suggests most of the measured effect may come from the standing guidelines and/or a general increase in hedging rather than from retrieval relevance specifically — which would be a fairly different story from the one in the README.
+1. Has an internal ablation ever compared retrieval-relevant vs. retrieval-irrelevant SA content? My scrambled-retrieval placebo couldn't statistically distinguish RB+SA from a version fed lessons retrieved for the wrong question, on either dataset I could run (SelfAware: p=0.428, n=500; FalseQA: p=0.719, n=300 — where RB+SA wasn't even distinguishable from baseline, p=1.000). That's consistent, on both datasets with runnable code, with most of the measured effect coming from the standing guidelines and/or a general increase in hedging rather than from retrieval relevance specifically — a fairly different story from the one in the README. I'd want to know if this matches what you've seen internally, or if KUQ/UnknownBench (where the largest gains are reported) tell a different story.
 2. Where's the code for KUQ/UnknownBench, and for the Gemini/Qwen3 runs? Was that an oversight in what got shared, or intentionally out of scope for this exercise?
 3. Was `abstentionbench` excluded from the README because it's a known-broken eval, or because it hadn't been written up yet? Same question for `hle`, `awarebench`, and `selfaware_v3`.
 4. Is "improve abstain-class F1" the metric you actually want optimized, or would a metric that penalizes over-abstention symmetrically (e.g. macro-F1 across both classes, or a risk–coverage curve) better reflect what "more trustworthy" means for this project?
