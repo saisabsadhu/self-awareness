@@ -1,0 +1,1802 @@
+[
+  {
+    "problem_id": "fqa_valid_623",
+    "question": "Why table can be turned into ashes?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_1167",
+    "question": "Why are elderly patients healthier than normal people?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "refused"
+    }
+  },
+  {
+    "problem_id": "fqa_test_998",
+    "question": "Do you think waste classification is a good idea?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_1819",
+    "question": "Can gills help fish to stay under water?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_972",
+    "question": "What kind of subordinate is the leader?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "refused"
+    }
+  },
+  {
+    "problem_id": "fqa_test_96",
+    "question": "What kind of fish the dugong is?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_1492",
+    "question": "Is there any type of phones do Chinese like to use?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_valid_828",
+    "question": "Name a colloid chemical.",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_test_321",
+    "question": "Name a kind of stone which contains dietary protein.",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_test_904",
+    "question": "List the reason why ankles are harder than eggs?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_678",
+    "question": "Where can I buy the apple butter on the Moon?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_valid_618",
+    "question": "How many bricks are needed to build a wall?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "FALSE_IDK",
+      "decision": "refused"
+    }
+  },
+  {
+    "problem_id": "fqa_test_281",
+    "question": "What color are the feathers of a sea lion?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_740",
+    "question": "Why birds find it harder to find water in moist climate?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_664",
+    "question": "How many basketballs can be put into a 10cm clearance?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "refused"
+    }
+  },
+  {
+    "problem_id": "fqa_train_631",
+    "question": "When will my brother grow breast?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_1543",
+    "question": "When is the best time to go shopping by cash? on 365th or 390th day during the year?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "FALSE_IDK",
+      "decision": "refused"
+    }
+  },
+  {
+    "problem_id": "fqa_valid_882",
+    "question": "Where can we find carbon monoxide?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_test_415",
+    "question": "When will you usually eat your daydream?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_valid_670",
+    "question": "Name a healing method that can treat the heart-broken people.",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_1379",
+    "question": "Is medicine store the right place to get some isopropyl alcohol?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_test_1184",
+    "question": "Which one is canola derived from? animal or vegetable?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_valid_598",
+    "question": "List how often shoud we get sunlight to maintain healthy blood levels",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_valid_510",
+    "question": "Where should I go if I want to paly beach volleyball, beach or river?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_2210",
+    "question": "Which city is in America. London or Cleveland?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_test_356",
+    "question": "What can I learn in a church? Painting or swimming.",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_test_1145",
+    "question": "List the location of human's lungs.",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_test_962",
+    "question": "What kind of plants can live in desert?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_316",
+    "question": "Why do we absorb information faster when our brain wave frequency is four-eight Hz (Hertz)?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_test_879",
+    "question": "List the length for seagrass grow in the sea?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_test_1074",
+    "question": "How do the bodies transport oxygen through the blood vessels?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_927",
+    "question": "List two new years which was celebrated in China in the first lunar month.",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "refused"
+    }
+  },
+  {
+    "problem_id": "fqa_train_786",
+    "question": "Where in Asia is America located?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_1991",
+    "question": "Why can a fish breathe in the ocean?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_1399",
+    "question": "List the reason why apes look like human beings?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_877",
+    "question": "What percentage of human hair protein does ovalbumin make up?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_valid_786",
+    "question": "What is the twenty-sixth letter in the English alphabet?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_valid_782",
+    "question": "Why do grapefruits grow faster in warm weather?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_test_15",
+    "question": "If I want to count the number of my long hair by hand in one hour, where should I start?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_74",
+    "question": "Which place can people buy books, a dinning hall or a restaurant?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_valid_667",
+    "question": "Is neon is a gas release smell?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_2082",
+    "question": "When was the motorbike invented by Gottlieb Daimler?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_1734",
+    "question": "What organ makes human have the sense of hearing?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_test_38",
+    "question": "How can atm keep healthy?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "refused"
+    }
+  },
+  {
+    "problem_id": "fqa_valid_567",
+    "question": "Do you like to water the flowers with a watering can?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_382",
+    "question": "List the time length for a stone to take a breath?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_2156",
+    "question": "Name some restaurant that are used to have lunch",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_valid_433",
+    "question": "Which one is an older relic, William Shakepere or Leonardo da Vinci?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_valid_784",
+    "question": "How long does it take for light to travel from the sun to the earth?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_valid_830",
+    "question": "What kinds of liquids are firewater?Luzhou Old Cellar or apple juice.",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "FALSE_IDK",
+      "decision": "refused"
+    }
+  },
+  {
+    "problem_id": "fqa_train_523",
+    "question": "When is the National Holiday in China, it is on 31st of February?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_test_1328",
+    "question": "List two cities in China where apricots grow.",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_valid_908",
+    "question": "List a kind of animal with a cockcomb.",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_1542",
+    "question": "What kind of animal does the earthworm belong to?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_2289",
+    "question": "List how often buses stop at bus stops?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_test_1124",
+    "question": "Can men touch their faces?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_valid_753",
+    "question": "When did China Communist Party establish the people's Republic of China?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_test_582",
+    "question": "Who is unmarried woman among your brothers?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_528",
+    "question": "How long does it take to write a photograph?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "refused"
+    }
+  },
+  {
+    "problem_id": "fqa_train_1605",
+    "question": "Why can disease make people feel uncomfortable?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_test_985",
+    "question": "Which illness is more serious, cancer or fever?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_test_411",
+    "question": "Does that date smell good?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_valid_313",
+    "question": "How many fingers does a cock have?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_valid_656",
+    "question": "Where can I buy an apartment in the center of Beijing?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_1432",
+    "question": "Do dolphins living in ocean eat fishes?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_579",
+    "question": "Which one belongs to America, Japan or Korea?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "refused"
+    }
+  },
+  {
+    "problem_id": "fqa_test_313",
+    "question": "Name a bee with eighty eyes.",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "refused"
+    }
+  },
+  {
+    "problem_id": "fqa_valid_12",
+    "question": "Which kind of animal feed on cakes? Hedgehog or sheep?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_333",
+    "question": "Name a smoked sausage that has two hands.",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_test_463",
+    "question": "If a stone can grow into an adult, then how long will it takes?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_615",
+    "question": "Which one can use softwares, a rock or an egg?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_valid_94",
+    "question": "How many insects that with thousands of hands can people see?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_test_1162",
+    "question": "What kind of goods does a clothes shop sell?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_1032",
+    "question": "How a cow feed a dairyman?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_1163",
+    "question": "How can a dumb person sing a lullaby?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_1583",
+    "question": "Where does letter B rank in the English alphabet?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_valid_404",
+    "question": "Name a kind of sewage that people like to drink.",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "refused"
+    }
+  },
+  {
+    "problem_id": "fqa_test_608",
+    "question": "List the reason why eating sweets a lot tend to make people lose weight?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_387",
+    "question": "How long does it take for Kangaroo to lay eggs?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_valid_831",
+    "question": "Besides hummingbirds, what else birds do you know?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_valid_892",
+    "question": "When was the first time that money was cast in brass in China?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_1370",
+    "question": "If an old man doesn't have a mobile phone, how can he pay for clothing in the shopping mall?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_valid_277",
+    "question": "Which instrument can be used to play music? The instrument panel or the microscope?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_test_1294",
+    "question": "What kind of bird is mammal?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_valid_934",
+    "question": "if people want to move faster in a crowded road, why they choose walk instead of car",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_valid_74",
+    "question": "which toe should a bride wear her wedding ring on?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_valid_406",
+    "question": "can air lose weight for beauty",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "refused"
+    }
+  },
+  {
+    "problem_id": "fqa_train_1385",
+    "question": "Do ants run faster than horse?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_1674",
+    "question": "How do you extract sugar from sugarcane?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_1586",
+    "question": "List the number of the music albums has Jay Chou released?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_test_352",
+    "question": "How to eat faith?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "refused"
+    }
+  },
+  {
+    "problem_id": "fqa_train_1527",
+    "question": "List two kind of colors could be seen",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_1490",
+    "question": "What type of architecture is the Forbidden City? Indian or Chinese?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_650",
+    "question": "Name a continent of Australia.",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_test_586",
+    "question": "Where did people in the Ming Dynasty go to shop for a vacuum to clean their rug?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_2141",
+    "question": "Are wiretaps small?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "FALSE_IDK",
+      "decision": "refused"
+    }
+  },
+  {
+    "problem_id": "fqa_valid_659",
+    "question": "Do the hymns sound good?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "FALSE_IDK",
+      "decision": "refused"
+    }
+  },
+  {
+    "problem_id": "fqa_test_1299",
+    "question": "List the reason why the sea is not hot for human?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_test_507",
+    "question": "What kind of metal is agate?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_valid_524",
+    "question": "How often do the peach have blossoms?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_1014",
+    "question": "Why human eats anchor?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_test_856",
+    "question": "How can people travel to Beijing?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_706",
+    "question": "Why can water be turned into water vapor by condensation?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_valid_272",
+    "question": "Which one does a firefly release, fire or flowers?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "refused"
+    }
+  },
+  {
+    "problem_id": "fqa_test_816",
+    "question": "Is it okay to vote for NPC member by phone when a worker is going to vote?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "FALSE_IDK",
+      "decision": "refused"
+    }
+  },
+  {
+    "problem_id": "fqa_train_345",
+    "question": "List three kinds of mammals live in the space.",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "refused"
+    }
+  },
+  {
+    "problem_id": "fqa_valid_551",
+    "question": "Where can you see dirt on Mars?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_1406",
+    "question": "If we want to supplement our bodies with vitamin C by eating fruits, what should we eat?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_423",
+    "question": "How long does it take to become a professional golf ball?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "refused"
+    }
+  },
+  {
+    "problem_id": "fqa_test_566",
+    "question": "Which one is Mexico native language? Japanese or Chinese?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_253",
+    "question": "How many arms do humans used for walk?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_test_1148",
+    "question": "When will a man have the opportunity to travel to England?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "FALSE_IDK",
+      "decision": "refused"
+    }
+  },
+  {
+    "problem_id": "fqa_train_2053",
+    "question": "why muscular people usually stronger than others",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_1948",
+    "question": "Which one is coniferous tree? Korean pine or elm?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_test_1068",
+    "question": "What kind of leaves do panicles grow?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_1316",
+    "question": "When did Emperor Gaozong of the Tang Dynasty built a temple to collect Buddhist materials?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_771",
+    "question": "Name the fourth hand on a clock.",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_valid_295",
+    "question": "What is the twenty-seventh letter in the English alphabet?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_2341",
+    "question": "When is the National Holiday in China, it is on 1st of Feburary?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_1842",
+    "question": "What type of icon do you use?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_168",
+    "question": "What kind of nightmare is considered as a happy experience?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_valid_967",
+    "question": "How much water could a fish tank hold?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "FALSE_IDK",
+      "decision": "refused"
+    }
+  },
+  {
+    "problem_id": "fqa_valid_3",
+    "question": "When cold air is lighter than warm air, what will happen?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_1895",
+    "question": "What insects do spiders eat?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_1574",
+    "question": "How long is a kangaroo pregnant before it gives birth?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_2076",
+    "question": "Why are most of windows made of glass?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_valid_59",
+    "question": "Are fungi planted in the universe edible?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "refused"
+    }
+  },
+  {
+    "problem_id": "fqa_valid_916",
+    "question": "How do we watch movies in movie theaters?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_test_89",
+    "question": "If we want to prevent the tennis toe of our pet cats, what should we do?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_test_758",
+    "question": "Why soft coral can grow in the ocean?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "FALSE_IDK",
+      "decision": "refused"
+    }
+  },
+  {
+    "problem_id": "fqa_train_314",
+    "question": "If an earthworm roars, what does it imply?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_1175",
+    "question": "Do libraries opened in the ocean have more books than libraries in the country?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "refused"
+    }
+  },
+  {
+    "problem_id": "fqa_train_1510",
+    "question": "Are women's hands the same big as men's?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_233",
+    "question": "If a reporter lands on the moon, would he interview a lion?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "refused"
+    }
+  },
+  {
+    "problem_id": "fqa_train_154",
+    "question": "What can our ancestors do in the next 20 years?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_valid_919",
+    "question": "What kind of weapon did Tang Dynasty use during the war?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_1891",
+    "question": "Why are rats light?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_1271",
+    "question": "Which meat do Chinese people often see in the market , crocodile or pig?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_test_843",
+    "question": "what will happen if the man turn its head to the right?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_valid_815",
+    "question": "Why was telemarketing fraud so rampant now  in China?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_test_699",
+    "question": "Is massage very common since we could even see it everywhere on the street?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_230",
+    "question": "What colour are the pandas' wings?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_test_951",
+    "question": "How many heads does a lizard have?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_1125",
+    "question": "What shape is a loquat from an apple tree?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "refused"
+    }
+  },
+  {
+    "problem_id": "fqa_train_1240",
+    "question": "Which tree can be used to extract natural rubber? The three-leaved rubber tree or the peach tree?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_valid_212",
+    "question": "Why is the sun smaller than earth?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_test_476",
+    "question": "Which one can be a leader, a chalk or a desk?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "refused"
+    }
+  },
+  {
+    "problem_id": "fqa_test_877",
+    "question": "Is dogs' nose longer than elephants'?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_279",
+    "question": "Where do people go to visit eye doctor to get their teeth fixed?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_1801",
+    "question": "Name the time required to wash clothes by using a washing machine?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_618",
+    "question": "What's is the name of the fungus that made Quyuan live forever?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "refused"
+    }
+  },
+  {
+    "problem_id": "fqa_train_1294",
+    "question": "If I want to plant a weeping willow in my garden, what should I do?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_test_975",
+    "question": "When did Golden Bridge opened in USA?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "FALSE_IDK",
+      "decision": "refused"
+    }
+  },
+  {
+    "problem_id": "fqa_test_1040",
+    "question": "Do pineapples grow better in the soil than in the sea?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_valid_184",
+    "question": "When did the Falklands War break out between Argentina and France?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_test_59",
+    "question": "How many tails does your classmate have?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "refused"
+    }
+  },
+  {
+    "problem_id": "fqa_valid_259",
+    "question": "List one kind of cattle that can't ruminate.",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_test_954",
+    "question": "Can rock music become your favourite?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "FALSE_IDK",
+      "decision": "refused"
+    }
+  },
+  {
+    "problem_id": "fqa_valid_415",
+    "question": "Which day is better for hiking, on the eigth or tenth day of this week?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "refused"
+    }
+  },
+  {
+    "problem_id": "fqa_train_1838",
+    "question": "How did an electric motor work nowadays?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_test_130",
+    "question": "Which one can we give to a friend as a gift, cancer or death?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "refused"
+    }
+  },
+  {
+    "problem_id": "fqa_train_2309",
+    "question": "List 3 animals that can lay eggs.",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_1900",
+    "question": "How many mouths does an earthworm have?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_2023",
+    "question": "Why do cows like to eat grass?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_valid_198",
+    "question": "Where can I buy a paper vase to hold water?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_725",
+    "question": "How many students are there in Guangdong University?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "refused"
+    }
+  },
+  {
+    "problem_id": "fqa_test_1153",
+    "question": "List the time length for me to wash the apple.",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "FALSE_IDK",
+      "decision": "refused"
+    }
+  },
+  {
+    "problem_id": "fqa_valid_310",
+    "question": "Which one is in alloy? The knitted dress or the leather shoes?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_626",
+    "question": "Why are the calories in water higher than those in beef?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_valid_93",
+    "question": "List the reason why it is warm at the Arctic.",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_710",
+    "question": "How can the baby feed his mom?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_808",
+    "question": "If I want to ride a turkey vulture, where can I find one?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_1048",
+    "question": "As a part of Asia, does America belong to far east area ?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_599",
+    "question": "If I want to know the numbers of the international organizations on Mars, then what should I do?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_421",
+    "question": "How do fish take methane from the water?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_test_1010",
+    "question": "How did human make adjustment to environment nowadays?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_valid_959",
+    "question": "Name a company that has more than 10 thousands employees..",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_valid_269",
+    "question": "If a doctor want to extract semen in a woman's seminiferous tubules, what should he do?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_valid_605",
+    "question": "Which country had papermaking technology developed in AD 900?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_1438",
+    "question": "How do we adapt to life on campus?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_1431",
+    "question": "When were the antiques in the Forbidden City made? Ming or Qing Dynasty?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_test_1171",
+    "question": "How many meters is one kilometer?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_2088",
+    "question": "Where I can find argentine ants in the world?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_valid_881",
+    "question": "When did you see the sun up in the sky?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_test_627",
+    "question": "Does Shakespeare like writing under the bulbs?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_valid_770",
+    "question": "How many sunflower seeds are needed to refine one litre of sunflower oil?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "FALSE_IDK",
+      "decision": "refused"
+    }
+  },
+  {
+    "problem_id": "fqa_train_2090",
+    "question": "Why does ale contain alcohol?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_312",
+    "question": "What kind of CT does qin Shi Huang need to do for checking his lung health?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_688",
+    "question": "Why do people seldom go to the toilet when they have the laxative?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_1364",
+    "question": "If I want to go to America from China, can you find a way for me on the world map?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_valid_917",
+    "question": "What should a student do if he wants to make progress in English?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_test_931",
+    "question": "How do you grow parrots in the soil?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_1270",
+    "question": "List a kind of melons that grow on trees.",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "FALSE_IDK",
+      "decision": "refused"
+    }
+  },
+  {
+    "problem_id": "fqa_test_171",
+    "question": "How many wings does a jackrabbit have to fly?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_322",
+    "question": "Name two oceans without salt.",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_train_2146",
+    "question": "How long does it take an adult to run 100 metres?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_test_451",
+    "question": "Why do we always hear sound before we see light?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "fqa_valid_38",
+    "question": "Name a kind of giraffe that has two necks",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "refused"
+    }
+  },
+  {
+    "problem_id": "fqa_train_1784",
+    "question": "How many stars are there in the universe?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "FALSE_IDK",
+      "decision": "refused"
+    }
+  },
+  {
+    "problem_id": "fqa_test_712",
+    "question": "Is the leather shoes made from the calf durable?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  }
+]

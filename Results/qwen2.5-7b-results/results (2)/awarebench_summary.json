@@ -1,0 +1,59 @@
+{
+  "baseline": {
+    "accuracy": 0.78,
+    "ci_lower": 0.7176107720803744,
+    "ci_upper": 0.8318354646053661,
+    "n": 200,
+    "failure_distribution": {
+      "CORRECT": 156,
+      "FACTUAL_ERROR": 44
+    },
+    "worst_dimensions": {
+      "mission_implicit": 21,
+      "perspective": 12,
+      "capability": 6,
+      "culture": 3,
+      "mission_explicit": 1
+    }
+  },
+  "with_memory": {
+    "accuracy": 0.685,
+    "ci_lower": 0.617649158589664,
+    "ci_upper": 0.7453778192205573,
+    "n": 200,
+    "failure_distribution": {
+      "CORRECT": 137,
+      "FACTUAL_ERROR": 63
+    },
+    "worst_dimensions": {
+      "mission_implicit": 21,
+      "culture": 19,
+      "perspective": 12,
+      "capability": 10,
+      "emotion": 1
+    }
+  },
+  "with_memory_sa": {
+    "accuracy": 0.705,
+    "ci_lower": 0.6384115802925058,
+    "ci_upper": 0.7638615572809827,
+    "n": 200,
+    "failure_distribution": {
+      "CORRECT": 141,
+      "FACTUAL_ERROR": 59
+    },
+    "worst_dimensions": {
+      "mission_implicit": 21,
+      "culture": 17,
+      "perspective": 10,
+      "capability": 10,
+      "emotion": 1
+    }
+  },
+  "sa_vs_baseline": {
+    "accuracy_diff": -0.07500000000000007
+  },
+  "sa_uplift": {
+    "accuracy_diff": 0.019999999999999907
+  }
+}

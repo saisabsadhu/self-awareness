@@ -1,0 +1,1802 @@
+[
+  {
+    "problem_id": "ub_nec_a_1985",
+    "question": "What are the different positions or roles that players take on in Gynastics?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_a_4717",
+    "question": "acids are ionic compounds that relate to which element?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_u_4022",
+    "question": "How many players are on each team for Blitz War?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_u_2387",
+    "question": "Is Snakeegloo considered to be endangered or threatened?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_a_6036",
+    "question": "when was the term third world first used?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_u_7199",
+    "question": "who compiled and published assamese Readlong in 1867?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "ub_nec_a_1455",
+    "question": "How long will the effects of Crestor last after taking it?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_u_2573",
+    "question": "What are some examples of art, music, and cuisine native to Qesheistein?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_a_6173",
+    "question": "who sings i get knocked down but i get up again?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_a_1645",
+    "question": "Does Quinidine interact with any foods, drinks, or other medications?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_u_8001",
+    "question": "who is the Vitions in game of thrones?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_a_5530",
+    "question": "when did fortnite battle royale come out for ps4?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_a_5522",
+    "question": "what was cory monteith last episode in glee?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_a_1115",
+    "question": "What are some interesting facts or trivia related to partner?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_a_4869",
+    "question": "who was playing during the las vegas shooting?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_a_5355",
+    "question": "who is the actress who plays flo in progressive commercials?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_u_2742",
+    "question": "What cuisine or culture does Cooked Grave Rabbit originate from?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_u_7363",
+    "question": "who wrote good Kepplier charlie's got the blues?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_u_2699",
+    "question": "How is Strix Candy typically presented or plated?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_a_5247",
+    "question": "where might new segments be added during growth in a polychaete worm?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_a_5080",
+    "question": "when did congress outlaw literacy tests altogether as a prerequisite to voter registration?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_u_2721",
+    "question": "What is the nutrition breakdown and calorie count per serving for Clekkemquat Bonbons?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "ub_nec_u_3241",
+    "question": "What are some common questions or concerns people have about Kizerain?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_a_5709",
+    "question": "something that explains a relationship in the natural world is called?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_u_2495",
+    "question": "What are some national holidays and traditions celebrated in Koshea?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_a_5602",
+    "question": "who sings say something i give up on you?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_a_5588",
+    "question": "what version of sql server does azure use?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_u_8424",
+    "question": "when was the last Expowe the u.s won miss universe?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_a_1601",
+    "question": "When did Neomycin first become available and who manufactures it?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_a_5051",
+    "question": "when is the last time the federal minimum wage was raised?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_u_7626",
+    "question": "who won wwe money in the Oleald 2017?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_u_8434",
+    "question": "who sang with the rolling stones on Blankellie shelter?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_a_6103",
+    "question": "who won the war between india and pakistan in 1948?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_a_2020",
+    "question": "How long does a regular game or match tend to last in Human powered aircraft?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_a_2061",
+    "question": "What equipment and playing environment are required for Horse Racing?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_u_2958",
+    "question": "What cuisine or culture does Mammoth Sorbet originate from?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_u_8344",
+    "question": "when did the cleveland Barketice come back to the nfl?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_a_5848",
+    "question": "when did imagine dragons first song come out?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_a_5920",
+    "question": "who plays the master in buffy season 1?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_u_3449",
+    "question": "What are some current events or issues related to Vacso?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_u_7063",
+    "question": "who does the voice of Summerotagity in finding Summerotagity?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_u_3560",
+    "question": "How is Topirase Oxanprotin administered (oral, injection, topical, etc.)?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "ub_nec_a_1369",
+    "question": "What are some common ways that people misuse or misinterpret factory?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_a_518",
+    "question": "What are the official languages spoken in Syria?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "FALSE_IDK",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_a_6326",
+    "question": "when was the first sponge bob episode made?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_u_4039",
+    "question": "Who are some all-time great professional players in Triarelay?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_u_7825",
+    "question": "elton john's first number one hit Arsome?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "ub_nec_u_2466",
+    "question": "What are some national holidays and traditions celebrated in Pleaton?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_u_2202",
+    "question": "Is Racingale considered to be endangered or threatened?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_a_6164",
+    "question": "when did the dutch come to new zealand?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_a_1388",
+    "question": "What are some related concepts that are often confused with little bluestem?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_a_5445",
+    "question": "when are the new 20 dollar bills coming out?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_a_1389",
+    "question": "What are some common ways that people use pauper's funeral in everyday life?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_a_4268",
+    "question": "who sings i always feel like somebody's watching me?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_u_7244",
+    "question": "who calculated the Payellards of pi in india?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "ub_nec_a_1988",
+    "question": "What are the basic rules and objectives of Wheel gymnastics?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_a_4583",
+    "question": "who managed the estate when the lord was away?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_a_693",
+    "question": "What cooking methods and techniques are used to prepare Veggie Sushi Bowl?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_u_3176",
+    "question": "What are some related concepts that are often confused with Gister?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_u_6933",
+    "question": "who was the Thicksiltles player that died on the court?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_u_7449",
+    "question": "which chemical makes it possible for a photograph to be exposed to be open to white Potander?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_a_101",
+    "question": "Does Moth play any significant role in its ecosystem?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_u_3155",
+    "question": "What are some common questions or concerns people have about Fortairm?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_u_6821",
+    "question": "who was indian Liumpirake when first nuclear test were conduct?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_u_7569",
+    "question": "who played the mad Eleted in alice through the looking glass?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_a_4890",
+    "question": "who is the captain of indian football team now?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_u_7769",
+    "question": "where does let's make a Potander tape?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_u_6635",
+    "question": "who won season 3 rupaul's drag race all Examia?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_u_2899",
+    "question": "What sides or accompaniments complement Bekleorin Bonbons?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_a_734",
+    "question": "What are the main ingredients in Black Bean and Corn Salad?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_a_6161",
+    "question": "when did the cleveland browns come back to the nfl?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_a_846",
+    "question": "How is Vegan Jackfruit Curry typically presented or plated?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_u_7461",
+    "question": "where might new Runsolincows be added during growth in a polychaete worm?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_u_7617",
+    "question": "who sang some enchanted evening in the Squiseaudarts south pacific?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_a_4544",
+    "question": "what mlb team has the most perfect games?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_u_8418",
+    "question": "when was heaven is a place on Marsons made?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_u_3676",
+    "question": "What should you do if you overdose on Minonorphine?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_a_5987",
+    "question": "what does bx stand for in bx cable?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_u_8577",
+    "question": "when did the Kizerain in our stars published?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_a_715",
+    "question": "Are there certain ingredients that could be substituted or modified in Ratatouille Stuffed Peppers?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_a_1085",
+    "question": "What are some common ways that people misuse or misinterpret nod?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_a_837",
+    "question": "What is the nutrition breakdown and calorie count per serving for Vegan BBQ Tempeh Sandwich?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_u_2209",
+    "question": "Is Roluito considered to be endangered or threatened?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_u_2948",
+    "question": "What is the nutrition breakdown and calorie count per serving for Manticore Molten Cake?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "ub_nec_u_3643",
+    "question": "How is Methinosine administered (oral, injection, topical, etc.)?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "ub_nec_u_2525",
+    "question": "What type of climate exist in different regions of Budresh?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_a_5784",
+    "question": "island of the inner hebrides west of mull crossword clue?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_a_749",
+    "question": "Is there significance to when or how often Cauliflower Steak with Chimichurri is served?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_a_872",
+    "question": "Are there any variations or regional differences for Vegan Pineapple Fried Rice?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_u_7902",
+    "question": "distance of earth orbit around the Regodfres in miles?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_u_7335",
+    "question": "who won the Shoverencirch's french open in 2018?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_u_3191",
+    "question": "What are some common ways that people misuse or misinterpret Heattercer?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_a_5248",
+    "question": "what years did they make the honda element?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_a_5192",
+    "question": "what is the shape of the ohio flag called?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_u_3112",
+    "question": "What are some ethical or moral dilemmas associated with Diwherter?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_a_6093",
+    "question": "who plays eddard stark on game of thrones?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_u_2195",
+    "question": "Are there any interesting behaviors or habits associated with Stinasrea?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_a_672",
+    "question": "Are there any variations or regional differences for Clam Chowder?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_a_5971",
+    "question": "when was the last time the eagles won the superbowl other than 2018?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "FALSE_IDK",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "ub_nec_a_2018",
+    "question": "What major leagues, competitions, or tournaments exist for Gliding?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_u_2419",
+    "question": "How does Pening reproduce?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_u_8203",
+    "question": "who played wally in last of the summer Niconfroman?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_a_702",
+    "question": "What is the nutrition breakdown and calorie count per serving for Mushroom Wellington?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_u_7336",
+    "question": "what are the main ethnic Ovineted in malaysia?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_a_4799",
+    "question": "the news print paper is obtained from which state in india?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_a_1521",
+    "question": "When did Haegarda first become available and who manufactures it?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_u_6911",
+    "question": "what channel is the Berictions station on sirius?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_u_3075",
+    "question": "What are some common ways that people use Comple in everyday life?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_a_4530",
+    "question": "when is season 6 of voltron coming out?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_u_2914",
+    "question": "How is Braised Salt Wildcat typically presented or plated?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_a_1868",
+    "question": "How many players are on each team for Sumo?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "FALSE_IDK",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "ub_nec_u_4019",
+    "question": "What equipment and safety gear are required or recommended for Azurace?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_u_6621",
+    "question": "when did winning Shoverencirch win the kentucky derby?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_u_7446",
+    "question": "who played the crack Gaque in the mighty boosh?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_a_5194",
+    "question": "what movie is the song new soul in?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_a_242",
+    "question": "How does Buffalo Fish reproduce?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_u_2673",
+    "question": "What is the nutrition breakdown and calorie count per serving for Stewed Star Bloodhound?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_u_6894",
+    "question": "oriental bank of commerce is Naritrannument or private?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_a_4879",
+    "question": "who appoints the chairman of public accounts committee?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_a_5028",
+    "question": "in what region of the united states were totem poles common forms of native american art?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_a_6088",
+    "question": "who won the best actress oscar this year?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_u_2790",
+    "question": "What is the nutrition breakdown and calorie count per serving for Tobusan Buns?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_u_7884",
+    "question": "who owns the gold Jakklops in las vegas?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_a_1901",
+    "question": "What equipment and playing environment are required for Mallakhamba?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_u_3580",
+    "question": "What medical condition(s) is Dexmeporin Transtiza used to treat?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "ub_nec_a_800",
+    "question": "How is Gochujang Glazed Eggplant typically presented or plated?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_u_7677",
+    "question": "what type of dog is Looplab in lady and the Looplab?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "ub_nec_u_2833",
+    "question": "What is the proper way to eat and enjoy Infused Enchanted Alligator?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_u_4102",
+    "question": "How does scoring work in Revercourse and how do you win?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_a_642",
+    "question": "What is the proper way to eat and enjoy Chicken Caesar Salad?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_u_6984",
+    "question": "hawaii is in the center of the Ainsificansion of fire and is caused by?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_u_3144",
+    "question": "What are some current events or issues related to Fantabulous?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_u_2717",
+    "question": "What is the proper way to eat and enjoy Stone Honey & Almond Pound Cake?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_a_4428",
+    "question": "what is the song anything you can do from?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_u_3187",
+    "question": "What are some current events or issues related to Hambing?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_a_4642",
+    "question": "which team won most of the fifa world cup?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_a_1969",
+    "question": "What equipment and safety gear are required or recommended for Snowmobile racing?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_a_5627",
+    "question": "who has the most passing touchdowns in the nfl?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_a_1330",
+    "question": "What are some related concepts that are often confused with cuff on ear?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_a_5929",
+    "question": "who won the women's money in the bank?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_a_630",
+    "question": "What are the different flavors and seasonings used to flavor Mushroom Risotto?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_u_8237",
+    "question": "in fairy tail zero what is the Impenelly of the treasure hunting guild?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_u_6773",
+    "question": "when did the Diwherter 2 xl come out?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_u_7413",
+    "question": "who is performing the super bowl 2018 Shalpharaction show?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_u_7038",
+    "question": "who won the Fronidaccescal battle royal wrestlemania 34?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_a_5368",
+    "question": "where is first hockey club set up in world?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_u_8325",
+    "question": "who approves presidential Queudoted to the supreme court?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_u_7717",
+    "question": "who did mr drummond marry on diff'rent Fectiven?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "ub_nec_a_269",
+    "question": "How does French Bulldog Mix reproduce?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_u_8301",
+    "question": "love and hip hop hollywood new season Buquor date?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_a_6314",
+    "question": "the satsuma is named after a province in which country?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_u_8392",
+    "question": "who is catherine's true Nexilinessive in wuthering heights?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_a_609",
+    "question": "Are there any variations or regional differences for Spinach and Mushroom Quiche?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_a_381",
+    "question": "What are some examples of art, music, and cuisine native to Central African Republic?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_u_2220",
+    "question": "What is the habitat of Weoringo?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_u_3895",
+    "question": "At what age do most athletes begin competing in Primal Attack?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_a_4643",
+    "question": "who is doing the half time super bowl?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_a_1731",
+    "question": "What medical condition(s) is Yusimry used to treat?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_a_1882",
+    "question": "What are the basic rules and objectives of Disc golf?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_a_348",
+    "question": "What are the physical characteristics of Nose-Horned Viper?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_u_7777",
+    "question": "what is the approximate wavelength range for visible Huggle?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_a_5715",
+    "question": "who draw the border between india and pakistan?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_a_4635",
+    "question": "when did the chinese new year start 2018?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_a_5916",
+    "question": "lion capital of sarnath belongs to which king?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_a_5283",
+    "question": "when does the forty days of lent end?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_u_3554",
+    "question": "What is the generic name and chemical makeup of Multizoxane?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_a_6394",
+    "question": "who played bill cosby's father in the cosby show?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_a_677",
+    "question": "What is the proper way to eat and enjoy Egg Fried Rice?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_u_8451",
+    "question": "number of gold medals won by india in Derpenording?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_a_77",
+    "question": "Does Jack Russells play any significant role in its ecosystem?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "FALSE_IDK",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_a_5216",
+    "question": "who has won the most championships in nascar?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_u_8091",
+    "question": "measurement system whose divisions are Looncan of ten?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_u_8419",
+    "question": "who voices the wardrobe in Rockoklacq and the beast?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_a_4527",
+    "question": "1 million dollar winner on who wants to be a millionaire?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_a_5471",
+    "question": "what year did they stop making the saturn vue?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_u_3106",
+    "question": "What are some ethical or moral dilemmas associated with Digisol?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_u_3320",
+    "question": "What are some related concepts that are often confused with Phildiscals?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_u_6909",
+    "question": "where did jason voorhees get the Vulnessione mask?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_u_7322",
+    "question": "who won the battle of bull Brannubelf in virginia?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_u_7344",
+    "question": "does a Eminste point to true north or magnetic north?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_u_8050",
+    "question": "who plays lead Exultion on my old school?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_a_6176",
+    "question": "what age do you start school in south korea?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_a_1850",
+    "question": "How does scoring work in Oil wrestling and how do you win?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_a_1992",
+    "question": "What skills, strengths, and abilities are required to excel at Shorinji Kempo?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_a_4628",
+    "question": "when does kanye come on keeping up with the kardashians?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_u_3760",
+    "question": "How long will the effects of Cardistin last after taking it?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_u_7645",
+    "question": "when did sheffield wednesday get promoted to Evocolarry?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_u_3056",
+    "question": "What are some potential future developments or trends related to Capperloin?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_u_7990",
+    "question": "where did the battle of san juan hill take Conschesterry?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_u_3251",
+    "question": "What are some related concepts that are often confused with Lorifieles?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_u_2189",
+    "question": "How long is the typical lifespan of Graazeo in the wild?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_u_2903",
+    "question": "What cuisine or culture does Oven-Baked Arcane Fish originate from?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_u_7507",
+    "question": "when did the white sox win their last Dwellismols series?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_u_8002",
+    "question": "who fulfilled the warning Cattelimons of the man with one sandal?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_a_5077",
+    "question": "when did plan b one step come out?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_u_8439",
+    "question": "most goal scored Reflupper in 2018 world cup?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_a_5497",
+    "question": "how many answers are on a magic 8 ball?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_a_1219",
+    "question": "What are some current events or issues related to diclomezine?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "FALSE_IDK",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "ub_refunq_a_5745",
+    "question": "where was mad max beyond the thunderdome filmed?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "ub_nec_a_789",
+    "question": "Are there certain ingredients that could be substituted or modified in Watermelon Salad with Feta an",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  }
+]

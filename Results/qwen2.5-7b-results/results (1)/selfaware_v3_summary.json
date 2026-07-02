@@ -1,0 +1,1733 @@
+{
+  "baseline": {
+    "accuracy": 0.728,
+    "ci_lower": 0.6873666188831685,
+    "ci_upper": 0.7651565550667395,
+    "f1": 0.41379310344827586,
+    "precision": 0.6153846153846154,
+    "recall": 0.3116883116883117,
+    "answerable_accuracy": 0.9132947976878613,
+    "unanswerable_accuracy": 0.3116883116883117,
+    "n": 500,
+    "failure_distribution": {
+      "CORRECT": 179,
+      "FACTUAL_ERROR": 185,
+      "KNOWLEDGE_BOUNDARY_MISSED": 106,
+      "FALSE_IDK": 30
+    }
+  },
+  "with_memory": {
+    "accuracy": 0.714,
+    "ci_lower": 0.6728760546154563,
+    "ci_upper": 0.7518606086533169,
+    "f1": 0.4302788844621514,
+    "precision": 0.5567010309278351,
+    "recall": 0.35064935064935066,
+    "answerable_accuracy": 0.8757225433526011,
+    "unanswerable_accuracy": 0.35064935064935066,
+    "n": 500,
+    "failure_distribution": {
+      "CORRECT": 175,
+      "FACTUAL_ERROR": 182,
+      "KNOWLEDGE_BOUNDARY_MISSED": 100,
+      "FALSE_IDK": 43
+    }
+  },
+  "with_memory_sa": {
+    "accuracy": 0.67,
+    "ci_lower": 0.627624826873818,
+    "ci_upper": 0.709782802825675,
+    "f1": 0.5244956772334294,
+    "precision": 0.47150259067357514,
+    "recall": 0.5909090909090909,
+    "answerable_accuracy": 0.7052023121387283,
+    "unanswerable_accuracy": 0.5909090909090909,
+    "n": 500,
+    "failure_distribution": {
+      "CORRECT": 209,
+      "FACTUAL_ERROR": 126,
+      "KNOWLEDGE_BOUNDARY_MISSED": 63,
+      "FALSE_IDK": 102
+    }
+  },
+  "with_memory_sa_selfmodel": {
+    "accuracy": 0.594,
+    "ci_lower": 0.5503962577196476,
+    "ci_upper": 0.6361703139965426,
+    "f1": 0.4407713498622589,
+    "precision": 0.3827751196172249,
+    "recall": 0.5194805194805194,
+    "answerable_accuracy": 0.6271676300578035,
+    "unanswerable_accuracy": 0.5194805194805194,
+    "n": 500,
+    "failure_distribution": {
+      "CORRECT": 197,
+      "FACTUAL_ERROR": 100,
+      "FALSE_IDK": 129,
+      "KNOWLEDGE_BOUNDARY_MISSED": 74
+    }
+  },
+  "memory_vs_baseline": {
+    "f1_diff": 0.016485781013875545,
+    "accuracy_diff": -0.014000000000000012
+  },
+  "sa_vs_baseline": {
+    "f1_diff": 0.11070257378515352,
+    "accuracy_diff": -0.05799999999999994
+  },
+  "selfmodel_vs_baseline": {
+    "f1_diff": 0.026978246413983054,
+    "accuracy_diff": -0.134
+  },
+  "sa_vs_memory": {
+    "f1_diff": 0.09421679277127798,
+    "accuracy_diff": -0.04399999999999993
+  },
+  "selfmodel_vs_sa": {
+    "f1_diff": -0.08372432737117047,
+    "accuracy_diff": -0.07600000000000007
+  },
+  "self_model": {
+    "domain_stats": {
+      "Mathematics": {
+        "total": 6,
+        "correct": 2,
+        "accuracy": 0.3333333333333333,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.16666666666666669,
+        "failure_types": {
+          "KNOWLEDGE_BOUNDARY_MISSED": 4
+        },
+        "most_common_failure": "KNOWLEDGE_BOUNDARY_MISSED"
+      },
+      "Physics/Electronics": {
+        "total": 1,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {
+          "FACTUAL_ERROR": 1
+        },
+        "most_common_failure": "FACTUAL_ERROR"
+      },
+      "Biology": {
+        "total": 9,
+        "correct": 3,
+        "accuracy": 0.3333333333333333,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.16666666666666669,
+        "failure_types": {
+          "FACTUAL_ERROR": 6
+        },
+        "most_common_failure": "FACTUAL_ERROR"
+      },
+      "Developmental Psychology": {
+        "total": 1,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {
+          "FACTUAL_ERROR": 1
+        },
+        "most_common_failure": "FACTUAL_ERROR"
+      },
+      "Technology": {
+        "total": 3,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {
+          "FACTUAL_ERROR": 3
+        },
+        "most_common_failure": "FACTUAL_ERROR"
+      },
+      "Photography": {
+        "total": 1,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {
+          "FACTUAL_ERROR": 1
+        },
+        "most_common_failure": "FACTUAL_ERROR"
+      },
+      "Physics": {
+        "total": 10,
+        "correct": 2,
+        "accuracy": 0.2,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.3,
+        "failure_types": {
+          "FACTUAL_ERROR": 6,
+          "KNOWLEDGE_BOUNDARY_MISSED": 2
+        },
+        "most_common_failure": "FACTUAL_ERROR"
+      },
+      "Ethics": {
+        "total": 3,
+        "correct": 2,
+        "accuracy": 0.6666666666666666,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.16666666666666663,
+        "failure_types": {
+          "KNOWLEDGE_BOUNDARY_MISSED": 1
+        },
+        "most_common_failure": "KNOWLEDGE_BOUNDARY_MISSED"
+      },
+      "Space Exploration": {
+        "total": 2,
+        "correct": 1,
+        "accuracy": 0.5,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.0,
+        "failure_types": {
+          "FACTUAL_ERROR": 1
+        },
+        "most_common_failure": "FACTUAL_ERROR"
+      },
+      "Beverages": {
+        "total": 1,
+        "correct": 1,
+        "accuracy": 1.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {},
+        "most_common_failure": "CORRECT"
+      },
+      "** Linguistics": {
+        "total": 1,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {
+          "FALSE_IDK": 1
+        },
+        "most_common_failure": "FALSE_IDK"
+      },
+      "Neuroscience": {
+        "total": 3,
+        "correct": 3,
+        "accuracy": 1.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {},
+        "most_common_failure": "CORRECT"
+      },
+      "Astronomy": {
+        "total": 10,
+        "correct": 7,
+        "accuracy": 0.7,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.19999999999999996,
+        "failure_types": {
+          "FACTUAL_ERROR": 3
+        },
+        "most_common_failure": "FACTUAL_ERROR"
+      },
+      "Environment": {
+        "total": 1,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {
+          "FACTUAL_ERROR": 1
+        },
+        "most_common_failure": "FACTUAL_ERROR"
+      },
+      "Philosophy": {
+        "total": 27,
+        "correct": 13,
+        "accuracy": 0.48148148148148145,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.018518518518518545,
+        "failure_types": {
+          "FACTUAL_ERROR": 6,
+          "KNOWLEDGE_BOUNDARY_MISSED": 8
+        },
+        "most_common_failure": "KNOWLEDGE_BOUNDARY_MISSED"
+      },
+      "Language and Culture": {
+        "total": 1,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {
+          "FACTUAL_ERROR": 1
+        },
+        "most_common_failure": "FACTUAL_ERROR"
+      },
+      "general": {
+        "total": 18,
+        "correct": 5,
+        "accuracy": 0.2777777777777778,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.2222222222222222,
+        "failure_types": {
+          "KNOWLEDGE_BOUNDARY_MISSED": 12,
+          "FALSE_IDK": 1
+        },
+        "most_common_failure": "KNOWLEDGE_BOUNDARY_MISSED"
+      },
+      "Psychology": {
+        "total": 10,
+        "correct": 6,
+        "accuracy": 0.6,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.09999999999999998,
+        "failure_types": {
+          "FACTUAL_ERROR": 4
+        },
+        "most_common_failure": "FACTUAL_ERROR"
+      },
+      "Communication": {
+        "total": 2,
+        "correct": 1,
+        "accuracy": 0.5,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.0,
+        "failure_types": {
+          "FACTUAL_ERROR": 1
+        },
+        "most_common_failure": "FACTUAL_ERROR"
+      },
+      "Law Enforcement/Regulations": {
+        "total": 1,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {
+          "FACTUAL_ERROR": 1
+        },
+        "most_common_failure": "FACTUAL_ERROR"
+      },
+      "Decision-Making": {
+        "total": 2,
+        "correct": 2,
+        "accuracy": 1.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {},
+        "most_common_failure": "CORRECT"
+      },
+      "Film": {
+        "total": 2,
+        "correct": 1,
+        "accuracy": 0.5,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.0,
+        "failure_types": {
+          "FACTUAL_ERROR": 1
+        },
+        "most_common_failure": "FACTUAL_ERROR"
+      },
+      "** Philosophy/Religion": {
+        "total": 1,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {
+          "FALSE_IDK": 1
+        },
+        "most_common_failure": "FALSE_IDK"
+      },
+      "Food Consumption Analysis": {
+        "total": 1,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {
+          "FACTUAL_ERROR": 1
+        },
+        "most_common_failure": "FACTUAL_ERROR"
+      },
+      "Automotive Culture": {
+        "total": 1,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {
+          "FACTUAL_ERROR": 1
+        },
+        "most_common_failure": "FACTUAL_ERROR"
+      },
+      "Optics": {
+        "total": 1,
+        "correct": 1,
+        "accuracy": 1.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {},
+        "most_common_failure": "CORRECT"
+      },
+      "Paranormal": {
+        "total": 1,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {
+          "KNOWLEDGE_BOUNDARY_MISSED": 1
+        },
+        "most_common_failure": "KNOWLEDGE_BOUNDARY_MISSED"
+      },
+      "Law": {
+        "total": 1,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {
+          "FACTUAL_ERROR": 1
+        },
+        "most_common_failure": "FACTUAL_ERROR"
+      },
+      "Embryology": {
+        "total": 1,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {
+          "FACTUAL_ERROR": 1
+        },
+        "most_common_failure": "FACTUAL_ERROR"
+      },
+      "History": {
+        "total": 11,
+        "correct": 5,
+        "accuracy": 0.45454545454545453,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.04545454545454547,
+        "failure_types": {
+          "FACTUAL_ERROR": 5,
+          "KNOWLEDGE_BOUNDARY_MISSED": 1
+        },
+        "most_common_failure": "FACTUAL_ERROR"
+      },
+      "Food": {
+        "total": 4,
+        "correct": 3,
+        "accuracy": 0.75,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.25,
+        "failure_types": {
+          "FACTUAL_ERROR": 1
+        },
+        "most_common_failure": "FACTUAL_ERROR"
+      },
+      "Communication and Problem Solving": {
+        "total": 1,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {
+          "FACTUAL_ERROR": 1
+        },
+        "most_common_failure": "FACTUAL_ERROR"
+      },
+      "Geology": {
+        "total": 6,
+        "correct": 2,
+        "accuracy": 0.3333333333333333,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.16666666666666669,
+        "failure_types": {
+          "FACTUAL_ERROR": 4
+        },
+        "most_common_failure": "FACTUAL_ERROR"
+      },
+      "Linguistics": {
+        "total": 6,
+        "correct": 2,
+        "accuracy": 0.3333333333333333,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.16666666666666669,
+        "failure_types": {
+          "FACTUAL_ERROR": 3,
+          "KNOWLEDGE_BOUNDARY_MISSED": 1
+        },
+        "most_common_failure": "FACTUAL_ERROR"
+      },
+      "Travel": {
+        "total": 1,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {
+          "FACTUAL_ERROR": 1
+        },
+        "most_common_failure": "FACTUAL_ERROR"
+      },
+      "Literature": {
+        "total": 3,
+        "correct": 2,
+        "accuracy": 0.6666666666666666,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.16666666666666663,
+        "failure_types": {
+          "FACTUAL_ERROR": 1
+        },
+        "most_common_failure": "FACTUAL_ERROR"
+      },
+      "** Philosophy & Theology": {
+        "total": 1,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {
+          "FALSE_IDK": 1
+        },
+        "most_common_failure": "FALSE_IDK"
+      },
+      "Botany": {
+        "total": 3,
+        "correct": 2,
+        "accuracy": 0.6666666666666666,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.16666666666666663,
+        "failure_types": {
+          "FACTUAL_ERROR": 1
+        },
+        "most_common_failure": "FACTUAL_ERROR"
+      },
+      "Sleep": {
+        "total": 1,
+        "correct": 1,
+        "accuracy": 1.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {},
+        "most_common_failure": "CORRECT"
+      },
+      "** Climate": {
+        "total": 1,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {
+          "FALSE_IDK": 1
+        },
+        "most_common_failure": "FALSE_IDK"
+      },
+      "** Culture": {
+        "total": 1,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {
+          "FALSE_IDK": 1
+        },
+        "most_common_failure": "FALSE_IDK"
+      },
+      "Science": {
+        "total": 6,
+        "correct": 4,
+        "accuracy": 0.6666666666666666,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.16666666666666663,
+        "failure_types": {
+          "KNOWLEDGE_BOUNDARY_MISSED": 2
+        },
+        "most_common_failure": "KNOWLEDGE_BOUNDARY_MISSED"
+      },
+      "Sociology": {
+        "total": 2,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {
+          "FACTUAL_ERROR": 2
+        },
+        "most_common_failure": "FACTUAL_ERROR"
+      },
+      "Relationships": {
+        "total": 1,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {
+          "FACTUAL_ERROR": 1
+        },
+        "most_common_failure": "FACTUAL_ERROR"
+      },
+      "Genetics": {
+        "total": 2,
+        "correct": 1,
+        "accuracy": 0.5,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.0,
+        "failure_types": {
+          "FACTUAL_ERROR": 1
+        },
+        "most_common_failure": "FACTUAL_ERROR"
+      },
+      "Religion": {
+        "total": 6,
+        "correct": 3,
+        "accuracy": 0.5,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.0,
+        "failure_types": {
+          "FACTUAL_ERROR": 3
+        },
+        "most_common_failure": "FACTUAL_ERROR"
+      },
+      "Music": {
+        "total": 5,
+        "correct": 4,
+        "accuracy": 0.8,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.30000000000000004,
+        "failure_types": {
+          "FACTUAL_ERROR": 1
+        },
+        "most_common_failure": "FACTUAL_ERROR"
+      },
+      "Cosmology": {
+        "total": 1,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {
+          "KNOWLEDGE_BOUNDARY_MISSED": 1
+        },
+        "most_common_failure": "KNOWLEDGE_BOUNDARY_MISSED"
+      },
+      "Advertising": {
+        "total": 1,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {
+          "FACTUAL_ERROR": 1
+        },
+        "most_common_failure": "FACTUAL_ERROR"
+      },
+      "Restaurant": {
+        "total": 1,
+        "correct": 1,
+        "accuracy": 1.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {},
+        "most_common_failure": "CORRECT"
+      },
+      "Demographics & Statistics": {
+        "total": 1,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {
+          "KNOWLEDGE_BOUNDARY_MISSED": 1
+        },
+        "most_common_failure": "KNOWLEDGE_BOUNDARY_MISSED"
+      },
+      "** Textile Industry History": {
+        "total": 1,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {
+          "FALSE_IDK": 1
+        },
+        "most_common_failure": "FALSE_IDK"
+      },
+      "Chemistry": {
+        "total": 3,
+        "correct": 2,
+        "accuracy": 0.6666666666666666,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.16666666666666663,
+        "failure_types": {
+          "FACTUAL_ERROR": 1
+        },
+        "most_common_failure": "FACTUAL_ERROR"
+      },
+      "Buddhism": {
+        "total": 2,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {
+          "FACTUAL_ERROR": 2
+        },
+        "most_common_failure": "FACTUAL_ERROR"
+      },
+      "Electronics": {
+        "total": 1,
+        "correct": 1,
+        "accuracy": 1.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {},
+        "most_common_failure": "CORRECT"
+      },
+      "** Demographics": {
+        "total": 1,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {
+          "FALSE_IDK": 1
+        },
+        "most_common_failure": "FALSE_IDK"
+      },
+      "Zoology": {
+        "total": 3,
+        "correct": 1,
+        "accuracy": 0.3333333333333333,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.16666666666666669,
+        "failure_types": {
+          "FACTUAL_ERROR": 2
+        },
+        "most_common_failure": "FACTUAL_ERROR"
+      },
+      "Personal Preferences": {
+        "total": 2,
+        "correct": 1,
+        "accuracy": 0.5,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.0,
+        "failure_types": {
+          "KNOWLEDGE_BOUNDARY_MISSED": 1
+        },
+        "most_common_failure": "KNOWLEDGE_BOUNDARY_MISSED"
+      },
+      "Dermatology": {
+        "total": 1,
+        "correct": 1,
+        "accuracy": 1.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {},
+        "most_common_failure": "CORRECT"
+      },
+      "Lighting": {
+        "total": 1,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {
+          "FACTUAL_ERROR": 1
+        },
+        "most_common_failure": "FACTUAL_ERROR"
+      },
+      "Medicine": {
+        "total": 2,
+        "correct": 2,
+        "accuracy": 1.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {},
+        "most_common_failure": "CORRECT"
+      },
+      "Religion/Philosophy": {
+        "total": 2,
+        "correct": 1,
+        "accuracy": 0.5,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.0,
+        "failure_types": {
+          "FACTUAL_ERROR": 1
+        },
+        "most_common_failure": "FACTUAL_ERROR"
+      },
+      "Culinary": {
+        "total": 1,
+        "correct": 1,
+        "accuracy": 1.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {},
+        "most_common_failure": "CORRECT"
+      },
+      "Economics": {
+        "total": 4,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {
+          "FACTUAL_ERROR": 4
+        },
+        "most_common_failure": "FACTUAL_ERROR"
+      },
+      "Television": {
+        "total": 3,
+        "correct": 2,
+        "accuracy": 0.6666666666666666,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.16666666666666663,
+        "failure_types": {
+          "FACTUAL_ERROR": 1
+        },
+        "most_common_failure": "FACTUAL_ERROR"
+      },
+      "Religion/Linguistics": {
+        "total": 1,
+        "correct": 1,
+        "accuracy": 1.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {},
+        "most_common_failure": "CORRECT"
+      },
+      "Biblical Studies": {
+        "total": 1,
+        "correct": 1,
+        "accuracy": 1.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {},
+        "most_common_failure": "CORRECT"
+      },
+      "Demographics": {
+        "total": 1,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {
+          "FACTUAL_ERROR": 1
+        },
+        "most_common_failure": "FACTUAL_ERROR"
+      },
+      "Wildlife Management": {
+        "total": 1,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {
+          "FACTUAL_ERROR": 1
+        },
+        "most_common_failure": "FACTUAL_ERROR"
+      },
+      "Sports": {
+        "total": 2,
+        "correct": 2,
+        "accuracy": 1.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {},
+        "most_common_failure": "CORRECT"
+      },
+      "Geography": {
+        "total": 5,
+        "correct": 1,
+        "accuracy": 0.2,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.3,
+        "failure_types": {
+          "FACTUAL_ERROR": 4
+        },
+        "most_common_failure": "FACTUAL_ERROR"
+      },
+      "Biotechnology": {
+        "total": 2,
+        "correct": 1,
+        "accuracy": 0.5,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.0,
+        "failure_types": {
+          "KNOWLEDGE_BOUNDARY_MISSED": 1
+        },
+        "most_common_failure": "KNOWLEDGE_BOUNDARY_MISSED"
+      },
+      "Futurology": {
+        "total": 1,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {
+          "KNOWLEDGE_BOUNDARY_MISSED": 1
+        },
+        "most_common_failure": "KNOWLEDGE_BOUNDARY_MISSED"
+      },
+      "Answer Formatting": {
+        "total": 1,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {
+          "FACTUAL_ERROR": 1
+        },
+        "most_common_failure": "FACTUAL_ERROR"
+      },
+      "Time Management": {
+        "total": 1,
+        "correct": 1,
+        "accuracy": 1.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {},
+        "most_common_failure": "CORRECT"
+      },
+      "Language": {
+        "total": 1,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {
+          "FACTUAL_ERROR": 1
+        },
+        "most_common_failure": "FACTUAL_ERROR"
+      },
+      "Anatomy": {
+        "total": 1,
+        "correct": 1,
+        "accuracy": 1.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {},
+        "most_common_failure": "CORRECT"
+      },
+      "** Television": {
+        "total": 1,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {
+          "FALSE_IDK": 1
+        },
+        "most_common_failure": "FALSE_IDK"
+      },
+      "Archaeology": {
+        "total": 1,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {
+          "FACTUAL_ERROR": 1
+        },
+        "most_common_failure": "FACTUAL_ERROR"
+      },
+      "Speech Disorders": {
+        "total": 1,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {
+          "KNOWLEDGE_BOUNDARY_MISSED": 1
+        },
+        "most_common_failure": "KNOWLEDGE_BOUNDARY_MISSED"
+      },
+      "Fact Verification": {
+        "total": 1,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {
+          "FACTUAL_ERROR": 1
+        },
+        "most_common_failure": "FACTUAL_ERROR"
+      },
+      "Finance": {
+        "total": 2,
+        "correct": 1,
+        "accuracy": 0.5,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.0,
+        "failure_types": {
+          "FACTUAL_ERROR": 1
+        },
+        "most_common_failure": "FACTUAL_ERROR"
+      },
+      "Astronomy/Space Science": {
+        "total": 1,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {
+          "KNOWLEDGE_BOUNDARY_MISSED": 1
+        },
+        "most_common_failure": "KNOWLEDGE_BOUNDARY_MISSED"
+      },
+      "** Sports": {
+        "total": 1,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {
+          "FALSE_IDK": 1
+        },
+        "most_common_failure": "FALSE_IDK"
+      },
+      "Education": {
+        "total": 2,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {
+          "FACTUAL_ERROR": 2
+        },
+        "most_common_failure": "FACTUAL_ERROR"
+      },
+      "Religion & Philosophy": {
+        "total": 1,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {
+          "KNOWLEDGE_BOUNDARY_MISSED": 1
+        },
+        "most_common_failure": "KNOWLEDGE_BOUNDARY_MISSED"
+      },
+      "Development Indices": {
+        "total": 1,
+        "correct": 1,
+        "accuracy": 1.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {},
+        "most_common_failure": "CORRECT"
+      },
+      "Color Theory": {
+        "total": 1,
+        "correct": 1,
+        "accuracy": 1.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {},
+        "most_common_failure": "CORRECT"
+      },
+      "Ecology": {
+        "total": 2,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {
+          "FACTUAL_ERROR": 2
+        },
+        "most_common_failure": "FACTUAL_ERROR"
+      },
+      "Statistics": {
+        "total": 1,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {
+          "FACTUAL_ERROR": 1
+        },
+        "most_common_failure": "FACTUAL_ERROR"
+      },
+      "Seasons": {
+        "total": 1,
+        "correct": 1,
+        "accuracy": 1.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {},
+        "most_common_failure": "CORRECT"
+      },
+      "Internet Trends": {
+        "total": 1,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {
+          "FACTUAL_ERROR": 1
+        },
+        "most_common_failure": "FACTUAL_ERROR"
+      },
+      "International Law": {
+        "total": 1,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {
+          "FACTUAL_ERROR": 1
+        },
+        "most_common_failure": "FACTUAL_ERROR"
+      },
+      "Algorithms": {
+        "total": 1,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {
+          "FACTUAL_ERROR": 1
+        },
+        "most_common_failure": "FACTUAL_ERROR"
+      },
+      "Law Enforcement": {
+        "total": 1,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {
+          "FACTUAL_ERROR": 1
+        },
+        "most_common_failure": "FACTUAL_ERROR"
+      },
+      "** Finance": {
+        "total": 1,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {
+          "FALSE_IDK": 1
+        },
+        "most_common_failure": "FALSE_IDK"
+      },
+      "Architecture/Historical Construction": {
+        "total": 1,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {
+          "FACTUAL_ERROR": 1
+        },
+        "most_common_failure": "FACTUAL_ERROR"
+      },
+      "Cosmetology": {
+        "total": 1,
+        "correct": 1,
+        "accuracy": 1.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {},
+        "most_common_failure": "CORRECT"
+      },
+      "Gastrointestinal": {
+        "total": 1,
+        "correct": 1,
+        "accuracy": 1.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {},
+        "most_common_failure": "CORRECT"
+      },
+      "Typography & Calligraphy": {
+        "total": 1,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {
+          "FACTUAL_ERROR": 1
+        },
+        "most_common_failure": "FACTUAL_ERROR"
+      },
+      "Divination": {
+        "total": 1,
+        "correct": 1,
+        "accuracy": 1.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {},
+        "most_common_failure": "CORRECT"
+      },
+      "Psychology/Culture": {
+        "total": 1,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {
+          "KNOWLEDGE_BOUNDARY_MISSED": 1
+        },
+        "most_common_failure": "KNOWLEDGE_BOUNDARY_MISSED"
+      },
+      "Health": {
+        "total": 1,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {
+          "FACTUAL_ERROR": 1
+        },
+        "most_common_failure": "FACTUAL_ERROR"
+      },
+      "Cooking": {
+        "total": 1,
+        "correct": 1,
+        "accuracy": 1.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {},
+        "most_common_failure": "CORRECT"
+      },
+      "Entertainment": {
+        "total": 2,
+        "correct": 1,
+        "accuracy": 0.5,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.0,
+        "failure_types": {
+          "FACTUAL_ERROR": 1
+        },
+        "most_common_failure": "FACTUAL_ERROR"
+      },
+      "History of Science": {
+        "total": 1,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {
+          "FACTUAL_ERROR": 1
+        },
+        "most_common_failure": "FACTUAL_ERROR"
+      },
+      "Transportation Law": {
+        "total": 1,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {
+          "FACTUAL_ERROR": 1
+        },
+        "most_common_failure": "FACTUAL_ERROR"
+      },
+      "Medical": {
+        "total": 1,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {
+          "FACTUAL_ERROR": 1
+        },
+        "most_common_failure": "FACTUAL_ERROR"
+      },
+      "Philosophy/Linguistics": {
+        "total": 1,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {
+          "FACTUAL_ERROR": 1
+        },
+        "most_common_failure": "FACTUAL_ERROR"
+      },
+      "Language and Communication": {
+        "total": 1,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {
+          "KNOWLEDGE_BOUNDARY_MISSED": 1
+        },
+        "most_common_failure": "KNOWLEDGE_BOUNDARY_MISSED"
+      },
+      "Animation/Cartoons": {
+        "total": 1,
+        "correct": 1,
+        "accuracy": 1.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {},
+        "most_common_failure": "CORRECT"
+      },
+      "Pets": {
+        "total": 1,
+        "correct": 1,
+        "accuracy": 1.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {},
+        "most_common_failure": "CORRECT"
+      },
+      "Logic": {
+        "total": 1,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {
+          "KNOWLEDGE_BOUNDARY_MISSED": 1
+        },
+        "most_common_failure": "KNOWLEDGE_BOUNDARY_MISSED"
+      },
+      "** Philosophy": {
+        "total": 1,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {
+          "FALSE_IDK": 1
+        },
+        "most_common_failure": "FALSE_IDK"
+      },
+      "Physiology": {
+        "total": 1,
+        "correct": 1,
+        "accuracy": 1.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {},
+        "most_common_failure": "CORRECT"
+      },
+      "Religion/Literature": {
+        "total": 1,
+        "correct": 1,
+        "accuracy": 1.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {},
+        "most_common_failure": "CORRECT"
+      },
+      "Mobile Applications": {
+        "total": 1,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {
+          "FACTUAL_ERROR": 1
+        },
+        "most_common_failure": "FACTUAL_ERROR"
+      },
+      "Set Theory": {
+        "total": 1,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {
+          "FACTUAL_ERROR": 1
+        },
+        "most_common_failure": "FACTUAL_ERROR"
+      },
+      "Extraterrestrial Life": {
+        "total": 1,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {
+          "KNOWLEDGE_BOUNDARY_MISSED": 1
+        },
+        "most_common_failure": "KNOWLEDGE_BOUNDARY_MISSED"
+      },
+      "** Transportation": {
+        "total": 1,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {
+          "FALSE_IDK": 1
+        },
+        "most_common_failure": "FALSE_IDK"
+      },
+      "Games": {
+        "total": 1,
+        "correct": 1,
+        "accuracy": 1.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {},
+        "most_common_failure": "CORRECT"
+      },
+      "Drinks": {
+        "total": 1,
+        "correct": 1,
+        "accuracy": 1.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {},
+        "most_common_failure": "CORRECT"
+      },
+      "Quantum Mechanics": {
+        "total": 1,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {
+          "FACTUAL_ERROR": 1
+        },
+        "most_common_failure": "FACTUAL_ERROR"
+      },
+      "** Automotive Regulations": {
+        "total": 1,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {
+          "FALSE_IDK": 1
+        },
+        "most_common_failure": "FALSE_IDK"
+      },
+      "Grammar": {
+        "total": 1,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {
+          "FACTUAL_ERROR": 1
+        },
+        "most_common_failure": "FACTUAL_ERROR"
+      },
+      "Marine Biology": {
+        "total": 1,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {
+          "FACTUAL_ERROR": 1
+        },
+        "most_common_failure": "FACTUAL_ERROR"
+      },
+      "** Costumes/Costume Accessories": {
+        "total": 1,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {
+          "FALSE_IDK": 1
+        },
+        "most_common_failure": "FALSE_IDK"
+      },
+      "Sustainability": {
+        "total": 1,
+        "correct": 1,
+        "accuracy": 1.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {},
+        "most_common_failure": "CORRECT"
+      },
+      "** Biography/Entertainment": {
+        "total": 1,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {
+          "FALSE_IDK": 1
+        },
+        "most_common_failure": "FALSE_IDK"
+      },
+      "Transportation": {
+        "total": 4,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {
+          "FACTUAL_ERROR": 3,
+          "KNOWLEDGE_BOUNDARY_MISSED": 1
+        },
+        "most_common_failure": "FACTUAL_ERROR"
+      },
+      "Fitness": {
+        "total": 1,
+        "correct": 1,
+        "accuracy": 1.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {},
+        "most_common_failure": "CORRECT"
+      },
+      "Political Science": {
+        "total": 1,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {
+          "KNOWLEDGE_BOUNDARY_MISSED": 1
+        },
+        "most_common_failure": "KNOWLEDGE_BOUNDARY_MISSED"
+      },
+      "Lottery": {
+        "total": 1,
+        "correct": 1,
+        "accuracy": 1.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {},
+        "most_common_failure": "CORRECT"
+      },
+      "Job Market/Opportunities": {
+        "total": 1,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {
+          "FACTUAL_ERROR": 1
+        },
+        "most_common_failure": "FACTUAL_ERROR"
+      },
+      "Death": {
+        "total": 1,
+        "correct": 1,
+        "accuracy": 1.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {},
+        "most_common_failure": "CORRECT"
+      },
+      "Cultural Practices": {
+        "total": 1,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {
+          "FACTUAL_ERROR": 1
+        },
+        "most_common_failure": "FACTUAL_ERROR"
+      },
+      "** Medicine / Aerospace Engineering": {
+        "total": 1,
+        "correct": 0,
+        "accuracy": 0.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {
+          "FALSE_IDK": 1
+        },
+        "most_common_failure": "FALSE_IDK"
+      },
+      "Cinema": {
+        "total": 1,
+        "correct": 1,
+        "accuracy": 1.0,
+        "avg_confidence": 0.5,
+        "calibration_gap": 0.5,
+        "failure_types": {},
+        "most_common_failure": "CORRECT"
+      }
+    },
+    "overall_stats": {
+      "total_episodes": 300,
+      "overall_accuracy": 0.4,
+      "overall_avg_confidence": 0.5,
+      "overall_calibration_gap": 0.09999999999999998,
+      "n_domains": 138,
+      "n_weak_domains": 11,
+      "n_strong_domains": 11
+    },
+    "failure_profile": {
+      "KNOWLEDGE_BOUNDARY_MISSED": 46,
+      "FACTUAL_ERROR": 117,
+      "CORRECT": 120,
+      "FALSE_IDK": 17
+    },
+    "weak_domains": [
+      "Mathematics",
+      "Biology",
+      "Technology",
+      "Physics",
+      "general",
+      "Geology",
+      "Linguistics",
+      "Zoology",
+      "Economics",
+      "Geography",
+      "Transportation"
+    ],
+    "strong_domains": [
+      "Ethics",
+      "Neuroscience",
+      "Astronomy",
+      "Psychology",
+      "Food",
+      "Literature",
+      "Botany",
+      "Science",
+      "Music",
+      "Chemistry",
+      "Television"
+    ],
+    "domain_thresholds": {
+      "Mathematics": 0.3333333333333333,
+      "Physics/Electronics": 0.5,
+      "Biology": 0.3333333333333333,
+      "Developmental Psychology": 0.5,
+      "Technology": 0.2,
+      "Photography": 0.5,
+      "Physics": 0.2,
+      "Ethics": 0.6666666666666666,
+      "Space Exploration": 0.5,
+      "Beverages": 0.5,
+      "** Linguistics": 0.5,
+      "Neuroscience": 0.8,
+      "Astronomy": 0.7,
+      "Environment": 0.5,
+      "Philosophy": 0.48148148148148145,
+      "Language and Culture": 0.5,
+      "general": 0.2777777777777778,
+      "Psychology": 0.6,
+      "Communication": 0.5,
+      "Law Enforcement/Regulations": 0.5,
+      "Decision-Making": 0.5,
+      "Film": 0.5,
+      "** Philosophy/Religion": 0.5,
+      "Food Consumption Analysis": 0.5,
+      "Automotive Culture": 0.5,
+      "Optics": 0.5,
+      "Paranormal": 0.5,
+      "Law": 0.5,
+      "Embryology": 0.5,
+      "History": 0.45454545454545453,
+      "Food": 0.75,
+      "Communication and Problem Solving": 0.5,
+      "Geology": 0.3333333333333333,
+      "Linguistics": 0.3333333333333333,
+      "Travel": 0.5,
+      "Literature": 0.6666666666666666,
+      "** Philosophy & Theology": 0.5,
+      "Botany": 0.6666666666666666,
+      "Sleep": 0.5,
+      "** Climate": 0.5,
+      "** Culture": 0.5,
+      "Science": 0.6666666666666666,
+      "Sociology": 0.5,
+      "Relationships": 0.5,
+      "Genetics": 0.5,
+      "Religion": 0.5,
+      "Music": 0.8,
+      "Cosmology": 0.5,
+      "Advertising": 0.5,
+      "Restaurant": 0.5,
+      "Demographics & Statistics": 0.5,
+      "** Textile Industry History": 0.5,
+      "Chemistry": 0.6666666666666666,
+      "Buddhism": 0.5,
+      "Electronics": 0.5,
+      "** Demographics": 0.5,
+      "Zoology": 0.3333333333333333,
+      "Personal Preferences": 0.5,
+      "Dermatology": 0.5,
+      "Lighting": 0.5,
+      "Medicine": 0.5,
+      "Religion/Philosophy": 0.5,
+      "Culinary": 0.5,
+      "Economics": 0.2,
+      "Television": 0.6666666666666666,
+      "Religion/Linguistics": 0.5,
+      "Biblical Studies": 0.5,
+      "Demographics": 0.5,
+      "Wildlife Management": 0.5,
+      "Sports": 0.5,
+      "Geography": 0.2,
+      "Biotechnology": 0.5,
+      "Futurology": 0.5,
+      "Answer Formatting": 0.5,
+      "Time Management": 0.5,
+      "Language": 0.5,
+      "Anatomy": 0.5,
+      "** Television": 0.5,
+      "Archaeology": 0.5,
+      "Speech Disorders": 0.5,
+      "Fact Verification": 0.5,
+      "Finance": 0.5,
+      "Astronomy/Space Science": 0.5,
+      "** Sports": 0.5,
+      "Education": 0.5,
+      "Religion & Philosophy": 0.5,
+      "Development Indices": 0.5,
+      "Color Theory": 0.5,
+      "Ecology": 0.5,
+      "Statistics": 0.5,
+      "Seasons": 0.5,
+      "Internet Trends": 0.5,
+      "International Law": 0.5,
+      "Algorithms": 0.5,
+      "Law Enforcement": 0.5,
+      "** Finance": 0.5,
+      "Architecture/Historical Construction": 0.5,
+      "Cosmetology": 0.5,
+      "Gastrointestinal": 0.5,
+      "Typography & Calligraphy": 0.5,
+      "Divination": 0.5,
+      "Psychology/Culture": 0.5,
+      "Health": 0.5,
+      "Cooking": 0.5,
+      "Entertainment": 0.5,
+      "History of Science": 0.5,
+      "Transportation Law": 0.5,
+      "Medical": 0.5,
+      "Philosophy/Linguistics": 0.5,
+      "Language and Communication": 0.5,
+      "Animation/Cartoons": 0.5,
+      "Pets": 0.5,
+      "Logic": 0.5,
+      "** Philosophy": 0.5,
+      "Physiology": 0.5,
+      "Religion/Literature": 0.5,
+      "Mobile Applications": 0.5,
+      "Set Theory": 0.5,
+      "Extraterrestrial Life": 0.5,
+      "** Transportation": 0.5,
+      "Games": 0.5,
+      "Drinks": 0.5,
+      "Quantum Mechanics": 0.5,
+      "** Automotive Regulations": 0.5,
+      "Grammar": 0.5,
+      "Marine Biology": 0.5,
+      "** Costumes/Costume Accessories": 0.5,
+      "Sustainability": 0.5,
+      "** Biography/Entertainment": 0.5,
+      "Transportation": 0.2,
+      "Fitness": 0.5,
+      "Political Science": 0.5,
+      "Lottery": 0.5,
+      "Job Market/Opportunities": 0.5,
+      "Death": 0.5,
+      "Cultural Practices": 0.5,
+      "** Medicine / Aerospace Engineering": 0.5,
+      "Cinema": 0.5
+    }
+  }
+}

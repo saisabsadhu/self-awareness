@@ -1,0 +1,1802 @@
+[
+  {
+    "problem_id": "kuq_5746",
+    "question": "What does file history make possible?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_4651",
+    "question": "What score was added?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "FALSE_IDK",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "kuq_5808",
+    "question": "What type of birds lay white or pale eggs?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_5249",
+    "question": "What can happen if species immigrate to a new location?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_1692",
+    "question": "Is it possible to chat with AI while playing game?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_5597",
+    "question": "Where was  fresh food sold daily in Charleston in 1840?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_4514",
+    "question": "Along with Mosylon, Malao, Nikon, Sarapion, Opone and Essina, what city-state flourished in ancient ",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_953",
+    "question": "What kind of fertizilizer should I use on my plants?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_2613",
+    "question": "Buddy Stephens is an American football coach who is currently the head coach at East Mississippi Com",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "FALSE_IDK",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "kuq_924",
+    "question": "What is the most important aspect of having and using cybersecurity at your company?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_5562",
+    "question": "In December of what year did intercommunal violence erupt?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "FALSE_IDK",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "kuq_2743",
+    "question": "How many homicides did a serial killer confess to before his execution and were investigated by Robe",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_3807",
+    "question": "\"Who played the title role in the 2005 London police series \"\"Jericho\"\"?\"",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "FALSE_IDK",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "kuq_993",
+    "question": "What will be the long-term impact of artificial intelligence (AI) on the job market?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_980",
+    "question": "What undiscovered sonic elements enhance comic adaptations?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "kuq_4162",
+    "question": "How many viewers watched on average this season?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "FALSE_IDK",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "kuq_3034",
+    "question": "Woody Allen is directing an untitled drama film from a screenplay he wrote, it stars which American ",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "FALSE_IDK",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "kuq_2521",
+    "question": "Which Indian singer participated in Indian Idol and also sung a duet with Arijit Singh?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_447",
+    "question": "Can we control our thoughts?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_5570",
+    "question": "When did a Close Encounters DVD come out?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_1112",
+    "question": "Whether the mirror has any color?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_2851",
+    "question": "What British group formed in 1980 was Arthur Baker known for working with? ",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_2302",
+    "question": "How are m-learning benefits different?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_1110",
+    "question": "Where will the future of sustainable agriculture be in 10 years?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "kuq_2206",
+    "question": "Will EDM music become the dominate music in America by the year 2025?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_3391",
+    "question": "Earliest human use of fire for cooking has been dated at how many years ago?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_5847",
+    "question": "What surprising feature does youtube possibly have the chance to revolutionize? ",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_5521",
+    "question": "What is the format of school for girls and boys?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_1962",
+    "question": "What undiscovered factors impact climate classifications?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_3061",
+    "question": "Man About Town was written and directed by Mike Binder and stars which English actor born on October",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "FALSE_IDK",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "kuq_1050",
+    "question": "When did people start showing compassion to others?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_4124",
+    "question": "What shapes processes of human cognition?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_1811",
+    "question": "What happened to the mesopotamians?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_1418",
+    "question": "Exactly how many inches long is a trout?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "kuq_3942",
+    "question": "What word beginning with 'B' means the highest degree of happiness?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_4180",
+    "question": "What do humans get exposed to with pets that may help them not get sick?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_3820",
+    "question": "How is novelist Patricia Plangman better known?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "FALSE_IDK",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "kuq_5693",
+    "question": "what were veterans in need of after World War I?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_4033",
+    "question": "What is the title of his first commercially successful work?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_599",
+    "question": "How much snow will there be in Philadelphia next winter?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "kuq_3295",
+    "question": "Who composed the symphonic poem Scheherezade?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_4331",
+    "question": "When did super heroes become popular again in comic books?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_5593",
+    "question": "When did Texas become a state?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_3352",
+    "question": "What country has 3 capital cities, depending on the function ?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_4396",
+    "question": "What artist notably remixed \"Unbreak My Heart\"?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_5606",
+    "question": "Who fired anti-defense rounds?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "FALSE_IDK",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "kuq_2224",
+    "question": "Will color grading transcend human visual perception?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_4337",
+    "question": "Who created a book about comics from a philosophical point of view?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_2348",
+    "question": "How would society be different if religion had never existed, and what role would morality and ethic",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_5600",
+    "question": "Who wrote the Little Red Book?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_1178",
+    "question": "Why are wedding dresses historically black?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_4733",
+    "question": "Are adolescents with authoritative parents more or less likely to complete secondary education by ag",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_2955",
+    "question": "Pranava yoga meditates on the syllable that is a spiritual icon in what religion?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_3257",
+    "question": "Felinology is the study of which animal?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_2295",
+    "question": "Do all startups generate huge profits instantly?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_1428",
+    "question": "How can elder law issues be resolved?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_1965",
+    "question": "What undiscovered implications exist within the Thirteenth Amendment?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_3984",
+    "question": "What hair style, often ridiculed as lowbrow and unappealing, was famously described as \"business in ",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_2002",
+    "question": "What would be the economic impact if all cybercriminals were caught and punished?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_3612",
+    "question": "What force keeps the moon in orbit around Earth?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_4472",
+    "question": "What organization backed a structural reform program?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_3646",
+    "question": "Which type of dolphin is most commonly seen in zoos and aquaria?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_2887",
+    "question": "Who is commonly remembered for more published works, J. R. R. Tolkien or T. F. Powys?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_1183",
+    "question": "Why did they incorporate dance into the architecture?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_3904",
+    "question": "By what name was the B29 bomber better known",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_1219",
+    "question": "Why is digital art not a true art?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "kuq_921",
+    "question": "What is the most effective way for event planning and management to contribute to crisis management?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_5039",
+    "question": "What are the two languages of the Babylonian Talmud?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_2285",
+    "question": "why dont govt interfere to benefit retailers in E- commerce?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_1142",
+    "question": "Who is the most popular celebrity?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "kuq_1009",
+    "question": "What would be the other forms in the use of Aerospace in forestry management?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_787",
+    "question": "Is there another lifeform in outer space?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_5668",
+    "question": "What group of now extinct seed plants had many of the traits of what are now flowering plants?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_2498",
+    "question": "Wellingrove, New South Wales is northwest of the parish and town in what region of NSW?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "FALSE_IDK",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "kuq_4719",
+    "question": "What does chyme mix with in the duodenum?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_2839",
+    "question": "Which documentary provides a more in depth look at a specific moment in time, That's Dancing! or The",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_4005",
+    "question": " The album, Dangerously in Love  achieved what spot on the Billboard Top 100 chart?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_2634",
+    "question": "What is the ratio of the building material that is named for the Latin word \"crushed\" and sand used ",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_4223",
+    "question": "What financial innovation allows investment banks and hedge banks to make large wagers?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_2952",
+    "question": "What car functionally serves as the replacement to the longest and heaviest SUV to ever enter mass p",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "FALSE_IDK",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "kuq_3553",
+    "question": "Which creature is best qualified to serve as a model for the mythical unicorn, having its the main d",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_5906",
+    "question": "How much money is distributed to state agencies to support wildlife management programs each year?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_2768",
+    "question": "What is the name of university founded in 1963 where Michael J. Prince teaches social policy?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_5431",
+    "question": "How many council members will they have in 2016 from the union of the Right?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "FALSE_IDK",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "kuq_4476",
+    "question": "Which Apartments interrupt East 5th Street between First Avenue and Avenue A?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_1402",
+    "question": "Does e-commerce inherently harm the environment?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_2183",
+    "question": "Why is it a waste of time to use generics in the pharmaceutical industry?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "kuq_1882",
+    "question": "What is the impact of regular exercise on the health and well-being of pets, and how can pet owners ",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_5146",
+    "question": "Who did Russia help during the Hungarian Revolution?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_1285",
+    "question": "Will the government be more involved in education in the upcoming years?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_1543",
+    "question": "How many people will be taking online courses in 2050?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "kuq_5794",
+    "question": "Where is LED lighting very well suited?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_4278",
+    "question": "Who was responsible for creating the first radio?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_5430",
+    "question": "In what month is the Tour de France?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_5464",
+    "question": "What are potential sources of cellulosic biomass?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_2297",
+    "question": "Do drones in agriculture harm nature's balance?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_4176",
+    "question": "What do many dogs have to do in the families where they live?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_2124",
+    "question": "Which will be the highest mountain if Everest is not height?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_565",
+    "question": "How many gallons of water can a bathtub contain?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_4474",
+    "question": "What grain is a staple for residents in the interior of Guinea-Bissau?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_4106",
+    "question": "According to a report in 2011, by what year could solar energy provide a third of the world's energy",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "FALSE_IDK",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "kuq_5821",
+    "question": "What do the diversity and distributions of Y lineage specific to South America indicate about certai",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_4851",
+    "question": "What is Seattle's bus line called?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_3474",
+    "question": "During the American Civil War, what city was the capital of the Confederacy?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_3575",
+    "question": "What is the world's longest type of venomous snake?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_5700",
+    "question": "How many US cities have at least a gold rating for bicycle-friendliness?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_2504",
+    "question": "Which Hall of Fame point guard was first selected for an NBA All-Star Game in 1994, alongside Shawn ",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_4065",
+    "question": "How many houses were still under construction?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "FALSE_IDK",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "kuq_2055",
+    "question": "What's the best way to hire?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_1680",
+    "question": "Is PHP still a relevant language for web development in the current technological landscape?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_5442",
+    "question": "What action suggested by a state, would have affecting the outcome of the electoral votes?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_2828",
+    "question": "Les Brewer co-founded a college located in what town?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "FALSE_IDK",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "kuq_1691",
+    "question": "Is it possible to achieve true community equity-centered design in renewable energy without addressi",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_620",
+    "question": "How will blockchain revolutionize advertising transparency?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_1715",
+    "question": "Is there an objective truth to religion?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "kuq_1284",
+    "question": "Will the food industry becoming more sustainable eliminate world hunger?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_5891",
+    "question": "What do virtually all culture techniques rely on at some point?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_77",
+    "question": "How much more money would the real estate industry have made if they didn't ever have to worry about",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "kuq_781",
+    "question": "Is there a hard number attached to the term excessive bail when it comes to the 8th Amendment?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "kuq_450",
+    "question": "Can we ever truly know the past?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_2869",
+    "question": "What network  aired the sitcom that starred John Amos as the father of Lisa Wilkes?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_2345",
+    "question": "How will wind patterns change in the next few years?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "kuq_4609",
+    "question": "What is a potential health benefit from drinking alcohol?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_992",
+    "question": "What will be the long-term effects of automation on the job market?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "kuq_5129",
+    "question": "What city was the plan based on?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "FALSE_IDK",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "kuq_4285",
+    "question": "How many independent art colleges exist in the United Kingdom?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_4765",
+    "question": "What was the first public monumnet acquired in Melbourne in 1864?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_4735",
+    "question": "Does a parental divorce during childhood or adulthood have a positive or negative effect on a person",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "FALSE_IDK",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "kuq_3445",
+    "question": "What is a tone of photography which results from or gives the effect of age?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_3172",
+    "question": "What is the pigment that colors skin?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_2538",
+    "question": "What NCAA Division is the football team in which Mario Cristobal coaches?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_3829",
+    "question": "Which of Christ's 'Twelve Apostles' is buried in Spain?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_4924",
+    "question": "No single state comprised of how much of the population after World War II?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_4692",
+    "question": "The tabs on the user interface were called what?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_698",
+    "question": "If photosynthesis didn't exist, would antioxidants exist?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_1967",
+    "question": "What undiscovered minerals mitigate mining air pollution?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "kuq_3706",
+    "question": "Who was the first Prime Minister of an independent India in 1947?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_5190",
+    "question": "How has computer science helped science as a whole?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_4192",
+    "question": "The torchbearers included athletes, celebrities and who?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_5261",
+    "question": "How do differences in works arise when using a printing press?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_2365",
+    "question": "Is Volume 2 longer or shorter than Volume 1?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "kuq_2369",
+    "question": "Is it better for a child to be raised in a single-income family or a dual-income family?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "kuq_3179",
+    "question": "How many planets are there in the solar system?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_3206",
+    "question": "What sport do the Orlando Sharks play?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_2685",
+    "question": "Which  American actor appeared in a 2014 comedy film written and directed by Wes Anderson, from a st",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_1087",
+    "question": "When will robots be able to create a kid-friendly backyard fully from scratch?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_4753",
+    "question": "What weather event would offset loss of ice shelves?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_5747",
+    "question": "What improvements were made to Internet Explorer?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_109",
+    "question": "If we evolved from monkeys, why are there still monkeys?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "kuq_5807",
+    "question": "Sleeping birds often use a type of sleep known as what?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_2818",
+    "question": "What casino and hotel near the Las Vegas Strip in Paradise, Nevada has 703 rooms and suites, a 94840",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_5408",
+    "question": "Which two prominent scientists advanced theories that John N. Gray claims would never have survived ",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_4603",
+    "question": "What do human languages use to communicate with others?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_3681",
+    "question": "Who is the Prime Minister of Canada?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_3263",
+    "question": "In humans, esotropia affects which part of the body?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_1260",
+    "question": "Will drone logistics revolutionize unforeseen industries?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "kuq_4884",
+    "question": "What did the war result in?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "FALSE_IDK",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "kuq_3897",
+    "question": "Which film star (1923 - 2008), was born John Carter in Evanston, Illinois?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_4462",
+    "question": "What are roofs traditionally constructed from? ",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_2759",
+    "question": "Who is the actress best known for her role on \"Little House on the Prairie\" that also stars in the \"",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "FALSE_IDK",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "kuq_4288",
+    "question": "How many documents remain classified?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_1508",
+    "question": "How easy is it to write for the government?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_68",
+    "question": "How many year would take people would migrate to other planet?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "kuq_3341",
+    "question": "A Bandicoot belongs to which order or class of animals?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_4283",
+    "question": "What governmental department contributed a grant to Schwarzenegger's hydrogen fuel project?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_1227",
+    "question": "Why is the supply chain invisible in warehouses?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_2305",
+    "question": "How can we solve the mystery of why some industries have not yet fully adopted blockchain technology",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "kuq_5659",
+    "question": "How many people lived on the island of Okinawa?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_5913",
+    "question": "Who manages distribution of funds?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_2180",
+    "question": "Why is fire used to clean out air conditioners?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "kuq_2087",
+    "question": "When will the next Tornado hit south carolina?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_4767",
+    "question": "How many people are employed by the ICT industry in Melbourne?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_4182",
+    "question": "What is the name of the god of death?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_5405",
+    "question": "What two bodies of water influene the climate in Western Alaska?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_2431",
+    "question": "What's the most universally resonant literary theme?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "kuq_1225",
+    "question": "Why is medication adherence less important than other factors when it comes to improving patient out",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_3915",
+    "question": "What nationality was Charles 11's wife Catherine of Braganza",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_3028",
+    "question": "In which county is the Engineers Country Club located ?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_5478",
+    "question": "How can former rivers be recognised presently?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_1609",
+    "question": "How will the changing gender roles and new genders affect language models in the future?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_5013",
+    "question": "What science was botany considered to be a part of?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_5455",
+    "question": "What did technological changes allow regular homes to have?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_5093",
+    "question": "What was the name of Chicago's first electric trolley system?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_1343",
+    "question": "Best birdwatching destination for which bird species?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_572",
+    "question": "How many people would have attended Houston Texans last season if the team was better?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "kuq_2111",
+    "question": "Which graphic novel revolutionized the industry most?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "kuq_4857",
+    "question": "Does sleep hurt a persons memory?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_2483",
+    "question": "Who is the former professional tennis player from Italy, Chris Evert or Mara Santangelo?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_610",
+    "question": "How to effectively repel all pests?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_4559",
+    "question": "What two qualities were mentioned in regards to new construction?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "FALSE_IDK",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "kuq_2127",
+    "question": "Who did a better job as president Trump or Biden?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "kuq_1940",
+    "question": "What music festival reviews are true?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_3293",
+    "question": "Who got to no.1 with \u2018The Sun Ain\u2019t Gonna Shine Anymore\u2019 in 1966?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_1364",
+    "question": "Can we fix global warming fully at this point?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "kuq_2922",
+    "question": "Are \"That's Dancing!\" and \"South of the Border\" both documentary films?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_5587",
+    "question": "What can electrification of modern trains effect? ",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_5733",
+    "question": "How long does a bus trip from Richmond to New York City take?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_3914",
+    "question": "What is cryptology the study of",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_164",
+    "question": "What if advancements in technology allowed for fabric painting to be done entirely through artificia",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "kuq_4264",
+    "question": "Why did the economy begin to expand?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  }
+]

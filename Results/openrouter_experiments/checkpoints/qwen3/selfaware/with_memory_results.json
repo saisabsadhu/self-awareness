@@ -1,0 +1,1802 @@
+[
+  {
+    "problem_id": "sa_1953",
+    "question": "What is the grammatical term for words such as at, in, of, to, by, under, and with?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_1255",
+    "question": "When water was creating the oceans what was happening to atmospheric water vapor?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "FACTUAL_ERROR",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_1192",
+    "question": "What was EU average amount of energy from renewable sources in 2008?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "FACTUAL_ERROR",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_40",
+    "question": "What body part do zombies crave?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_39",
+    "question": "What is the average number of pups per litter?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "FACTUAL_ERROR",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_3104",
+    "question": "Children are allowed to act in \u2018R\u2019 rated movies, why?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_2756",
+    "question": "Why are monkeys around if humans are their evolved counter?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "sa_721",
+    "question": "Development anthropologists would like to know why if a goal is to alleviate poverty, that poverty i",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "FACTUAL_ERROR",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_1807",
+    "question": "Which magazine has more issues per month, Club or Pro Football Weekly",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_1760",
+    "question": "In calculus, what is the opposite of a derivative?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_2754",
+    "question": "Why are fast drivers called careless while slow drivers are called stupid?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_2323",
+    "question": "What is a hard to pronounce and remember term meaning primarily auxiliary verbs and pronouns?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "FALSE_IDK",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "sa_467",
+    "question": "What does a country acquire as it develops?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "FACTUAL_ERROR",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_1881",
+    "question": "Poached eggs on muffins with hollandaise sauce, and ham or bacon are popularly called 'eggs (What?)'",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_3340",
+    "question": "Did humans invent maths or discover maths?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "sa_1960",
+    "question": "In the human body, which pigment is primarily responsible for the colour of skin?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_2823",
+    "question": "Why is consciousness baffling?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "sa_2394",
+    "question": "Would you rather never be able to go out during the day or never be able to go out at night?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_930",
+    "question": "Critics based in what movement find fault in objective realism?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "FACTUAL_ERROR",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_256",
+    "question": "When did evidence of wheeled vehicles appear throughout the world?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "FACTUAL_ERROR",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_1636",
+    "question": "What candy company is responsible for M&Ms, Milky Way, Snickers, and Twix bars, among others?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_2630",
+    "question": "Are we in the Matrix?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "sa_1618",
+    "question": "If adult female sheep are called ewes and castrated adult males are wethers, what are the uncastrate",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_2075",
+    "question": "According to the Bible, on which day of Creation did God make man?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_402",
+    "question": "What transparent, biconvex structure changes shape to change the focal distance of the eye so that i",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_159",
+    "question": "What is a bottomless pit or chasm, a very deep gorge, or a reference to something unfathomable and u",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_679",
+    "question": "Who was imprisoned?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "FACTUAL_ERROR",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_495",
+    "question": "Which form of writing extended before the invention of paper?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "FACTUAL_ERROR",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_533",
+    "question": "In humans, what is the medical term for night blindness, the inability to see in dim light or at nig",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_1564",
+    "question": "Who is expected to lead the family in spiritual mentorship?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_1355",
+    "question": "How many of Detroit's housing is unoccupied?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "FACTUAL_ERROR",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_1475",
+    "question": "What do dysfunctional people perceive the severity of their pain to be?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "FALSE_IDK",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "sa_1631",
+    "question": "\"Who coined the expresssion \"\"portmanteau words\"\" for words made from combinations of other words, s",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_522",
+    "question": "What type of meat is never present in halal dishes?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_682",
+    "question": "Who is known for the thought that humanity is the most important thing in the world?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "FACTUAL_ERROR",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_645",
+    "question": "Played by Jay Silverheels on the TV series, what is the name of The Lone Ranger's faithful companion",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_2669",
+    "question": "Is it possible to travel back in time?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_2833",
+    "question": "Should the world have more countries or fewer ones?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_1329",
+    "question": "How did early plants reproduce sexually?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "FACTUAL_ERROR",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_654",
+    "question": "What is the nautical term for a staircase between two decks on a ship?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_727",
+    "question": "What is the name for the study of the structure of the universe?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_2802",
+    "question": "Would you rather stub your toe or get a paper cut?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_3244",
+    "question": "If you were to dig a hole that went through the center of the earth and you jumped through, would yo",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_2623",
+    "question": "Would you rather have a driver to take you everywhere or a private chef who makes all your meals?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_1094",
+    "question": "What famous hotel in Paris opened? ( The only reason not to stay there was if you couldn't afford it",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "FALSE_IDK",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "sa_1103",
+    "question": "Which era was marked by investigating the universe?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "FACTUAL_ERROR",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_3207",
+    "question": "Why aren\u2019t houses ever recycled?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_59",
+    "question": "What has achieved nirvana and also liberation from delusion?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "FACTUAL_ERROR",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_606",
+    "question": "What day did he die?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "FALSE_IDK",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "sa_894",
+    "question": "How many workers had to commute away from the municipality?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "FALSE_IDK",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "sa_732",
+    "question": "Who are subjective idealists opposed to?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "FALSE_IDK",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "sa_329",
+    "question": "\"Who supposedly said \"\"let them eat cake\"\"?\"",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_3364",
+    "question": "If there are aliens, where are they?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "sa_1134",
+    "question": "Were peopel in pre-industrial societies considered to have long or short lifespans?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "FACTUAL_ERROR",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_2109",
+    "question": "Is there a final endpoint in identity development?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_1858",
+    "question": "Photo Gallery includes the ability to sort by age, color, or what other unusual criteria for photo s",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "FACTUAL_ERROR",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_1106",
+    "question": "What is the word for a group of fish?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_2095",
+    "question": "What was thought to decide a person's behavior?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_1213",
+    "question": "Why did weeds grow with human crops?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "FACTUAL_ERROR",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_1243",
+    "question": "How many teams have played in the Super Bowl eight times?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "FACTUAL_ERROR",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_2930",
+    "question": "Why did we decide to give February just 28 days when lots of other months have 31 days? Couldn\u2019t we ",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_103",
+    "question": "When was REM sleep discovered?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_1253",
+    "question": "What is the result of Karma called?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_26",
+    "question": "How many species of mammals do not have a live birth?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_1352",
+    "question": "What is the forecast plateau that the population will reach during the 21st century?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "FALSE_IDK",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "sa_1945",
+    "question": "What is the limitation in human hearing referred to as?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "FACTUAL_ERROR",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_1287",
+    "question": "Buddy's Buddy was a tribute album to what American singer, songwriter, and guitarist, who died in a ",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_874",
+    "question": "The tripedal gait allows what kind of walking?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "FACTUAL_ERROR",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_2954",
+    "question": "Does quantum theory always lead to quantum mechanics?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "sa_17",
+    "question": "What was the first monotheistic religion?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_788",
+    "question": "What animal on dairy farms is affected by timing?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_2389",
+    "question": "Often called high energy particles, what gives life to them?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_238",
+    "question": "What may modern humans be the only survivor of several species of?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "FACTUAL_ERROR",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_8",
+    "question": "Along with quantum physics generally, what scientific doctrine caused some physicists to embrace ide",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "FACTUAL_ERROR",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_339",
+    "question": "In addition to vocalization and body posture, how do people communicate with dogs?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_3154",
+    "question": "Vanessa and her friends were recycling paper for their class. For every 9 pounds they recycled they ",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "sa_2270",
+    "question": "The first astrolabe with a mechanical calendar was invented where?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "FALSE_IDK",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "sa_849",
+    "question": "In what branch can books, other than scripture, be used for the purpose of oath taking?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "FACTUAL_ERROR",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_1034",
+    "question": "According to the Bible, who was the first person to be born - as opposed to being created?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_1555",
+    "question": "What has led to many tragic instances of events like slavery and genocide?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "FACTUAL_ERROR",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_3291",
+    "question": "Is the Bermuda Triangle supernatural?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_3082",
+    "question": "Why are elderly people often called \u201cold people\u201d but children are never called \u201cnew people\u201d?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_1307",
+    "question": "What can result in more equal distribution of income?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_671",
+    "question": "Wolves may act in what behavioral manner when attacking dogs?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "FACTUAL_ERROR",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_2081",
+    "question": "Which fruit has the largest percentage of calories?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_2292",
+    "question": "Who is at the center of all mystical experiences?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "FALSE_IDK",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "sa_3231",
+    "question": "Could you drown in the fountain of youth?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "sa_172",
+    "question": "Who posited the existence of God?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "FACTUAL_ERROR",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_2337",
+    "question": "If you box in a left handed stance is described as southpaw.  How is the stance of a right handed bo",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_1832",
+    "question": "Which artist painted 'Dancer At The Barre'?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_1136",
+    "question": "What is the oldest theater in the U.S.?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_922",
+    "question": "What is the average temperature of the Earth's surface in Celsius?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_2829",
+    "question": "What happens if time stops?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_2938",
+    "question": "Why am I attracted to people who treat me badly yet can\u2019t help myself from feeling attracted to them",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_1493",
+    "question": "What is the name of the private equity firm that owns the Equity Office?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_1886",
+    "question": "From whom is married love generated?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "FACTUAL_ERROR",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_992",
+    "question": "How are sentient beings freed from suffering?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "FACTUAL_ERROR",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_1024",
+    "question": "How many people were listed as missing?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "FALSE_IDK",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "sa_935",
+    "question": "What story of little truth is a pillar of history?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "FACTUAL_ERROR",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_1787",
+    "question": "Which character did Hugo Weaving play in the film The Matrix?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_1440",
+    "question": "Where are regulated future exchanges located?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "FACTUAL_ERROR",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_884",
+    "question": "Which gender typically performs some form of courtship display?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_191",
+    "question": "What is the active voice sometimes shifted to when needed?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_2860",
+    "question": "Why doesn\u2019t McDonald\u2019s sell hot dogs?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_1332",
+    "question": "Do males or females appear physically mature before they are capable of reproduction?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_2145",
+    "question": "What would an American call a baby's dummy",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_1220",
+    "question": "To what extent does wealth reach from affluent down to average population?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "FACTUAL_ERROR",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_868",
+    "question": "The direction of the arrow of time is sometimes what?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "FACTUAL_ERROR",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_2629",
+    "question": "Why should we expect a universe full of chaos and randomness to be fair?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_1176",
+    "question": "Is adolescence a period of one transition or multiple transitions?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_1390",
+    "question": "What metric indicates a lights ability to make object appear natural?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_262",
+    "question": "If you ordered queso in a Spanish Restaurant what would you be served?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_1019",
+    "question": "What type of disease if often studied to understand damage to the brain?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "FACTUAL_ERROR",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_2795",
+    "question": "Will the singularity happen in your lifetime?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "sa_833",
+    "question": "What percentage do grades obtained account for in a students final grade?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "FALSE_IDK",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "sa_1629",
+    "question": "What is the estimate of how many physicians give out drugs on their own?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "FACTUAL_ERROR",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_512",
+    "question": "Who do gurus control?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_2914",
+    "question": "How long before the average life expectancy on planet earth is over 100 years?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "sa_784",
+    "question": "Which gender generally drive partner selection?:",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_1358",
+    "question": "How many episodes of Tom and Jerry were shown in the evenings?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "FALSE_IDK",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "sa_746",
+    "question": "If you had your vas deferens cut, what operation would you have had?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_2399",
+    "question": "Why is the Lone Ranger called \u2018Lone\u2019 if he always has his Indian friend Tonto with him?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_2150",
+    "question": "What are high energy magnets typically made of?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "FACTUAL_ERROR",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_132",
+    "question": "Olfactory relates to which of the senses?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_2765",
+    "question": "If Cinderella\u2019s shoe fit her perfectly, then why did it fall off?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_705",
+    "question": "Which aircraft is the largest passenger airliner currently in service?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_2401",
+    "question": "How many people can remember the atomic table for their entire lives?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "sa_3007",
+    "question": "Who was Jesus Christ really then what was his purpose?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_383",
+    "question": "What type of human knowledge is math?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "FACTUAL_ERROR",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_3129",
+    "question": "Are we living, or are we dying?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_1333",
+    "question": "How does the prey improve their evolutionary abilities through predator-prey interaction?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "FACTUAL_ERROR",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_1531",
+    "question": "What was the afterlife of the immortals called during this period?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "FACTUAL_ERROR",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_361",
+    "question": "What award is the equivalent of the Oscars for live American theatre?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_525",
+    "question": "NP complete problems contain the lowest likelihood of being located in what problem class?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_1935",
+    "question": "Who was responsible for dealing with chaotic train yards and unloaded wagons?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "FACTUAL_ERROR",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_284",
+    "question": "What is one thing mattel Developed?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "FACTUAL_ERROR",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_3103",
+    "question": "Who\u2019s buried in Grant\u2019s Tomb under the name Ulysses S. Grant if he wasn\u2019t really called Ulysses S. G",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "sa_3006",
+    "question": "Are children who act in R-rated movies allowed to watch the film when it\u2019s done?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_2963",
+    "question": "Why did the chicken really cross the road?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_542",
+    "question": "\"In which \"\" Star Wars\"\" episode does Anakin Skywalker transform into the black-suited Darth Vader?\"",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "FACTUAL_ERROR",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_1317",
+    "question": "Around how many households was a Prefect responsible for?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "FACTUAL_ERROR",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_1369",
+    "question": "How many titles does the library have?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "FALSE_IDK",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "sa_991",
+    "question": "In Harry Potter and the Deathly Hallows \u2013 Part 2 which fictional character and the main antagonist i",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_1495",
+    "question": "What percent of the population are between 20-64?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "FACTUAL_ERROR",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_2522",
+    "question": "Why isn\u2019t bacon baked and cookies cooked?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_2318",
+    "question": "\"Who said \"\"To err is human, to forgive, divine\"\"?\"",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_1428",
+    "question": "Of the Ten Meritorious Deeds, giving charity reduces what?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "FACTUAL_ERROR",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_2673",
+    "question": "If someone altered your memory, how would you know?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "sa_1520",
+    "question": "What is an insincere expression of sorrow?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "FACTUAL_ERROR",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_466",
+    "question": "What did Hume think our beliefs can't be established solely by?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_918",
+    "question": "Which part of the brain is associated with the memory loss an elderly person suffers?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "FACTUAL_ERROR",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_2949",
+    "question": "If the world were only one day long, what would happen?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_1882",
+    "question": "In Aboriginal myth, if Dreamtime is the era when spirit beings created the world, what are the paths",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_237",
+    "question": "Who served his dinner?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "FALSE_IDK",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "sa_2138",
+    "question": "What is the country's premier football league?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "FALSE_IDK",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "sa_1730",
+    "question": "A mummichog is what type of creature?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_87",
+    "question": "Who lives in areas not usable for agriculture?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "FACTUAL_ERROR",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_893",
+    "question": "With which type of government did Ortiz replace the old one?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "FALSE_IDK",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "sa_1430",
+    "question": "At what age do immune responses typically begin to decline?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_209",
+    "question": "Do grazing organisms often kill their prey?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "FACTUAL_ERROR",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_303",
+    "question": "How much money did a 1/2 minute commercial cost?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "FALSE_IDK",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "sa_634",
+    "question": "What kind of plant did these early gardeners seek out?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "FACTUAL_ERROR",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_2889",
+    "question": "Are there mysterious species hiding from humans?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "sa_278",
+    "question": "How many total members were there?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "FACTUAL_ERROR",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_3161",
+    "question": "When you get to heaven, do you look as you do at the age that you die?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_1571",
+    "question": "What is the youngest student a teacher might have?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "FACTUAL_ERROR",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_681",
+    "question": "What showed that memory exists even before that memory is known to the person?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "FACTUAL_ERROR",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_1549",
+    "question": "What does it mean if a God is not omnipotent?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "FACTUAL_ERROR",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_461",
+    "question": "What kind of plural words lose /n/?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "FALSE_IDK",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "sa_1446",
+    "question": "In boxing, what is thrown into the ring to stop a fight?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_905",
+    "question": "What is in a constant flux?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "FACTUAL_ERROR",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_1242",
+    "question": "Which vegetable, a gourd-like squash, derives its name from the Greek for 'large melon'?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_742",
+    "question": "What is considered to be central to the teachings of Buddhism?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_417",
+    "question": "What brand of chips wa produced by Frito-Lay since 1964 and then produced by Bluebird Foods locally ",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "FACTUAL_ERROR",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_3350",
+    "question": "Why do bubble bath bubbles always rise up white, even if the bath is pink in color?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_2332",
+    "question": "Where do you want to go today?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "FACTUAL_ERROR",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_473",
+    "question": "In a market economy, what is inequality a reflection of?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "FACTUAL_ERROR",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_588",
+    "question": "Which plant, Enkianthus or Scadoxus, is small enough to be grown as an ornamental plant in container",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_2794",
+    "question": "Does Karma work in real life?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_3198",
+    "question": "How can you describe something indescribable?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "sa_815",
+    "question": "Who's death caused this protest?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "FACTUAL_ERROR",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_105",
+    "question": "What partially accounts for the appearance of light skin in humans?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "FACTUAL_ERROR",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_1878",
+    "question": "What, ultimately, will the sun become?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_1379",
+    "question": "\"In what country is it common for \"\"salarymen\"\" to stay at \"\"capsule hotels\"\"?\"",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_974",
+    "question": "What was coming to an end?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "FACTUAL_ERROR",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_2493",
+    "question": "Where did human beings come from?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_2298",
+    "question": "Which group of people were considered inferior?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "FACTUAL_ERROR",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_1530",
+    "question": "Where were they?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "FACTUAL_ERROR",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_1661",
+    "question": "What did the architects of the calendar notice about the astronomical tables?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "FACTUAL_ERROR",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_123",
+    "question": "What dominates more basic mentality in symbolic reference?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "FALSE_IDK",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "sa_1056",
+    "question": "What condition are bears usually brought in in?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "FACTUAL_ERROR",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_616",
+    "question": "What type of services are sometimes open to passengers who are members of a different airline's freq",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "FACTUAL_ERROR",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_1747",
+    "question": "What did the percentage fall to?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "FALSE_IDK",
+      "decision": "abstained"
+    }
+  },
+  {
+    "problem_id": "sa_2391",
+    "question": "Why do we count sheep and not dogs when we can\u2019t go to sleep?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_2557",
+    "question": "Do we love so that we can be loved back?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_1508",
+    "question": "Which Peanuts character waits up every Halloween night for a visit from the Great Pumpkin?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_1113",
+    "question": "If your were unsure of the authenticity of an ancient text how could you verify it?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "FACTUAL_ERROR",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_981",
+    "question": "When did the Tertiary period begin?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "FACTUAL_ERROR",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_1065",
+    "question": "Which is the most acidic part of the digestive system?",
+    "evaluation": {
+      "correct": true,
+      "failure_type": "CORRECT",
+      "decision": "attempted"
+    }
+  },
+  {
+    "problem_id": "sa_3087",
+    "question": "How do you handcuff a one-armed man?",
+    "evaluation": {
+      "correct": false,
+      "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+      "decision": "attempted"
+    }
+  }
+]

@@ -1,0 +1,81 @@
+{
+  "baseline": {
+    "accuracy": 0.68,
+    "ci_lower": 0.6252228520235207,
+    "ci_upper": 0.7302255131772947,
+    "f1": 0.6799999999999999,
+    "precision": 0.6219512195121951,
+    "recall": 0.75,
+    "false_premise_accuracy": 0.75,
+    "true_premise_accuracy": 0.6219512195121951,
+    "n": 300,
+    "n_false": 136,
+    "n_true": 164,
+    "failure_distribution": {
+      "FALSE_IDK": 62,
+      "CORRECT": 204,
+      "KNOWLEDGE_BOUNDARY_MISSED": 34
+    }
+  },
+  "with_memory": {
+    "accuracy": 0.5933333333333334,
+    "ci_lower": 0.5369073596366767,
+    "ci_upper": 0.6473992000970794,
+    "f1": 0.6737967914438502,
+    "precision": 0.5294117647058824,
+    "recall": 0.9264705882352942,
+    "false_premise_accuracy": 0.9264705882352942,
+    "true_premise_accuracy": 0.3170731707317073,
+    "n": 300,
+    "n_false": 136,
+    "n_true": 164,
+    "failure_distribution": {
+      "FALSE_IDK": 112,
+      "CORRECT": 178,
+      "KNOWLEDGE_BOUNDARY_MISSED": 10
+    }
+  },
+  "with_memory_sa": {
+    "accuracy": 0.6966666666666667,
+    "ci_lower": 0.6424305301606226,
+    "ci_upper": 0.7459297207069346,
+    "f1": 0.736231884057971,
+    "precision": 0.6076555023923444,
+    "recall": 0.9338235294117647,
+    "false_premise_accuracy": 0.9338235294117647,
+    "true_premise_accuracy": 0.5,
+    "n": 300,
+    "n_false": 136,
+    "n_true": 164,
+    "failure_distribution": {
+      "CORRECT": 209,
+      "FALSE_IDK": 82,
+      "KNOWLEDGE_BOUNDARY_MISSED": 9
+    }
+  },
+  "sa_vs_baseline": {
+    "f1_diff": 0.05623188405797108,
+    "accuracy_diff": 0.016666666666666607
+  },
+  "sa_uplift": {
+    "f1_diff": 0.062435092614120835,
+    "accuracy_diff": 0.10333333333333328
+  },
+  "sa_memory_stats": {
+    "total_episodes": 300,
+    "failure_distribution": {
+      "FALSE_IDK": 51,
+      "KNOWLEDGE_BOUNDARY_MISSED": 37,
+      "CORRECT": 212
+    },
+    "schema_distribution": {
+      "strategy": 300
+    },
+    "high_level_policies": 0,
+    "high_level_strategies": 6,
+    "high_level_capabilities": 0,
+    "tier_distribution": {
+      "hot": 300
+    }
+  }
+}

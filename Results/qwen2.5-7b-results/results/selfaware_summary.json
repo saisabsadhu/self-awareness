@@ -1,0 +1,89 @@
+{
+  "baseline": {
+    "overall_accuracy": 0.692,
+    "ci_lower": 0.6501972113746908,
+    "ci_upper": 0.7308749351094421,
+    "answerable_accuracy": 0.8352601156069365,
+    "unanswerable_accuracy": 0.37012987012987014,
+    "f1": 0.42537313432835827,
+    "precision": 0.5,
+    "recall": 0.37012987012987014,
+    "n_total": 500,
+    "n_answerable": 346,
+    "n_unanswerable": 154,
+    "failure_distribution": {
+      "CORRECT": 184,
+      "FACTUAL_ERROR": 162,
+      "FALSE_IDK": 57,
+      "KNOWLEDGE_BOUNDARY_MISSED": 97
+    }
+  },
+  "with_memory": {
+    "overall_accuracy": 0.64,
+    "ci_lower": 0.5970058131108227,
+    "ci_upper": 0.6808592937005244,
+    "answerable_accuracy": 0.6820809248554913,
+    "unanswerable_accuracy": 0.5454545454545454,
+    "f1": 0.4827586206896552,
+    "precision": 0.4329896907216495,
+    "recall": 0.5454545454545454,
+    "n_total": 500,
+    "n_answerable": 346,
+    "n_unanswerable": 154,
+    "failure_distribution": {
+      "CORRECT": 190,
+      "FALSE_IDK": 110,
+      "KNOWLEDGE_BOUNDARY_MISSED": 70,
+      "FACTUAL_ERROR": 130
+    }
+  },
+  "with_memory_sa": {
+    "overall_accuracy": 0.61,
+    "ci_lower": 0.566563167828306,
+    "ci_upper": 0.6517594160948953,
+    "answerable_accuracy": 0.5924855491329479,
+    "unanswerable_accuracy": 0.6493506493506493,
+    "f1": 0.5063291139240507,
+    "precision": 0.4149377593360996,
+    "recall": 0.6493506493506493,
+    "n_total": 500,
+    "n_answerable": 346,
+    "n_unanswerable": 154,
+    "failure_distribution": {
+      "CORRECT": 206,
+      "FACTUAL_ERROR": 99,
+      "FALSE_IDK": 141,
+      "KNOWLEDGE_BOUNDARY_MISSED": 54
+    }
+  },
+  "memory_vs_baseline": {
+    "f1_diff": 0.05738548636129692,
+    "accuracy_diff": -0.051999999999999935
+  },
+  "memory_sa_vs_baseline": {
+    "f1_diff": 0.0809559795956924,
+    "accuracy_diff": -0.08199999999999996
+  },
+  "sa_uplift": {
+    "f1_diff": 0.023570493234395473,
+    "accuracy_diff": -0.030000000000000027
+  },
+  "sa_memory_stats": {
+    "total_episodes": 300,
+    "failure_distribution": {
+      "KNOWLEDGE_BOUNDARY_MISSED": 41,
+      "FACTUAL_ERROR": 104,
+      "CORRECT": 125,
+      "FALSE_IDK": 30
+    },
+    "schema_distribution": {
+      "strategy": 300
+    },
+    "high_level_policies": 0,
+    "high_level_strategies": 11,
+    "high_level_capabilities": 0,
+    "tier_distribution": {
+      "hot": 300
+    }
+  }
+}

@@ -1,0 +1,32 @@
+The idea is to make language model agents better at knowing what they don't know. Right now, if you ask an LLM about a made-up animal or a question with a false premise, it will confidently make up an answer. We want it to recognize those situations and abstain instead.
+
+Current setup
+
+We build on top of an existing system called ReasoningBank (RB), which gives agents a memory of past task strategies. Our contribution is a Self-Awareness (SA) module that sits on top of it.
+
+During training, every time the agent attempts a question, we look at what happened and classify it into one of four failure types:
+
+- It attempted an unanswerable question (it shouldn't have) → KNOWLEDGE_BOUNDARY_MISSED
+- It abstained on an answerable question (it should have answered) → FALSE_IDK
+- It attempted an answerable question and got it wrong → FACTUAL_ERROR
+- It did the right thing → CORRECT
+
+This classification is done deterministically from the ground truth label and the model's output
+
+From these, we extract typed lessons and store them in a two-level memory: specific episodic lessons at the low level, and general standing guidelines that get promoted when the same failure pattern repeats three or more times. At test time, we retrieve relevant failure lessons and inject them before the model answers.
+
+Results
+
+Adding this SA layer on top of RB improves abstention F1 on 11 out of 12 model-dataset combinations we tested. The gains are largest on benchmarks that directly test known/unknown boundaries (KUQ: +41% on our main model, UnknownBench: +49%).
+
+Nhat's exploration
+
+In parallel, Nhat has been exploring a complementary direction: instead of treating all questions the same way, cluster them by embedding similarity and route each cluster to a different memory configuration — some clusters go to RB only, others to RB+SA. The idea is that not all question types benefit equally from the SA layer, and routing lets you be selective about when to apply it. This is still being validated against the full benchmark set and the two approaches may end up being combined.
+
+Next steps
+
+The current system is reactive, so it only learns from failures after they happen. 
+
+The direction we're currently exploring is making this proactive: can the agent actively map out its own competence across domains before deployment, rather than waiting to fail? 
+
+The rough idea is to have it self-test using a Bayesian bandit to decide where to probe, targeting domains where it's most uncertain about its own accuracy, not just where it's worst. At inference time, that map could then be used to route each question to the right compute budget.

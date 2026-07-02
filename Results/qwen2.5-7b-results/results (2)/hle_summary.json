@@ -1,0 +1,47 @@
+{
+  "baseline": {
+    "accuracy": 0.265,
+    "ci_lower": 0.20868060011609973,
+    "ci_upper": 0.33017702266551113,
+    "n": 200,
+    "correct": 53,
+    "uncertainty_rate": 0.075,
+    "failure_distribution": {
+      "FACTUAL_ERROR": 133,
+      "CORRECT": 53,
+      "KNOWLEDGE_BOUNDARY_MISSED": 14
+    }
+  },
+  "with_memory": {
+    "accuracy": 0.265,
+    "ci_lower": 0.20868060011609973,
+    "ci_upper": 0.33017702266551113,
+    "n": 200,
+    "correct": 53,
+    "uncertainty_rate": 0.105,
+    "failure_distribution": {
+      "FACTUAL_ERROR": 129,
+      "CORRECT": 53,
+      "KNOWLEDGE_BOUNDARY_MISSED": 18
+    }
+  },
+  "with_memory_sa": {
+    "accuracy": 0.265,
+    "ci_lower": 0.20868060011609973,
+    "ci_upper": 0.33017702266551113,
+    "n": 200,
+    "correct": 53,
+    "uncertainty_rate": 0.09,
+    "failure_distribution": {
+      "FACTUAL_ERROR": 130,
+      "KNOWLEDGE_BOUNDARY_MISSED": 17,
+      "CORRECT": 53
+    }
+  },
+  "sa_vs_baseline": {
+    "accuracy_diff": 0.0
+  },
+  "sa_uplift": {
+    "accuracy_diff": 0.0
+  }
+}
