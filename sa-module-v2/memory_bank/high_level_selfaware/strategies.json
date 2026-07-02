@@ -1,0 +1,239 @@
+[
+  {
+    "id": "hl_0001",
+    "category": "strategies",
+    "pattern": "The model tends to give wrong factual answers in Physics when it lacks specific foundational knowledge or when it confuses fundamental concepts.\nTRIGGER: When the question involves fundamental principles, definitions, or constants in Physics.\nGUIDELINE: When the question involves fundamental principles, definitions, or constants in Physics, ensure to cross-reference the answer with well-established scientific sources and verify the consistency of the information provided.",
+    "guideline": "When the question involves fundamental principles, definitions, or constants in Physics, ensure to cross-reference the answer with well-established scientific sources and verify the consistency of the information provided.",
+    "trigger_condition": "When the question involves fundamental principles, definitions, or constants in Physics.\nGUIDELINE: When the question involves fundamental principles, definitions, or constants in Physics, ensure to cross-reference the answer with well-established scientific sources and verify the consistency of the information provided.",
+    "source_episodes": [
+      "sa_2074",
+      "sa_2167",
+      "sa_851",
+      "sa_1429",
+      "sa_1566",
+      "sa_1159"
+    ],
+    "n_episodes": 6,
+    "domain": "Physics",
+    "failure_type": "FACTUAL_ERROR",
+    "created_at": "2026-07-02T15:54:35.540990",
+    "updated_at": "2026-07-02T16:19:00.336705",
+    "active": true
+  },
+  {
+    "id": "hl_0002",
+    "category": "strategies",
+    "pattern": "The model gets wrong factual answers in Biology when it lacks specific biological knowledge or context.\nTRIGGER: When the question involves specific biological terms, processes, or definitions.\nGUIDELINE: When the question involves specific biological terms, processes, or definitions, ensure to cross-reference the information with reliable biological databases or textbooks to avoid factual errors.",
+    "guideline": "When the question involves specific biological terms, processes, or definitions, ensure to cross-reference the information with reliable biological databases or textbooks to avoid factual errors.",
+    "trigger_condition": "When the question involves specific biological terms, processes, or definitions.\nGUIDELINE: When the question involves specific biological terms, processes, or definitions, ensure to cross-reference the information with reliable biological databases or textbooks to avoid factual errors.",
+    "source_episodes": [
+      "sa_198",
+      "sa_325",
+      "sa_2258",
+      "sa_1711"
+    ],
+    "n_episodes": 4,
+    "domain": "Biology",
+    "failure_type": "FACTUAL_ERROR",
+    "created_at": "2026-07-02T15:56:54.548265",
+    "updated_at": "2026-07-02T16:19:00.336725",
+    "active": true
+  },
+  {
+    "id": "hl_0003",
+    "category": "strategies",
+    "pattern": "The model incorrectly attempts to answer Mathematics questions with missing or irrelevant information.\nTRIGGER: When a Mathematics question contains missing, irrelevant, or insufficient information (e.g., incomplete data, unclear context, or undefined variables).\nGUIDELINE: When a Mathematics question contains missing, irrelevant, or insufficient information, say \"I don't know\" because the provided information is insufficient to determine a valid solution.",
+    "guideline": "When a Mathematics question contains missing, irrelevant, or insufficient information, say \"I don't know\" because the provided information is insufficient to determine a valid solution.",
+    "trigger_condition": "When a Mathematics question contains missing, irrelevant, or insufficient information (e.g., incomplete data, unclear context, or undefined variables).\nGUIDELINE: When a Mathematics question contains missing, irrelevant, or insufficient information, say \"I don't know\" because the provided information is insufficient to determine a valid solution.",
+    "source_episodes": [
+      "sa_2497",
+      "sa_3295",
+      "sa_2439",
+      "sa_2362"
+    ],
+    "n_episodes": 4,
+    "domain": "Mathematics",
+    "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+    "created_at": "2026-07-02T15:58:55.981854",
+    "updated_at": "2026-07-02T16:19:00.336697",
+    "active": true
+  },
+  {
+    "id": "hl_0004",
+    "category": "strategies",
+    "pattern": "The model incorrectly attempts to answer philosophical questions that involve gaps in our current knowledge or understanding.\nTRIGGER: When a philosophical question involves a gap in our current knowledge or understanding (e.g., questions about the existence of God, the nature of reality, or the concept of time).\nGUIDELINE: When a philosophical question involves a gap in our current knowledge or understanding, say \"I don't know\" because these questions often exceed the boundaries of our current scientific and philosophical knowledge, and providing an answer would be speculative rather than based on established facts or principles.",
+    "guideline": "When a philosophical question involves a gap in our current knowledge or understanding, say \"I don't know\" because these questions often exceed the boundaries of our current scientific and philosophical knowledge, and providing an answer would be speculative rather than based on established facts or principles.",
+    "trigger_condition": "When a philosophical question involves a gap in our current knowledge or understanding (e.g., questions about the existence of God, the nature of reality, or the concept of time).\nGUIDELINE: When a philosophical question involves a gap in our current knowledge or understanding, say \"I don't know\" because these questions often exceed the boundaries of our current scientific and philosophical knowledge, and providing an answer would be speculative rather than based on established facts or principles.",
+    "source_episodes": [
+      "sa_2867",
+      "sa_2496",
+      "sa_2937",
+      "sa_2961",
+      "sa_2486",
+      "sa_2538",
+      "sa_3172",
+      "sa_2460",
+      "sa_3026",
+      "sa_3310"
+    ],
+    "n_episodes": 12,
+    "domain": "Philosophy",
+    "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+    "created_at": "2026-07-02T15:58:55.981908",
+    "updated_at": "2026-07-02T16:19:00.336722",
+    "active": true
+  },
+  {
+    "id": "hl_0005",
+    "category": "strategies",
+    "pattern": "The model tends to make factual errors in identifying specific linguistic terms, processes, and phenomena.\nTRIGGER: When a question involves specific terminology, definitions, or processes in linguistics.\nGUIDELINE: When a question involves specific terminology, definitions, or processes in linguistics, consult authoritative linguistic resources such as academic texts, reputable online encyclopedias, or established linguistic databases to ensure accuracy.",
+    "guideline": "When a question involves specific terminology, definitions, or processes in linguistics, consult authoritative linguistic resources such as academic texts, reputable online encyclopedias, or established linguistic databases to ensure accuracy.",
+    "trigger_condition": "When a question involves specific terminology, definitions, or processes in linguistics.\nGUIDELINE: When a question involves specific terminology, definitions, or processes in linguistics, consult authoritative linguistic resources such as academic texts, reputable online encyclopedias, or established linguistic databases to ensure accuracy.",
+    "source_episodes": [
+      "sa_2194",
+      "sa_133",
+      "sa_22",
+      "sa_809"
+    ],
+    "n_episodes": 4,
+    "domain": "Linguistics",
+    "failure_type": "FACTUAL_ERROR",
+    "created_at": "2026-07-02T16:01:03.582083",
+    "updated_at": "2026-07-02T16:19:00.336708",
+    "active": true
+  },
+  {
+    "id": "hl_0006",
+    "category": "strategies",
+    "pattern": "The model gets wrong factual details in Philosophy questions.\nTRIGGER: When the question involves specific philosophical concepts, historical figures, or precise definitions.\nGUIDELINE: When the question involves specific philosophical concepts, historical figures, or precise definitions, always cross-reference the information with reliable academic sources before providing an answer.",
+    "guideline": "When the question involves specific philosophical concepts, historical figures, or precise definitions, always cross-reference the information with reliable academic sources before providing an answer.",
+    "trigger_condition": "When the question involves specific philosophical concepts, historical figures, or precise definitions.\nGUIDELINE: When the question involves specific philosophical concepts, historical figures, or precise definitions, always cross-reference the information with reliable academic sources before providing an answer.",
+    "source_episodes": [
+      "sa_690",
+      "sa_1658",
+      "sa_2027",
+      "sa_403"
+    ],
+    "n_episodes": 4,
+    "domain": "Philosophy",
+    "failure_type": "FACTUAL_ERROR",
+    "created_at": "2026-07-02T16:01:03.582094",
+    "updated_at": "2026-07-02T16:19:00.336711",
+    "active": true
+  },
+  {
+    "id": "hl_0007",
+    "category": "strategies",
+    "pattern": "The model tends to get wrong factual questions related to specific locations, landmarks, and less commonly known geographical facts.\nTRIGGER: When the question involves specific locations, landmarks, or less commonly known geographical facts.\nGUIDELINE: When the question involves specific locations, landmarks, or less commonly known geographical facts, consult reliable geographical databases or reference materials to ensure accuracy before providing an answer.",
+    "guideline": "When the question involves specific locations, landmarks, or less commonly known geographical facts, consult reliable geographical databases or reference materials to ensure accuracy before providing an answer.",
+    "trigger_condition": "When the question involves specific locations, landmarks, or less commonly known geographical facts.\nGUIDELINE: When the question involves specific locations, landmarks, or less commonly known geographical facts, consult reliable geographical databases or reference materials to ensure accuracy before providing an answer.",
+    "source_episodes": [
+      "sa_1090",
+      "sa_1246",
+      "sa_1717",
+      "sa_2116"
+    ],
+    "n_episodes": 4,
+    "domain": "Geography",
+    "failure_type": "FACTUAL_ERROR",
+    "created_at": "2026-07-02T16:05:42.581555",
+    "updated_at": "2026-07-02T16:19:00.336717",
+    "active": true
+  },
+  {
+    "id": "hl_0008",
+    "category": "strategies",
+    "pattern": "The model tends to make factual errors in History questions related to specific individuals, their inventions, or famous quotes.\nTRIGGER: When the question involves a specific individual, their contributions, or famous historical quotes.\nGUIDELINE: When the question involves a specific individual, their contributions, or famous historical quotes, verify the information using multiple reliable sources before providing an answer.",
+    "guideline": "When the question involves a specific individual, their contributions, or famous historical quotes, verify the information using multiple reliable sources before providing an answer.",
+    "trigger_condition": "When the question involves a specific individual, their contributions, or famous historical quotes.\nGUIDELINE: When the question involves a specific individual, their contributions, or famous historical quotes, verify the information using multiple reliable sources before providing an answer.",
+    "source_episodes": [
+      "sa_65",
+      "sa_1288",
+      "sa_346",
+      "sa_374",
+      "sa_1912"
+    ],
+    "n_episodes": 5,
+    "domain": "History",
+    "failure_type": "FACTUAL_ERROR",
+    "created_at": "2026-07-02T16:07:05.228790",
+    "updated_at": "2026-07-02T16:19:00.336729",
+    "active": true
+  },
+  {
+    "id": "hl_0009",
+    "category": "strategies",
+    "pattern": "The model gets wrong factual answers in Psychology when it lacks specific knowledge about psychological phenomena, processes, or terminology.\nTRIGGER: When a question involves specific psychological terms, phenomena, or processes that are not well-defined in the model's current knowledge base.\nGUIDELINE: When a question involves specific psychological terms, phenomena, or processes that are not well-defined in the model's current knowledge base, consult reliable psychological resources such as academic journals, textbooks, or reputable online databases to ensure accurate and up-to-date information before providing an answer.",
+    "guideline": "When a question involves specific psychological terms, phenomena, or processes that are not well-defined in the model's current knowledge base, consult reliable psychological resources such as academic journals, textbooks, or reputable online databases to ensure accurate and up-to-date information before providing an answer.",
+    "trigger_condition": "When a question involves specific psychological terms, phenomena, or processes that are not well-defined in the model's current knowledge base.\nGUIDELINE: When a question involves specific psychological terms, phenomena, or processes that are not well-defined in the model's current knowledge base, consult reliable psychological resources such as academic journals, textbooks, or reputable online databases to ensure accurate and up-to-date information before providing an answer.",
+    "source_episodes": [
+      "sa_342",
+      "sa_2290",
+      "sa_802",
+      "sa_565"
+    ],
+    "n_episodes": 4,
+    "domain": "Psychology",
+    "failure_type": "FACTUAL_ERROR",
+    "created_at": "2026-07-02T16:08:23.550118",
+    "updated_at": "2026-07-02T16:19:00.336739",
+    "active": true
+  },
+  {
+    "id": "hl_0010",
+    "category": "strategies",
+    "pattern": "The model repeatedly attempts to answer general questions that lack specific context or knowledge boundaries.\nTRIGGER: When a question lacks specific context or knowledge boundaries and seems open-ended or hypothetical.\nGUIDELINE: When a question lacks specific context or knowledge boundaries and seems open-ended or hypothetical, say \"I don't know\" because such questions often do not provide enough information to form a meaningful response.",
+    "guideline": "When a question lacks specific context or knowledge boundaries and seems open-ended or hypothetical, say \"I don't know\" because such questions often do not provide enough information to form a meaningful response.",
+    "trigger_condition": "When a question lacks specific context or knowledge boundaries and seems open-ended or hypothetical.\nGUIDELINE: When a question lacks specific context or knowledge boundaries and seems open-ended or hypothetical, say \"I don't know\" because such questions often do not provide enough information to form a meaningful response.",
+    "source_episodes": [
+      "sa_3070",
+      "sa_2358",
+      "sa_3061",
+      "sa_3273",
+      "sa_2438",
+      "sa_2941"
+    ],
+    "n_episodes": 6,
+    "domain": "general",
+    "failure_type": "KNOWLEDGE_BOUNDARY_MISSED",
+    "created_at": "2026-07-02T16:12:20.145646",
+    "updated_at": "2026-07-02T16:19:00.336715",
+    "active": true
+  },
+  {
+    "id": "hl_0011",
+    "category": "strategies",
+    "pattern": "The model gets wrong factual answers about intermediate states, visualizations of God, and views on God in various religions.\nTRIGGER: When the question involves concepts related to afterlife beliefs, visualization practices, or descriptions of God's nature across different religious traditions.\nGUIDELINE: When the question involves concepts related to afterlife beliefs, visualization practices, or descriptions of God's nature across different religious traditions, ensure to cross-reference with reliable religious texts and scholarly sources to avoid factual errors.",
+    "guideline": "When the question involves concepts related to afterlife beliefs, visualization practices, or descriptions of God's nature across different religious traditions, ensure to cross-reference with reliable religious texts and scholarly sources to avoid factual errors.",
+    "trigger_condition": "When the question involves concepts related to afterlife beliefs, visualization practices, or descriptions of God's nature across different religious traditions.\nGUIDELINE: When the question involves concepts related to afterlife beliefs, visualization practices, or descriptions of God's nature across different religious traditions, ensure to cross-reference with reliable religious texts and scholarly sources to avoid factual errors.",
+    "source_episodes": [
+      "sa_167",
+      "sa_1527",
+      "sa_236"
+    ],
+    "n_episodes": 3,
+    "domain": "Religion",
+    "failure_type": "FACTUAL_ERROR",
+    "created_at": "2026-07-02T16:14:25.376872",
+    "updated_at": "2026-07-02T16:19:00.336733",
+    "active": true
+  },
+  {
+    "id": "hl_0012",
+    "category": "strategies",
+    "pattern": "The model incorrectly refuses to answer general factual or commonly known information questions.\nTRIGGER: When the question is about a well-known fact, common knowledge, or a specific event or quote from history, literature, or popular culture.\nGUIDELINE: When the question pertains to a well-known fact, common knowledge, or a specific event or quote from history, literature, or popular culture, attempt an answer because such questions can often be addressed with existing knowledge or widely available information.",
+    "guideline": "When the question pertains to a well-known fact, common knowledge, or a specific event or quote from history, literature, or popular culture, attempt an answer because such questions can often be addressed with existing knowledge or widely available information.",
+    "trigger_condition": "When the question is about a well-known fact, common knowledge, or a specific event or quote from history, literature, or popular culture.\nGUIDELINE: When the question pertains to a well-known fact, common knowledge, or a specific event or quote from history, literature, or popular culture, attempt an answer because such questions can often be addressed with existing knowledge or widely available information.",
+    "source_episodes": [
+      "sa_1877",
+      "sa_234",
+      "sa_697"
+    ],
+    "n_episodes": 3,
+    "domain": "general",
+    "failure_type": "FALSE_IDK",
+    "created_at": "2026-07-02T16:16:27.390416",
+    "updated_at": "2026-07-02T16:19:00.336743",
+    "active": true
+  }
+]

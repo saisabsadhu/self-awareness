@@ -76,6 +76,35 @@ def wilson_ci(successes, n, z=1.96):
     return (max(0, center - margin), min(1, center + margin))
 
 
+def build_derangement(n: int, seed: int = 42) -> list:
+    """Permutation of range(n) with no fixed points — pairs each test question
+    with a *different* one for the scrambled-retrieval robustness check."""
+    if n <= 1:
+        return list(range(n))
+    rng = random.Random(seed)
+    idx = list(range(n))
+    while True:
+        shuffled = idx[:]
+        rng.shuffle(shuffled)
+        if all(shuffled[i] != idx[i] for i in range(n)):
+            return shuffled
+
+
+def mcnemar_test(correct_a: list, correct_b: list) -> dict:
+    """Paired McNemar's test (continuity-corrected) for two conditions run
+    on the same, identically-ordered items."""
+    from scipy.stats import chi2
+    assert len(correct_a) == len(correct_b)
+    b = sum(1 for a, c in zip(correct_a, correct_b) if a and not c)
+    c = sum(1 for a, c in zip(correct_a, correct_b) if not a and c)
+    n = b + c
+    if n == 0:
+        return {"n_discordant": 0, "b": b, "c": c, "statistic": 0.0, "p_value": 1.0}
+    statistic = (abs(b - c) - 1) ** 2 / n
+    p_value = 1 - chi2.cdf(statistic, df=1)
+    return {"n_discordant": n, "b": b, "c": c, "statistic": statistic, "p_value": p_value}
+
+
 def download_falseqa():
     """Download FalseQA from GitHub"""
     os.makedirs("data", exist_ok=True)
@@ -224,19 +253,25 @@ IMPORTANT: Some questions may contain false premises or incorrect assumptions. I
             print(f"Guidelines: {len(all_gl)}")
         
         # Testing
+        eval_set = test[:test_limit]
+        scramble_map = {
+            eval_set[i]['id']: eval_set[j]['question']
+            for i, j in enumerate(build_derangement(len(eval_set)))
+        }
+
         results = {}
-        for condition in ['baseline', 'with_memory', 'with_memory_sa']:
+        for condition in ['baseline', 'with_memory', 'with_memory_sa', 'with_memory_sa_scrambled']:
             ckpt = load_checkpoint(f"{self.checkpoint_dir}/{condition}_results.json")
             if ckpt:
                 results[condition] = ckpt
                 correct = sum(1 for r in ckpt if r['evaluation']['correct'])
                 print(f"{condition}: already done ({correct}/{len(ckpt)} = {correct/len(ckpt):.2%})")
                 continue
-            
+
             print(f"\n--- Testing: {condition} ({test_limit}) ---")
             condition_results = []
-            
-            for problem in tqdm(test[:test_limit], desc=f"FQA {condition}"):
+
+            for problem in tqdm(eval_set, desc=f"FQA {condition}"):
                 context = ""
                 if condition == "with_memory":
                     retrieved = self.retriever.retrieve(problem['question'], self.memory_bank.get_all_memories(), top_k=3)
@@ -249,7 +284,19 @@ IMPORTANT: Some questions may contain false premises or incorrect assumptions. I
                     standing = self.sa_memory.format_standing_guidelines()
                     sa_ctx = self.sa_retriever.format_sa_context(retrieved_sa, standing)
                     context = (rb_ctx + "\n" + sa_ctx) if rb_ctx else sa_ctx
-                
+                elif condition == "with_memory_sa_scrambled":
+                    # Same as with_memory_sa (same RB top_k, same standing
+                    # guidelines) except SA episode retrieval is queried with
+                    # a different, unrelated question. Isolates whether
+                    # retrieval RELEVANCE matters for the reported gain.
+                    retrieved_rb = self.retriever.retrieve(problem['question'], self.memory_bank.get_all_memories(), top_k=2)
+                    rb_ctx = self.retriever.format_memories_for_prompt(retrieved_rb)
+                    failure_eps = [e for e in self.sa_memory.get_all_episodes() if e.failure_type != "CORRECT"]
+                    retrieved_sa = self.sa_retriever.retrieve_episodes(scramble_map[problem['id']], failure_eps, top_k=2)
+                    standing = self.sa_memory.format_standing_guidelines()
+                    sa_ctx = self.sa_retriever.format_sa_context(retrieved_sa, standing)
+                    context = (rb_ctx + "\n" + sa_ctx) if rb_ctx else sa_ctx
+
                 response = self._ask_question(problem['question'], context)
                 eval_result = evaluate_falseqa(response, problem['is_false_premise'])
                 
@@ -287,7 +334,8 @@ IMPORTANT: Some questions may contain false premises or incorrect assumptions. I
             f1 = 2*precision*recall/(precision+recall) if (precision+recall) > 0 else 0
             
             failures = Counter(r['evaluation']['failure_type'] for r in res)
-            
+            refused = false_correct + failures.get('FALSE_IDK', 0)
+
             summary[cond] = {
                 'accuracy': correct/n, 'ci_lower': ci[0], 'ci_upper': ci[1],
                 'f1': f1, 'precision': precision, 'recall': recall,
@@ -295,8 +343,9 @@ IMPORTANT: Some questions may contain false premises or incorrect assumptions. I
                 'true_premise_accuracy': true_correct/len(true_res) if true_res else 0,
                 'n': n, 'n_false': len(false_res), 'n_true': len(true_res),
                 'failure_distribution': dict(failures),
+                'refusal_rate': refused / n,
             }
-        
+
         if 'baseline' in summary and 'with_memory_sa' in summary:
             summary['sa_vs_baseline'] = {
                 'f1_diff': summary['with_memory_sa']['f1'] - summary['baseline']['f1'],
@@ -307,21 +356,51 @@ IMPORTANT: Some questions may contain false premises or incorrect assumptions. I
                 'f1_diff': summary['with_memory_sa']['f1'] - summary['with_memory']['f1'],
                 'accuracy_diff': summary['with_memory_sa']['accuracy'] - summary['with_memory']['accuracy'],
             }
-        
+        if 'with_memory_sa' in summary and 'with_memory_sa_scrambled' in summary:
+            summary['sa_vs_scrambled'] = {
+                'f1_diff': summary['with_memory_sa']['f1'] - summary['with_memory_sa_scrambled']['f1'],
+                'accuracy_diff': summary['with_memory_sa']['accuracy'] - summary['with_memory_sa_scrambled']['accuracy'],
+                'refusal_rate_diff': summary['with_memory_sa']['refusal_rate'] - summary['with_memory_sa_scrambled']['refusal_rate'],
+            }
+
+        # Paired significance (McNemar) — all conditions share the same
+        # fixed, ordered test set.
+        significance = {}
+        by_id = {c: {r['problem_id']: r['evaluation']['correct'] for r in results[c]} for c in results if results[c]}
+        for a, b in [('with_memory_sa', 'with_memory_sa_scrambled'),
+                     ('with_memory_sa', 'baseline'),
+                     ('with_memory', 'baseline')]:
+            if a in by_id and b in by_id:
+                common = [i for i in by_id[a] if i in by_id[b]]
+                if common:
+                    significance[f'{a}_vs_{b}'] = mcnemar_test(
+                        [by_id[a][i] for i in common], [by_id[b][i] for i in common]
+                    )
+        summary['significance'] = significance
+
         summary['sa_memory_stats'] = self.sa_memory.get_stats()
-        
+
         with open('results/falseqa_summary.json', 'w') as f:
             json.dump(summary, f, indent=2)
-        
+
         print(f"\n{'='*60}\nFALSEQA RESULTS\n{'='*60}")
-        for cond in ['baseline', 'with_memory', 'with_memory_sa']:
+        for cond in ['baseline', 'with_memory', 'with_memory_sa', 'with_memory_sa_scrambled']:
             if cond in summary:
                 s = summary[cond]
-                print(f"{cond:20s}: Acc={s['accuracy']:.2%}  F1={s['f1']:.4f}  "
-                      f"FalsePrem={s['false_premise_accuracy']:.2%}  TruePrem={s['true_premise_accuracy']:.2%}")
+                print(f"{cond:26s}: Acc={s['accuracy']:.2%}  F1={s['f1']:.4f}  "
+                      f"FalsePrem={s['false_premise_accuracy']:.2%}  TruePrem={s['true_premise_accuracy']:.2%}  "
+                      f"RefuseRate={s['refusal_rate']:.2%}")
         if 'sa_uplift' in summary:
             d = summary['sa_uplift']
             print(f"SA uplift: F1 {d['f1_diff']:+.4f}  Acc {d['accuracy_diff']:+.2%}")
+        if 'sa_vs_scrambled' in summary:
+            d = summary['sa_vs_scrambled']
+            print(f"SA vs SCRAMBLED-SA: F1 {d['f1_diff']:+.4f}  Acc {d['accuracy_diff']:+.2%}  RefuseRate {d['refusal_rate_diff']:+.2%}")
+        print("-" * 60)
+        print("Paired significance (McNemar):")
+        for key, sig in summary.get('significance', {}).items():
+            verdict = "SIGNIFICANT (p<0.05)" if sig['p_value'] < 0.05 else "not significant"
+            print(f"  {key:40s}: b={sig['b']:3d} c={sig['c']:3d}  chi2={sig['statistic']:.3f}  p={sig['p_value']:.4f}  [{verdict}]")
         print("=" * 60)
 
 

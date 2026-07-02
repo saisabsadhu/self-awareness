@@ -1,0 +1,2702 @@
+[
+  {
+    "title": "Recognizing Knowledge Boundaries",
+    "description": "Understanding when you have enough information to provide an answer.",
+    "content": "It's important to recognize when you have all the necessary information to solve a problem or when you need more details. In this case, the problem was solvable with the given information, but the response indicated uncertainty, which was unnecessary. Always assess whether you can provide a valid answer based on the available data.",
+    "source_problem_id": "sa_2497",
+    "success": false,
+    "created_at": "2026-07-02T15:48:11.876438",
+    "embedding": null
+  },
+  {
+    "title": "Evaluate Question Relevance and Answerability",
+    "description": "Assess whether the question can be accurately answered based on known facts.",
+    "content": "When you are confident about the accuracy of the information, such as knowing that the filament in an incandescent light bulb is heated, it's appropriate to answer. If unsure or if the information is not reliable, it's best to abstain from answering and acknowledge the uncertainty.",
+    "source_problem_id": "sa_1399",
+    "success": true,
+    "created_at": "2026-07-02T15:48:17.310351",
+    "embedding": null
+  },
+  {
+    "title": "Evaluate Question Relevance and Answerability",
+    "description": "Assess whether the question can be accurately answered with available knowledge.",
+    "content": "Decide to answer if you have accurate and relevant information to provide; otherwise, it's best to abstain to maintain the integrity of the information provided.",
+    "source_problem_id": "sa_556",
+    "success": true,
+    "created_at": "2026-07-02T15:48:21.869723",
+    "embedding": null
+  },
+  {
+    "title": "Age-Related Knowledge Strategy",
+    "description": "Determine whether the question pertains to age-specific developmental milestones.",
+    "content": "When a question involves specific ages related to psychological or developmental milestones (like identity achievement), it's appropriate to answer if you have accurate information about typical age ranges for such milestones. If the information is not within your knowledge base, it's best to abstain from answering and indicate that you don't have the specific information required.",
+    "source_problem_id": "sa_1248",
+    "success": true,
+    "created_at": "2026-07-02T15:48:26.418179",
+    "embedding": null
+  },
+  {
+    "title": "Evaluate Question Relevance and Completeness",
+    "description": "Assess whether the question can be answered accurately based on available knowledge.",
+    "content": "When answering a question, evaluate if you have sufficient and accurate information to provide a precise response. If the question can be answered with confidence, provide the information. If not, it's best to abstain and indicate that the question cannot be answered with the current knowledge or data.",
+    "source_problem_id": "sa_1866",
+    "success": true,
+    "created_at": "2026-07-02T15:48:31.763935",
+    "embedding": null
+  },
+  {
+    "title": "Fact Verification Strategy",
+    "description": "Determine whether the question can be accurately answered based on available knowledge.",
+    "content": "When the question pertains to verifiable facts that you are confident about, such as specific names, dates, or events, it is appropriate to answer. If the information required to provide an accurate response is not within your knowledge base, it is best to abstain from answering and acknowledge the limitations of your information.",
+    "source_problem_id": "sa_422",
+    "success": true,
+    "created_at": "2026-07-02T15:48:37.458593",
+    "embedding": null
+  },
+  {
+    "title": "Quantum Principles and Particle Interaction Understanding",
+    "description": "Determine whether the question pertains to a well-understood scientific principle.",
+    "content": "When the question involves specific scientific principles like the Pauli Exclusion Principle, it is appropriate to provide an answer based on established knowledge. Abstain from answering if the question does not align with known scientific principles or if the information required is not within your knowledge base.",
+    "source_problem_id": "sa_576",
+    "success": true,
+    "created_at": "2026-07-02T15:48:42.958311",
+    "embedding": null
+  },
+  {
+    "title": "Subjective Judgments Strategy",
+    "description": "Determine whether the question can be objectively answered or if it relies heavily on subjective opinions.",
+    "content": "When a question involves deeply subjective concepts like morality, goodness, or personal beliefs, it's best to abstain from providing a definitive answer and acknowledge the subjectivity of the topic instead.",
+    "source_problem_id": "sa_2734",
+    "success": true,
+    "created_at": "2026-07-02T15:48:48.098739",
+    "embedding": null
+  },
+  {
+    "title": "Space for Answers",
+    "description": "Determine whether you have sufficient knowledge to provide a correct and informative answer.",
+    "content": "Answer when you are confident in providing a correct and detailed response based on factual information or personal expertise, as demonstrated in the Sputnik example. Abstain if the question requires specialized knowledge that you do not possess.",
+    "source_problem_id": "sa_264",
+    "success": true,
+    "created_at": "2026-07-02T15:48:51.672065",
+    "embedding": null
+  },
+  {
+    "title": "Carbonation Clarification Strategy",
+    "description": "Determine if the question can be answered with factual information or requires clarification.",
+    "content": "Answer when you have accurate, factual information to provide; abstain when the question is ambiguous or requires additional context that cannot be determined from the given information.",
+    "source_problem_id": "sa_2294",
+    "success": true,
+    "created_at": "2026-07-02T15:48:56.720564",
+    "embedding": null
+  },
+  {
+    "title": "Movement Determinants Strategy",
+    "description": "Determine whether the question can be answered based on known physical principles.",
+    "content": "Answer when the question relates to well-established physical concepts, such as an object's movement determining its position, velocity, and acceleration. Abstain if the question involves undefined or speculative topics beyond current scientific knowledge.",
+    "source_problem_id": "sa_2074",
+    "success": true,
+    "created_at": "2026-07-02T15:49:00.296607",
+    "embedding": null
+  },
+  {
+    "title": "Language Influence Investigation Strategy",
+    "description": "Determine whether the question can be answered with existing knowledge.",
+    "content": "Answer when you can provide accurate information based on your knowledge, such as in the case of sociolinguistics investigating language's impact on social life. Abstain if the question requires specialized knowledge outside your scope, or if the query is ambiguous and cannot be reliably answered.",
+    "source_problem_id": "sa_2194",
+    "success": true,
+    "created_at": "2026-07-02T15:49:06.751368",
+    "embedding": null
+  },
+  {
+    "title": "Consciousness Emergence Strategy",
+    "description": "Determine whether the question can be answered with existing knowledge or requires more nuanced understanding.",
+    "content": "Answer when you have a clear, concise explanation based on established scientific knowledge; abstain if the question delves into deeply unresolved mysteries or philosophical debates within neuroscience and philosophy of mind.",
+    "source_problem_id": "sa_2628",
+    "success": true,
+    "created_at": "2026-07-02T15:49:18.051443",
+    "embedding": null
+  },
+  {
+    "title": "Recognizing Knowledge Boundaries",
+    "description": "Understanding when the available information is insufficient to provide a definitive answer.",
+    "content": "It's crucial to recognize when the current knowledge or evidence does not support a definitive answer and to acknowledge this limitation rather than making assumptions or speculations. In this case, while there is potential for life on Europa, the lack of direct evidence means it's more appropriate to state that there is no definitive proof of life there, rather than attempting to provide an answer.",
+    "source_problem_id": "sa_3012",
+    "success": false,
+    "created_at": "2026-07-02T15:49:22.655948",
+    "embedding": null
+  },
+  {
+    "title": "Time-Scale Consideration Strategy",
+    "description": "Determine if the question can be answered based on the available knowledge and time scale.",
+    "content": "When answering questions, consider whether the information is known within the relevant time scale. If the question pertains to long-term trends or geological timescales, and you have reliable data or established scientific consensus, it's appropriate to answer. Otherwise, it may be best to abstain from providing an answer that could be misleading.",
+    "source_problem_id": "sa_546",
+    "success": true,
+    "created_at": "2026-07-02T15:49:30.229145",
+    "embedding": null
+  },
+  {
+    "title": "Evaluate Question Relevance",
+    "description": "Assess whether the question can be answered based on known information.",
+    "content": "Answer when the question can be addressed with factual information from your knowledge base, and say \"I don't know\" if the question involves concepts beyond your current scope or if the information is not verifiable.",
+    "source_problem_id": "sa_690",
+    "success": true,
+    "created_at": "2026-07-02T15:49:36.066665",
+    "embedding": null
+  },
+  {
+    "title": "Recognizing When to Answer or Say \"I Don't Know\"",
+    "description": "It's important to assess whether you have enough information or context to provide a meaningful answer.",
+    "content": "The lesson here is to recognize when you have sufficient knowledge to address a question or if more context is needed. In this case, while the phrase \"child works hard for a living\" is ambiguous, it was possible to provide some context and examples. Saying \"I don't know\" without attempting to provide any relevant information could have been misleading.",
+    "source_problem_id": "sa_365",
+    "success": false,
+    "created_at": "2026-07-02T15:49:46.043519",
+    "embedding": null
+  },
+  {
+    "title": "Recognizing Knowledge Boundaries",
+    "description": "Understanding when a question falls outside one's area of expertise.",
+    "content": "It's crucial to recognize when a question involves complex or subjective areas that may not be fully within your knowledge or experience. In such cases, it's better to acknowledge the limitations of your knowledge and choose not to provide an answer, especially if it could lead to misinformation or inappropriate advice.",
+    "source_problem_id": "sa_3070",
+    "success": false,
+    "created_at": "2026-07-02T15:49:52.576331",
+    "embedding": null
+  },
+  {
+    "title": "Fact Verification Strategy",
+    "description": "Determine whether the question can be accurately answered based on available knowledge or resources.",
+    "content": "Transferable strategy: Answer when you have confidence in the accuracy of your knowledge or can quickly verify the information; abstain if the question requires specialized knowledge that you do not possess or cannot confirm with reliable sources.",
+    "source_problem_id": "sa_1172",
+    "success": true,
+    "created_at": "2026-07-02T15:50:00.488636",
+    "embedding": null
+  },
+  {
+    "title": "Contextual Clarity Strategy",
+    "description": "Determine whether additional context is needed before providing an answer.",
+    "content": "When a question is incomplete or lacks necessary context, it's best to request clarification rather than guessing, to ensure the provided answer is accurate and relevant.",
+    "source_problem_id": "sa_1090",
+    "success": true,
+    "created_at": "2026-07-02T15:50:03.614245",
+    "embedding": null
+  },
+  {
+    "title": "Recognizing Knowledge Boundaries",
+    "description": "Understanding when you have enough information to provide an accurate answer.",
+    "content": "It's important to recognize when you have all the necessary information to provide a correct answer. In this case, while the calculation was straightforward, the response should have acknowledged that the question asked for a boolean answer (\"False\") rather than a numerical one. This highlights the need to carefully read and understand the type of response required before providing an answer.",
+    "source_problem_id": "sa_3295",
+    "success": false,
+    "created_at": "2026-07-02T15:50:08.609911",
+    "embedding": null
+  },
+  {
+    "title": "Premature Abstention",
+    "description": "Avoid prematurely deciding to abstain from answering a question without first attempting to find the information.",
+    "content": "It's important to attempt to answer a question to the best of your knowledge before concluding that you don't know. In this case, while the exact date of the ban might not be widely known, it was still worth providing context and explaining the limitations of the available information.",
+    "source_problem_id": "sa_2020",
+    "success": false,
+    "created_at": "2026-07-02T15:50:17.101922",
+    "embedding": null
+  },
+  {
+    "title": "Subjectivity and Personal Preference Strategy",
+    "description": "Determine whether a question can be objectively answered or requires personal opinion.",
+    "content": "Abstain from answering when the question is highly subjective or dependent on personal preferences, pain tolerance, or long-term decisions, as these cannot be universally determined.",
+    "source_problem_id": "sa_2853",
+    "success": true,
+    "created_at": "2026-07-02T15:50:22.826295",
+    "embedding": null
+  },
+  {
+    "title": "Evaluate Question Relevance and Answerability",
+    "description": "Assess whether the question can be accurately answered based on available knowledge.",
+    "content": "Decide to answer if you have accurate information to provide; otherwise, consider abstaining to maintain the integrity of the information provided.",
+    "source_problem_id": "sa_2314",
+    "success": true,
+    "created_at": "2026-07-02T15:50:26.776432",
+    "embedding": null
+  },
+  {
+    "title": "Evaluate Question Relevance and Answerability",
+    "description": "Assess whether the question can be answered based on available knowledge.",
+    "content": "Decide to answer if the question is answerable and within your knowledge scope; otherwise, provide an explanation for why you cannot answer confidently.",
+    "source_problem_id": "sa_1523",
+    "success": true,
+    "created_at": "2026-07-02T15:50:31.889258",
+    "embedding": null
+  },
+  {
+    "title": "Subjectivity Threshold Strategy",
+    "description": "Determine whether a question can be answered objectively or requires personal opinion.",
+    "content": "Transfer this strategy by assessing if a question allows for a definitive answer based on facts or if it inherently involves personal preferences and opinions. If the latter, it's best to abstain from providing an answer and acknowledge the subjectivity of the question instead.",
+    "source_problem_id": "sa_2847",
+    "success": true,
+    "created_at": "2026-07-02T15:50:38.952874",
+    "embedding": null
+  },
+  {
+    "title": "Clarification Strategy",
+    "description": "Determine whether the question can be answered with the given information or if additional clarification is needed.",
+    "content": "When a question contains undefined terms or lacks context, it's best to request clarification before attempting an answer, to ensure accuracy and relevance.",
+    "source_problem_id": "sa_1897",
+    "success": true,
+    "created_at": "2026-07-02T15:50:44.903898",
+    "embedding": null
+  },
+  {
+    "title": "False IDK (False \"I Don't Know\")",
+    "description": "Failing to recognize when you have enough information to provide an answer.",
+    "content": "The lesson here is to carefully consider the information available before deciding whether you can provide a valid answer or if you should admit that you don't know. In this case, while the song does not explicitly name a car, the context and genre of the song suggest it might be referencing a popular car of its time. Recognizing this and attempting to provide a plausible answer based on the information available would have been more appropriate than abstaining from responding.",
+    "source_problem_id": "sa_2008",
+    "success": false,
+    "created_at": "2026-07-02T15:50:51.036122",
+    "embedding": null
+  },
+  {
+    "title": "Lens Knowledge Application Strategy",
+    "description": "Determine whether you have the necessary knowledge to provide an accurate answer.",
+    "content": "Answer when you can provide a correct and detailed explanation, as demonstrated by accurately identifying that a convex lens bends parallel rays inward. Abstain if the question requires knowledge outside your expertise or if the information is not accurate.",
+    "source_problem_id": "sa_478",
+    "success": true,
+    "created_at": "2026-07-02T15:50:58.177955",
+    "embedding": null
+  },
+  {
+    "title": "Recognizing the Limits of Knowledge",
+    "description": "Understanding when a question exceeds the bounds of current scientific knowledge or empirical evidence.",
+    "content": "It's important to recognize when a question involves beliefs or phenomena that lack empirical evidence, and to acknowledge that such questions may not have a definitive answer within the realm of science. In such cases, it's appropriate to respond with \"I don't know\" rather than attempting an answer based on personal beliefs or anecdotal experiences.",
+    "source_problem_id": "sa_2556",
+    "success": false,
+    "created_at": "2026-07-02T15:51:04.726081",
+    "embedding": null
+  },
+  {
+    "title": "Evaluate Question Answerability",
+    "description": "Assess whether the question can be accurately answered based on available knowledge or information.",
+    "content": "Decide to answer if you have accurate and reliable information to provide; otherwise, it's appropriate to abstain and state, \"I don't know,\" especially if the information is not within your current knowledge base or if the question requires specific expertise that you do not possess.",
+    "source_problem_id": "sa_1114",
+    "success": true,
+    "created_at": "2026-07-02T15:51:13.974126",
+    "embedding": null
+  },
+  {
+    "title": "Speed of Light Constant Strategy",
+    "description": "Determine whether the question can be answered with factual information.",
+    "content": "Answer when the question pertains to established scientific facts, such as the constant speed of light in a vacuum, but abstain if the question involves subjective opinions or complex interpretations not based on clear, verifiable data.",
+    "source_problem_id": "sa_2167",
+    "success": true,
+    "created_at": "2026-07-02T15:51:18.989881",
+    "embedding": null
+  },
+  {
+    "title": "The Deliberate Uncertainty Strategy",
+    "description": "Determine when a question can be answered definitively versus when it involves philosophical or subjective concepts.",
+    "content": "Decide to answer when the question has a clear, factual response; otherwise, acknowledge the complexity and subjectivity of the issue by abstaining and explaining why a definitive answer is not possible.",
+    "source_problem_id": "sa_2368",
+    "success": true,
+    "created_at": "2026-07-02T15:51:25.629810",
+    "embedding": null
+  },
+  {
+    "title": "Context-Driven Response Strategy",
+    "description": "Determine whether to answer based on the comprehensibility and answerability of the question.",
+    "content": "Decide to answer when the question is clear and can be accurately addressed with factual information, as demonstrated in the example where the question about bribes being direct or indirect was directly answerable with \"indirect.\" Abstain from answering when the question is ambiguous or requires speculation beyond available knowledge.",
+    "source_problem_id": "sa_1638",
+    "success": true,
+    "created_at": "2026-07-02T15:51:30.855331",
+    "embedding": null
+  },
+  {
+    "title": "Law Precedence Strategy",
+    "description": "Determine whether the question pertains to legal matters and if it can be answered based on known legal principles.",
+    "content": "When asked about legal matters, such as what trumps state law, it's appropriate to provide an answer based on established legal principles and constitutional provisions. If the question involves complex or ambiguous legal scenarios not covered by clear precedent, it's best to say \"I don't know\" to avoid giving potentially incorrect information.",
+    "source_problem_id": "sa_1315",
+    "success": true,
+    "created_at": "2026-07-02T15:51:40.378441",
+    "embedding": null
+  },
+  {
+    "title": "Dialectical Understanding",
+    "description": "Determine if the question can be answered based on known philosophical concepts or theories.",
+    "content": "When the question pertains to a well-established philosophical concept, such as Hegel's dialectic, it is appropriate to provide an answer based on that knowledge. Abstain from answering when the concept or theory is not familiar or when the question requires information beyond available knowledge.",
+    "source_problem_id": "sa_1658",
+    "success": true,
+    "created_at": "2026-07-02T15:51:45.553388",
+    "embedding": null
+  },
+  {
+    "title": "When to Answer vs. When to Say \"I Don't Know\"",
+    "description": "Recognizing the difference between a question that requires a known fact and one that indicates a lack of information or expertise.",
+    "content": "The lesson here is to carefully consider the question before deciding to abstain from answering. In this case, while the specific details about the embryo's food supply might vary, it is still possible to provide a general answer based on known biological facts. Saying \"I don't know\" when you can provide a relevant response can undermine your credibility and miss an opportunity to demonstrate knowledge.",
+    "source_problem_id": "sa_649",
+    "success": false,
+    "created_at": "2026-07-02T15:51:52.507279",
+    "embedding": null
+  },
+  {
+    "title": "Moon Identification Strategy",
+    "description": "Determine whether the question can be answered based on known facts.",
+    "content": "Answer when the question pertains to well-established scientific facts, such as the moons of planets, but abstain if the information is not readily available or requires specific expertise.",
+    "source_problem_id": "sa_853",
+    "success": true,
+    "created_at": "2026-07-02T15:51:58.188344",
+    "embedding": null
+  },
+  {
+    "title": "Evaluate Answerability Before Responding",
+    "description": "Assess whether the question can be answered with available knowledge before providing a response.",
+    "content": "Determine if you have sufficient knowledge to provide an accurate answer or if the question requires information beyond your current scope. If you can provide a well-informed response, answer; otherwise, consider saying \"I don't know\" to maintain honesty and integrity.",
+    "source_problem_id": "sa_2065",
+    "success": true,
+    "created_at": "2026-07-02T15:52:02.959010",
+    "embedding": null
+  },
+  {
+    "title": "Context-Driven Response Strategy",
+    "description": "Determine whether the question can be answered based on available knowledge.",
+    "content": "Answer when you have accurate information to provide; abstain when the question goes beyond your knowledge base or the information is not verifiable.",
+    "source_problem_id": "sa_1839",
+    "success": true,
+    "created_at": "2026-07-02T15:52:07.593390",
+    "embedding": null
+  },
+  {
+    "title": "Clarification Strategy",
+    "description": "Determine whether additional information is needed to provide an accurate answer.",
+    "content": "When a question is incomplete or lacks context, it's best to request clarification before answering, ensuring the response is accurate and relevant.",
+    "source_problem_id": "sa_1867",
+    "success": true,
+    "created_at": "2026-07-02T15:52:10.853120",
+    "embedding": null
+  },
+  {
+    "title": "Assessing Knowledge Before Responding",
+    "description": "Determine if you have sufficient knowledge to provide an accurate answer before responding.",
+    "content": "Answer when you can provide a factual or well-informed response based on your knowledge or research capabilities; otherwise, it's best to abstain and acknowledge the limits of your information.",
+    "source_problem_id": "sa_2327",
+    "success": true,
+    "created_at": "2026-07-02T15:52:15.269294",
+    "embedding": null
+  },
+  {
+    "title": "Tone on Knowledge Relevance",
+    "description": "Determine if the question can be answered based on known information.",
+    "content": "Answer when you have accurate and relevant information to provide, such as specific terminology like \"phonemic tones.\" Abstain if the question requires knowledge beyond your current scope or if the terms used are ambiguous without further context.",
+    "source_problem_id": "sa_133",
+    "success": true,
+    "created_at": "2026-07-02T15:52:20.608273",
+    "embedding": null
+  },
+  {
+    "title": "Evaluate Question Relevance and Answerability",
+    "description": "Assess whether the question can be accurately answered based on available knowledge.",
+    "content": "When a question can be directly and accurately addressed with factual information, such as the mode of travel for Antarctic tours, it is best to provide an answer. If the question requires speculation or the information is not readily available, it is appropriate to say \"I don't know.\"",
+    "source_problem_id": "sa_611",
+    "success": true,
+    "created_at": "2026-07-02T15:52:27.283347",
+    "embedding": null
+  },
+  {
+    "title": "Evaluate Question Relevance and Answerability",
+    "description": "Assess whether the question can be accurately answered based on available knowledge.",
+    "content": "Decide to answer if the question is relevant and can be addressed with factual information; otherwise, it's appropriate to abstain and respond with \"I don't know\" to maintain accuracy.",
+    "source_problem_id": "sa_148",
+    "success": true,
+    "created_at": "2026-07-02T15:52:32.778333",
+    "embedding": null
+  },
+  {
+    "title": "Recognizing Knowledge Boundaries",
+    "description": "Understanding when a question falls outside one's area of expertise.",
+    "content": "It's important to recognize when a question involves complex philosophical or theological concepts that may exceed one's knowledge base, and to acknowledge this limitation rather than attempting an answer that might be incomplete or inaccurate.",
+    "source_problem_id": "sa_3285",
+    "success": false,
+    "created_at": "2026-07-02T15:52:39.238370",
+    "embedding": null
+  },
+  {
+    "title": "When to Abstain from Answering Complex Philosophical Questions",
+    "description": "Determine when a question is beyond the scope of current knowledge or definitive proof.",
+    "content": "It's appropriate to abstain from answering questions that involve deep philosophical debates without clear empirical evidence, such as the existence of free will versus determinism.",
+    "source_problem_id": "sa_2877",
+    "success": true,
+    "created_at": "2026-07-02T15:52:53.683892",
+    "embedding": null
+  },
+  {
+    "title": "Evaluate Question Relevance and Answerability",
+    "description": "Assess whether the question can be accurately answered based on available knowledge.",
+    "content": "Decide to answer if the question is about factual information that can be confirmed with certainty, such as who wrote a specific book. Abstain if the question involves subjective opinions or if the information is not definitively known.",
+    "source_problem_id": "sa_1846",
+    "success": true,
+    "created_at": "2026-07-02T15:52:58.534808",
+    "embedding": null
+  },
+  {
+    "title": "Premature Abstention",
+    "description": "Avoiding an attempt to answer a question due to uncertainty.",
+    "content": "It's important to recognize when you have enough information to provide a reasoned response, even if it's not definitive. Saying \"I don't know\" is appropriate when you genuinely lack information, but attempting to address the question with your current knowledge can lead to more insightful and informative responses.",
+    "source_problem_id": "sa_1542",
+    "success": false,
+    "created_at": "2026-07-02T15:53:03.955295",
+    "embedding": null
+  },
+  {
+    "title": "Recognizing Knowledge Boundaries",
+    "description": "Understanding when the available knowledge is insufficient to provide an accurate or definitive answer.",
+    "content": "It's crucial to recognize when the boundaries of our current knowledge are exceeded and to acknowledge that we may not have the answers to certain questions. In this case, while it's true that time travel as traditionally conceived is not possible based on our current understanding of physics, the question itself was unanswerable within the given framework because it was not clearly defined whether \"reaching the future\" referred to time travel or something else. Therefore, it's important to clarify the question and admit limitations in knowledge when appropriate.",
+    "source_problem_id": "sa_2896",
+    "success": false,
+    "created_at": "2026-07-02T15:53:14.108641",
+    "embedding": null
+  },
+  {
+    "title": "Recognizing Knowledge Boundaries",
+    "description": "Understanding when your knowledge is sufficient to provide an accurate answer versus when it's not.",
+    "content": "It's important to recognize when you have the correct information to provide a valid response and when you need to acknowledge that you don't have enough knowledge to answer accurately. In this case, while the explanation for \"daybreak\" was correct, \"nightfall\" should have been described as the end of daylight and the onset of night, rather than just the end of daylight. This highlights the need to ensure all parts of the answer are accurate and complete.",
+    "source_problem_id": "sa_2668",
+    "success": false,
+    "created_at": "2026-07-02T15:53:23.483244",
+    "embedding": null
+  },
+  {
+    "title": "Privacy Considerations Strategy",
+    "description": "Determine when a question involves sensitive personal information that may be better left unaddressed.",
+    "content": "Abstain from answering questions that involve sensitive personal information such as viewing or listening histories, which can impact privacy and personal comfort levels.",
+    "source_problem_id": "sa_2526",
+    "success": true,
+    "created_at": "2026-07-02T15:53:30.888329",
+    "embedding": null
+  },
+  {
+    "title": "Wing Flap Analysis Strategy",
+    "description": "Determine whether the question can be answered based on available knowledge or if it requires specific expertise.",
+    "content": "Answer when you have accurate information, as demonstrated by providing details on dragonfly propulsion (wing flapping and hovering). Abstain when the question is beyond your knowledge, such as in cases where the information is not readily available or requires specialized expertise.",
+    "source_problem_id": "sa_198",
+    "success": true,
+    "created_at": "2026-07-02T15:53:36.324997",
+    "embedding": null
+  },
+  {
+    "title": "Variety Identification Strategy",
+    "description": "Determine whether the question pertains to specific knowledge that can be accurately answered based on common knowledge or if it requires specialized information.",
+    "content": "When the question involves identifying specific varieties of common plants or items with well-known characteristics, it is appropriate to answer based on general knowledge. If the question seems too specific or requires specialized information that cannot be confidently provided without further research, it is best to abstain from answering and acknowledge the uncertainty.",
+    "source_problem_id": "sa_790",
+    "success": true,
+    "created_at": "2026-07-02T15:53:42.679933",
+    "embedding": null
+  },
+  {
+    "title": "Sleep Pattern Disruption Strategy",
+    "description": "Determine whether the question pertains to a known impact of DST on daily life.",
+    "content": "Answer when the question relates to well-documented effects like sleep pattern disruption due to DST, but abstain if the query involves less clear or specific impacts.",
+    "source_problem_id": "sa_1345",
+    "success": true,
+    "created_at": "2026-07-02T15:53:51.557712",
+    "embedding": null
+  },
+  {
+    "title": "Gravity Formula Assessment Strategy",
+    "description": "Determine whether the question can be answered with specific scientific knowledge.",
+    "content": "Answer when the question pertains to well-established scientific principles and formulas, such as Newton's law of universal gravitation, but abstain if the question involves concepts beyond your knowledge base or requires information that cannot be accurately provided.",
+    "source_problem_id": "sa_851",
+    "success": true,
+    "created_at": "2026-07-02T15:54:00.528180",
+    "embedding": null
+  },
+  {
+    "title": "Premature Abstention",
+    "description": "It's important to assess whether you have enough information to provide a reasonable answer before deciding to abstain.",
+    "content": "The lesson here is to recognize when you have sufficient knowledge to provide a valid response, even if it's not a definitive one. In this case, the response given was answerable and provided relevant information about temperature ranges, so abstaining was unnecessary. Always consider whether you can contribute meaningfully before choosing to say \"I don't know.\"",
+    "source_problem_id": "sa_104",
+    "success": false,
+    "created_at": "2026-07-02T15:54:08.387085",
+    "embedding": null
+  },
+  {
+    "title": "Philosophical Uncertainty Principle",
+    "description": "Determine when a question is inherently unanswerable due to its philosophical nature.",
+    "content": "When a question pertains to fundamental philosophical uncertainties or subjective interpretations that lack a definitive answer within a given context, it is best to abstain from providing a direct answer and instead acknowledge the inherent uncertainty or the need for a specific philosophical framework to address the query.",
+    "source_problem_id": "sa_2553",
+    "success": true,
+    "created_at": "2026-07-02T15:54:17.073670",
+    "embedding": null
+  },
+  {
+    "title": "Assessing Answerability",
+    "description": "Determine if the question can be answered with available knowledge or requires more context.",
+    "content": "When the question can be addressed with factual information from your knowledge base, such as specific timelines or general trends (e.g., hair growth patterns), it's appropriate to answer. If the question requires personal experience, additional context, or is too broad without specific parameters, it's best to say \"I don't know.\"",
+    "source_problem_id": "sa_325",
+    "success": true,
+    "created_at": "2026-07-02T15:54:22.600567",
+    "embedding": null
+  },
+  {
+    "title": "Premature Abstention",
+    "description": "Assuming a question is unanswerable without sufficient context.",
+    "content": "It's important to recognize when you have enough context to make an educated guess or provide a plausible answer, rather than immediately deciding to abstain from responding. In this case, while the specific context was not provided, there were cultural references that could have guided the response, making it possible to at least attempt an answer.",
+    "source_problem_id": "sa_2123",
+    "success": false,
+    "created_at": "2026-07-02T15:54:31.282085",
+    "embedding": null
+  },
+  {
+    "title": "Nearest Galaxy Response Strategy",
+    "description": "Determine whether the question can be answered with confidence based on available knowledge.",
+    "content": "Answer when you have accurate and reliable information about the topic, such as the nearest galaxy being the Canis Major Dwarf Galaxy, but abstain if the question requires less common or up-to-date information that may not be readily available.",
+    "source_problem_id": "sa_941",
+    "success": true,
+    "created_at": "2026-07-02T15:54:39.378306",
+    "embedding": null
+  },
+  {
+    "title": "Recognizing Knowledge Boundaries",
+    "description": "Understanding when you have sufficient knowledge to provide an answer versus when you should admit limitations.",
+    "content": "It's important to recognize when your knowledge is sufficient to provide a meaningful answer or if the question falls outside your expertise. In this case, while the initial response touched on relevant points, it was incomplete and could have been more precise. Admitting that the answer is not possible within the given context (as indicated by \"False\") would have been more appropriate.",
+    "source_problem_id": "sa_3282",
+    "success": false,
+    "created_at": "2026-07-02T15:54:54.792048",
+    "embedding": null
+  },
+  {
+    "title": "Social Constructionism Strategy",
+    "description": "Determine whether the question can be answered based on available knowledge.",
+    "content": "Answer when you have relevant knowledge or a clear understanding of the topic, as demonstrated by correctly identifying social constructionism in response to the given question about mapping and defining people's experiences of self in society. Abstain if the question requires information beyond your knowledge base.",
+    "source_problem_id": "sa_1849",
+    "success": true,
+    "created_at": "2026-07-02T15:55:05.297000",
+    "embedding": null
+  },
+  {
+    "title": "Evaluate Question Relevance and Answerability",
+    "description": "Assess whether the question can be accurately answered based on available knowledge.",
+    "content": "When the question can be clearly and accurately addressed with factual information, such as defining terms or explaining concepts, it's best to provide an answer. If the question is ambiguous or cannot be answered with certainty, it's appropriate to abstain from answering and acknowledge the uncertainty.",
+    "source_problem_id": "sa_615",
+    "success": true,
+    "created_at": "2026-07-02T15:55:12.904589",
+    "embedding": null
+  },
+  {
+    "title": "Insufficient Information Strategy",
+    "description": "Determine whether the given information is sufficient to provide a specific answer.",
+    "content": "Decide to answer only when the question can be resolved with the provided information. If key details are missing, such as grouping criteria or specific conditions, it's best to abstain and acknowledge that the information is insufficient to determine the answer.",
+    "source_problem_id": "sa_2793",
+    "success": true,
+    "created_at": "2026-07-02T15:55:19.682992",
+    "embedding": null
+  },
+  {
+    "title": "Context Clue Strategy",
+    "description": "Determine whether you have enough information to provide a complete and accurate answer.",
+    "content": "When a question lacks necessary context or is incomplete, it's best to request clarification before answering to ensure accuracy. If you can infer the intent but need more details to provide a comprehensive response, ask for additional information rather than guessing.",
+    "source_problem_id": "sa_2255",
+    "success": true,
+    "created_at": "2026-07-02T15:55:26.453494",
+    "embedding": null
+  },
+  {
+    "title": "Historical Comparison Questions Strategy",
+    "description": "Determine whether the question can be answered with current knowledge or requires an impossible comparison.",
+    "content": "When faced with questions that require comparing vastly different historical or hypothetical scenarios (e.g., choosing between present-day conditions and past circumstances), it's best to abstain and explain why the comparison is fundamentally unanswerable due to the lack of direct comparability.",
+    "source_problem_id": "sa_3174",
+    "success": true,
+    "created_at": "2026-07-02T15:55:33.552029",
+    "embedding": null
+  },
+  {
+    "title": "Premature Abstention",
+    "description": "Assuming a question cannot be answered without full knowledge.",
+    "content": "It's important to recognize when you have enough information to provide a reasoned response, even if it's not definitive. In this case, I should have provided an answer based on the available information rather than abstaining.",
+    "source_problem_id": "sa_117",
+    "success": false,
+    "created_at": "2026-07-02T15:55:39.792019",
+    "embedding": null
+  },
+  {
+    "title": "Relativistic Context Clues",
+    "description": "Determine if the question requires specific knowledge or can be answered based on general principles.",
+    "content": "Answer when the question can be addressed using well-established scientific principles, such as the principle of relativity, and abstain when the question lacks context or requires specialized information beyond common knowledge.",
+    "source_problem_id": "sa_1429",
+    "success": true,
+    "created_at": "2026-07-02T15:55:45.625731",
+    "embedding": null
+  },
+  {
+    "title": "Assessing Question Answerability",
+    "description": "Determine whether you have sufficient knowledge to provide a correct answer.",
+    "content": "When you are confident in your knowledge and can provide a correct and concise answer, such as in the case of defining \"a cappella,\" it's appropriate to answer. If you lack the necessary information to provide an accurate response, it's best to abstain and respond with \"I don't know.\"",
+    "source_problem_id": "sa_1515",
+    "success": true,
+    "created_at": "2026-07-02T15:55:51.628280",
+    "embedding": null
+  },
+  {
+    "title": "Evaluate Question Relevance and Answerability",
+    "description": "Assess whether the question can be accurately answered based on available knowledge.",
+    "content": "Decide to answer if you have accurate and relevant information to provide; otherwise, it's best to abstain to maintain the integrity of the information shared.",
+    "source_problem_id": "sa_65",
+    "success": true,
+    "created_at": "2026-07-02T15:55:56.466140",
+    "embedding": null
+  },
+  {
+    "title": "Recognizing Knowledge Boundaries",
+    "description": "Understanding when you have sufficient knowledge to provide an answer versus when it's appropriate to admit uncertainty.",
+    "content": "It's important to recognize when your knowledge is sufficient to provide a reasonable answer and when it's not. In this case, while the response provided was factually correct, it should have acknowledged that the question was unanswerable based on the given information, hence the decision to abstain from answering. Always assess whether you can confidently address a question or if it falls outside your area of expertise.",
+    "source_problem_id": "sa_2872",
+    "success": false,
+    "created_at": "2026-07-02T15:56:03.073119",
+    "embedding": null
+  },
+  {
+    "title": "Bug Incident Verification Strategy",
+    "description": "Determine if the question pertains to a specific historical event or fact that can be verified.",
+    "content": "When asked about a specific historical event or technical detail (like the type of computer and the incident with the moth), attempt to answer if the information can be verified from reliable sources. If the question involves a well-documented and verifiable event, provide the accurate information.",
+    "source_problem_id": "sa_2276",
+    "success": true,
+    "created_at": "2026-07-02T15:56:08.439632",
+    "embedding": null
+  },
+  {
+    "title": "Recognizing Knowledge Boundaries",
+    "description": "Understanding when your knowledge is sufficient to provide an accurate answer.",
+    "content": "It's important to recognize when you have enough knowledge to provide a correct answer and when you should admit that you don't know the specific details. In this case, while the Big Bang theory is correct, the response could have been more concise and acknowledged the complexity of the topic without attempting to fill in gaps with incomplete information.",
+    "source_problem_id": "sa_2864",
+    "success": false,
+    "created_at": "2026-07-02T15:56:13.042993",
+    "embedding": null
+  },
+  {
+    "title": "Slogan Recognition Strategy",
+    "description": "Determine whether the question pertains to recognizable slogans or brands.",
+    "content": "Answer when the question involves well-known slogans and brands that have distinctive advertising phrases, like \"You either love it or hate it\" for hot sauce. Abstain if the context or brand is not widely recognized or if the information is not readily available.",
+    "source_problem_id": "sa_1526",
+    "success": true,
+    "created_at": "2026-07-02T15:56:22.318001",
+    "embedding": null
+  },
+  {
+    "title": "Fact Verification Strategy",
+    "description": "Determine whether the question can be accurately answered based on available knowledge.",
+    "content": "Transferable strategy: Answer when you have confidence in the accuracy of your knowledge; otherwise, it's best to abstain and say \"I don't know\" to maintain integrity.",
+    "source_problem_id": "sa_1070",
+    "success": true,
+    "created_at": "2026-07-02T15:56:26.275699",
+    "embedding": null
+  },
+  {
+    "title": "Evaluate Question Relevance and Answerability",
+    "description": "Determine whether the question can be answered based on available knowledge.",
+    "content": "When a question can be accurately addressed with known information, such as the factors customers seek in restaurants or taverns, it is best to provide an answer. If the question requires speculation beyond available knowledge or if the information is not certain, it is appropriate to say \"I don't know.\"",
+    "source_problem_id": "sa_1756",
+    "success": true,
+    "created_at": "2026-07-02T15:56:32.337800",
+    "embedding": null
+  },
+  {
+    "title": "Contextual Clarity Strategy",
+    "description": "Determine whether the question can be answered based on available knowledge without making assumptions.",
+    "content": "When a question involves abstract concepts or requires specific definitions, assess your knowledge to determine if an accurate biological or scientific answer can be provided. If the answer is not straightforward or universally agreed upon, it's best to clarify the context or admit limitations rather than providing a potentially incorrect response.",
+    "source_problem_id": "sa_2258",
+    "success": true,
+    "created_at": "2026-07-02T15:56:39.305148",
+    "embedding": null
+  },
+  {
+    "title": "Assessing Answerability Before Responding",
+    "description": "Determine if the question can be definitively answered with available knowledge.",
+    "content": "Decide to answer only when you have sufficient information to provide a reliable response, and abstain if the question is unanswerable based on current knowledge or data.",
+    "source_problem_id": "sa_2944",
+    "success": true,
+    "created_at": "2026-07-02T15:56:46.006786",
+    "embedding": null
+  },
+  {
+    "title": "Information Sufficiency Strategy",
+    "description": "Determine whether the available information is sufficient to provide an accurate answer.",
+    "content": "Decide to answer only when the given information directly addresses the question or can be logically deduced from it; otherwise, it's best to acknowledge the lack of specific details needed to provide a precise response.",
+    "source_problem_id": "sa_93",
+    "success": true,
+    "created_at": "2026-07-02T15:56:51.371417",
+    "embedding": null
+  },
+  {
+    "title": "Assessing Question Clarity and Knowledge Confidence",
+    "description": "Determine whether the question is clear and if you can confidently provide an accurate answer.",
+    "content": "When a question is clear and pertains to a topic within your knowledge base, it is appropriate to attempt an answer. If the question is ambiguous or you lack confidence in providing an accurate response, it is best to abstain and respond with \"I don't know.\"",
+    "source_problem_id": "sa_1856",
+    "success": true,
+    "created_at": "2026-07-02T15:56:57.010813",
+    "embedding": null
+  },
+  {
+    "title": "Fact Verification Strategy",
+    "description": "Determine whether you have accurate and complete information to confidently answer a question.",
+    "content": "Answer when you have verified facts or data that directly address the question, ensuring accuracy and completeness. Abstain from answering if the information required is uncertain or not definitively known.",
+    "source_problem_id": "sa_1488",
+    "success": true,
+    "created_at": "2026-07-02T15:57:00.596453",
+    "embedding": null
+  },
+  {
+    "title": "When to Answer vs. When to Abstain",
+    "description": "Determine whether you have sufficient knowledge to provide a confident answer or if it's more appropriate to acknowledge limitations.",
+    "content": "When answering a question, ensure you have accurate and reliable information to provide a confident response. If the information is uncertain or not within your expertise, it's best to acknowledge this and say \"I don't know\" rather than guessing or providing incomplete information.",
+    "source_problem_id": "sa_167",
+    "success": true,
+    "created_at": "2026-07-02T15:57:09.279574",
+    "embedding": null
+  },
+  {
+    "title": "Evaluate Question Relevance",
+    "description": "Assess whether the question can be accurately answered based on known information.",
+    "content": "Answer when you have accurate and relevant information to provide; abstain if the question cannot be answered reliably with the available knowledge.",
+    "source_problem_id": "sa_806",
+    "success": true,
+    "created_at": "2026-07-02T15:57:15.277624",
+    "embedding": null
+  },
+  {
+    "title": "Premature Abstention",
+    "description": "Recognizing when you have enough information to provide a response versus when you should acknowledge a lack of knowledge.",
+    "content": "The lesson here is to avoid prematurely deciding not to answer a question, especially when you can provide context or general information that helps frame the issue, even if specific data is lacking. In this case, acknowledging the variability in car ownership without specific data was sufficient, and providing an example of how it might differ between urban and rural settings added value to the response.",
+    "source_problem_id": "sa_1057",
+    "success": false,
+    "created_at": "2026-07-02T15:57:22.284426",
+    "embedding": null
+  },
+  {
+    "title": "Visualize the Scope of Knowledge",
+    "description": "Determine if the question pertains to a specific belief system or philosophy.",
+    "content": "Answer when the question can be addressed within the context of known belief systems or philosophical stances, but say \"I don't know\" if the question involves beliefs that are not well-documented or universally agreed upon.",
+    "source_problem_id": "sa_1527",
+    "success": true,
+    "created_at": "2026-07-02T15:57:32.491812",
+    "embedding": null
+  },
+  {
+    "title": "Fruit of Knowledge",
+    "description": "Determine if the question can be answered based on common knowledge or specific expertise.",
+    "content": "Answer when the question pertains to a topic you have reliable knowledge about, such as dietary preferences of animals, and avoid answering when the information is too specific or uncertain.",
+    "source_problem_id": "sa_1772",
+    "success": true,
+    "created_at": "2026-07-02T15:57:37.972343",
+    "embedding": null
+  },
+  {
+    "title": "Recognizing Knowledge Boundaries",
+    "description": "Understanding when one's knowledge is insufficient to provide a definitive answer.",
+    "content": "It's crucial to recognize when a question falls outside one's area of expertise or knowledge base and to acknowledge this rather than attempting an answer that may be inaccurate or misleading.",
+    "source_problem_id": "sa_2674",
+    "success": false,
+    "created_at": "2026-07-02T15:57:43.885145",
+    "embedding": null
+  },
+  {
+    "title": "Recognizing Knowledge Boundaries",
+    "description": "Understanding when you have enough information to provide an answer.",
+    "content": "It's crucial to recognize when you lack sufficient information to provide a definitive answer. In this case, knowing how many cards fit per page is necessary to determine the number of pages used. Saying \"I don't know\" or requesting additional information is often the best approach when you're missing key details.",
+    "source_problem_id": "sa_2439",
+    "success": false,
+    "created_at": "2026-07-02T15:57:52.126697",
+    "embedding": null
+  },
+  {
+    "title": "Recognizing Knowledge Boundaries",
+    "description": "Understanding when the information required to answer a question is beyond one's expertise.",
+    "content": "The lesson here is to recognize when a question falls outside the scope of one's knowledge or expertise. In this case, the question involves subjective preferences that cannot be objectively answered with factual information alone. It's important to acknowledge such limitations and refrain from making assumptions or providing an answer that lacks a solid foundation.",
+    "source_problem_id": "sa_3157",
+    "success": false,
+    "created_at": "2026-07-02T15:58:00.187465",
+    "embedding": null
+  },
+  {
+    "title": "Evaluate Question Relevance and Answerability",
+    "description": "Assess whether the question is answerable based on available knowledge.",
+    "content": "Decide to answer if the question can be addressed with factual information from your knowledge base; otherwise, it's appropriate to abstain and respond with \"I don't know\" or suggest seeking additional resources.",
+    "source_problem_id": "sa_307",
+    "success": true,
+    "created_at": "2026-07-02T15:58:14.320193",
+    "embedding": null
+  },
+  {
+    "title": "Evaluate Question Relevance and Answerability",
+    "description": "Assess whether the question is relevant and can be answered based on available knowledge.",
+    "content": "Decide to answer when the question is clear, relevant, and within your area of expertise; otherwise, it's appropriate to say \"I don't know\" to maintain accuracy and honesty.",
+    "source_problem_id": "sa_1834",
+    "success": true,
+    "created_at": "2026-07-02T15:58:21.463450",
+    "embedding": null
+  },
+  {
+    "title": "When to Admit Limitations of Knowledge",
+    "description": "Recognizing the boundaries of one's knowledge and understanding.",
+    "content": "It's important to recognize when a question falls outside the realm of current scientific or philosophical knowledge and to admit that some questions may not have definitive answers. Saying \"I don't know\" can be more honest and appropriate than attempting an answer that acknowledges limitations.",
+    "source_problem_id": "sa_2867",
+    "success": false,
+    "created_at": "2026-07-02T15:58:27.819427",
+    "embedding": null
+  },
+  {
+    "title": "Anaphylaxis Identification Strategy",
+    "description": "Determine if the question can be accurately answered based on known information.",
+    "content": "Answer when you have accurate knowledge about the topic, such as knowing the medical term for severe life-threatening allergic reactions (anaphylaxis). Abstain if the question requires specialized knowledge beyond your capabilities or if the information is not verifiable.",
+    "source_problem_id": "sa_1588",
+    "success": true,
+    "created_at": "2026-07-02T15:58:32.565897",
+    "embedding": null
+  },
+  {
+    "title": "Pantheism Identification Strategy",
+    "description": "Determine if the question can be accurately answered based on known beliefs and concepts.",
+    "content": "Answer when the question pertains to well-defined beliefs or concepts like pantheism, where the correct term or definition can be provided with confidence. Abstain if the question involves less clear or more subjective beliefs that may lack consensus.",
+    "source_problem_id": "sa_1486",
+    "success": true,
+    "created_at": "2026-07-02T15:58:34.629911",
+    "embedding": null
+  },
+  {
+    "title": "Memory Network Consideration Strategy",
+    "description": "Evaluate if the question can be answered based on known information or if it requires a more nuanced response involving multiple brain regions.",
+    "content": "Answer when you can provide a specific, accurate piece of information (like the hippocampus for memory), but abstain if the question implies a broader, more complex network of brain regions is needed for a complete answer.",
+    "source_problem_id": "sa_1071",
+    "success": true,
+    "created_at": "2026-07-02T15:58:37.106027",
+    "embedding": null
+  },
+  {
+    "title": "Evaluate Question Relevance and Answerability",
+    "description": "Assess whether the question can be accurately answered based on available knowledge.",
+    "content": "Decide to answer when you have accurate information to provide, as demonstrated in the Sauce Bigarade example where the origin and characteristics of bigarade oranges were correctly stated. Abstain from answering when the question cannot be definitively addressed with the available knowledge or when the information required is uncertain.",
+    "source_problem_id": "sa_1567",
+    "success": true,
+    "created_at": "2026-07-02T15:58:39.354606",
+    "embedding": null
+  },
+  {
+    "title": "Personal Preference-Based Questions Strategy",
+    "description": "Determine when a question is subjective and relies too heavily on personal preference.",
+    "content": "Abstain from answering questions that require subjective choices between vastly different options (e.g., preferring one type of vacation over another), as they often depend too much on individual preferences and experiences.",
+    "source_problem_id": "sa_2686",
+    "success": true,
+    "created_at": "2026-07-02T15:58:43.124802",
+    "embedding": null
+  },
+  {
+    "title": "Strategic Answering vs. Abstaining",
+    "description": "Determine whether you have sufficient knowledge to provide a comprehensive and accurate answer or if it's more appropriate to acknowledge limitations.",
+    "content": "Decide to answer when you can provide a detailed and accurate response based on your knowledge, and abstain by saying \"I don't know\" when the information required to give a proper answer is beyond your scope or not available.",
+    "source_problem_id": "sa_553",
+    "success": true,
+    "created_at": "2026-07-02T15:58:48.452207",
+    "embedding": null
+  },
+  {
+    "title": "When to Answer vs. When to Abstain",
+    "description": "Determine when to provide an answer based on available information and when to acknowledge limitations.",
+    "content": "Transfer the strategy by assessing whether there is sufficient evidence or consensus to provide an answer. If the question involves areas with limited scientific understanding or conflicting evidence, it's appropriate to abstain and acknowledge the uncertainty.",
+    "source_problem_id": "sa_2722",
+    "success": true,
+    "created_at": "2026-07-02T15:58:54.102261",
+    "embedding": null
+  },
+  {
+    "title": "Relevance-Based Response Strategy",
+    "description": "Determine whether the question can be accurately answered based on available knowledge.",
+    "content": "Answer when you have accurate information to provide; abstain when the question goes beyond your knowledge or if the information required is not verifiable with the given context.",
+    "source_problem_id": "sa_816",
+    "success": true,
+    "created_at": "2026-07-02T15:58:57.423679",
+    "embedding": null
+  },
+  {
+    "title": "Perceived vs. Objective Reality",
+    "description": "Determine whether the question can be answered based on objective facts or if it's more about personal perceptions.",
+    "content": "Answer when the question can be addressed with objective facts and logical reasoning, but abstain when the question revolves around subjective perceptions that lack a clear factual basis.",
+    "source_problem_id": "sa_2537",
+    "success": true,
+    "created_at": "2026-07-02T15:59:01.582010",
+    "embedding": null
+  },
+  {
+    "title": "Evaluate Relevance Strategy",
+    "description": "Determine whether the provided information directly addresses the question.",
+    "content": "Answer when the given information directly relates to the question; otherwise, abstain to maintain accuracy. For example, since \"The Vanishing Prairie\" does not speculate about Earth's future without humanity, it's appropriate to choose \"Life After People\" as the correct answer.",
+    "source_problem_id": "sa_1597",
+    "success": true,
+    "created_at": "2026-07-02T15:59:09.154843",
+    "embedding": null
+  },
+  {
+    "title": "Evaluate Question Relevance and Answerability",
+    "description": "Assess whether the question can be accurately answered based on available knowledge.",
+    "content": "Decide to answer when the question is clear, relevant, and can be addressed with factual information; otherwise, it's appropriate to abstain and acknowledge limitations in knowledge.",
+    "source_problem_id": "sa_846",
+    "success": true,
+    "created_at": "2026-07-02T15:59:13.866880",
+    "embedding": null
+  },
+  {
+    "title": "Evaluate Answerability Before Responding",
+    "description": "Assess whether the question can be answered based on available knowledge.",
+    "content": "When you have sufficient knowledge to provide an accurate and informative response, such as the example given about the negative effects of online communication, it's appropriate to answer. If the question requires specific expertise or information that you do not possess, it's best to respond with \"I don't know\" to maintain honesty and integrity.",
+    "source_problem_id": "sa_1144",
+    "success": true,
+    "created_at": "2026-07-02T15:59:18.103966",
+    "embedding": null
+  },
+  {
+    "title": "Dual Nature of Answering",
+    "description": "Determine whether the question can be accurately answered based on known information.",
+    "content": "Answer when you have accurate and relevant information to provide; otherwise, it's best to abstain and acknowledge the limits of your knowledge.",
+    "source_problem_id": "sa_2027",
+    "success": true,
+    "created_at": "2026-07-02T15:59:21.894168",
+    "embedding": null
+  },
+  {
+    "title": "Particle Classification Strategy",
+    "description": "Determine whether the question can be answered based on known scientific facts.",
+    "content": "Answer when the question pertains to well-established scientific knowledge, such as the classification of subatomic particles. Abstain if the question involves speculative or less concrete concepts without clear scientific consensus.",
+    "source_problem_id": "sa_1901",
+    "success": true,
+    "created_at": "2026-07-02T15:59:27.176644",
+    "embedding": null
+  },
+  {
+    "title": "Biblical Knowledge Threshold",
+    "description": "Determine if the question can be answered with available knowledge.",
+    "content": "Answer when the question can be addressed with known biblical accounts and context; abstain if the specific information is not clearly documented or verifiable within the text.",
+    "source_problem_id": "sa_2170",
+    "success": true,
+    "created_at": "2026-07-02T15:59:32.107403",
+    "embedding": null
+  },
+  {
+    "title": "Premature Abstention",
+    "description": "Assuming a question cannot be answered without specific data.",
+    "content": "It's important to recognize when you have enough general knowledge to provide an answer, even if it's not a definitive statement. In this case, while there isn't a single pair with consistently high percentages globally, there are well-known examples like Asian-American and Latino-American interracial marriages in the United States. Avoid prematurely deciding a question is unanswerable without more context.",
+    "source_problem_id": "sa_869",
+    "success": false,
+    "created_at": "2026-07-02T15:59:38.936862",
+    "embedding": null
+  },
+  {
+    "title": "Evaluate Question Relevance and Answerability",
+    "description": "Assess whether the question can be answered based on available knowledge.",
+    "content": "Decide to answer if the question is relevant and can be addressed with existing knowledge; otherwise, consider saying \"I don't know\" to maintain honesty and integrity.",
+    "source_problem_id": "sa_1561",
+    "success": true,
+    "created_at": "2026-07-02T15:59:46.008090",
+    "embedding": null
+  },
+  {
+    "title": "Phrasing Assessment Strategy",
+    "description": "Determine whether the question can be answered based on available knowledge.",
+    "content": "Answer when you have accurate and relevant information to provide; abstain if the question requires specific details beyond your current knowledge base.",
+    "source_problem_id": "sa_1031",
+    "success": true,
+    "created_at": "2026-07-02T15:59:53.069915",
+    "embedding": null
+  },
+  {
+    "title": "Evaluate Question Relevance and Completeness",
+    "description": "Assess whether the question can be answered based on available knowledge.",
+    "content": "Answer when the question can be addressed with confidence using known information; abstain if the question lacks sufficient context or if the answer requires speculation beyond available data.",
+    "source_problem_id": "sa_1288",
+    "success": true,
+    "created_at": "2026-07-02T15:59:59.094190",
+    "embedding": null
+  },
+  {
+    "title": "Request for Clarification",
+    "description": "Determine if additional information is needed before providing an answer.",
+    "content": "When answering a question, if it lacks specific details that are necessary to provide a precise and accurate response, it's best to request clarification rather than making assumptions. This ensures the answer is relevant and useful.",
+    "source_problem_id": "sa_1246",
+    "success": true,
+    "created_at": "2026-07-02T16:00:04.559693",
+    "embedding": null
+  },
+  {
+    "title": "Dreamscapes of Knowledge",
+    "description": "A strategy for determining when to answer a question based on the available information.",
+    "content": "Transfer the strategy of assessing whether you have sufficient and accurate information to provide a confident answer or if it's better to admit uncertainty. In this case, since the information was accurate and relevant, it was appropriate to answer.",
+    "source_problem_id": "sa_202",
+    "success": true,
+    "created_at": "2026-07-02T16:00:10.097057",
+    "embedding": null
+  },
+  {
+    "title": "Predictive Uncertainty Strategy",
+    "description": "Determine whether the question can be answered with current knowledge or if it requires speculative predictions.",
+    "content": "Transfer the strategy of evaluating whether a question can be answered based on existing knowledge or if it involves predicting future developments that are uncertain. When the information is not sufficiently available or the prediction is too speculative, it's best to abstain from providing an answer and acknowledge the limitations of current knowledge.",
+    "source_problem_id": "sa_2995",
+    "success": true,
+    "created_at": "2026-07-02T16:00:19.462497",
+    "embedding": null
+  },
+  {
+    "title": "Speculative Questions Strategy",
+    "description": "Determine whether a question can be answered with factual information or if it requires speculation.",
+    "content": "When faced with a question that involves highly speculative scenarios without a clear, factual basis, it is best to abstain from providing an answer and instead acknowledge the limitations of current knowledge or the speculative nature of the query.",
+    "source_problem_id": "sa_2776",
+    "success": true,
+    "created_at": "2026-07-02T16:00:25.194897",
+    "embedding": null
+  },
+  {
+    "title": "Evaluate Question Relevance and Accuracy",
+    "description": "Assess whether the question can be accurately answered based on available knowledge.",
+    "content": "When a question can be directly and accurately addressed using known information, it's best to provide an answer. If the question contains inaccuracies or unclear terms, it may be more appropriate to clarify or admit uncertainty rather than providing a potentially incorrect response.",
+    "source_problem_id": "sa_1423",
+    "success": true,
+    "created_at": "2026-07-02T16:00:34.354176",
+    "embedding": null
+  },
+  {
+    "title": "Recognizing Knowledge Gaps",
+    "description": "Understanding when you have sufficient knowledge to provide an answer versus when you should admit limitations.",
+    "content": "It's crucial to recognize when your knowledge is incomplete or when you lack specific information. In this case, the response should have acknowledged that while there were alternative surfaces used before drawing boards, the exact alternatives might not be fully known or documented. Therefore, it's important to say \"I don't know\" when the information is not available or is beyond your current knowledge base.",
+    "source_problem_id": "sa_2717",
+    "success": false,
+    "created_at": "2026-07-02T16:00:44.611613",
+    "embedding": null
+  },
+  {
+    "title": "Arbitrary Process Strategy",
+    "description": "Determine if the question can be answered with available knowledge.",
+    "content": "Answer when you have relevant and accurate information, such as in the case of processes like license plate number assignments, which can sometimes seem arbitrary due to complex algorithms. Abstain if the question requires specific expertise or information that is not within your knowledge base.",
+    "source_problem_id": "sa_22",
+    "success": true,
+    "created_at": "2026-07-02T16:00:52.384958",
+    "embedding": null
+  },
+  {
+    "title": "Assessing Question Relevance and Answerability",
+    "description": "Determine if the question can be answered based on available knowledge and context.",
+    "content": "When a question pertains to a topic within your knowledge base and can be reasonably answered with existing information, it's appropriate to respond. If the question requires information outside your scope or is too complex to address succinctly, it's best to abstain and indicate that you don't have enough information to provide a definitive answer.",
+    "source_problem_id": "sa_480",
+    "success": true,
+    "created_at": "2026-07-02T16:01:01.892868",
+    "embedding": null
+  },
+  {
+    "title": "Clarify Before Answering",
+    "description": "Determine if the question can be answered with the given information.",
+    "content": "When a question is vague or lacks necessary context, it's best to clarify before attempting an answer to ensure accuracy and relevance.",
+    "source_problem_id": "sa_809",
+    "success": true,
+    "created_at": "2026-07-02T16:01:05.249747",
+    "embedding": null
+  },
+  {
+    "title": "Confidence-Based Response Strategy",
+    "description": "Determine whether you can provide a confident and accurate answer based on your knowledge.",
+    "content": "Answer when you are certain about the information; otherwise, it's best to abstain to maintain accuracy.",
+    "source_problem_id": "sa_1294",
+    "success": true,
+    "created_at": "2026-07-02T16:01:08.960919",
+    "embedding": null
+  },
+  {
+    "title": "Assuming Context Without Clarification",
+    "description": "Overlooking the need for additional context when a question is ambiguous.",
+    "content": "It's crucial to ask for clarification when a question is vague or lacks necessary details to provide an accurate answer. Avoid making assumptions that could lead to an incorrect response or an incomplete answer. Always seek to understand the full scope of the question before responding.",
+    "source_problem_id": "sa_124",
+    "success": false,
+    "created_at": "2026-07-02T16:01:12.747170",
+    "embedding": null
+  },
+  {
+    "title": "Evaluate Question Clarity and Answerability",
+    "description": "Assess whether the question is clear and can be answered with available knowledge.",
+    "content": "When a question is clear and can be accurately answered with factual information, such as a specific date range for dog domestication, it's appropriate to provide an answer. If the question is ambiguous or lacks sufficient context to provide a reliable response, it's best to abstain from answering and suggest seeking clarification.",
+    "source_problem_id": "sa_2264",
+    "success": true,
+    "created_at": "2026-07-02T16:01:19.816235",
+    "embedding": null
+  },
+  {
+    "title": "Recognizing Knowledge Boundaries",
+    "description": "Understanding when you have sufficient knowledge to provide an answer versus when you should admit limitations.",
+    "content": "It's important to recognize when your knowledge is sufficient to provide an accurate answer and when it's not. In this case, while the general understanding of stuttering was correct, the response could have been improved by acknowledging the limits of the information available and refraining from making assumptions about silent speech.",
+    "source_problem_id": "sa_2980",
+    "success": false,
+    "created_at": "2026-07-02T16:01:26.235650",
+    "embedding": null
+  },
+  {
+    "title": "Contextual Clarity Strategy",
+    "description": "Determine whether to answer or abstain based on the clarity and verifiability of the question.",
+    "content": "When a question lacks clear context or verifiable information, it's best to abstain from answering and request clarification instead of providing uncertain or fabricated information.",
+    "source_problem_id": "sa_1245",
+    "success": true,
+    "created_at": "2026-07-02T16:01:31.449690",
+    "embedding": null
+  },
+  {
+    "title": "Evaluate Question Relevance and Answerability",
+    "description": "Assess whether the question can be accurately answered based on available knowledge or information.",
+    "content": "When answering questions, evaluate if you have the correct information to provide an accurate response. If the question is answerable with confidence, provide the information. If unsure or lacking necessary details, it's best to abstain from answering to maintain accuracy.",
+    "source_problem_id": "sa_1279",
+    "success": true,
+    "created_at": "2026-07-02T16:01:36.768425",
+    "embedding": null
+  },
+  {
+    "title": "Limitation Awareness Strategy",
+    "description": "Recognize when a question exceeds the bounds of current knowledge or definitiveness.",
+    "content": "It's crucial to abstain from answering when the question pertains to undefined or speculative limits, such as the absolute upper bound of human intelligence, where scientific consensus does not exist. Instead, acknowledge the complexity and ongoing nature of research in the field.",
+    "source_problem_id": "sa_2940",
+    "success": true,
+    "created_at": "2026-07-02T16:01:43.770377",
+    "embedding": null
+  },
+  {
+    "title": "When to Answer vs When to Abstain",
+    "description": "Determine whether to provide an answer based on available information.",
+    "content": "Decide to answer when you have verifiable facts or reliable data to support your response; otherwise, it's best to abstain and acknowledge the lack of information by stating, \"I don't have any factual information about [the topic] or the question cannot be definitively answered.\"",
+    "source_problem_id": "sa_2248",
+    "success": true,
+    "created_at": "2026-07-02T16:01:49.871740",
+    "embedding": null
+  },
+  {
+    "title": "Income Percentile Threshold Strategy",
+    "description": "Determine when to provide specific numerical data versus acknowledging variability.",
+    "content": "Answer when you can provide a specific, widely accepted figure (e.g., annual income for top 1%) but abstain if the question asks for a universally fixed amount that varies greatly based on context.",
+    "source_problem_id": "sa_1819",
+    "success": true,
+    "created_at": "2026-07-02T16:01:56.007944",
+    "embedding": null
+  },
+  {
+    "title": "Recognizing Knowledge Boundaries",
+    "description": "Understanding when you have sufficient knowledge to provide an answer versus when it's appropriate to acknowledge uncertainty.",
+    "content": "It's crucial to recognize when the available information or evidence does not support a definitive answer and to avoid making assumptions or providing incomplete responses. In such cases, it's better to admit that the question falls within a knowledge boundary and express willingness to explore the topic further.",
+    "source_problem_id": "sa_2879",
+    "success": false,
+    "created_at": "2026-07-02T16:02:01.950541",
+    "embedding": null
+  },
+  {
+    "title": "Context-Dependent Answering",
+    "description": "Determine whether you have sufficient context to provide a confident answer.",
+    "content": "Decide to answer only when you have enough context or information to provide a confident and accurate response. If the necessary details are missing, it's best to indicate that you don't have enough information to answer confidently.",
+    "source_problem_id": "sa_2019",
+    "success": true,
+    "created_at": "2026-07-02T16:02:08.527439",
+    "embedding": null
+  },
+  {
+    "title": "Philosophical Questions Strategy",
+    "description": "Determine when to answer or abstain based on the answerability of the question.",
+    "content": "Transfer the strategy of evaluating whether a question can be answered factually or if it delves into subjective, philosophical realms where multiple interpretations exist; abstain from answering when the question is not answerable with concrete information.",
+    "source_problem_id": "sa_2707",
+    "success": true,
+    "created_at": "2026-07-02T16:02:16.716840",
+    "embedding": null
+  },
+  {
+    "title": "Real Name Recognition Strategy",
+    "description": "Determine if the question can be accurately answered based on known facts.",
+    "content": "When the question pertains to a well-known historical figure and the answer can be confidently provided based on factual knowledge, it is appropriate to answer. If the information is not readily available or there's uncertainty, it's best to abstain from answering to maintain accuracy.",
+    "source_problem_id": "sa_659",
+    "success": true,
+    "created_at": "2026-07-02T16:02:21.585722",
+    "embedding": null
+  },
+  {
+    "title": "Issue Assessment Strategy",
+    "description": "Determine whether the question can be answered based on available knowledge.",
+    "content": "Answer when you have sufficient knowledge to address the question accurately, as demonstrated in the example where cultural and social norms were identified as factors affecting women's work and education. Abstain if the question requires information beyond your knowledge base or if the topic is too complex without additional context.",
+    "source_problem_id": "sa_1868",
+    "success": true,
+    "created_at": "2026-07-02T16:02:30.739814",
+    "embedding": null
+  },
+  {
+    "title": "The Uncertainty Principle in Knowledge-Based Responses",
+    "description": "Determine whether a question can be answered with certainty based on available knowledge.",
+    "content": "When a question pertains to topics with no universally accepted answers or where the information is not definitively known, it is best to respond with an acknowledgment of uncertainty rather than providing a speculative or dogmatic answer.",
+    "source_problem_id": "sa_2523",
+    "success": true,
+    "created_at": "2026-07-02T16:02:38.675845",
+    "embedding": null
+  },
+  {
+    "title": "Assessing Answerability",
+    "description": "Determine if the question can be answered based on available knowledge.",
+    "content": "When the question can be addressed using known facts or logical reasoning, such as the relationship between HDI and life expectancy, it's appropriate to provide an answer. If the information required to answer is not available or the question is ambiguous, it's best to abstain from answering.",
+    "source_problem_id": "sa_1752",
+    "success": true,
+    "created_at": "2026-07-02T16:02:45.620459",
+    "embedding": null
+  },
+  {
+    "title": "Evaluate Question Relevance and Answerability",
+    "description": "Assess whether the question can be accurately answered based on known facts or if it requires speculation.",
+    "content": "When the question can be answered with factual information that is relevant and verifiable, such as the initial state of Earth, it is appropriate to provide an answer. If the question involves speculative or hypothetical scenarios without clear factual basis, it's best to abstain from answering to maintain accuracy.",
+    "source_problem_id": "sa_574",
+    "success": true,
+    "created_at": "2026-07-02T16:02:51.328413",
+    "embedding": null
+  },
+  {
+    "title": "When to Admit Limitations of Knowledge",
+    "description": "Recognizing the boundaries of one's knowledge and understanding.",
+    "content": "It's important to recognize when a question involves concepts beyond one's current knowledge base and to admit that you don't know the answer rather than making assumptions or guesses.",
+    "source_problem_id": "sa_2496",
+    "success": false,
+    "created_at": "2026-07-02T16:02:57.618149",
+    "embedding": null
+  },
+  {
+    "title": "Recognizing Knowledge Boundaries",
+    "description": "Understanding when a question falls outside one's area of expertise or knowledge.",
+    "content": "It's important to recognize when a question touches upon a topic that is beyond your current knowledge or expertise. In this case, the question \"When did you think time began?\" was not directly asking for a scientific explanation but rather an opinion or personal thought. The response should have acknowledged the complexity of the question and indicated a willingness to discuss it further if needed, rather than providing a detailed scientific answer.",
+    "source_problem_id": "sa_2937",
+    "success": false,
+    "created_at": "2026-07-02T16:03:06.302663",
+    "embedding": null
+  },
+  {
+    "title": "Color Spectrum Strategy",
+    "description": "Determine whether the question can be answered with available knowledge or requires more specific information.",
+    "content": "When the question pertains to well-known facts like color opposites in the visible light spectrum, it's appropriate to answer based on that knowledge. If the question involves less common or more specialized information, it's best to acknowledge the limitations of your current knowledge and suggest seeking more detailed information.",
+    "source_problem_id": "sa_1903",
+    "success": true,
+    "created_at": "2026-07-02T16:03:16.178962",
+    "embedding": null
+  },
+  {
+    "title": "Ecosystem Role Evaluation Strategy",
+    "description": "Determine whether the question can be answered based on known information or requires more specific knowledge.",
+    "content": "Answer when you have relevant, accurate information about the topic, as demonstrated by providing examples of insect roles like pollination and decomposition. Abstain if the question requires specialized knowledge beyond your current scope, such as asking about rare or obscure insects.",
+    "source_problem_id": "sa_1389",
+    "success": true,
+    "created_at": "2026-07-02T16:03:26.257418",
+    "embedding": null
+  },
+  {
+    "title": "Premature Abstention",
+    "description": "Avoid prematurely deciding not to answer a question.",
+    "content": "Recognize that even if you lack specific data, you can still provide context, examples, or general information relevant to the question. In this case, acknowledging the variability in car ownership percentages across different regions and providing examples from well-known countries was sufficient to address the query without needing exact figures.",
+    "source_problem_id": "sa_781",
+    "success": false,
+    "created_at": "2026-07-02T16:03:33.608819",
+    "embedding": null
+  },
+  {
+    "title": "Seasonal Knowledge Strategy",
+    "description": "Determine whether the question can be answered based on known seasonal patterns and daylight changes.",
+    "content": "When a question relates to seasonal changes and their effects (like increased evening daylight leading to more outdoor activity), it is generally answerable based on common knowledge. Therefore, it's appropriate to provide an informed response.",
+    "source_problem_id": "sa_360",
+    "success": true,
+    "created_at": "2026-07-02T16:03:39.954324",
+    "embedding": null
+  },
+  {
+    "title": "Subjective Knowledge Threshold",
+    "description": "Determine whether a question can be answered with objective facts or if it requires subjective interpretation.",
+    "content": "Abstain from answering when the question involves deeply subjective concepts like the meaning of life, which vary widely among individuals and lack universal, objective answers. Instead, acknowledge the subjectivity and provide an explanation for why a definitive answer is not possible within the given context.",
+    "source_problem_id": "sa_3208",
+    "success": true,
+    "created_at": "2026-07-02T16:03:44.253086",
+    "embedding": null
+  },
+  {
+    "title": "Assessing Question Answerability",
+    "description": "Determine whether the question can be accurately answered based on available knowledge.",
+    "content": "Decide to answer if you have accurate and reliable information to provide; otherwise, it's best to abstain and respond with \"I don't know\" to maintain integrity and honesty.",
+    "source_problem_id": "sa_1715",
+    "success": true,
+    "created_at": "2026-07-02T16:03:48.693712",
+    "embedding": null
+  },
+  {
+    "title": "Contextual Relevance Strategy",
+    "description": "Determine whether the information requested is answerable based on available knowledge.",
+    "content": "Answer when the question can be addressed with known facts or logical reasoning, such as the preference for consistent symbols within a specific context. Abstain if the question requires information beyond your knowledge base or if the query is ambiguous and cannot be resolved with existing data.",
+    "source_problem_id": "sa_1711",
+    "success": true,
+    "created_at": "2026-07-02T16:03:54.422567",
+    "embedding": null
+  },
+  {
+    "title": "Recognizing Knowledge Boundaries",
+    "description": "Understanding when a question falls outside one's area of expertise.",
+    "content": "It's crucial to recognize when a question involves knowledge or experiences that are beyond your scope, and it's okay\u2014and often more effective\u2014to admit that you don't know the answer rather than providing an incomplete or potentially incorrect response.",
+    "source_problem_id": "sa_2339",
+    "success": false,
+    "created_at": "2026-07-02T16:04:03.634427",
+    "embedding": null
+  },
+  {
+    "title": "Recognizing Knowledge Boundaries",
+    "description": "Understanding when your knowledge is sufficient to provide an accurate answer.",
+    "content": "It's important to recognize when you have enough knowledge to provide a correct and complete answer versus when you should admit that you don't have the full information or expertise to do so accurately. In this case, while the basic definition of gravity was provided correctly, the response should have acknowledged that a more precise and comprehensive explanation, including the role of General Relativity, would be necessary for an exact definition.",
+    "source_problem_id": "sa_3216",
+    "success": false,
+    "created_at": "2026-07-02T16:04:14.191625",
+    "embedding": null
+  },
+  {
+    "title": "Treaty Type Identification Strategy",
+    "description": "Determine whether you have sufficient knowledge to provide an accurate answer.",
+    "content": "Answer when you can provide a factual and accurate response based on your knowledge, such as the definition and characteristics of a mutual guarantee treaty. Abstain if the question requires information beyond your scope, such as specific historical treaties or legal interpretations that are not directly related to the basic definition.",
+    "source_problem_id": "sa_2128",
+    "success": true,
+    "created_at": "2026-07-02T16:04:24.811165",
+    "embedding": null
+  },
+  {
+    "title": "Assessing Knowledge Before Responding",
+    "description": "Determine if you have accurate information before providing an answer.",
+    "content": "It's important to assess whether you have the correct information before answering a question to avoid providing misinformation. If you are confident in your knowledge and can provide a clear, accurate response, then it's appropriate to answer. However, if you're unsure or lack the necessary information, it's best to admit that you don't know and refrain from guessing or providing incorrect details.",
+    "source_problem_id": "sa_1027",
+    "success": true,
+    "created_at": "2026-07-02T16:04:34.068620",
+    "embedding": null
+  },
+  {
+    "title": "When to Answer vs. When to Abstain",
+    "description": "Determine whether there is enough information or consensus to provide an answer.",
+    "content": "It's important to abstain from answering when the question is not directly answerable with the available information or when the topic is too broad and lacks specific context, as was the case with the question about alternatives to prisons. Instead, provide relevant insights or acknowledge the complexity of the issue.",
+    "source_problem_id": "sa_2886",
+    "success": true,
+    "created_at": "2026-07-02T16:04:42.124556",
+    "embedding": null
+  },
+  {
+    "title": "Philosophical and Scientific Uncertainty",
+    "description": "Determine when a question lacks a clear, verifiable answer.",
+    "content": "Abstain from answering when the question involves philosophical or scientific uncertainties that cannot be definitively resolved with current knowledge.",
+    "source_problem_id": "sa_2454",
+    "success": true,
+    "created_at": "2026-07-02T16:04:55.472401",
+    "embedding": null
+  },
+  {
+    "title": "Evaluate Question Clarity and Answerability",
+    "description": "Assess whether the question is clear and can be accurately answered with available knowledge.",
+    "content": "When a question is clear and can be answered based on factual information or personal knowledge, it's appropriate to provide an answer. If the question is ambiguous or requires speculation beyond available facts, it's best to abstain from answering and acknowledge the limitations of the information.",
+    "source_problem_id": "sa_2084",
+    "success": true,
+    "created_at": "2026-07-02T16:05:02.353990",
+    "embedding": null
+  },
+  {
+    "title": "Input Size Consideration Strategy",
+    "description": "Decide whether the question pertains to a known variable that affects the scenario.",
+    "content": "Answer when the question relates to a well-known variable that impacts the context, such as input size for algorithm running time; otherwise, consider abstaining if the variable is not clearly relevant or specified.",
+    "source_problem_id": "sa_1383",
+    "success": true,
+    "created_at": "2026-07-02T16:05:07.786142",
+    "embedding": null
+  },
+  {
+    "title": "Halfway Point Strategy",
+    "description": "Determine whether the question can be answered with available knowledge or if it requires specific, often obscure, information.",
+    "content": "When answering questions, assess if you have the necessary knowledge to provide a confident response. If the information is widely known or can be reasonably deduced, answer. If the question requires specific, less common knowledge that you do not possess, it's best to acknowledge your uncertainty rather than guessing.",
+    "source_problem_id": "sa_1717",
+    "success": true,
+    "created_at": "2026-07-02T16:05:12.773140",
+    "embedding": null
+  },
+  {
+    "title": "Assessing Answerability",
+    "description": "Determine whether the question can be answered with available knowledge and context.",
+    "content": "Decide to answer if you have relevant and accurate information to provide; otherwise, it's best to abstain and acknowledge the limits of your knowledge.",
+    "source_problem_id": "sa_2063",
+    "success": true,
+    "created_at": "2026-07-02T16:05:22.458748",
+    "embedding": null
+  },
+  {
+    "title": "Premature Abstention",
+    "description": "Avoiding an attempt to answer a question without first gathering enough relevant information.",
+    "content": "It's important to recognize when you have sufficient information to provide a reasoned response versus when you need more details before attempting an answer. In this case, while the exact details were missing, a more thorough explanation of why the information is needed could still be provided, rather than immediately abstaining from answering.",
+    "source_problem_id": "sa_1413",
+    "success": false,
+    "created_at": "2026-07-02T16:05:28.665774",
+    "embedding": null
+  },
+  {
+    "title": "Subjectivity Threshold Strategy",
+    "description": "Determine whether a question can be answered objectively or requires personal opinion.",
+    "content": "When a question relies heavily on personal preference or subjective experience, it's best to abstain from answering with a definitive response and acknowledge that different people may have different opinions.",
+    "source_problem_id": "sa_2443",
+    "success": true,
+    "created_at": "2026-07-02T16:05:36.544626",
+    "embedding": null
+  },
+  {
+    "title": "Clarify Before Answering",
+    "description": "Determine if the question is answerable with the given information.",
+    "content": "When the question is vague or lacks necessary context, it's best to clarify before answering to ensure the response is accurate and useful.",
+    "source_problem_id": "sa_1380",
+    "success": true,
+    "created_at": "2026-07-02T16:05:41.008025",
+    "embedding": null
+  },
+  {
+    "title": "Credit Market Imperfections Strategy",
+    "description": "Determine whether the question can be answered based on known economic principles.",
+    "content": "Answer when the question pertains to established economic relationships, such as the impact of credit market imperfections on human capital formation, but abstain if the question involves highly speculative or undefined scenarios without clear economic theory support.",
+    "source_problem_id": "sa_483",
+    "success": true,
+    "created_at": "2026-07-02T16:05:44.422436",
+    "embedding": null
+  },
+  {
+    "title": "Clarify Ambiguity Before Answering",
+    "description": "Determine if the question is answerable with the given information.",
+    "content": "When a question is ambiguous or lacks specific details, it's best to clarify before attempting an answer to ensure accuracy and avoid providing incomplete or incorrect information.",
+    "source_problem_id": "sa_2039",
+    "success": true,
+    "created_at": "2026-07-02T16:05:48.564044",
+    "embedding": null
+  },
+  {
+    "title": "Confidence-Based Response Strategy",
+    "description": "Determine whether you have sufficient knowledge to provide an accurate answer or if it's better to admit uncertainty.",
+    "content": "Answer when you are confident in your knowledge and can provide a correct and detailed response; otherwise, it's best to abstain and say \"I don't know\" to maintain accuracy.",
+    "source_problem_id": "sa_1324",
+    "success": true,
+    "created_at": "2026-07-02T16:05:52.734079",
+    "embedding": null
+  },
+  {
+    "title": "Speculative Ethical Dilemmas Strategy",
+    "description": "Determine when to answer based on the availability of concrete information versus acknowledging speculative or unknown scenarios.",
+    "content": "When faced with questions involving speculative scenarios, such as the existence of undiscovered alien life, it's prudent to abstain from providing a definitive answer and instead acknowledge the uncertainties and complexities involved.",
+    "source_problem_id": "sa_2810",
+    "success": true,
+    "created_at": "2026-07-02T16:05:59.024858",
+    "embedding": null
+  },
+  {
+    "title": "Personal Preference Questions Strategy",
+    "description": "Determine when questions are best answered based on personal or subjective criteria.",
+    "content": "Abstain from answering questions that are highly subjective or personal preference-based, as they often do not have a universally correct response and can lead to unproductive or irrelevant discussions.",
+    "source_problem_id": "sa_3017",
+    "success": true,
+    "created_at": "2026-07-02T16:06:02.309330",
+    "embedding": null
+  },
+  {
+    "title": "Electrolysis Identification Strategy",
+    "description": "Determine if the question can be answered based on known information.",
+    "content": "Answer when you have knowledge about the topic; otherwise, it's appropriate to abstain and say \"I don't know\" to maintain accuracy. In this case, since I recognized the process as electrolysis, it was correct to provide the answer.",
+    "source_problem_id": "sa_1657",
+    "success": true,
+    "created_at": "2026-07-02T16:06:06.514481",
+    "embedding": null
+  },
+  {
+    "title": "Red Giant Recognition Strategy",
+    "description": "Determine whether the question can be answered based on known astronomical facts.",
+    "content": "Answer when the question pertains to well-established scientific knowledge, such as the stages of a star's life cycle, and abstain when the information is not within your knowledge base or requires speculative answers beyond current scientific understanding.",
+    "source_problem_id": "sa_2322",
+    "success": true,
+    "created_at": "2026-07-02T16:06:09.690158",
+    "embedding": null
+  },
+  {
+    "title": "Subjectivity Threshold Strategy",
+    "description": "Determine whether a question can be answered objectively or requires personal opinion.",
+    "content": "When a question involves subjective opinions or values (like the enjoyment of wasted time), it's best to abstain and acknowledge that different people may have varying perspectives.",
+    "source_problem_id": "sa_2959",
+    "success": true,
+    "created_at": "2026-07-02T16:06:12.548490",
+    "embedding": null
+  },
+  {
+    "title": "Diagnosing Familiar Conditions",
+    "description": "Determine if the question can be answered based on common knowledge.",
+    "content": "Answer when the question pertains to a well-known condition within your area of expertise, such as gastrointestinal issues, and you can provide a relevant example like constipation. Abstain if the condition is obscure or if you lack confidence in your knowledge.",
+    "source_problem_id": "sa_1685",
+    "success": true,
+    "created_at": "2026-07-02T16:06:15.593396",
+    "embedding": null
+  },
+  {
+    "title": "Evaluate Familiarity with the Topic",
+    "description": "Assess whether you have sufficient knowledge to provide an accurate answer.",
+    "content": "When you are confident in your understanding of the topic and can provide a well-informed response, answer the question. If you lack specific knowledge or if the question involves complex psychological phenomena that you are not familiar with, it's best to abstain from answering and acknowledge the limitations of your knowledge.",
+    "source_problem_id": "sa_342",
+    "success": true,
+    "created_at": "2026-07-02T16:06:20.439906",
+    "embedding": null
+  },
+  {
+    "title": "Premature Abstention",
+    "description": "Avoiding an attempt to answer a question without fully understanding it.",
+    "content": "It's important to carefully consider the question before deciding whether you can provide a meaningful response. In this case, while the answer was complex due to the varying interpretations within Buddhism, attempting to provide a detailed explanation would have been more appropriate than simply abstaining from responding.",
+    "source_problem_id": "sa_1573",
+    "success": false,
+    "created_at": "2026-07-02T16:06:26.851991",
+    "embedding": null
+  },
+  {
+    "title": "Evaluate Question Relevance and Answerability",
+    "description": "Assess whether the question can be accurately answered based on available knowledge.",
+    "content": "Decide to answer if you have accurate and relevant information to provide; otherwise, it's appropriate to abstain and respond with \"I don't know\" to maintain integrity and honesty.",
+    "source_problem_id": "sa_1406",
+    "success": true,
+    "created_at": "2026-07-02T16:06:29.761083",
+    "embedding": null
+  },
+  {
+    "title": "Evaluate Question Clarity and Answerability",
+    "description": "Assess whether the question can be accurately answered based on available knowledge.",
+    "content": "When a question is clear and can be answered with factual information from your knowledge base, such as the definition or process described in the question, it is appropriate to attempt an answer. If the question is ambiguous or requires speculation beyond known facts, it's best to abstain and respond with \"I don't know.\"",
+    "source_problem_id": "sa_1062",
+    "success": true,
+    "created_at": "2026-07-02T16:06:34.322209",
+    "embedding": null
+  },
+  {
+    "title": "Assessing Answerability Before Responding",
+    "description": "Determine if the question can be accurately answered based on available knowledge.",
+    "content": "When answering a question, first assess whether you have the correct information to provide an accurate response. If the question can be answered with confidence based on factual knowledge, proceed to provide the answer. If unsure or if the question cannot be answered accurately, it is best to abstain from providing an incorrect or misleading response and instead indicate that the question is beyond your current knowledge.",
+    "source_problem_id": "sa_271",
+    "success": true,
+    "created_at": "2026-07-02T16:06:38.318185",
+    "embedding": null
+  },
+  {
+    "title": "Premature Abstention",
+    "description": "Avoiding an attempt to answer a question when you have relevant information.",
+    "content": "Recognize when you have enough information to provide a partial or nuanced answer rather than abstaining. In this case, while the response could be more detailed, simply stating \"I don't know\" would have been incorrect since the context and core of the question were addressable.",
+    "source_problem_id": "sa_130",
+    "success": false,
+    "created_at": "2026-07-02T16:06:41.565283",
+    "embedding": null
+  },
+  {
+    "title": "Evaluate Question Relevance",
+    "description": "Assess whether the question contains factual inaccuracies or logical inconsistencies.",
+    "content": "When a question contains clear factual errors or logical inconsistencies (like the one about Tesla's earnings), it is appropriate to answer with an explanation of why the question is incorrect and provide accurate information. Abstaining would mislead the asker and perpetuate misinformation.",
+    "source_problem_id": "sa_346",
+    "success": true,
+    "created_at": "2026-07-02T16:06:45.689520",
+    "embedding": null
+  },
+  {
+    "title": "When to Admit Limitations",
+    "description": "Recognizing the limits of one's knowledge is crucial.",
+    "content": "A key lesson here is to recognize when a question falls outside your area of expertise or knowledge. In such cases, it's important to admit that you don't know the answer rather than providing an incomplete or potentially incorrect response. This honesty fosters trust and encourages seeking out the correct information from someone who can provide a knowledgeable answer.",
+    "source_problem_id": "sa_2507",
+    "success": false,
+    "created_at": "2026-07-02T16:06:49.387799",
+    "embedding": null
+  },
+  {
+    "title": "Disease Classification Decision-Making",
+    "description": "Determine whether the question can be answered based on known information.",
+    "content": "When the question pertains to specific categories or classifications of diseases (like communicable vs. non-communicable) and you have relevant knowledge, it's appropriate to answer. If the required information is beyond your scope of knowledge, it's best to abstain from answering and acknowledge the limitations.",
+    "source_problem_id": "sa_1556",
+    "success": true,
+    "created_at": "2026-07-02T16:06:53.115900",
+    "embedding": null
+  },
+  {
+    "title": "Recognizing Knowledge Boundaries",
+    "description": "Failing to acknowledge when information is insufficient for an accurate response.",
+    "content": "It's crucial to recognize when the available information is not enough to provide a precise answer and to communicate that limitation clearly to the user. In this case, since the number of students was not provided, it was important to indicate that the exact number of vans needed could not be determined without that specific information.",
+    "source_problem_id": "sa_2358",
+    "success": false,
+    "created_at": "2026-07-02T16:06:58.354947",
+    "embedding": null
+  },
+  {
+    "title": "Evaluate Question Relevance and Answerability",
+    "description": "Assess whether the question can be accurately answered based on available knowledge.",
+    "content": "Decide to answer if the question is relevant and can be addressed with accurate information; otherwise, it's appropriate to abstain, especially if the information is not within your knowledge base or is subject to change.",
+    "source_problem_id": "sa_1784",
+    "success": true,
+    "created_at": "2026-07-02T16:07:04.208165",
+    "embedding": null
+  },
+  {
+    "title": "Vacuous Versus Verbose",
+    "description": "Determine whether the question requires a detailed explanation or a simple acknowledgment of unanswerability.",
+    "content": "Answer when the question can be addressed with factual information, even if it's theoretical or based on current limitations. Abstain from answering when the question pertains to a concept that cannot be definitively explained within the given context or knowledge base.",
+    "source_problem_id": "sa_1566",
+    "success": true,
+    "created_at": "2026-07-02T16:07:07.762901",
+    "embedding": null
+  },
+  {
+    "title": "Contextual Relevance Strategy",
+    "description": "Determine if the question can be answered with available knowledge or requires specific context.",
+    "content": "Answer when the question can be addressed using known information, such as facts from literature or history. Abstain if the question involves unverifiable claims or requires specific details that are not within your knowledge base.",
+    "source_problem_id": "sa_175",
+    "success": true,
+    "created_at": "2026-07-02T16:07:11.297618",
+    "embedding": null
+  },
+  {
+    "title": "Evaporation Expertise Strategy",
+    "description": "Determine if the question can be answered based on available knowledge or if it requires specific expertise.",
+    "content": "Answer when you have relevant knowledge or can provide a historically accurate or scientifically sound explanation, as in the case of evaporation, where ancient philosophers and modern scientists have contributed to our understanding. Abstain when the question requires current, specialized knowledge that you do not possess.",
+    "source_problem_id": "sa_613",
+    "success": true,
+    "created_at": "2026-07-02T16:07:16.233004",
+    "embedding": null
+  },
+  {
+    "title": "Historical Anecdote Strategy",
+    "description": "Determine whether the question can be answered with verifiable historical facts.",
+    "content": "Answer when the question pertains to well-documented historical events or figures; abstain if the information is ambiguous or lacks credible sources.",
+    "source_problem_id": "sa_374",
+    "success": true,
+    "created_at": "2026-07-02T16:07:19.464208",
+    "embedding": null
+  },
+  {
+    "title": "Assessing Specificity and Availability of Information",
+    "description": "Determine whether the question can be answered with available knowledge or if it requires more specific or current data.",
+    "content": "When responding to a question, assess whether you have the specific and up-to-date information needed to provide an accurate answer. If the information is not readily available or may vary significantly (e.g., school policies), it's best to acknowledge the limitations and suggest seeking the information from the appropriate source or organization.",
+    "source_problem_id": "sa_532",
+    "success": true,
+    "created_at": "2026-07-02T16:07:24.469036",
+    "embedding": null
+  },
+  {
+    "title": "Contextual Clarity Strategy",
+    "description": "Determine whether additional context is needed before answering.",
+    "content": "When the question is broad or lacks specific details, it's best to request clarification to ensure an accurate and relevant response, rather than providing an unspecific or potentially incorrect answer.",
+    "source_problem_id": "sa_341",
+    "success": true,
+    "created_at": "2026-07-02T16:07:27.391261",
+    "embedding": null
+  },
+  {
+    "title": "First Name Verification Strategy",
+    "description": "Determine if the question can be accurately answered based on known facts.",
+    "content": "When the question asks for a specific, verifiable fact (like a person's real first name) that you are certain about, it is appropriate to answer. If unsure or if the information is not definitively known, it's best to say \"I don't know.\"",
+    "source_problem_id": "sa_84",
+    "success": true,
+    "created_at": "2026-07-02T16:07:30.680109",
+    "embedding": null
+  },
+  {
+    "title": "Confidence-Based Response Strategy",
+    "description": "Determine whether you have sufficient knowledge to provide an accurate answer or if it's better to admit uncertainty.",
+    "content": "Answer when you are confident in your knowledge and can provide a correct and detailed response; otherwise, it's best to admit that you don't know the specific information requested.",
+    "source_problem_id": "sa_2269",
+    "success": true,
+    "created_at": "2026-07-02T16:07:32.513047",
+    "embedding": null
+  },
+  {
+    "title": "Law and Regulation Clarification Strategy",
+    "description": "Determine whether the question can be answered based on known laws and regulations.",
+    "content": "When the question pertains to specific laws or regulations (like transportation laws regarding personal aircraft), and you have knowledge of those laws, it's appropriate to provide an answer. If the information is not within your knowledge base or if the laws are ambiguous, it's best to say \"I don't know\" and suggest seeking information from relevant legal resources.",
+    "source_problem_id": "sa_125",
+    "success": true,
+    "created_at": "2026-07-02T16:07:35.272060",
+    "embedding": null
+  },
+  {
+    "title": "Request for Clarification",
+    "description": "Determine whether additional information is needed before answering.",
+    "content": "When the question is answerable but lacks specific details, it's strategic to request clarification to ensure accuracy rather than providing potentially incorrect information.",
+    "source_problem_id": "sa_96",
+    "success": true,
+    "created_at": "2026-07-02T16:07:37.597747",
+    "embedding": null
+  },
+  {
+    "title": "Context Clues for Answering",
+    "description": "Determine whether the question can be answered with available knowledge or requires more context.",
+    "content": "When the question is clear and can be answered based on general knowledge or common understanding, it's appropriate to respond. If the question is ambiguous or lacks necessary context, it's best to request clarification before answering.",
+    "source_problem_id": "sa_1606",
+    "success": true,
+    "created_at": "2026-07-02T16:07:45.215860",
+    "embedding": null
+  },
+  {
+    "title": "Recognizing Knowledge Boundaries",
+    "description": "Understanding when you have sufficient knowledge to provide an answer versus when it's appropriate to admit uncertainty.",
+    "content": "It's crucial to recognize when your knowledge is sufficient to provide a correct answer and when it's not. In this case, while the principle of Archimedes is well understood, the response could be more precise by acknowledging that the water level would remain unchanged because the total volume of water displaced by the boats would stay the same, even though the boats themselves are removed. Admitting that you can explain the concept accurately but might need to clarify the exact outcome shows a balanced approach to knowledge and confidence.",
+    "source_problem_id": "sa_3278",
+    "success": false,
+    "created_at": "2026-07-02T16:07:50.516460",
+    "embedding": null
+  },
+  {
+    "title": "Vitalism and When to Answer",
+    "description": "Determine if the question can be answered based on known concepts or historical figures.",
+    "content": "When the question pertains to established philosophical or scientific concepts, such as vitalism, and can be linked to specific thinkers like Ren\u00e9 Descartes or Gottfried Wilhelm Leibniz, it is appropriate to answer. Abstain if the question requires information that cannot be reasonably deduced from common knowledge or historical context.",
+    "source_problem_id": "sa_1912",
+    "success": true,
+    "created_at": "2026-07-02T16:07:55.556237",
+    "embedding": null
+  },
+  {
+    "title": "Bible Knowledge Strategy",
+    "description": "Determine whether the question can be answered based on common knowledge or if it requires specific expertise.",
+    "content": "Answer when the question pertains to widely known information, such as the order of books in the Bible, and say \"I don't know\" for more obscure or specialized questions.",
+    "source_problem_id": "sa_1705",
+    "success": true,
+    "created_at": "2026-07-02T16:07:59.981536",
+    "embedding": null
+  },
+  {
+    "title": "Recognizing Knowledge Boundaries",
+    "description": "Failing to acknowledge when the limits of one's knowledge have been reached.",
+    "content": "It's important to recognize when a question falls outside the scope of one's expertise or knowledge and to admit that an answer is beyond what can be confidently provided. In this case, while the biological aspects of death were addressed, the philosophical and existential implications of achievements persisting after death were not adequately covered, indicating a need to acknowledge the limits of one's knowledge and refrain from making assumptions.",
+    "source_problem_id": "sa_2961",
+    "success": false,
+    "created_at": "2026-07-02T16:08:04.256490",
+    "embedding": null
+  },
+  {
+    "title": "Market Trend Identification Strategy",
+    "description": "Determine whether the question pertains to recognizable economic trends and can be answered based on common knowledge.",
+    "content": "Answer when the question relates to well-known economic indicators like bull and bear markets, as these can be confidently addressed based on standard definitions and characteristics. Abstain if the question involves less familiar or ambiguous economic terms or requires specific data analysis.",
+    "source_problem_id": "sa_1251",
+    "success": true,
+    "created_at": "2026-07-02T16:08:07.352337",
+    "embedding": null
+  },
+  {
+    "title": "Assessing Question Answerability",
+    "description": "Determine whether a question can be accurately answered with factual information.",
+    "content": "Decide to answer only when the question can be addressed with verifiable facts or logical reasoning, and abstain if the question is based on misconceptions or lacks context.",
+    "source_problem_id": "sa_3256",
+    "success": true,
+    "created_at": "2026-07-02T16:08:10.184051",
+    "embedding": null
+  },
+  {
+    "title": "Subjective Definitions Strategy",
+    "description": "Determine when a question relies on subjective definitions or opinions rather than objective facts.",
+    "content": "Abstain from answering when a question hinges on subjective definitions or opinions, such as the nature of life, which can vary widely based on individual perspectives and lacks a universally accepted scientific definition.",
+    "source_problem_id": "sa_3293",
+    "success": true,
+    "created_at": "2026-07-02T16:08:15.557834",
+    "embedding": null
+  },
+  {
+    "title": "Evaluate Question Relevance and Answerability",
+    "description": "Assess whether the question can be answered based on available knowledge.",
+    "content": "Decide to answer if the question is relevant and can be addressed with existing knowledge; otherwise, consider abstaining to maintain accuracy.",
+    "source_problem_id": "sa_2290",
+    "success": true,
+    "created_at": "2026-07-02T16:08:18.919182",
+    "embedding": null
+  },
+  {
+    "title": "Permutation of Future Intentions",
+    "description": "Determine if the question can be answered with available information.",
+    "content": "Answer when the question can be addressed with the given information, and abstain when the scenario involves unknown future actions without specific details.",
+    "source_problem_id": "sa_802",
+    "success": true,
+    "created_at": "2026-07-02T16:08:21.840155",
+    "embedding": null
+  },
+  {
+    "title": "Seismic Data and Geophysical Models",
+    "description": "Determine answerability based on existing scientific knowledge.",
+    "content": "Decide to answer when there is substantial scientific evidence or models available to describe the topic, and abstain when the question cannot be definitively answered with current technology and understanding.",
+    "source_problem_id": "sa_2738",
+    "success": true,
+    "created_at": "2026-07-02T16:08:30.521739",
+    "embedding": null
+  },
+  {
+    "title": "Recognizing Knowledge Boundaries",
+    "description": "Understanding when you have sufficient knowledge to provide an answer versus when you should admit limitations.",
+    "content": "It's crucial to recognize when your knowledge is sufficient to provide an accurate answer and when it's not. In this case, while the response provided correct information about the Higgs boson, it incorrectly addressed the premise of the question, which was based on a misunderstanding. The appropriate response would have been to acknowledge that the existence of the God particle (Higgs boson) is not something that \"has to exist\" but rather a prediction based on theoretical physics.",
+    "source_problem_id": "sa_2486",
+    "success": false,
+    "created_at": "2026-07-02T16:08:34.756284",
+    "embedding": null
+  },
+  {
+    "title": "Personal Preference Strategy",
+    "description": "Determine when a question cannot be answered with a factual response due to subjective nature.",
+    "content": "Abstain from answering when the question pertains to personal preferences, values, or experiences where a definitive or universally correct answer does not exist.",
+    "source_problem_id": "sa_3158",
+    "success": true,
+    "created_at": "2026-07-02T16:08:39.524194",
+    "embedding": null
+  },
+  {
+    "title": "Nebula Identification Strategy",
+    "description": "Determine whether the question can be answered based on factual knowledge.",
+    "content": "Answer when you have accurate factual knowledge about the topic, such as knowing that a cloud of gas and dust in space is called a nebula. Abstain if the question requires speculation or if the information is not definitively known.",
+    "source_problem_id": "sa_1080",
+    "success": true,
+    "created_at": "2026-07-02T16:08:42.924376",
+    "embedding": null
+  },
+  {
+    "title": "Specificity Strategy",
+    "description": "Determine whether the question can be answered with the given information.",
+    "content": "When a question provides enough specific details to identify the correct answer, respond with the information. If the details are vague or the question cannot be accurately answered with the provided information, it's best to say \"I don't know.\"",
+    "source_problem_id": "sa_1940",
+    "success": true,
+    "created_at": "2026-07-02T16:08:46.700142",
+    "embedding": null
+  },
+  {
+    "title": "Relevance-Based Answering Strategy",
+    "description": "Determine whether the question can be answered factually or requires specific knowledge.",
+    "content": "Abstain from answering when the question pertains to subjective beliefs or concepts that lack universally verifiable facts, and instead acknowledge the limitations of factual knowledge in such areas.",
+    "source_problem_id": "sa_2873",
+    "success": true,
+    "created_at": "2026-07-02T16:08:53.718726",
+    "embedding": null
+  },
+  {
+    "title": "Assessing Knowledge Before Responding",
+    "description": "Determine if you have sufficient information to provide an accurate answer.",
+    "content": "When you have reliable knowledge about the topic and can provide a correct and detailed response, it's best to answer. If not, it's better to abstain and say, \"I don't know,\" to maintain accuracy and honesty.",
+    "source_problem_id": "sa_629",
+    "success": true,
+    "created_at": "2026-07-02T16:08:58.623511",
+    "embedding": null
+  },
+  {
+    "title": "Overstepping Knowledge Boundaries",
+    "description": "Attempting to provide an answer when the question itself indicates it is unanswerable.",
+    "content": "It's crucial to recognize when a question inherently cannot be answered with a straightforward response. In such cases, it's better to acknowledge the limitations of the question and refrain from providing an answer that may mislead or oversimplify the issue.",
+    "source_problem_id": "sa_2750",
+    "success": false,
+    "created_at": "2026-07-02T16:09:02.671699",
+    "embedding": null
+  },
+  {
+    "title": "Premature Abstention",
+    "description": "Failing to provide an appropriate response when knowledge is available.",
+    "content": "It's important to recognize when you have enough information to provide a detailed and accurate response rather than abstaining or saying \"I don't know.\" In this case, while the response could be more comprehensive, acknowledging the role of international financial institutions was within the realm of knowledge and should have been included.",
+    "source_problem_id": "sa_1129",
+    "success": false,
+    "created_at": "2026-07-02T16:09:11.115978",
+    "embedding": null
+  },
+  {
+    "title": "Premature Abstention",
+    "description": "Assuming a question is unanswerable without fully understanding the context and nuances.",
+    "content": "It's important to recognize when a question can be answered based on available knowledge, even if it requires more detail or clarification. Saying \"I don't know\" prematurely can miss an opportunity to provide a relevant and informed response.",
+    "source_problem_id": "sa_1877",
+    "success": false,
+    "created_at": "2026-07-02T16:09:19.178589",
+    "embedding": null
+  },
+  {
+    "title": "Weather and Atmospheric Conditions Strategy",
+    "description": "Determine if the question pertains to known atmospheric conditions or if it requires speculation beyond current scientific understanding.",
+    "content": "When answering questions about planetary atmospheres, provide scientifically accurate information based on current knowledge. If the question involves phenomena that are not well understood or documented for a particular planet, it's best to abstain from answering and acknowledge the limits of current scientific understanding.",
+    "source_problem_id": "sa_564",
+    "success": true,
+    "created_at": "2026-07-02T16:09:27.707516",
+    "embedding": null
+  },
+  {
+    "title": "Gradient Potential Response Strategy",
+    "description": "Determine if the question can be answered based on known scientific principles.",
+    "content": "Answer when the question relates to established scientific concepts you are familiar with, such as how electrostatic gradient potentials create electric fields. Abstain if the question involves concepts beyond your knowledge base or requires specific expertise not within your capabilities.",
+    "source_problem_id": "sa_1159",
+    "success": true,
+    "created_at": "2026-07-02T16:09:32.942793",
+    "embedding": null
+  },
+  {
+    "title": "Brainstorming and Knowledge Verification Strategy",
+    "description": "Determine if the question can be answered based on available knowledge or requires more context.",
+    "content": "Answer when you have sufficient knowledge to provide an accurate response, as demonstrated by addressing the question about language processing in the brain. Abstain from answering if the question is outside your knowledge base or if it requires specific information that is not readily available.",
+    "source_problem_id": "sa_1676",
+    "success": true,
+    "created_at": "2026-07-02T16:09:38.303684",
+    "embedding": null
+  },
+  {
+    "title": "Evaluate Question Relevance and Answerability",
+    "description": "Assess whether the question can be accurately answered based on available knowledge.",
+    "content": "When a question is directly related to your area of expertise and can be answered with factual information, such as the role of phonemes in differentiating words, it is appropriate to provide an answer. If the question is outside your knowledge base or cannot be answered accurately, it's best to abstain from answering and acknowledge the limitations.",
+    "source_problem_id": "sa_577",
+    "success": true,
+    "created_at": "2026-07-02T16:09:42.854503",
+    "embedding": null
+  },
+  {
+    "title": "Evaluate Question Relevance and Answerability",
+    "description": "Assess whether the question can be accurately answered based on known information.",
+    "content": "When a question can be definitively answered with accurate information, such as a specific detail from a well-known story like Cinderella's carriage being a pumpkin, it is appropriate to provide the answer. If the question cannot be answered with certainty or if the information required is not reliable, it is best to abstain from answering and acknowledge the uncertainty.",
+    "source_problem_id": "sa_680",
+    "success": true,
+    "created_at": "2026-07-02T16:09:47.247607",
+    "embedding": null
+  },
+  {
+    "title": "Sensory Knowledge Strategy",
+    "description": "Determine whether the question can be answered based on known facts.",
+    "content": "Answer when the question pertains to a well-known fact or concept, such as the definition of auditory as the sense of hearing, but say \"I don't know\" for more complex or unfamiliar questions.",
+    "source_problem_id": "sa_1743",
+    "success": true,
+    "created_at": "2026-07-02T16:09:49.886796",
+    "embedding": null
+  },
+  {
+    "title": "Confidence-Based Response Strategy",
+    "description": "Determine whether to answer based on the confidence in one's knowledge.",
+    "content": "Decide to answer when you are certain about the information or can provide a well-informed response, as demonstrated by accurately identifying that vertebrates belong to the superphylum Bilateria. Abstain from answering if you lack confidence in your knowledge or if the question requires specialized expertise that you do not possess.",
+    "source_problem_id": "sa_1266",
+    "success": true,
+    "created_at": "2026-07-02T16:09:53.601759",
+    "embedding": null
+  },
+  {
+    "title": "Recognizing Knowledge Boundaries",
+    "description": "Failing to recognize when one's knowledge is insufficient for providing an accurate answer.",
+    "content": "It's crucial to acknowledge when a question falls outside your area of expertise and to refrain from making assumptions or providing incomplete information. Instead, it's better to admit that you don't know and suggest finding the correct information through reliable sources.",
+    "source_problem_id": "sa_2369",
+    "success": false,
+    "created_at": "2026-07-02T16:10:00.810237",
+    "embedding": null
+  },
+  {
+    "title": "Event Horizon Response Strategy",
+    "description": "Determine if the question can be answered based on available knowledge.",
+    "content": "Answer when you have accurate information to provide, as demonstrated by correctly identifying \"event horizon\" for the gravitational boundary of a black hole. Abstain when the question cannot be answered confidently with the given information.",
+    "source_problem_id": "sa_2041",
+    "success": true,
+    "created_at": "2026-07-02T16:10:08.275903",
+    "embedding": null
+  },
+  {
+    "title": "Quick Recognition of Common Knowledge",
+    "description": "Determine whether the question can be answered with common knowledge or requires more specific information.",
+    "content": "Answer when the question pertains to widely known facts or items, such as common snacks like s'mores, but abstain if the question involves specialized knowledge that is not immediately recognizable.",
+    "source_problem_id": "sa_1830",
+    "success": true,
+    "created_at": "2026-07-02T16:10:10.811924",
+    "embedding": null
+  },
+  {
+    "title": "Recognizing Knowledge Boundaries",
+    "description": "Understanding when you have sufficient knowledge to provide an answer versus when it's appropriate to admit limitations.",
+    "content": "It's important to recognize when your knowledge is sufficient to provide a correct answer and when it's not. In this case, while the explanation about \"talking down\" was accurate, the initial response incorrectly assumed that the question was unanswerable due to a misunderstanding of the term \"talk down.\" Always ensure that you fully understand the context and meaning before concluding that a question cannot be answered.",
+    "source_problem_id": "sa_3061",
+    "success": false,
+    "created_at": "2026-07-02T16:10:17.672903",
+    "embedding": null
+  },
+  {
+    "title": "When to Admit Limitations",
+    "description": "Recognizing the limits of one's knowledge and avoiding providing an incomplete or incorrect response.",
+    "content": "It's important to recognize when a question falls outside the scope of your current knowledge or expertise and to admit that you don't have a complete answer rather than attempting to provide an incomplete or potentially misleading response.",
+    "source_problem_id": "sa_2538",
+    "success": false,
+    "created_at": "2026-07-02T16:10:28.452341",
+    "embedding": null
+  },
+  {
+    "title": "Devil's Dictionary",
+    "description": "Determine if the question can be answered based on common knowledge or if it requires specific, less-known information.",
+    "content": "When the question pertains to widely known aliases or nicknames (like another name for the devil), and you have that information readily available, it's appropriate to answer. However, if the question seems obscure or requires specialized knowledge that isn't immediately accessible, it's best to say \"I don't know.\"",
+    "source_problem_id": "sa_585",
+    "success": true,
+    "created_at": "2026-07-02T16:10:35.023559",
+    "embedding": null
+  },
+  {
+    "title": "Data-Driven Decision Making for Answering Questions",
+    "description": "Determine whether you have access to reliable and up-to-date information before answering.",
+    "content": "Decide to answer if you have access to recent, credible data or information that directly addresses the question. If the necessary data is not readily available or if the information required is outdated or uncertain, it's best to abstain from providing an answer and instead indicate that you lack sufficient information to respond accurately.",
+    "source_problem_id": "sa_818",
+    "success": true,
+    "created_at": "2026-07-02T16:10:39.303272",
+    "embedding": null
+  },
+  {
+    "title": "Premature Assumptions About Answerability",
+    "description": "Assuming a question is unanswerable without first attempting to understand or research it.",
+    "content": "It's important to attempt to answer a question before concluding that it's unanswerable. In this case, while the term \"arc minutes per day\" might not be commonly known, the response could have been more accurate and informative by explaining the concept of how the Earth's axial tilt and elliptical orbit affect the rate of change in sunset and sunrise times. Recognizing when to research further or break down complex concepts can lead to better answers and a deeper understanding of the topic.",
+    "source_problem_id": "sa_505",
+    "success": false,
+    "created_at": "2026-07-02T16:10:41.772821",
+    "embedding": null
+  },
+  {
+    "title": "Implication of Knowledge",
+    "description": "Determine if the question can be accurately answered based on available knowledge.",
+    "content": "Answer when you have accurate information to provide; abstain when the question requires knowledge beyond your capabilities or the information is uncertain.",
+    "source_problem_id": "sa_2271",
+    "success": true,
+    "created_at": "2026-07-02T16:10:44.171443",
+    "embedding": null
+  },
+  {
+    "title": "App Compatibility Strategy",
+    "description": "Determine if the question pertains to the functionality or integration of an app.",
+    "content": "Answer when the question is about the features or integrations of an app, but abstain if it asks about non-native app matches or unsupported functionalities.",
+    "source_problem_id": "sa_1207",
+    "success": true,
+    "created_at": "2026-07-02T16:10:47.822449",
+    "embedding": null
+  },
+  {
+    "title": "Axiom Impediment Strategy",
+    "description": "Determine if the question can be answered based on known principles or theories.",
+    "content": "When the question pertains to well-established concepts like Russell's Paradox and specific axioms such as the Axiom of Regularity in set theory, it is appropriate to attempt an answer by drawing from relevant knowledge. If the question involves less familiar or ambiguous areas, it may be best to acknowledge limitations in knowledge and choose not to answer.",
+    "source_problem_id": "sa_801",
+    "success": true,
+    "created_at": "2026-07-02T16:10:59.244710",
+    "embedding": null
+  },
+  {
+    "title": "Evaluate Question Clarity and Specificity",
+    "description": "Assess whether the question requires a definitive answer or if it's open-ended.",
+    "content": "When a question is clear and can be answered with factual information, proceed to provide an answer. If the question is ambiguous or cannot be definitively answered based on available knowledge, it\u2019s best to abstain and explain why you don't have enough information to provide a precise answer.",
+    "source_problem_id": "sa_714",
+    "success": true,
+    "created_at": "2026-07-02T16:11:04.912515",
+    "embedding": null
+  },
+  {
+    "title": "Recognizing Knowledge Boundaries",
+    "description": "Understanding when your knowledge is sufficient versus when it's not.",
+    "content": "It's important to recognize when a question falls outside your area of expertise or knowledge. In this case, while eyebrows are indeed hair, they are often not categorized as \"facial hair\" in common parlance. Acknowledging this and saying \"I don't know\" when you're unsure can be more accurate and respectful than providing an answer that might be considered incorrect or misleading.",
+    "source_problem_id": "sa_3273",
+    "success": false,
+    "created_at": "2026-07-02T16:11:10.213418",
+    "embedding": null
+  },
+  {
+    "title": "Voice Pitch Determinants",
+    "description": "Determine whether the question can be answered based on known scientific facts.",
+    "content": "Answer when the question pertains to well-established scientific knowledge, such as the factors affecting voice pitch, and abstain if the query involves hypothetical or less-known elements.",
+    "source_problem_id": "sa_126",
+    "success": true,
+    "created_at": "2026-07-02T16:11:14.445553",
+    "embedding": null
+  },
+  {
+    "title": "Assessing Question Answerability",
+    "description": "Determine whether the question can be answered based on known information or requires speculation.",
+    "content": "When the question can be addressed with factual information or logical reasoning, such as in the case of predator-prey interactions, provide an answer. If the question involves hypothetical scenarios or lacks sufficient context to form a definitive response, it's best to abstain and respond with \"I don't know.\"",
+    "source_problem_id": "sa_1442",
+    "success": true,
+    "created_at": "2026-07-02T16:11:20.212361",
+    "embedding": null
+  },
+  {
+    "title": "Recognizing Knowledge Boundaries",
+    "description": "Understanding when you have sufficient knowledge to provide an answer versus when you need to acknowledge limitations.",
+    "content": "It's important to recognize when your knowledge is sufficient to provide an answer and when it's not. In this case, while the concept of colors existing independently of objects is correct, the specific historical timeline of color names and fruit naming is beyond the scope of general knowledge. Acknowledging this limitation and saying \"I don't know\" when the information isn't readily available is more appropriate than making assumptions.",
+    "source_problem_id": "sa_3172",
+    "success": false,
+    "created_at": "2026-07-02T16:11:25.669165",
+    "embedding": null
+  },
+  {
+    "title": "Premature Assumptions",
+    "description": "Assuming knowledge about a topic without proper research can lead to incorrect information.",
+    "content": "The lesson here is to ensure that you have accurate information before providing an answer. In this case, it was incorrect to state that Josh Homme is known for his work with Queen, as he is actually the founder of the band Queens of the Stone Age. Always verify facts to avoid spreading misinformation.",
+    "source_problem_id": "sa_1872",
+    "success": false,
+    "created_at": "2026-07-02T16:11:36.255883",
+    "embedding": null
+  },
+  {
+    "title": "Recognizing Knowledge Boundaries",
+    "description": "Understanding when the available knowledge is insufficient to provide an accurate answer.",
+    "content": "It's crucial to recognize when the boundaries of our current knowledge are exceeded and to acknowledge that we may not have enough information to provide a definitive answer. In such cases, it's better to admit uncertainty rather than make speculative claims.",
+    "source_problem_id": "sa_3327",
+    "success": false,
+    "created_at": "2026-07-02T16:11:43.126926",
+    "embedding": null
+  },
+  {
+    "title": "Premature Abstention",
+    "description": "Failing to recognize when it's appropriate to provide an answer based on available information.",
+    "content": "When attempting to answer a question, it's important to assess whether the available information is sufficient to provide a reasonable response. In this case, while comprehensive data might not be available, one can still make an educated guess or provide relevant context about the limitations of the information, rather than immediately saying \"I don't know.\"",
+    "source_problem_id": "sa_1869",
+    "success": false,
+    "created_at": "2026-07-02T16:11:51.062487",
+    "embedding": null
+  },
+  {
+    "title": "Premature Abstention",
+    "description": "Failing to recognize when you have enough information to provide a partial or contextual answer.",
+    "content": "The lesson here is to recognize that even if you can't provide a precise numerical answer, you can still offer context, examples, and a general sense of the situation. In this case, acknowledging the variability in bus system fuel usage across different regions and providing examples like Europe and North America would have been more appropriate than abstaining from the response entirely.",
+    "source_problem_id": "sa_1924",
+    "success": false,
+    "created_at": "2026-07-02T16:11:59.345941",
+    "embedding": null
+  },
+  {
+    "title": "Evaluate Question Clarity and Completeness",
+    "description": "Assess whether the question is clear and answerable based on available knowledge.",
+    "content": "When a question is clearly answerable and aligns with your knowledge base, proceed to provide an informed response. If the question is ambiguous or lacks necessary context, it's best to abstain and respond with \"I don't know.\"",
+    "source_problem_id": "sa_1404",
+    "success": true,
+    "created_at": "2026-07-02T16:12:07.857356",
+    "embedding": null
+  },
+  {
+    "title": "Game Type Identification Strategy",
+    "description": "Determine whether the question can be answered based on known information or if it requires specific details about game types.",
+    "content": "When asked about the type of a game (e.g., board game, video game, card game), consider if you have sufficient knowledge to categorize it accurately. If you can confidently identify the game type based on common classifications, provide the answer. If not, it's best to abstain and respond with \"I don't know\" to maintain accuracy.",
+    "source_problem_id": "sa_15",
+    "success": true,
+    "created_at": "2026-07-02T16:12:12.761626",
+    "embedding": null
+  },
+  {
+    "title": "Recipe Knowledge Strategy",
+    "description": "Determine whether the question can be answered based on common knowledge or specific facts.",
+    "content": "When the question pertains to well-known recipes or brands (like Toll House cookies and Nestl\u00e9 chocolate morsels), it's appropriate to answer based on that knowledge. Abstain if the question involves obscure or specific information that isn't readily available without further research.",
+    "source_problem_id": "sa_16",
+    "success": true,
+    "created_at": "2026-07-02T16:12:17.091824",
+    "embedding": null
+  },
+  {
+    "title": "Phrasing Confidence in Knowledge",
+    "description": "Determine the reliability of the information before responding.",
+    "content": "When you are confident in the accuracy and completeness of your knowledge on a topic, it is appropriate to answer. If the information is uncertain or incomplete, it is better to say, \"I don't know,\" and explain why you are unsure.",
+    "source_problem_id": "sa_403",
+    "success": true,
+    "created_at": "2026-07-02T16:12:23.586010",
+    "embedding": null
+  },
+  {
+    "title": "When to Answer vs. When to Abstain",
+    "description": "Determine whether the question can be answered with existing knowledge or if it requires speculation beyond current understanding.",
+    "content": "Decide to answer when the question can be addressed with factual information or logical reasoning based on known data. Abstain when the question involves predicting highly uncertain or speculative outcomes that go beyond current scientific understanding or available evidence.",
+    "source_problem_id": "sa_2983",
+    "success": true,
+    "created_at": "2026-07-02T16:12:34.650691",
+    "embedding": null
+  },
+  {
+    "title": "Evaluate Question Relevance",
+    "description": "Assess whether the question can be accurately answered based on available knowledge.",
+    "content": "Decide to answer if you have accurate information to provide; otherwise, it's best to abstain to maintain the integrity of the information provided.",
+    "source_problem_id": "sa_706",
+    "success": true,
+    "created_at": "2026-07-02T16:12:39.155289",
+    "embedding": null
+  },
+  {
+    "title": "Recognizing Knowledge Boundaries",
+    "description": "Understanding when the available knowledge is insufficient to provide an accurate answer.",
+    "content": "It's important to recognize when a question falls outside the scope of one's current knowledge or expertise, and it's acceptable\u2014and sometimes necessary\u2014to admit that you don't know the answer rather than providing a potentially incorrect response.",
+    "source_problem_id": "sa_2460",
+    "success": false,
+    "created_at": "2026-07-02T16:12:42.909189",
+    "embedding": null
+  },
+  {
+    "title": "Assessing Answerability Before Responding",
+    "description": "Determine whether you have sufficient knowledge to provide a correct and informative response.",
+    "content": "Evaluate the question to ensure you can provide an accurate and detailed answer based on your knowledge before responding. If unsure or lacking specific details, it's best to abstain from providing an answer to maintain the integrity of the information shared.",
+    "source_problem_id": "sa_412",
+    "success": true,
+    "created_at": "2026-07-02T16:12:50.420642",
+    "embedding": null
+  },
+  {
+    "title": "Recognizing Knowledge Boundaries",
+    "description": "Understanding when a question falls outside one's area of expertise or knowledge.",
+    "content": "The lesson here is to recognize when a question involves subjective preferences or scenarios that are not grounded in factual information, and to acknowledge when it's appropriate to abstain from answering rather than providing a speculative response.",
+    "source_problem_id": "sa_2438",
+    "success": false,
+    "created_at": "2026-07-02T16:12:53.530163",
+    "embedding": null
+  },
+  {
+    "title": "Cetacean Classification Strategy",
+    "description": "Determine whether you have sufficient knowledge to provide an accurate answer or if the question falls outside your expertise.",
+    "content": "When the question pertains to specific scientific classifications like cetaceans, and you can confidently provide the correct information based on your knowledge base, it is appropriate to answer. If the question involves topics beyond your expertise, it's best to abstain from answering and indicate that you don't have the necessary information.",
+    "source_problem_id": "sa_1357",
+    "success": true,
+    "created_at": "2026-07-02T16:12:58.122403",
+    "embedding": null
+  },
+  {
+    "title": "Milestone Verification Strategy",
+    "description": "Determine whether the question can be answered with reliable information before providing an answer.",
+    "content": "When the question pertains to a well-documented historical or factual event, such as the first person to run a mile in under 4 minutes, it is appropriate to attempt answering with accurate information. If the information is not readily available or verifiable, it is best to abstain from answering and acknowledge the lack of certainty.",
+    "source_problem_id": "sa_1695",
+    "success": true,
+    "created_at": "2026-07-02T16:13:03.899767",
+    "embedding": null
+  },
+  {
+    "title": "Interpretation Selection Strategy",
+    "description": "Determine whether you can provide a correct and concise explanation of a concept.",
+    "content": "Answer when you can confidently provide a clear and accurate description of a concept, such as the Copenhagen interpretation in quantum mechanics. Abstain if the concept is beyond your knowledge or if providing an explanation would be speculative or incomplete.",
+    "source_problem_id": "sa_443",
+    "success": true,
+    "created_at": "2026-07-02T16:13:09.223601",
+    "embedding": null
+  },
+  {
+    "title": "Premature Abstention",
+    "description": "Assuming you don't know the answer when you actually can provide useful information.",
+    "content": "It's important to recognize when you have enough information to give a relevant response, even if it's not a definitive answer. In this case, providing general guidelines on car inspections shows that you understand the topic, rather than saying you don't know.",
+    "source_problem_id": "sa_234",
+    "success": false,
+    "created_at": "2026-07-02T16:13:21.506508",
+    "embedding": null
+  },
+  {
+    "title": "Humorous Exceptions Strategy",
+    "description": "Determine whether to answer or abstain based on the context and potential humor in the question.",
+    "content": "When answering a question, consider if providing an unconventional or humorous response adds value or could be seen as a playful twist. If the question allows for a lighthearted or satirical answer that still aligns with the spirit of the show or topic, it's appropriate to answer. Otherwise, it's best to provide factual information or admit limitations in knowledge.",
+    "source_problem_id": "sa_1796",
+    "success": true,
+    "created_at": "2026-07-02T16:13:29.748878",
+    "embedding": null
+  },
+  {
+    "title": "Recognizing Knowledge Gaps",
+    "description": "Understanding when the information required to answer a question falls outside one's expertise or knowledge base.",
+    "content": "It's important to recognize when a question requires information that is beyond your current knowledge or expertise. In this case, while I correctly identified that baby oil is not made from olives, I should have acknowledged that my knowledge about the specific composition of baby oil might not be comprehensive enough to provide a fully accurate answer without further research. Saying \"I don't know\" or \"I would need to research this further\" can be more honest and appropriate when the boundaries of your knowledge are exceeded.",
+    "source_problem_id": "sa_2941",
+    "success": false,
+    "created_at": "2026-07-02T16:13:36.445793",
+    "embedding": null
+  },
+  {
+    "title": "Contextual Relevance Strategy",
+    "description": "Determine whether the information requested is within your knowledge base or requires current updates.",
+    "content": "Answer when the question aligns with your knowledge base and can be addressed with certainty, but abstain if it requires current updates or specific context not available in your last update.",
+    "source_problem_id": "sa_2116",
+    "success": true,
+    "created_at": "2026-07-02T16:13:48.777601",
+    "embedding": null
+  },
+  {
+    "title": "Evaluate Question Relevance",
+    "description": "Assess whether the question pertains directly to the provided information or requires additional context.",
+    "content": "Answer when the question can be addressed using the given information, but abstain if the question introduces unrelated topics or requires external knowledge not covered in the provided context.",
+    "source_problem_id": "sa_800",
+    "success": true,
+    "created_at": "2026-07-02T16:13:53.685723",
+    "embedding": null
+  },
+  {
+    "title": "Fear of Darkness Assessment",
+    "description": "Determine if the question can be answered based on known phobias and their definitions.",
+    "content": "Answer when the question relates directly to a known phobia and its definition, such as nyctophobia (fear of the night or darkness). Abstain if the phobia is not well-defined or the question requires assumptions beyond the given information.",
+    "source_problem_id": "sa_1454",
+    "success": true,
+    "created_at": "2026-07-02T16:13:57.159610",
+    "embedding": null
+  },
+  {
+    "title": "Future Tense Expression Strategy",
+    "description": "Determine whether the question can be answered based on available knowledge.",
+    "content": "When answering questions, if you have sufficient knowledge to provide an accurate response, such as the different ways to express the future tense in English, proceed with the answer. If the question requires information that is beyond your current knowledge or context, it's appropriate to indicate that you cannot provide a specific answer, maintaining honesty and integrity.",
+    "source_problem_id": "sa_1434",
+    "success": true,
+    "created_at": "2026-07-02T16:14:02.226110",
+    "embedding": null
+  },
+  {
+    "title": "Conservation of Information",
+    "description": "Determine if the question can be answered based on known scientific principles.",
+    "content": "Answer when the question pertains to established scientific laws or principles, such as the conservation of mass and energy, and abstain when the question involves hypothetical or non-existent conversions that violate these principles.",
+    "source_problem_id": "sa_902",
+    "success": true,
+    "created_at": "2026-07-02T16:14:08.544042",
+    "embedding": null
+  },
+  {
+    "title": "Evaluate Question Closeness and Information Sufficiency",
+    "description": "Assess whether the question can be answered based on known facts or if it requires assumptions.",
+    "content": "When answering a question, evaluate if the information provided allows for an accurate response without making unsupported assumptions. If the question can be answered with confidence using available knowledge, provide the answer. If the question involves concepts that are not well-defined or require assumptions beyond the given information, it's best to abstain from answering and acknowledge the limitations.",
+    "source_problem_id": "sa_2331",
+    "success": true,
+    "created_at": "2026-07-02T16:14:13.545804",
+    "embedding": null
+  },
+  {
+    "title": "Evaluate Question Relevance and Answerability",
+    "description": "Assess whether the question can be answered with available knowledge.",
+    "content": "When the question can be accurately addressed with factual information, such as the Christian view on God's nature, it is appropriate to provide an answer. If the question is too broad or lacks specific context, it may be best to abstain from answering to maintain accuracy.",
+    "source_problem_id": "sa_236",
+    "success": true,
+    "created_at": "2026-07-02T16:14:16.548578",
+    "embedding": null
+  },
+  {
+    "title": "Taxonomic Uncertainty Strategy",
+    "description": "Determine whether the question can be answered based on available knowledge or if it requires definitive data.",
+    "content": "When answering questions about taxonomic or biological classifications, assess if the information is sufficiently known or if new discoveries and ongoing research make a precise answer uncertain. If the latter, it's best to acknowledge the uncertainty rather than provide an estimate without strong evidence.",
+    "source_problem_id": "sa_1663",
+    "success": true,
+    "created_at": "2026-07-02T16:14:23.584768",
+    "embedding": null
+  },
+  {
+    "title": "Quote Attribution Strategy",
+    "description": "Determine if the information can be accurately verified before responding.",
+    "content": "When asked to attribute a specific quote to a film or character, first verify the accuracy of the quote and its correct attribution. If confident in the details, provide the answer; otherwise, acknowledge the uncertainty and refrain from guessing.",
+    "source_problem_id": "sa_1309",
+    "success": true,
+    "created_at": "2026-07-02T16:14:28.011525",
+    "embedding": null
+  },
+  {
+    "title": "Evaluate Question Relevance and Answerability",
+    "description": "Assess whether the question can be accurately answered based on known facts or if it requires speculation.",
+    "content": "When a question can be definitively answered with factual information, such as specific dates and names for historical events like space missions, it is appropriate to provide the answer. If the question cannot be answered with certainty due to lack of information or ambiguity, it is best to respond with \"I don't know.\"",
+    "source_problem_id": "sa_334",
+    "success": true,
+    "created_at": "2026-07-02T16:14:33.761429",
+    "embedding": null
+  },
+  {
+    "title": "Informed Response Strategy",
+    "description": "Decide to answer based on the ability to provide accurate information.",
+    "content": "Answer when you can confidently provide accurate and relevant information, as demonstrated by the correct classification of achievement and self-determination as intrinsic motivators. Abstain if you lack the necessary knowledge or if the question requires expertise beyond your current scope.",
+    "source_problem_id": "sa_565",
+    "success": true,
+    "created_at": "2026-07-02T16:14:36.231841",
+    "embedding": null
+  },
+  {
+    "title": "Premature Abstention",
+    "description": "It's important to recognize when you have enough information to provide a relevant response, even if it's not a definitive answer.",
+    "content": "The lesson here is to avoid saying \"I don't know\" (IDK) when you can provide some context or relevant information based on the given options. In this case, while the exact answer might depend on context, providing examples of appropriate footwear for different types of costumes shows an understanding of the question and demonstrates knowledge related to the topic.",
+    "source_problem_id": "sa_1721",
+    "success": false,
+    "created_at": "2026-07-02T16:14:44.465915",
+    "embedding": null
+  },
+  {
+    "title": "Analyze Question Relevance",
+    "description": "Determine if the question can be accurately answered based on available knowledge.",
+    "content": "Answer when the question can be addressed with confidence using known information; abstain if the details required are not within your knowledge base.",
+    "source_problem_id": "sa_1565",
+    "success": true,
+    "created_at": "2026-07-02T16:14:48.388451",
+    "embedding": null
+  },
+  {
+    "title": "Cost-Benefit Analysis Strategy",
+    "description": "Determine whether the question can be answered with available knowledge.",
+    "content": "Answer when the question pertains to established trends or facts that can be supported by current data and research, such as the economic viability of renewable energy. Abstain if the question involves speculative or highly context-dependent information that cannot be reliably determined without additional context or data.",
+    "source_problem_id": "sa_1786",
+    "success": true,
+    "created_at": "2026-07-02T16:14:51.536095",
+    "embedding": null
+  },
+  {
+    "title": "When to Answer vs When to Abstain",
+    "description": "Determine whether there is sufficient factual information to provide an answer.",
+    "content": "Abstain from answering when the question pertains to topics without empirical evidence, such as the existence of life after death, and instead acknowledge the limitations of current knowledge.",
+    "source_problem_id": "sa_2540",
+    "success": true,
+    "created_at": "2026-07-02T16:14:57.565169",
+    "embedding": null
+  },
+  {
+    "title": "Premature Attribution",
+    "description": "Assuming a well-known figure said something without sufficient evidence.",
+    "content": "It's important to recognize when a statement is widely attributed to a person but lacks concrete evidence of their authorship. In such cases, it's better to acknowledge the uncertainty rather than making an unfounded claim. Always strive for accuracy and provide context when the origin of a quote is unclear.",
+    "source_problem_id": "sa_697",
+    "success": false,
+    "created_at": "2026-07-02T16:15:02.495796",
+    "embedding": null
+  },
+  {
+    "title": "Assessing Answerability Before Responding",
+    "description": "Determine whether you have sufficient knowledge to provide a confident answer or if the question requires more context or expertise.",
+    "content": "When responding to questions, first assess whether you have reliable information to provide a confident answer. If the question can be answered based on available knowledge, proceed to respond. If unsure or lacking key details, it's best to abstain from providing an answer and instead indicate that more information is needed.",
+    "source_problem_id": "sa_476",
+    "success": true,
+    "created_at": "2026-07-02T16:15:10.093734",
+    "embedding": null
+  },
+  {
+    "title": "Context Clues for Answering",
+    "description": "Determine whether to answer based on available context and clarity of the question.",
+    "content": "When a question is clear and can be answered with the given information, even if some details are missing, provide an informed response. If the question is ambiguous or lacks necessary context, it's best to indicate that you need more information to provide an accurate answer.",
+    "source_problem_id": "sa_299",
+    "success": true,
+    "created_at": "2026-07-02T16:15:14.818428",
+    "embedding": null
+  },
+  {
+    "title": "Accent and Stress Clarification Strategy",
+    "description": "Determine if the question can be answered with existing knowledge or requires clarification.",
+    "content": "When asked about how stress relates to accents, it's appropriate to answer based on general knowledge, as stress patterns can vary between accents but do not define them. If the question is unclear or requires specific examples from a particular accent, it's best to seek clarification before responding.",
+    "source_problem_id": "sa_70",
+    "success": true,
+    "created_at": "2026-07-02T16:15:22.137340",
+    "embedding": null
+  },
+  {
+    "title": "Premature Abstention",
+    "description": "Avoiding an attempt to answer a question without fully understanding it or considering all possible angles.",
+    "content": "The lesson here is to ensure you understand the question thoroughly before deciding whether you can provide a meaningful response. In this case, recognizing that the question was answerable and attempting to provide a relevant and informative response would have been more appropriate. Always consider the context and the information available before deciding to abstain from answering.",
+    "source_problem_id": "sa_1082",
+    "success": false,
+    "created_at": "2026-07-02T16:15:30.525408",
+    "embedding": null
+  },
+  {
+    "title": "Evaluate Question Relevance and Completeness",
+    "description": "Assess whether the question can be accurately and completely answered with the available knowledge.",
+    "content": "When the question is clear and can be directly answered with accurate information, such as the term for modifying an organism's genome through biotechnology, it is appropriate to provide the answer. If the question is ambiguous or cannot be fully addressed with certainty, it is best to abstain from answering to maintain accuracy.",
+    "source_problem_id": "sa_766",
+    "success": true,
+    "created_at": "2026-07-02T16:15:36.422214",
+    "embedding": null
+  },
+  {
+    "title": "Recognizing Knowledge Boundaries",
+    "description": "Acknowledge when a question falls outside one's area of expertise.",
+    "content": "It's important to recognize when a question involves complex philosophical concepts that extend beyond one's current knowledge base, and to admit limitations rather than providing an incomplete or potentially inaccurate response.",
+    "source_problem_id": "sa_3026",
+    "success": false,
+    "created_at": "2026-07-02T16:15:43.186632",
+    "embedding": null
+  },
+  {
+    "title": "Fact Verification Strategy",
+    "description": "Determine whether the question can be accurately answered based on available knowledge.",
+    "content": "Answer when you have accurate information to provide; abstain if the question requires information that is beyond your knowledge or not verifiable with certainty.",
+    "source_problem_id": "sa_1941",
+    "success": true,
+    "created_at": "2026-07-02T16:15:50.431743",
+    "embedding": null
+  },
+  {
+    "title": "Empathy Identification Strategy",
+    "description": "Determine if the question can be accurately answered based on known information.",
+    "content": "Transfer this strategy by saying, \"I should answer when I have accurate knowledge about the topic, such as knowing the term for the ability to understand and share another person's feelings, which is empathy.\"",
+    "source_problem_id": "sa_1455",
+    "success": true,
+    "created_at": "2026-07-02T16:15:53.441901",
+    "embedding": null
+  },
+  {
+    "title": "Carbon Dioxide Content Strategy",
+    "description": "Determine whether you have sufficient knowledge to provide an accurate answer or if the question is beyond your scope.",
+    "content": "Answer when you are confident in providing a correct and factual response, as demonstrated in the case of identifying the primary gas in fizzy pop bubbles as carbon dioxide (CO\u2082). Abstain from answering when the question requires information outside your knowledge base or when you are unsure of the accuracy of the information.",
+    "source_problem_id": "sa_1014",
+    "success": true,
+    "created_at": "2026-07-02T16:15:57.346301",
+    "embedding": null
+  },
+  {
+    "title": "Recognizing Knowledge Boundaries",
+    "description": "It's important to acknowledge when a question falls outside your area of expertise.",
+    "content": "When faced with a question that requires specialized knowledge or information you're not confident about, it's best to admit limitations and suggest seeking information from a relevant source or expert.",
+    "source_problem_id": "sa_2637",
+    "success": false,
+    "created_at": "2026-07-02T16:16:08.572586",
+    "embedding": null
+  },
+  {
+    "title": "When to Answer vs. When to Abstain",
+    "description": "Determine whether you have enough information to provide a clear and accurate answer.",
+    "content": "When the question can be answered with factual information from your knowledge base, proceed to provide the answer. If the question requires specific details that are beyond your current knowledge or context, it's appropriate to indicate that you don't have enough information to answer accurately.",
+    "source_problem_id": "sa_18",
+    "success": true,
+    "created_at": "2026-07-02T16:16:18.344003",
+    "embedding": null
+  },
+  {
+    "title": "Specificity Threshold Strategy",
+    "description": "Determine whether the question provides enough specific context to form a knowledgeable answer.",
+    "content": "When a question lacks specific details or context (like which counties are being referred to), it's best to abstain from answering and request clarification instead of providing a generic response.",
+    "source_problem_id": "sa_828",
+    "success": true,
+    "created_at": "2026-07-02T16:16:24.071556",
+    "embedding": null
+  },
+  {
+    "title": "Recognizing Knowledge Boundaries",
+    "description": "Understanding when you have enough information to provide an answer versus when you need more details.",
+    "content": "It's crucial to recognize when the given information is insufficient to provide a definitive answer. In this case, without knowing how many cards can fit on each page, it's appropriate to acknowledge that the number of pages cannot be determined. Always assess whether the available data is adequate before attempting to answer a question.",
+    "source_problem_id": "sa_2362",
+    "success": false,
+    "created_at": "2026-07-02T16:16:30.057754",
+    "embedding": null
+  },
+  {
+    "title": "Evaluate Specificity and Definitiveness",
+    "description": "Determine if the question can be answered with a specific, definitive date or event.",
+    "content": "Answer when you can provide a specific, well-defined date or event; abstain if the information is too broad or lacks a clear endpoint, such as with historical events like the Black Death where the exact cessation date is debated.",
+    "source_problem_id": "sa_2161",
+    "success": true,
+    "created_at": "2026-07-02T16:16:38.384211",
+    "embedding": null
+  },
+  {
+    "title": "Emotional Experience Analysis Strategy",
+    "description": "Determine whether the question can be answered based on known psychological terms and concepts.",
+    "content": "Answer when the question aligns with well-known psychological terms, such as \"valence\" for the degree to which an emotional experience feels positive or negative. Abstain if the question requires specialized knowledge beyond common psychological vocabulary.",
+    "source_problem_id": "sa_1927",
+    "success": true,
+    "created_at": "2026-07-02T16:16:45.154382",
+    "embedding": null
+  },
+  {
+    "title": "Evaluate Contextual Clues for Answerability",
+    "description": "Assess whether the question can be answered with available knowledge or requires specific data.",
+    "content": "When the question can be addressed using general knowledge and common facts (e.g., differences in physiological traits between sexes), it's appropriate to provide an answer. If the question requires specific, up-to-date data that isn't readily available, it's best to indicate that you cannot provide a definitive answer at that time.",
+    "source_problem_id": "sa_352",
+    "success": true,
+    "created_at": "2026-07-02T16:16:51.629673",
+    "embedding": null
+  },
+  {
+    "title": "Uncertainty Threshold Strategy",
+    "description": "Determine whether the question can be answered with a high degree of confidence.",
+    "content": "When the question involves complex, uncertain, or rapidly changing factors that make a precise answer impossible, it is best to abstain and acknowledge the limitations of prediction.",
+    "source_problem_id": "sa_2693",
+    "success": true,
+    "created_at": "2026-07-02T16:16:57.696477",
+    "embedding": null
+  },
+  {
+    "title": "Belief-Based Abstention",
+    "description": "Determine when a question is best answered with personal or cultural beliefs versus acknowledging the lack of empirical evidence.",
+    "content": "It's advisable to abstain from answering questions that involve deeply held beliefs, cultural practices, or philosophical perspectives, instead acknowledging the subjective nature of such topics and refraining from providing definitive answers that may not be universally verifiable.",
+    "source_problem_id": "sa_2578",
+    "success": true,
+    "created_at": "2026-07-02T16:17:03.712276",
+    "embedding": null
+  },
+  {
+    "title": "Evaluate Specificity and Relevance",
+    "description": "Determine if the question can be answered based on available information.",
+    "content": "When answering questions, first assess whether the specific details provided align with known facts or official announcements. If the query refers to a specific, unverified, or non-existent project, it's best to acknowledge the uncertainty rather than providing potentially incorrect information.",
+    "source_problem_id": "sa_1572",
+    "success": true,
+    "created_at": "2026-07-02T16:17:12.167625",
+    "embedding": null
+  },
+  {
+    "title": "Fear-Based Phobia Identification",
+    "description": "Determine if the phobia relates to a known fear or condition.",
+    "content": "When asked about a specific phobia, assess whether the fear is related to a known condition like gymnophobia, which specifically relates to fear of nudity. If the phobia aligns with a recognized condition, provide the appropriate information. If unsure or if the phobia does not match any known conditions, it's best to abstain from answering to maintain accuracy.",
+    "source_problem_id": "sa_1910",
+    "success": true,
+    "created_at": "2026-07-02T16:17:20.041357",
+    "embedding": null
+  },
+  {
+    "title": "Evaluate Answerability Before Responding",
+    "description": "Assess whether the question can be answered based on available knowledge or resources.",
+    "content": "When you have sufficient knowledge or can provide a reasonable response based on facts or logical reasoning, it's appropriate to answer. If the question requires information that is beyond your current knowledge base or cannot be reasonably inferred, it's best to respond with \"I don't know.\"",
+    "source_problem_id": "sa_2082",
+    "success": true,
+    "created_at": "2026-07-02T16:17:30.741967",
+    "embedding": null
+  },
+  {
+    "title": "When to Admit Limitations",
+    "description": "Recognizing the boundaries of one's knowledge.",
+    "content": "It's important to recognize when the limits of our current knowledge or understanding prevent us from providing a definitive answer, and to acknowledge that some questions may be beyond our current grasp.",
+    "source_problem_id": "sa_3310",
+    "success": false,
+    "created_at": "2026-07-02T16:17:37.337610",
+    "embedding": null
+  },
+  {
+    "title": "Recognizing When to Answer or Admit Ignorance",
+    "description": "It's important to assess whether you have enough information to provide a meaningful response.",
+    "content": "In this case, the response was cut off and incomplete, which led to an incorrect assessment of the situation. The correct decision would have been to either complete the thought or admit that the specific practices were not known without more context. Saying \"I don't know\" is acceptable when you genuinely lack the information, but it's crucial to ensure that you have enough information to provide a useful answer first.",
+    "source_problem_id": "sa_898",
+    "success": false,
+    "created_at": "2026-07-02T16:17:52.974194",
+    "embedding": null
+  },
+  {
+    "title": "When to Attempt an Answer",
+    "description": "Recognizing the need to provide an answer based on available knowledge.",
+    "content": "The lesson here is to recognize when you have enough information to provide a reasoned response, even if it cannot be definitive. In this case, while a specific pressure drop value might not be known, general factors affecting the outcome can still be discussed. Avoiding the \"I don't know\" response when partial knowledge exists can lead to more informative and helpful interactions.",
+    "source_problem_id": "sa_2228",
+    "success": false,
+    "created_at": "2026-07-02T16:18:04.333450",
+    "embedding": null
+  },
+  {
+    "title": "When to Attempt an Answer",
+    "description": "Recognizing the need to provide an answer rather than defaulting to \"I don't know.\"",
+    "content": "A key lesson here is to recognize when you have enough knowledge or context to form an opinion, even if it\u2019s not a definitive answer. In this case, while the question is complex and multifaceted, attempting to address the core idea of human nature and providing a more focused response would have been more appropriate than simply abstaining.",
+    "source_problem_id": "sa_545",
+    "success": false,
+    "created_at": "2026-07-02T16:18:13.610087",
+    "embedding": null
+  },
+  {
+    "title": "Glass Slipper Guidance",
+    "description": "Determine if the question can be answered with factual information.",
+    "content": "Answer when you have accurate, factual knowledge about the topic; otherwise, it's best to abstain and say \"I don't know.\"",
+    "source_problem_id": "sa_1870",
+    "success": true,
+    "created_at": "2026-07-02T16:18:19.784528",
+    "embedding": null
+  },
+  {
+    "title": "Value-Based Uncertainty",
+    "description": "Determine when a question is subjective and lacks a universally correct answer.",
+    "content": "Abstain from answering when the question is deeply personal or value-based, as these often lack a definitive right or wrong answer and are better addressed with an acknowledgment of individual differences.",
+    "source_problem_id": "sa_2882",
+    "success": true,
+    "created_at": "2026-07-02T16:18:23.693717",
+    "embedding": null
+  },
+  {
+    "title": "When to Answer vs. When to Abstain",
+    "description": "Determine whether the question can be answered with available knowledge or if it requires speculation.",
+    "content": "Decide to answer when you have factual information or a logical explanation, but abstain if the question involves historical conventions without a definitive origin or if it seeks a subjective opinion not grounded in verifiable facts.",
+    "source_problem_id": "sa_3029",
+    "success": true,
+    "created_at": "2026-07-02T16:18:30.916404",
+    "embedding": null
+  },
+  {
+    "title": "Philosophical Question Abstention Strategy",
+    "description": "Determine whether the question can be answered with factual information or requires a subjective opinion.",
+    "content": "Abstain from answering when the question delves into deeply subjective or philosophical debates where factual answers are not possible, such as the nature of free will versus determinism.",
+    "source_problem_id": "sa_2657",
+    "success": true,
+    "created_at": "2026-07-02T16:18:38.132419",
+    "embedding": null
+  },
+  {
+    "title": "Request Clarification Before Answering",
+    "description": "Determine if you have enough information to answer the question accurately.",
+    "content": "When responding to a question, first ensure you have sufficient details to provide an accurate and reliable answer. If not, it's best to request clarification or additional information before attempting to answer. This approach maintains the integrity of your responses and ensures they are helpful and precise.",
+    "source_problem_id": "sa_1726",
+    "success": true,
+    "created_at": "2026-07-02T16:18:42.867390",
+    "embedding": null
+  },
+  {
+    "title": "Atomic Bomb Possession Timeline Strategy",
+    "description": "Determine if the question can be answered with factual historical information.",
+    "content": "Answer when you have accurate historical facts to provide, such as specific dates for significant events like the first tests or possession by other nations. Abstain if the information is not definitively known or verifiable.",
+    "source_problem_id": "sa_462",
+    "success": true,
+    "created_at": "2026-07-02T16:18:49.410980",
+    "embedding": null
+  },
+  {
+    "title": "Assessing Answerability Before Responding",
+    "description": "Determine whether you have sufficient knowledge to provide a correct and informative response.",
+    "content": "Decide to answer only when you can provide accurate information based on your knowledge or research, as demonstrated by addressing the question about the primordial atmosphere with relevant details. If unsure, it's best to abstain and say, \"I don't know,\" to maintain integrity and honesty.",
+    "source_problem_id": "sa_2214",
+    "success": true,
+    "created_at": "2026-07-02T16:18:57.100060",
+    "embedding": null
+  }
+]
