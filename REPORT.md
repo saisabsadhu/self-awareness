@@ -121,7 +121,7 @@ README says to start "a flask server"; `llm_client.py`'s own comment says it's a
 - Answer-correctness checking for `FACTUAL_ERROR` vs `CORRECT` uses `any(gold.lower() in response.lower() for gold in answers)` — a loose substring containment that can misfire on short/common gold answers. This doesn't touch the headline F1 (which only scores the abstain decision) but does corrupt which lessons get extracted and promoted.
 - `confidence` is a hardcoded `0.5` placeholder for every episode (`extractor.py`, with the comment "not trusting LLM's self-report"), yet `SelfModel.build()` computes a "calibration gap" from this constant — numerically meaningless wherever it's actually used (and `selfaware_v3`'s `with_memory_sa_selfmodel` condition, the one place this machinery is wired in, performs worse than everything else).
 - `memory.py` declares 9 failure types; only 4 are ever produced by the evaluation functions actually used. The other 5 are unexercised code paths.
-- Train/test overlap for SelfAware checked out clean — 0 shared questions between the 2021 train and 1348 test items in `openrouter_experiments/data/`. Worth stating since not everything I looked at was a problem.
+- Train/test overlap for SelfAware checked out clean — 0 shared questions between the 2021 train and 1348 test items in `openrouter_experiments/data/`. Worth stating since not everything I looked at was a problem. FalseQA has 1 duplicate question out of 2838 train / 1892 test — negligible, but not literally zero.
 
 ---
 
